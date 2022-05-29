@@ -1,11 +1,11 @@
 {
-    "name": "translations",
-    "version": "1.0.0",
-    "description": "Languages for app",
-    "main": "index.ts",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Genesis Bell",
-    "license": "ISC"
+  "name": "translations",
+  "version": "1.0.0",
+  "description": "Languages for app",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Genesis Bell",
+  "license": "ISC"
 }

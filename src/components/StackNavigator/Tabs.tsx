@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-    TouchableOpacity,
-} from 'react-native';
+import { TouchableOpacity } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { useNavigation } from '@react-navigation/native';
 import { DrawerActions } from '@react-navigation/native';
@@ -21,51 +19,57 @@ import MenuBottom from './MenuBottom';
 import { IconsHeader } from 'icons';
 
 export type RootStackParams = {
-    HomeStack: undefined;
-    AnimacionesStack: undefined;
+  HomeStack: undefined;
+  AnimacionesStack: undefined;
+};
+interface HeaderLeftProps {
+  iconColor: string;
 }
-interface HeaderLeftProps{
-    iconColor: string
-}
 
-function HeaderLeft({iconColor}:HeaderLeftProps){
+function HeaderLeft({ iconColor }: HeaderLeftProps) {
+  const navigation = useNavigation();
 
-    const navigation = useNavigation();
+  function openLeftDrawer() {
+    navigation.dispatch(DrawerActions.toggleDrawer());
+  }
 
-    function openLeftDrawer(){
-        navigation.dispatch(DrawerActions.toggleDrawer())
-    }
-
-    return(
-        <TouchableOpacity onPress={openLeftDrawer} style={{marginLeft: 15}}>
-            <SvgXml xml={IconsHeader.burger(35, iconColor)}/>
-        </TouchableOpacity>
-    );
+  return (
+    <TouchableOpacity onPress={openLeftDrawer} style={{ marginLeft: 15 }}>
+      <SvgXml xml={IconsHeader.burger(35, iconColor)} />
+    </TouchableOpacity>
+  );
 }
 
 const Tab = createBottomTabNavigator<RootStackParams>();
 
-export default function Tabs(){
+export default function Tabs() {
+  const theme = useAppSelector(({ theme }) => theme.value);
+  const language = useAppSelector(({ language }) => language.value);
 
-    const theme = useAppSelector(({theme}) => theme.value);
-    const language = useAppSelector(({language}) => language.value);
-
-    return(
-        <Tab.Navigator 
-            initialRouteName='HomeStack' 
-            tabBar={() => <MenuBottom/>}
-            screenOptions={{
-                headerStyle:{
-                    backgroundColor: theme.headerBackgroundColor,
-                },
-                headerTitleStyle:{
-                    color: theme.headerStackText,
-                },
-                headerLeft: () => <HeaderLeft iconColor={theme.headerStackText}/>
-            }}
-        >
-            <Tab.Screen name='HomeStack' component={HomeStack} options={{title: language.home.screenTitle}}/>
-            <Tab.Screen name='AnimacionesStack' component={AnimacionesStack} options={{title: language.animations.screenTitle}}/>
-        </Tab.Navigator>
-    );
+  return (
+    <Tab.Navigator
+      initialRouteName="HomeStack"
+      tabBar={() => <MenuBottom />}
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: theme.headerBackgroundColor,
+        },
+        headerTitleStyle: {
+          color: theme.headerStackText,
+        },
+        headerLeft: () => <HeaderLeft iconColor={theme.headerStackText} />,
+      }}
+    >
+      <Tab.Screen
+        name="HomeStack"
+        component={HomeStack}
+        options={{ title: language.home.screenTitle }}
+      />
+      <Tab.Screen
+        name="AnimacionesStack"
+        component={AnimacionesStack}
+        options={{ title: language.animations.screenTitle }}
+      />
+    </Tab.Navigator>
+  );
 }
