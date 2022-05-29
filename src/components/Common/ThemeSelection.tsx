@@ -18,15 +18,15 @@ export default function ThemeSelection() {
     try {
       switch (themeName) {
         case 'lightTheme':
-          dispatch(saveThemeSelection(setLightTheme));
+          dispatch(setLightTheme());
           break;
 
         case 'darkTheme':
-          dispatch(saveThemeSelection(setDarkTheme));
+          dispatch(setDarkTheme());
           break;
 
         case 'mcDonaldsTheme':
-          dispatch(saveThemeSelection(setMCTheme));
+          dispatch(setMCTheme());
           break;
 
         default:
