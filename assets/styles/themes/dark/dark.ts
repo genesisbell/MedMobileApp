@@ -5,7 +5,6 @@ import { BaseScreenStyles } from './components/common/BaseScreenStyles';
 import { NavigationStyles } from './components/NavigationStyles';
 /** */
 
-
 export const darkTheme = {
   ...CommonStyles,
 

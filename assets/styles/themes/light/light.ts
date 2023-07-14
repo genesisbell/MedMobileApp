@@ -5,7 +5,6 @@ import { NavigationStyles } from './components/NavigationStyles';
 import { BaseScreenStyles } from './components/common/BaseScreenStyles';
 /** */
 
-
 export const lightTheme = {
   ...CommonStyles,
 
