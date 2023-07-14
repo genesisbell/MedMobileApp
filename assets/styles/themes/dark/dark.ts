@@ -1,5 +1,5 @@
 /** @Components_Styles */
-import { CommonStyles, sharedColors } from '../../CommonStyles';
+import { CommonStyles } from '../../CommonStyles';
 import { BaseScreenStyles } from './components/common/BaseScreenStyles';
 import { NavigationStyles } from './components/NavigationStyles';
 /** */
@@ -46,7 +46,6 @@ export const singleVariables = {
 };
 
 export const darkTheme = {
-  
   ...CommonStyles,
 
   ...singleVariables,

@@ -1,5 +1,5 @@
 /** @Components_Styles */
-import { CommonStyles, sharedColors } from '../../CommonStyles';
+import { CommonStyles } from '../../CommonStyles';
 import { NavigationStyles } from './components/NavigationStyles';
 import { BaseScreenStyles } from './components/common/BaseScreenStyles';
 /** */
@@ -46,7 +46,6 @@ export const singleVariables = {
 };
 
 export const mcDonaldsTheme = {
-
   ...CommonStyles,
 
   ...singleVariables,

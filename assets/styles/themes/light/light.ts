@@ -1,6 +1,6 @@
 /** @Components_Styles */
 import { NavigationStyles } from './components/NavigationStyles';
-import { CommonStyles, sharedColors } from '../../CommonStyles';
+import { CommonStyles } from '../../CommonStyles';
 import { BaseScreenStyles } from './components/common/BaseScreenStyles';
 /** */
 
@@ -46,7 +46,6 @@ export const singleVariables = {
 };
 
 export const lightTheme = {
-  
   ...CommonStyles,
 
   ...singleVariables,

@@ -43,11 +43,6 @@ export const tabBarHeight = Platform.OS == 'android' ? 50 : 80;
 export const actionSheetOptionsHeight = 60;
 export const sectionTabBarHeight = 35;
 
-export const sharedColors = {
-  textActive: '#54BAB9',
-  textInactive: '#787A91',
-};
-
 const textSyles = StyleSheet.create({
   h1: {
     fontSize: h1Size,
