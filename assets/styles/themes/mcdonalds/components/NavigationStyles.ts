@@ -1,11 +1,11 @@
 import { Platform, StyleSheet } from 'react-native';
 import { bgSpace, tabBarHeight, thickBorder } from '../../../CommonStyles';
-import { backgroundSryColor } from '../mcdonalds';
+import { bottomBgColor } from '../mcdonalds';
 
 export const NavigationStyles = StyleSheet.create({
   absoluteCont: {
     height: tabBarHeight,
-    backgroundColor: backgroundSryColor,
+    backgroundColor: bottomBgColor,
   },
   button: {
     alignItems: 'center',

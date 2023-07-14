@@ -25,15 +25,15 @@ export default function BaseLangSelection() {
   return (
     <View>
       <BaseSpace xbg />
-      <Text style={[theme.bigText, theme.centerText, { color: theme.text }]}>
+      <Text style={[theme.bigText, theme.centerText, { color: theme.textPrmColor }]}>
         {language.language.selectLanguage}
       </Text>
       <Picker
         selectedValue={language.name}
         onValueChange={(itemValue) => saveLanguageSelection(itemValue)}
       >
-        <Picker.Item label="English" value="en" color={theme.text} />
-        <Picker.Item label="Español" value="es" color={theme.text} />
+        <Picker.Item label="English" value="en" color={theme.textPrmColor} />
+        <Picker.Item label="Español" value="es" color={theme.textPrmColor} />
       </Picker>
     </View>
   );

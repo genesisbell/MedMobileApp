@@ -18,7 +18,7 @@ export default function DrawerStack() {
       screenOptions={{
         headerShown: false,
         drawerStyle: {
-          backgroundColor: theme.mainBackgroundColor,
+          backgroundColor: theme.backgroundPrmColor,
         },
       }}
       drawerContent={() => <MenuLeft />}

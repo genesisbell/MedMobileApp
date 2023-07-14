@@ -19,8 +19,12 @@ export const backgroundTryColor = '#FFFFFF';
 export const textPrmColor = '#252525';
 export const textSryColor = '#787a91';
 
+export const headerBgColor = '#54BAB9';
+export const headerTextColor = '#FFFFFF';
+
 export const menuIconActiveColor = '#54BAB9';
 export const menuIconInactiveColor = '#787a91';
+export const bottomBgColor = '#FFFFFF';
 /** */
 
 export const singleVariables = {
@@ -33,21 +37,16 @@ export const singleVariables = {
   textPrmColor: textPrmColor,
   textSryColor: textSryColor,
 
+  headerBgColor: headerBgColor,
+  headerTextColor: headerTextColor,
+  bottomBgColor: bottomBgColor,
+
   menuIconActiveColor: menuIconActiveColor,
   menuIconInactiveColor: menuIconInactiveColor,
 };
 
 export const lightTheme = {
-  ...sharedColors,
-
-  mainBackgroundColor: '#EEEEEE',
-  headerBackgroundColor: '#54BAB9',
-  headerStackText: '#EEEEEE',
-  menuBottomBackgroundColor: '#FFFFFF',
-  active: '#54BAB9',
-  inactive: '#787A91',
-  text: '#252525',
-
+  
   ...CommonStyles,
 
   ...singleVariables,

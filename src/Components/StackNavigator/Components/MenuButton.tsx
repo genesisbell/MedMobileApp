@@ -38,7 +38,7 @@ function MenuButton(props: MenuButtonProps) {
 
   const conditionalStyle = StyleSheet.create({
     button: {
-      borderTopColor: isFocused ? theme.primaryColor : theme.backgroundSryColor,
+      borderTopColor: isFocused ? theme.primaryColor : theme.bottomBgColor,
       width: buttonWidth,
     },
   });

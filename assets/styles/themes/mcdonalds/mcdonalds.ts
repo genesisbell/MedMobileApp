@@ -19,6 +19,10 @@ export const backgroundTryColor = 'red';
 export const textPrmColor = 'red';
 export const textSryColor = 'yellow';
 
+export const headerBgColor = '#041C32';
+export const headerTextColor = '#DFDFDF';
+export const bottomBgColor = '#252525';
+
 export const menuIconActiveColor = 'yellow';
 export const menuIconInactiveColor = '#787a91';
 /** */
@@ -33,20 +37,15 @@ export const singleVariables = {
   textPrmColor: textPrmColor,
   textSryColor: textSryColor,
 
+  headerBgColor: headerBgColor,
+  headerTextColor: headerTextColor,
+  bottomBgColor: bottomBgColor,
+
   menuIconActiveColor: menuIconActiveColor,
   menuIconInactiveColor: menuIconInactiveColor,
 };
 
 export const mcDonaldsTheme = {
-  ...sharedColors,
-
-  mainBackgroundColor: 'yellow',
-  headerBackgroundColor: 'red',
-  headerStackText: 'yellow',
-  menuBottomBackgroundColor: 'red',
-  active: 'yellow',
-  inactive: '#787A91',
-  text: 'red',
 
   ...CommonStyles,
 

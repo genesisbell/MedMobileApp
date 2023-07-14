@@ -29,10 +29,10 @@ export default function BottomTabStack() {
       tabBar={(props) => <MenuBottom {...props} />}
       screenOptions={({ navigation }) => ({
         headerStyle: {
-          backgroundColor: theme.backgroundPrmColor,
+          backgroundColor: theme.headerBgColor,
         },
         headerTitleStyle: {
-          color: theme.textPrmColor,
+          color: theme.headerTextColor,
         },
         // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
         headerLeft: () => <DrawerButton navigation={navigation} />,
