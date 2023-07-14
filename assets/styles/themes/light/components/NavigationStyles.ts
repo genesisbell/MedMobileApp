@@ -13,8 +13,8 @@ export const NavigationStyles = StyleSheet.create({
     borderTopWidth: thickBorder,
     height: (tabBarHeight / 5) * 4,
   },
-  drawerButton:{
-    marginLeft: bgSpace, 
+  drawerButton: {
+    marginLeft: bgSpace,
   },
   drawerMainCont: {
     height: '100%',
