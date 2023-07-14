@@ -1,5 +1,5 @@
 import { Platform, StyleSheet } from 'react-native';
-import { tabBarHeight, thickBorder } from '../../../CommonStyles';
+import { bgSpace, tabBarHeight, thickBorder } from '../../../CommonStyles';
 import { backgroundSryColor } from '../mcdonalds';
 
 export const NavigationStyles = StyleSheet.create({
@@ -12,6 +12,9 @@ export const NavigationStyles = StyleSheet.create({
     justifyContent: Platform.OS == 'android' ? 'flex-end' : 'center',
     borderTopWidth: thickBorder,
     height: (tabBarHeight / 5) * 4,
+  },
+  drawerButton:{
+    marginLeft: bgSpace, 
   },
   drawerMainCont: {
     height: '100%',
