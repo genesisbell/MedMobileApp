@@ -4,7 +4,7 @@ import { SvgXml } from 'react-native-svg';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 /** @Assets */
-import { lightTheme, darkTheme, mcDonaldsTheme } from 'styles';
+import { lightTheme, darkTheme, solarTheme } from 'styles';
 import { phoneIcon } from 'icons';
 /** */
 
@@ -14,7 +14,7 @@ import BaseSpace from './BaseSpace';
 
 /** @Hooks */
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
-import { setDarkTheme, setLightTheme, setMCTheme } from '../../app/slices/themeSlice';
+import { setDarkTheme, setLightTheme, setSolarTheme } from '../../app/slices/themeSlice';
 /** */
 
 export default function BaseThemeSelection() {
@@ -33,8 +33,8 @@ export default function BaseThemeSelection() {
           dispatch(setDarkTheme());
           break;
 
-        case 'mcDonaldsTheme':
-          dispatch(setMCTheme());
+        case 'solarTheme':
+          dispatch(setSolarTheme());
           break;
 
         default:
@@ -61,8 +61,8 @@ export default function BaseThemeSelection() {
         <TouchableOpacity onPress={() => saveThemeSelection('darkTheme')}>
           <SvgXml xml={phoneIcon(darkTheme.backgroundPrmColor, darkTheme.textPrmColor)} />
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => saveThemeSelection('mcDonaldsTheme')}>
-          <SvgXml xml={phoneIcon(mcDonaldsTheme.backgroundPrmColor, mcDonaldsTheme.textPrmColor)} />
+        <TouchableOpacity onPress={() => saveThemeSelection('solarTheme')}>
+          <SvgXml xml={phoneIcon(solarTheme.backgroundPrmColor, solarTheme.textPrmColor)} />
         </TouchableOpacity>
       </View>
     </View>

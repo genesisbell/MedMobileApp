@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { darkTheme, lightTheme, mcDonaldsTheme } from 'styles';
+import { darkTheme, lightTheme, solarTheme } from 'styles';
 
 export const themeSlice = createSlice({
   name: 'theme',
@@ -13,13 +13,13 @@ export const themeSlice = createSlice({
     setDarkTheme: (state) => {
       state.value = darkTheme;
     },
-    setMCTheme: (state) => {
-      state.value = mcDonaldsTheme;
+    setSolarTheme: (state) => {
+      state.value = solarTheme;
     },
   },
 });
 
-export const { setLightTheme, setDarkTheme, setMCTheme } = themeSlice.actions;
+export const { setLightTheme, setDarkTheme, setSolarTheme } = themeSlice.actions;
 
 export default themeSlice.reducer;
 
@@ -34,8 +34,8 @@ export function dispatchThemeSelection(value: string, dispatch: (arg0: PayloadAc
     case 'darkTheme':
       dispatch(setDarkTheme());
       break;
-    case 'mcDonaldsTheme':
-      dispatch(setMCTheme());
+    case 'solarTheme':
+      dispatch(setSolarTheme());
       break;
     default:
       break;

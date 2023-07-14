@@ -1,6 +1,6 @@
 import { Platform, StyleSheet } from 'react-native';
 import { bgSpace, tabBarHeight, thickBorder } from '../../../CommonStyles';
-import { bottomBgColor } from '../mcdonalds';
+import { bottomBgColor } from '../constants';
 
 export const NavigationStyles = StyleSheet.create({
   absoluteCont: {

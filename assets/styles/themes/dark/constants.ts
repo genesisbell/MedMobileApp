@@ -1,33 +1,27 @@
-/** @Components_Styles */
-import { CommonStyles } from '../../CommonStyles';
-import { NavigationStyles } from './components/NavigationStyles';
-import { BaseScreenStyles } from './components/common/BaseScreenStyles';
-/** */
-
 /** @App_Colors */
 //Prm: Primary
 //Sry: Secondary
 //Try: Tertiary
 
-export const primaryColor = 'yellow';
+export const primaryColor = '#54BAB9';
 export const secondaryColor = '#787a91';
 
-export const backgroundPrmColor = 'yellow';
-export const backgroundSryColor = 'red';
-export const backgroundTryColor = 'red';
+export const backgroundPrmColor = '#181818';
+export const backgroundSryColor = '#041C32';
+export const backgroundTryColor = '#252525';
 
-export const textPrmColor = 'red';
-export const textSryColor = 'yellow';
+export const textPrmColor = '#DFDFDF';
+export const textSryColor = '#787a91';
 
 export const headerBgColor = '#041C32';
 export const headerTextColor = '#DFDFDF';
 export const bottomBgColor = '#252525';
 
-export const menuIconActiveColor = 'yellow';
+export const menuIconActiveColor = '#54BAB9';
 export const menuIconInactiveColor = '#787a91';
 /** */
 
-export const singleVariables = {
+export const constants = {
   primaryColor: primaryColor,
   secondaryColor: secondaryColor,
   backgroundPrmColor: backgroundPrmColor,
@@ -43,13 +37,4 @@ export const singleVariables = {
 
   menuIconActiveColor: menuIconActiveColor,
   menuIconInactiveColor: menuIconInactiveColor,
-};
-
-export const mcDonaldsTheme = {
-  ...CommonStyles,
-
-  ...singleVariables,
-
-  BaseSreenStyles: BaseScreenStyles,
-  NavigationStyles: NavigationStyles,
 };
