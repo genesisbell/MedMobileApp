@@ -32,10 +32,10 @@ export const singleVariables = {
 
   textPrmColor: textPrmColor,
   textSryColor: textSryColor,
-  
+
   menuIconActiveColor: menuIconActiveColor,
   menuIconInactiveColor: menuIconInactiveColor,
-}
+};
 
 export const mcDonaldsTheme = {
   ...sharedColors,
@@ -55,4 +55,3 @@ export const mcDonaldsTheme = {
   BaseSreenStyles: BaseScreenStyles,
   NavigationStyles: NavigationStyles,
 };
-

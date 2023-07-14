@@ -1,4 +1,4 @@
-import { Platform, StyleSheet } from "react-native";
+import { Platform, StyleSheet } from 'react-native';
 //Main Colors
 // Light
 // #FBF8F1
@@ -10,7 +10,6 @@ import { Platform, StyleSheet } from "react-native";
 // #141E61
 // #787A91
 // #EEEEEE
-
 
 export const primaryColor = '#54BAB9';
 
@@ -50,37 +49,37 @@ export const sharedColors = {
 };
 
 const textSyles = StyleSheet.create({
-  h1:{
+  h1: {
     fontSize: h1Size,
     fontWeight: 'bold',
   },
-  h2:{
+  h2: {
     fontSize: h2Size,
     fontWeight: 'bold',
   },
-  h3:{
+  h3: {
     fontSize: h3Size,
     fontWeight: 'bold',
   },
-  h4:{
+  h4: {
     fontSize: h4Size,
     fontWeight: 'bold',
   },
-  h5:{
+  h5: {
     fontSize: h5Size,
     fontWeight: 'bold',
   },
-  h6:{
+  h6: {
     fontSize: h6Size,
     fontWeight: 'bold',
   },
-  bigText:{
+  bigText: {
     fontSize: h6Size,
   },
-  smallText:{
+  smallText: {
     fontSize: smText,
   },
-  extraSamllText:{
+  extraSamllText: {
     fontSize: xsmText,
   },
   boldText: {
@@ -92,13 +91,13 @@ const textSyles = StyleSheet.create({
   centerText: {
     textAlign: 'center',
   },
-  rightAlignText:{
+  rightAlignText: {
     textAlign: 'right',
   },
-  emphasisText:{
+  emphasisText: {
     color: primaryColor,
   },
-  emphasisHeaderText:{
+  emphasisHeaderText: {
     fontSize: h3Size,
     fontWeight: 'bold',
     textAlign: 'center',
@@ -126,33 +125,32 @@ const textSyles = StyleSheet.create({
   // }
 });
 
-
 const displayStyles = StyleSheet.create({
   flexOne: {
     flex: 1,
   },
-  flexGrowOne:{
+  flexGrowOne: {
     flexGrow: 1,
   },
-  flexDirectionRow:{
+  flexDirectionRow: {
     flexDirection: 'row',
     alignItems: 'center',
   },
-  flexDirectionRowSpaceBetween:{
+  flexDirectionRowSpaceBetween: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
   },
-  flexDirectionRowSpaceAround:{
+  flexDirectionRowSpaceAround: {
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
   },
-  flexWrapContent:{
+  flexWrapContent: {
     flexWrap: 'wrap',
     flexDirection: 'row',
   },
-  flexWrapContentSpaceBetween:{
+  flexWrapContentSpaceBetween: {
     flexWrap: 'wrap',
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -161,54 +159,52 @@ const displayStyles = StyleSheet.create({
   //     height: '100%',
   //     backgroundColor: backgroundPrmColor,
   // },
-  absoluteCenter:{
+  absoluteCenter: {
     alignItems: 'center',
     justifyContent: 'center',
   },
-  alignCenter:{
+  alignCenter: {
     alignItems: 'center',
   },
-  alignStart:{
+  alignStart: {
     alignItems: 'flex-start',
   },
-  alignEnd:{
+  alignEnd: {
     alignItems: 'flex-end',
   },
-  alignSelfBaseline:{
+  alignSelfBaseline: {
     alignSelf: 'baseline',
   },
-  justifyCenter:{
+  justifyCenter: {
     justifyContent: 'center',
   },
-  justifyEnd:{
+  justifyEnd: {
     justifyContent: 'flex-end',
   },
-  rotate90deg:{
+  rotate90deg: {
     transform: [
-        {
-            rotate: '90deg'
-        }
-    ]
+      {
+        rotate: '90deg',
+      },
+    ],
   },
-  rotate180deg:{
+  rotate180deg: {
     transform: [
-        {
-            rotate: '180deg'
-        }
-    ]
+      {
+        rotate: '180deg',
+      },
+    ],
   },
-  rotate270deg:{
+  rotate270deg: {
     transform: [
-        {
-            rotate: '270deg'
-        }
-    ]
+      {
+        rotate: '270deg',
+      },
+    ],
   },
 });
-
 
 export const CommonStyles = {
   ...textSyles,
   ...displayStyles,
-}
-
+};

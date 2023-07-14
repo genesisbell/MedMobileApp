@@ -1,4 +1,3 @@
-
 export const burgerMenuIcon = (color = 'black') => `
 <svg fill="${color}" stroke="${color}" viewBox="0 0 129 87.52">
 <path class="cls-1" d="m124.5,9H4.5C2.01,9,0,6.99,0,4.5S2.01,0,4.5,0h120c2.49,0,4.5,2.01,4.5,4.5s-2.01,4.5-4.5,4.5Z"/>

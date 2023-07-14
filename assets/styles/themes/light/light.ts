@@ -1,4 +1,3 @@
-
 /** @Components_Styles */
 import { NavigationStyles } from './components/NavigationStyles';
 import { CommonStyles, sharedColors } from '../../CommonStyles';
@@ -36,7 +35,7 @@ export const singleVariables = {
 
   menuIconActiveColor: menuIconActiveColor,
   menuIconInactiveColor: menuIconInactiveColor,
-}
+};
 
 export const lightTheme = {
   ...sharedColors,
@@ -56,4 +55,3 @@ export const lightTheme = {
   BaseSreenStyles: BaseScreenStyles,
   NavigationStyles: NavigationStyles,
 };
-

@@ -1,6 +1,3 @@
-import { homeIcon } from "icons";
+import { homeIcon } from 'icons';
 
-export const MenuBottomIcons = [
-    homeIcon,
-    homeIcon,
-];
+export const MenuBottomIcons = [homeIcon, homeIcon];

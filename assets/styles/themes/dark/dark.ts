@@ -35,7 +35,7 @@ export const singleVariables = {
 
   menuIconActiveColor: menuIconActiveColor,
   menuIconInactiveColor: menuIconInactiveColor,
-}
+};
 
 export const darkTheme = {
   ...sharedColors,
@@ -49,10 +49,9 @@ export const darkTheme = {
   text: '#DFDFDF',
 
   ...CommonStyles,
-  
+
   ...singleVariables,
 
   BaseSreenStyles: BaseScreenStyles,
   NavigationStyles: NavigationStyles,
 };
-
