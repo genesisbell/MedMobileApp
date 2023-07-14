@@ -1,22 +1,29 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useAppSelector } from '../../../app/hooks';
-import MedLangSelection from '../../Common/MedLangSelection';
 
-import MedThemeSelection from '../../Common/MedThemeSelection';
+/** @Components */
+import BaseLangSelection from '../../Common/BaseLangSelection';
+import BaseThemeSelection from '../../Common/BaseThemeSelection';
+/** */
+
+/** @Hooks */
+import { useAppSelector } from '../../../app/hooks';
+/** */
 
 export default function MenuLeft() {
+  /** @Variables */
   const theme = useAppSelector(({ theme }) => theme.value);
   const language = useAppSelector(({ language }) => language.value);
+  /** */
 
   return (
     <SafeAreaView>
-      <View style={styles.mainCont}>
-        <View style={styles.bottomCont}>
-          <MedThemeSelection />
-          <MedLangSelection />
-          <Text style={[styles.copyright, { color: theme.inactive }]}>
+      <View style={theme.NavigationStyles.drawerMainCont}>
+        <View style={theme.NavigationStyles.drawerBottomCont}>
+          <BaseThemeSelection />
+          <BaseLangSelection />
+          <Text style={[theme.centerText, { color: theme.textSryColor }]}>
             genesisbell.com | {language.copyright.version}
           </Text>
         </View>
@@ -24,16 +31,3 @@ export default function MenuLeft() {
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  mainCont: {
-    height: '100%',
-    justifyContent: 'flex-end',
-  },
-  bottomCont: {
-    bottom: 0,
-  },
-  copyright: {
-    alignSelf: 'center',
-  },
-});

@@ -1,17 +1,11 @@
 import React from 'react';
-import { TouchableOpacity } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { useNavigation } from '@react-navigation/native';
-import { DrawerActions } from '@react-navigation/native';
-import { SvgXml } from 'react-native-svg';
-
-/** @Assets */
-import { IconsHeader } from 'icons';
-/** */
 
 /** @Components */
-import UrgenciesStack from './BottomTab/UrgenciesStack';
+import DrawerButton from './Components/DrawerButton';
+import FormulasStack from './BottomTab/FormulasStack';
 import MenuBottom from './Components/MenuBottom';
+import UrgenciesStack from './BottomTab/UrgenciesStack';
 /** */
 
 /** @Hooks */
@@ -20,51 +14,40 @@ import { useAppSelector } from '../../app/hooks';
 
 export type RootStackParams = {
   UrgenciesStack: undefined;
+  FormulasStack: undefined;
 };
 
-interface HeaderLeftProps {
-  iconColor: string;
-}
+const BottomTabNav = createBottomTabNavigator<RootStackParams>();
 
-function HeaderLeft({ iconColor }: HeaderLeftProps) {
-  const navigation = useNavigation();
-
-  function openLeftDrawer() {
-    navigation.dispatch(DrawerActions.toggleDrawer());
-  }
-
-  return (
-    <TouchableOpacity onPress={openLeftDrawer} style={{ marginLeft: 15 }}>
-      <SvgXml xml={IconsHeader.burger(35, iconColor)} />
-    </TouchableOpacity>
-  );
-}
-
-const Tab = createBottomTabNavigator<RootStackParams>();
-
-export default function Tabs() {
+export default function BottomTabStack() {
   const theme = useAppSelector(({ theme }) => theme.value);
   const language = useAppSelector(({ language }) => language.value);
 
   return (
-    <Tab.Navigator
+    <BottomTabNav.Navigator
       initialRouteName="UrgenciesStack"
-      tabBar={() => <MenuBottom />}
-      screenOptions={{
+      tabBar={(props) => <MenuBottom {...props} />}
+      screenOptions={({ navigation }) => ({
         headerStyle: {
-          backgroundColor: theme.headerBackgroundColor,
+          backgroundColor: theme.backgroundPrmColor,
         },
         headerTitleStyle: {
-          color: theme.headerStackText,
+          color: theme.textPrmColor,
         },
-        headerLeft: () => <HeaderLeft iconColor={theme.headerStackText} />,
-      }}
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+        headerLeft: () => <DrawerButton navigation={navigation} />,
+      })}
     >
-      <Tab.Screen
+      <BottomTabNav.Screen
         name="UrgenciesStack"
         component={UrgenciesStack}
         options={{ title: language.home.screenTitle }}
       />
-    </Tab.Navigator>
+      <BottomTabNav.Screen
+        name="FormulasStack"
+        component={FormulasStack}
+        options={{ title: language.home.screenTitle }}
+      />
+    </BottomTabNav.Navigator>
   );
 }

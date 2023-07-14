@@ -1,3 +1,7 @@
-export { lightTheme } from './themes/light';
-export { darkTheme } from './themes/dark';
-export { mcDonaldsTheme } from './themes/mcdonalds';
+//Common
+export * from './CommonStyles';
+
+//Themes
+export { lightTheme } from './themes/light/light';
+export { darkTheme } from './themes/dark/dark';
+export { mcDonaldsTheme } from './themes/mcdonalds/mcdonalds';

@@ -1,15 +1,23 @@
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Text, TouchableOpacity, View } from 'react-native';
 import { SvgXml } from 'react-native-svg';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+
+/** @Assets */
+import { lightTheme, darkTheme, mcDonaldsTheme } from 'styles';
+import { phoneIcon } from 'icons';
+/** */
+
+/** @Components */
+import BaseSpace from './BaseSpace';
+/** */
+
+/** @Hooks */
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import { setDarkTheme, setLightTheme, setMCTheme } from '../../app/slices/themeSlice';
+/** */
 
-//Assets
-import { lightTheme, darkTheme, mcDonaldsTheme } from 'styles';
-import { OtherIcons } from 'icons';
-
-export default function MedThemeSelection() {
+export default function BaseThemeSelection() {
   const dispatch = useAppDispatch();
   const theme = useAppSelector(({ theme }) => theme.value);
   const language = useAppSelector(({ language }) => language.value);
@@ -41,36 +49,22 @@ export default function MedThemeSelection() {
   }
 
   return (
-    <View style={styles.mainCont}>
-      <Text style={[styles.titleText, { color: theme.text }]}>{language.theme.selecTheme}</Text>
-      <View style={styles.screenCont}>
+    <View>
+      <Text style={[theme.bigText, theme.centerText, { color: theme.textPrmColor }]}>
+        {language.theme.selecTheme}
+      </Text>
+      <BaseSpace md />
+      <View style={theme.flexDirectionRowSpaceAround}>
         <TouchableOpacity onPress={() => saveThemeSelection('lightTheme')}>
-          <SvgXml xml={OtherIcons.phone(120, lightTheme.mainBackgroundColor, lightTheme.text)} />
+          <SvgXml xml={phoneIcon(lightTheme.backgroundPrmColor, lightTheme.textPrmColor)} />
         </TouchableOpacity>
         <TouchableOpacity onPress={() => saveThemeSelection('darkTheme')}>
-          <SvgXml xml={OtherIcons.phone(120, darkTheme.mainBackgroundColor, darkTheme.text)} />
+          <SvgXml xml={phoneIcon(darkTheme.backgroundPrmColor, darkTheme.textPrmColor)} />
         </TouchableOpacity>
         <TouchableOpacity onPress={() => saveThemeSelection('mcDonaldsTheme')}>
-          <SvgXml
-            xml={OtherIcons.phone(120, mcDonaldsTheme.mainBackgroundColor, mcDonaldsTheme.text)}
-          />
+          <SvgXml xml={phoneIcon(mcDonaldsTheme.backgroundPrmColor, mcDonaldsTheme.textPrmColor)} />
         </TouchableOpacity>
       </View>
     </View>
   );
 }
-const styles = StyleSheet.create({
-  mainCont: {
-    marginVertical: 20,
-  },
-  titleText: {
-    alignSelf: 'center',
-    fontSize: 18,
-    fontWeight: '500',
-    marginBottom: 30,
-  },
-  screenCont: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-  },
-});

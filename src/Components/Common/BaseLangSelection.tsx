@@ -1,12 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+
+/** @Components */
+import BaseSpace from './BaseSpace';
+/** */
 
 import { useAppSelector, useAppDispatch } from '../../app/hooks';
 import { dispatchSelectedLanguage } from '../../app/slices/languageSlice';
 
-export default function MedLangSelection() {
+export default function BaseLangSelection() {
   const dispatch = useAppDispatch();
   const language = useAppSelector(({ language }) => language.value);
   const theme = useAppSelector(({ theme }) => theme.value);
@@ -19,8 +23,9 @@ export default function MedLangSelection() {
   }
 
   return (
-    <View style={styles.mainCont}>
-      <Text style={[styles.titleText, { color: theme.text }]}>
+    <View>
+      <BaseSpace xbg />
+      <Text style={[theme.bigText, theme.centerText, { color: theme.text }]}>
         {language.language.selectLanguage}
       </Text>
       <Picker
@@ -33,18 +38,3 @@ export default function MedLangSelection() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  mainCont: {
-    marginVertical: 20,
-  },
-  titleText: {
-    alignSelf: 'center',
-    fontSize: 18,
-    fontWeight: '500',
-  },
-  screenCont: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-  },
-});
