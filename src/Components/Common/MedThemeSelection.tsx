@@ -6,10 +6,10 @@ import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import { setDarkTheme, setLightTheme, setMCTheme } from '../../app/slices/themeSlice';
 
 //Assets
-import { lightTheme, darkTheme, mcDonaldsTheme } from 'themes';
+import { lightTheme, darkTheme, mcDonaldsTheme } from 'styles';
 import { OtherIcons } from 'icons';
 
-export default function ThemeSelection() {
+export default function MedThemeSelection() {
   const dispatch = useAppDispatch();
   const theme = useAppSelector(({ theme }) => theme.value);
   const language = useAppSelector(({ language }) => language.value);

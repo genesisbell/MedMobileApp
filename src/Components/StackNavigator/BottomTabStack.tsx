@@ -5,23 +5,23 @@ import { useNavigation } from '@react-navigation/native';
 import { DrawerActions } from '@react-navigation/native';
 import { SvgXml } from 'react-native-svg';
 
-//Stacks
-import HomeStack from './HomeStack';
-import AnimacionesStack from './AnimacionesStack';
-
-//Hooks
-import { useAppSelector } from '../../app/hooks';
-
-//Custom Componentes
-import MenuBottom from './MenuBottom';
-
-//Assets
+/** @Assets */
 import { IconsHeader } from 'icons';
+/** */
+
+/** @Components */
+import UrgenciesStack from './BottomTab/UrgenciesStack';
+import MenuBottom from './Components/MenuBottom';
+/** */
+
+/** @Hooks */
+import { useAppSelector } from '../../app/hooks';
+/** */
 
 export type RootStackParams = {
-  HomeStack: undefined;
-  AnimacionesStack: undefined;
+  UrgenciesStack: undefined;
 };
+
 interface HeaderLeftProps {
   iconColor: string;
 }
@@ -48,7 +48,7 @@ export default function Tabs() {
 
   return (
     <Tab.Navigator
-      initialRouteName="HomeStack"
+      initialRouteName="UrgenciesStack"
       tabBar={() => <MenuBottom />}
       screenOptions={{
         headerStyle: {
@@ -61,14 +61,9 @@ export default function Tabs() {
       }}
     >
       <Tab.Screen
-        name="HomeStack"
-        component={HomeStack}
+        name="UrgenciesStack"
+        component={UrgenciesStack}
         options={{ title: language.home.screenTitle }}
-      />
-      <Tab.Screen
-        name="AnimacionesStack"
-        component={AnimacionesStack}
-        options={{ title: language.animations.screenTitle }}
       />
     </Tab.Navigator>
   );

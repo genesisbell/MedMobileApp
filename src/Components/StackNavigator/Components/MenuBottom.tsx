@@ -4,8 +4,8 @@ import { getFocusedRouteNameFromRoute, useNavigation, useRoute } from '@react-na
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { SvgXml } from 'react-native-svg';
 
-import { RootStackParams } from './Tabs';
-import { useAppSelector } from '../../app/hooks';
+import { RootStackParams } from '../BottomTabStack';
+import { useAppSelector } from '../../../app/hooks';
 
 //Assets
 import { IconsMenuBottom } from 'icons';
@@ -79,17 +79,7 @@ export default function MenuBottom() {
         selectedTab === 0 ? 'none' : theme.inactive,
       ),
       text: language.menuBottom.home,
-      onPress: () => navigation.navigate('HomeStack'),
-    },
-    {
-      tab: 1,
-      icon: IconsMenuBottom.animaciones(
-        30,
-        'none',
-        selectedTab === 1 ? theme.active : theme.inactive,
-      ),
-      text: language.menuBottom.animaciones,
-      onPress: () => navigation.navigate('AnimacionesStack'),
+      onPress: () => navigation.navigate('UrgenciesStack'),
     },
   ];
 

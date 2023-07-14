@@ -2,12 +2,12 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 
 //Stack Navigators
-import Drawer from './components/StackNavigator/Drawer';
+import DrawerStack from './Components/StackNavigator/DrawerStack';
 
 export default function AppRouter() {
   return (
     <NavigationContainer>
-      <Drawer />
+      <DrawerStack />
     </NavigationContainer>
   );
 }

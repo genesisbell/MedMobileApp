@@ -2,19 +2,19 @@ import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import { useAppSelector } from '../../app/hooks';
-import MenuLeft from './MenuLeft';
+import MenuLeft from './Components/MenuLeft';
 
 //Stack Navigators
-import Tabs from './Tabs';
+import BottomTabStack from './BottomTabStack';
 
-const DrawerStack = createDrawerNavigator();
+const DrawerNav = createDrawerNavigator();
 
-export default function Drawer() {
+export default function DrawerStack() {
   const theme = useAppSelector(({ theme }) => theme.value);
 
   return (
-    <DrawerStack.Navigator
-      initialRouteName="Tabs"
+    <DrawerNav.Navigator
+      initialRouteName="BottomTabStack"
       screenOptions={{
         headerShown: false,
         drawerStyle: {
@@ -23,7 +23,7 @@ export default function Drawer() {
       }}
       drawerContent={() => <MenuLeft />}
     >
-      <DrawerStack.Screen name="Tabs" component={Tabs} />
-    </DrawerStack.Navigator>
+      <DrawerNav.Screen name="BottomTabStack" component={BottomTabStack} />
+    </DrawerNav.Navigator>
   );
 }

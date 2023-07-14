@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { darkTheme, lightTheme, mcDonaldsTheme } from 'themes';
+import { darkTheme, lightTheme, mcDonaldsTheme } from 'styles';
 
 export const themeSlice = createSlice({
   name: 'theme',

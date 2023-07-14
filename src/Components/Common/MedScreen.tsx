@@ -2,11 +2,11 @@ import React from 'react';
 import { View } from 'react-native';
 import { useAppSelector } from '../../app/hooks';
 
-interface CustomScreenProps {
+interface MedScreenProps {
   children: JSX.Element | JSX.Element[];
 }
 
-export default function CustomScreen({ children }: CustomScreenProps) {
+export default function MedScreen({ children }: MedScreenProps) {
   const theme = useAppSelector(({ theme }) => theme.value);
 
   return (

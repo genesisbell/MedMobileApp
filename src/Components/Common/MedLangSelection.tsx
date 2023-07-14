@@ -6,7 +6,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useAppSelector, useAppDispatch } from '../../app/hooks';
 import { dispatchSelectedLanguage } from '../../app/slices/languageSlice';
 
-export default function LanguageSelection() {
+export default function MedLangSelection() {
   const dispatch = useAppDispatch();
   const language = useAppSelector(({ language }) => language.value);
   const theme = useAppSelector(({ theme }) => theme.value);
