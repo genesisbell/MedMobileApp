@@ -1,5 +1,5 @@
 import { Platform, StyleSheet } from 'react-native';
-import { bgSpace, tabBarHeight, thickBorder } from '../../../CommonStyles';
+import { bgSpace, h5Size, tabBarHeight, thickBorder } from '../../../CommonStyles';
 import { bottomBgColor } from '../constants';
 
 export const NavigationStyles = StyleSheet.create({
@@ -18,9 +18,18 @@ export const NavigationStyles = StyleSheet.create({
   },
   drawerMainCont: {
     height: '100%',
-    justifyContent: 'flex-end',
   },
   drawerBottomCont: {
+    alignSelf: 'center',
+    position: 'absolute',
     bottom: 0,
   },
+  leftNavBtn:{
+    padding: 15,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  leftNavTxt:{
+    fontSize: h5Size,
+  }
 });

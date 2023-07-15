@@ -1,12 +1,17 @@
 import React from 'react';
 import { Text } from 'react-native';
-import MedScreen from '../../Common/BaseScreen';
+
+/** @Components */
+import BaseScreen from '../../Common/BaseScreen';
+import BaseNavButton from '../../Common/BaseNavButton';
+/** */
 
 function Urgencies() {
   return (
-    <MedScreen>
+    <BaseScreen>
+      <BaseNavButton />
       <Text>this is the urgencies screen</Text>
-    </MedScreen>
+    </BaseScreen>
   );
 }
 
