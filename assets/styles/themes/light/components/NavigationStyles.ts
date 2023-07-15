@@ -24,12 +24,12 @@ export const NavigationStyles = StyleSheet.create({
     position: 'absolute',
     bottom: 0,
   },
-  leftNavBtn:{
+  leftNavBtn: {
     padding: 15,
     flexDirection: 'row',
     alignItems: 'center',
   },
-  leftNavTxt:{
+  leftNavTxt: {
     fontSize: h5Size,
-  }
+  },
 });
