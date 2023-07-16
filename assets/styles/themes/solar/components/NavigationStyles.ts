@@ -1,6 +1,6 @@
 import { Platform, StyleSheet } from 'react-native';
 import { bgSpace, h5Size, tabBarHeight, thickBorder } from '../../../CommonStyles';
-import { bottomBgColor } from '../constants';
+import { bottomBgColor, textPrmColor } from '../constants';
 
 export const NavigationStyles = StyleSheet.create({
   absoluteCont: {
@@ -31,5 +31,6 @@ export const NavigationStyles = StyleSheet.create({
   },
   leftNavTxt: {
     fontSize: h5Size,
+    color: textPrmColor,
   },
 });
