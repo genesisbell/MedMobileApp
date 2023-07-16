@@ -12,6 +12,7 @@ import { Platform, StyleSheet } from 'react-native';
 // #EEEEEE
 
 export const primaryColor = '#54BAB9';
+export const overlayColor = 'rgba(0,0,0,0.5)';
 
 /** @Style_Constants */
 //Paddings and Margins
@@ -42,6 +43,7 @@ export const xsmText = 10;
 export const tabBarHeight = Platform.OS == 'android' ? 50 : 80;
 export const actionSheetOptionsHeight = 60;
 export const sectionTabBarHeight = 35;
+export const inputHelperButtonWidth = 45;
 
 const textSyles = StyleSheet.create({
   h1: {
@@ -123,6 +125,9 @@ const textSyles = StyleSheet.create({
 const displayStyles = StyleSheet.create({
   flexOne: {
     flex: 1,
+  },
+  flexPointFive:{
+    flex: .5,
   },
   flexGrowOne: {
     flexGrow: 1,

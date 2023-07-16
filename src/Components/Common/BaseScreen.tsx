@@ -46,7 +46,7 @@ function Screen(props: ScreenProps) {
   const theme = useAppSelector(({ theme }) => theme.value);
 
   const baseStyle = [
-    theme.BaseSreenStyles.screen,
+    theme.BaseScreenStyles.screen,
     {
       backgroundColor,
       paddingBottom: isIos ? 0 : bgSpace,

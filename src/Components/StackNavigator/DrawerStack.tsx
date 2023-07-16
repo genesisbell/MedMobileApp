@@ -26,7 +26,7 @@ export default function DrawerStack() {
 
   return (
     <DrawerNav.Navigator
-      initialRouteName="Settings"
+      initialRouteName="Favorites"
       drawerContent={(props) => <MenuLeft {...props} />}
       screenOptions={({ navigation }) => ({
         headerStyle: {
@@ -35,14 +35,16 @@ export default function DrawerStack() {
         headerTitleStyle: {
           color: theme.headerTextColor,
         },
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+        drawerStyle: {
+          backgroundColor: theme.backgroundPrmColor,
+        },
         headerLeft: () => <DrawerButton navigation={navigation} />,
       })}
     >
-      <DrawerNav.Screen name="BottomTabStack" component={BottomTabStack} />
-      <DrawerNav.Screen name="Settings" component={Settings} />
       <DrawerNav.Screen name="Favorites" component={Favorites} />
       <DrawerNav.Screen name="Urgencies" component={Urgencies} />
+      <DrawerNav.Screen name="Settings" component={Settings} />
+      <DrawerNav.Screen name="BottomTabStack" component={BottomTabStack} />
     </DrawerNav.Navigator>
   );
 }

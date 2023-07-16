@@ -1,5 +1,13 @@
 const es = {
   name: 'es',
+  general: {
+    age: 'Edad',
+    cancel: 'Cancelar',
+    chooseOption: 'Elige una opción',
+    months: 'Meses',
+    years: 'Años',
+    weight: 'Peso',
+  },
   home: {
     screenTitle: 'Inicio',
   },

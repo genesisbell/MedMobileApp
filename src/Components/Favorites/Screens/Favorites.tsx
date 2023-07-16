@@ -1,13 +1,14 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+
+/** @Components */
 import BaseScreen from '../../Common/BaseScreen';
+import PatientData from '../Components/PatientData';
+/** */
 
 function Settings() {
   return (
     <BaseScreen>
-      <View>
-        <Text>Favorites</Text>
-      </View>
+      <PatientData />
     </BaseScreen>
   );
 }
