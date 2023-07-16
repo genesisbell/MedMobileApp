@@ -126,8 +126,8 @@ const displayStyles = StyleSheet.create({
   flexOne: {
     flex: 1,
   },
-  flexPointFive:{
-    flex: .5,
+  flexPointFive: {
+    flex: 0.5,
   },
   flexGrowOne: {
     flexGrow: 1,

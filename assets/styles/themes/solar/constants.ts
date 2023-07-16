@@ -3,7 +3,7 @@
 //Sry: Secondary
 //Try: Tertiary
 
-import { smText } from "../../CommonStyles";
+import { smText } from '../../CommonStyles';
 
 export const primaryColor = '#54BAB9';
 export const secondaryColor = '#787a91';
@@ -34,20 +34,20 @@ export const shadow = {
     width: 0,
     height: 1,
   },
-  shadowOpacity: 0.20,
+  shadowOpacity: 0.2,
   shadowRadius: 1.41,
 
   elevation: 2,
 };
 
 export const textStyles = {
-  prmTxt:{
+  prmTxt: {
     color: textPrmColor,
   },
-  subText:{
+  subText: {
     color: textSryColor,
   },
-  subSmText:{
+  subSmText: {
     color: textSryColor,
     fontStyle: 'italic',
     fontSize: smText,
@@ -64,7 +64,7 @@ export const textStyles = {
   // successText:{
   //   color: textSuccessColor,
   // }
-}
+};
 
 export const constants = {
   primaryColor: primaryColor,
