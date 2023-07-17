@@ -40,6 +40,12 @@ export default function MenuLeft(props: DrawerContentComponentProps) {
       text: 'Urgencies',
       onPress: () => navigation.navigate('Urgencies'),
     },
+    {
+      id: id++,
+      icon: homeIcon,
+      text: 'Drugs',
+      onPress: () => navigation.navigate('Drugs'),
+    },
   ];
   /** */
   return (

@@ -11,12 +11,14 @@ import MenuLeft from './Components/MenuLeft';
 /** */
 
 import { useAppSelector } from '../../app/hooks';
+import Drugs from '../Drugs/Screens/Drugs';
 
 export type RootStackParams = {
   BottomTabStack: undefined;
-  Settings: undefined;
   Favorites: undefined;
   Urgencies: undefined;
+  Drugs: undefined;
+  Settings: undefined;
 };
 
 const DrawerNav = createDrawerNavigator<RootStackParams>();
@@ -43,6 +45,7 @@ export default function DrawerStack() {
     >
       <DrawerNav.Screen name="Favorites" component={Favorites} />
       <DrawerNav.Screen name="Urgencies" component={Urgencies} />
+      <DrawerNav.Screen name="Drugs" component={Drugs} />
       <DrawerNav.Screen name="Settings" component={Settings} />
       <DrawerNav.Screen name="BottomTabStack" component={BottomTabStack} />
     </DrawerNav.Navigator>

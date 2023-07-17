@@ -70,7 +70,7 @@ function PatientData() {
           />
         </View>
         <BaseSpace horizontal md />
-        <View style={CommonStyles.flexPointFive}>
+        <View style={{flex: .75}}>
           <BaseActionSheet
             customButton={
               <View style={theme.FavoritesStyles.ageButton}>
@@ -87,7 +87,7 @@ function PatientData() {
           />
         </View>
         <BaseSpace horizontal md />
-        <View style={CommonStyles.flexPointFive}>
+        <View style={{flex: .75}}>
           <BaseActionSheet
             customButton={
               <View style={theme.FavoritesStyles.ageButton}>
