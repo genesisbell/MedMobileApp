@@ -6,16 +6,18 @@ import BottomTabStack from './BottomTabStack';
 import Settings from '../Settings/Screens/Settings';
 import DrawerButton from './Components/DrawerButton';
 import Favorites from '../Favorites/Screens/Favorites';
+import Values from '../Values/Screens/Values';
+import Drugs from '../Drugs/Screens/Drugs';
 import Urgencies from '../Urgencies/Screens/Urgencies';
 import MenuLeft from './Components/MenuLeft';
 /** */
 
 import { useAppSelector } from '../../app/hooks';
-import Drugs from '../Drugs/Screens/Drugs';
 
 export type RootStackParams = {
   BottomTabStack: undefined;
   Favorites: undefined;
+  Values: undefined;
   Urgencies: undefined;
   Drugs: undefined;
   Settings: undefined;
@@ -44,6 +46,7 @@ export default function DrawerStack() {
       })}
     >
       <DrawerNav.Screen name="Favorites" component={Favorites} />
+      <DrawerNav.Screen name="Values" component={Values} />
       <DrawerNav.Screen name="Urgencies" component={Urgencies} />
       <DrawerNav.Screen name="Drugs" component={Drugs} />
       <DrawerNav.Screen name="Settings" component={Settings} />
