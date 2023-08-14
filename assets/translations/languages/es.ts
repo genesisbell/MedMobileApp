@@ -8,21 +8,24 @@ const es = {
     years: 'Años',
     weight: 'Peso',
   },
-  home: {
-    screenTitle: 'Inicio',
-  },
-  animations: {
-    screenTitle: 'Animaciones',
+  drugs:{
+    pneumology: 'Neumología',
+    adrenaline:{
+      name: 'Adrenalina racémica',
+      indication1: 'Nebulizar con',
+      indication2: 'ml de Sol. Salina 0.9%, por 15 minutos',
+    },
+    hydrocortisone:{
+      name: 'Hidrocortisona',
+      indication1: 'Nebulizar con',
+      indication2: 'ml de Sol. Salina 0.9%, por 15 minutos',
+    },
   },
   theme: {
     selecTheme: 'Seleccionar Tema',
   },
   language: {
     selectLanguage: 'Seleccionar Lenguaje',
-  },
-  menuBottom: {
-    home: 'Inicio',
-    animaciones: 'Animaciones',
   },
   copyright: {
     version: 'Versión',

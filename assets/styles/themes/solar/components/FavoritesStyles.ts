@@ -15,7 +15,7 @@ export const FavoritesStyles = StyleSheet.create({
     ...shadow,
   },
   selectedAgeCont: {
-    alignItems: 'flex-end',
+    alignItems: 'center',
     flex: 1,
     paddingHorizontal: smSpace,
   },

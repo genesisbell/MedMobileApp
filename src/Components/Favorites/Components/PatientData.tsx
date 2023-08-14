@@ -51,7 +51,7 @@ function PatientData() {
   return (
     <View>
       <View style={CommonStyles.flexDirectionRowSpaceBetween}>
-        <View style={CommonStyles.flexOne}>
+        <View style={CommonStyles.flexThird}>
           <BaseTextInput
             value={patientForm.weight}
             placeholder={language.general.weight}
@@ -70,7 +70,7 @@ function PatientData() {
           />
         </View>
         <BaseSpace horizontal md />
-        <View style={{flex: .75}}>
+        <View style={CommonStyles.flexThird}>
           <BaseActionSheet
             customButton={
               <View style={theme.FavoritesStyles.ageButton}>
@@ -87,7 +87,7 @@ function PatientData() {
           />
         </View>
         <BaseSpace horizontal md />
-        <View style={{flex: .75}}>
+        <View style={CommonStyles.flexThird}>
           <BaseActionSheet
             customButton={
               <View style={theme.FavoritesStyles.ageButton}>
@@ -104,7 +104,6 @@ function PatientData() {
           />
         </View>
       </View>
-      <View style={CommonStyles.flexDirectionRowSpaceBetween}></View>
     </View>
   );
 }
