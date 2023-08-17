@@ -36,9 +36,10 @@ const en = {
     min: 'Min',
     max: 'Max',
     liverFunction: 'Liver Function',
-    albumin: 'albumin',
-    prealbumin: 'prealbumin',
-    haptoglobin: 'haptoglobin',
+    albumin: 'Albumin',
+    prealbumin: 'Prealbumin',
+    haptoglobin: 'Haptoglobin',
+    infectious: 'Infectious',
   },
   theme: {
     selecTheme: 'Select Theme',

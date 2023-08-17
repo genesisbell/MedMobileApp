@@ -39,6 +39,7 @@ const es = {
     albumin: 'Albúmina',
     prealbumin: 'Prealbúmina',
     haptoglobin: 'Haptoglobina',
+    infectious: 'Infeccioso',
   },
   theme: {
     selecTheme: 'Seleccionar Tema',

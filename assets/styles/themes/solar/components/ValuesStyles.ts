@@ -10,7 +10,6 @@ export const ValuesStyles = StyleSheet.create({
     backgroundColor: backgroundPrmColor,
     borderRadius: smSpace,
     padding: xsmSpace,
-    marginBottom: bgSpace,
     ...shadow
   },
 });
