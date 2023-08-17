@@ -40,6 +40,8 @@ const es = {
     prealbumin: 'Prealbúmina',
     haptoglobin: 'Haptoglobina',
     infectious: 'Infeccioso',
+    serumElectrolytes: 'Electrolitos Séricos',
+    ionized: 'ionizado',
   },
   theme: {
     selecTheme: 'Seleccionar Tema',

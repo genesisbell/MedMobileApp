@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <title>Excel to JSON | Javacodepoint
+    </title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.min.js">
+    </script> 
+  </head>
+  <body>
+    <h1>Upload an excel file to convert into JSON
+    </h1>
+    <input type="file" id="file_upload" />
+    <button onclick="upload()">Upload
+    </button>	
+    <br>
+    <br>
+    <textarea id="json-result" style="display:none;height:500px;width:350px;">
+    </textarea> 
+    <script>// Method to upload a valid excel file
+      function upload() {
+        var files = document.getElementById('file_upload').files;
+        if(files.length==0){
+          alert("Please choose any file...");
+          return;
+        }
+        var filename = files[0].name;
+        var extension = filename.substring(filename.lastIndexOf(".")).toUpperCase();
+        if (extension == '.XLS' || extension == '.XLSX') {
+          excelFileToJSON(files[0]);
+        }
+        else{
+          alert("Please select a valid excel file.");
+        }
+      }
+      //Method to read excel file and convert it into JSON 
+      function excelFileToJSON(file){
+        try {
+          var reader = new FileReader();
+          reader.readAsBinaryString(file);
+          reader.onload = function(e) {
+            var data = e.target.result;
+            var workbook = XLSX.read(data, {
+              type : 'binary'
+            });
+            var result = [];
+            workbook.SheetNames.forEach(function(sheetName) {
+              var roa = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
+              if (roa.length > 0) {
+              	
+                //result.push(roa);
+                //Set data for values
+                for(let i = 3; i < roa.length-1; i++){
+                	const currentRow = roa[i];
+                    const age = currentRow["__EMPTY"];
+
+                    const minna = currentRow["Electrolitos séricos"];
+                    const maxna = currentRow["__EMPTY_1"];
+
+                    const mink = currentRow["__EMPTY_2"];
+                    const maxk = currentRow["__EMPTY_3"];
+
+                    const minca = currentRow["__EMPTY_4"];
+                    const maxca = currentRow["__EMPTY_5"];
+
+                    const mincat = currentRow["__EMPTY_6"];
+                    const maxcat = currentRow["__EMPTY_7"];
+
+                    const minmg = currentRow["__EMPTY_8"];
+                    const maxmg = currentRow["__EMPTY_9"];
+
+                    const minp = currentRow["__EMPTY_10"];
+                    const maxp = currentRow["__EMPTY_11"];
+                    
+                    // name: 'lang.values.hemoglobin',
+                    result.push(
+                      {
+                        age,
+                        values: [
+                          {
+                            name: 'Na mEq/L',
+                            values: [
+                              {
+                                name: 'lang.values.min',
+                                value: minna
+                              },
+                              {
+                                name: 'lang.values.max',
+                                value: maxna
+                              },
+                            ],
+                          },
+                          {
+                            name: 'K mEq/L',
+                            values: [
+                              {
+                                name: 'lang.values.min',
+                                value: mink
+                              },
+                              {
+                                name: 'lang.values.max',
+                                value: maxk
+                              },
+                            ],
+                          },
+                          {
+                            name: 'Ca ionizado',
+                            values: [
+                              {
+                                name: 'lang.values.min',
+                                value: minca
+                              },
+                              {
+                                name: 'lang.values.max',
+                                value: maxca
+                              },
+                            ],
+                          },
+                          {
+                            name: 'Ca total mg/dL',
+                            values: [
+                              {
+                                name: 'lang.values.min',
+                                value: mincat
+                              },
+                              {
+                                name: 'lang.values.max',
+                                value: maxcat
+                              },
+                            ],
+                          },
+                          {
+                            name: 'Mg mg/dL',
+                            values: [
+                              {
+                                name: 'lang.values.min',
+                                value: minmg
+                              },
+                              {
+                                name: 'lang.values.max',
+                                value: maxmg
+                              },
+                            ],
+                          },
+                          {
+                            name: `P mg/dL`,
+                            values: [
+                              {
+                                name: 'lang.values.min',
+                                value: minp
+                              },
+                              {
+                                name: 'lang.values.max',
+                                value: maxp
+                              },
+                            ],
+                          },
+                        ]
+                      }
+                    )
+                }
+               	
+                
+              }
+            });
+            //displaying the json result
+            var resultEle=document.getElementById("json-result");
+            resultEle.value=JSON.stringify(result, null, 4);
+            resultEle.style.display='block';
+          }
+        }
+        catch(e){
+          console.error(e);
+        }
+      }
+    </script> 
+  </body>
+</html>

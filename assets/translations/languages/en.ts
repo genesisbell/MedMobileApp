@@ -40,6 +40,8 @@ const en = {
     prealbumin: 'Prealbumin',
     haptoglobin: 'Haptoglobin',
     infectious: 'Infectious',
+    serumElectrolytes: 'Serum Electrolytes',
+    ionized: 'Ionized',
   },
   theme: {
     selecTheme: 'Select Theme',
