@@ -2,7 +2,7 @@ import React from 'react';
 import { FlatList } from 'react-native';
 
 /** @Assets */
-import {bloodCount} from 'data';
+import {values} from 'data';
 /** */
 
 /** @Components */
@@ -16,7 +16,7 @@ import { useAppSelector } from '../../../app/hooks';
 function Values() {
   
   const language = useAppSelector(({ language }) => language.value); 
-  const data = bloodCount(language.name);
+  const data = values(language.name);
 
   return (
     <BaseScreen isScrollable={false}>     

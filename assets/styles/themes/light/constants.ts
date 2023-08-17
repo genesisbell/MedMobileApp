@@ -10,7 +10,7 @@ export const secondaryColor = '#787a91';
 
 export const backgroundPrmColor = '#EEEEEE';
 export const backgroundSryColor = '#FFFFFF';
-export const backgroundTryColor = '#FFFFFF';
+export const backgroundTryColor = '#2F343B';
 
 export const textPrmColor = '#252525';
 export const textSryColor = '#787a91';
@@ -88,6 +88,7 @@ export const constants = {
   menuIconActiveColor: menuIconActiveColor,
   menuIconInactiveColor: menuIconInactiveColor,
 
-  ...shadow,
+  shadow: shadow,
+  
   ...textStyles,
 };

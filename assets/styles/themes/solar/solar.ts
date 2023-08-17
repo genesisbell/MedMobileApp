@@ -6,6 +6,7 @@ import { BaseScreenStyles } from './components/common/BaseScreenStyles';
 import { BaseTextInputStyles } from './components/common/BaseTextInputStyles';
 import { BaseActionSheetStyles } from './components/common/BaseActionSheetStyles';
 import { FavoritesStyles } from './components/FavoritesStyles';
+import { ValuesStyles } from './components/ValuesStyles';
 /** */
 
 export const solarTheme = {
@@ -19,4 +20,5 @@ export const solarTheme = {
 
   FavoritesStyles: FavoritesStyles,
   NavigationStyles: NavigationStyles,
+  ValuesStyles: ValuesStyles,
 };

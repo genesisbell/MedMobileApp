@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableWithoutFeedback } from 'react-native';
+import { View, TouchableWithoutFeedback } from 'react-native';
 
 /** @Assets */
 import { CommonStyles } from 'styles';
-import {bloodCount} from 'data';
+import { values} from 'data';
 /** */
 
 /** @Components */
+import { BaseText } from 'components';
 import BaseHorizontalLine from '../../Common/BaseHorizontal';
 import BaseSpace from '../../Common/BaseSpace';
 /** */
 
 import { useAppSelector } from '../../../app/hooks';
+import { SvgXml } from 'react-native-svg';
+import { chevronArrow } from 'icons';
 
-const data = bloodCount('en');
+const data = values('en');
 interface ValueComp {
   item: typeof data[0];
 }
@@ -36,34 +39,38 @@ function ValueComp({item}: ValueComp) {
   return (
     <TouchableWithoutFeedback onPress={handleOpen}>
       <View>
-        <View>
-          <Text style={[CommonStyles.h3, theme.prmTxt]}>{name}</Text>
+        <View style={CommonStyles.flexDirectionRow}>
+          <View style={open ? CommonStyles.rotate180deg : CommonStyles.rotate90deg}>
+            <SvgXml xml={chevronArrow(theme.primaryColor)} width={20} height={20}/>
+          </View>
+          <BaseSpace horizontal/>
+          <BaseText style={CommonStyles.h3}>{name}</BaseText>
         </View>
         {
           open && (
             <View style={CommonStyles.flexWrapContentSpaceBetween}>
               {
                 currData?.values.map((d, idx) => (
-                  <View key={idx}>
-                    <Text style={[CommonStyles.bigText, CommonStyles.centerText, theme.prmTxt]}>{d.name}</Text>
+                  <View key={idx} style={theme.ValuesStyles.valueCont}>
+                    <BaseText style={[CommonStyles.h6, CommonStyles.centerText, {color: theme.primaryColor}]}>{d.name}</BaseText>
                     <BaseHorizontalLine/>
                     <View style={CommonStyles.flexWrapContentSpaceBetween}>
                       {
                         Array.isArray(d.values) ? d.values.map((dd, idx) => (
                           <View key={idx} style={[
                             CommonStyles.alignCenter,
-                            {                            
+                            {
                               marginRight: Array.isArray(d.values) && idx === d.values.length - 1 ? 0 : 15 ,
                             }
                           ]}>
-                            <Text style={[CommonStyles.extraSamllText, CommonStyles.boldText, theme.prmTxt]}>{dd.name}</Text>
-                            <Text style={[CommonStyles.smallText, theme.prmTxt]}>{dd.value}</Text>
+                            <BaseText style={[CommonStyles.extraSamllText, CommonStyles.boldText]}>{dd.name}</BaseText>
+                            <BaseText style={CommonStyles.smallText}>{dd.value}</BaseText>
                           </View>
                         )):(
                           <View style={CommonStyles.flexOne}>
-                            <Text style={[CommonStyles.centerText, CommonStyles.smallText, theme.prmTxt]}>
+                            <BaseText style={[CommonStyles.centerText, CommonStyles.smallText]}>
                               {d.values}
-                            </Text>
+                            </BaseText>
                           </View>
                         )
                       }
@@ -75,6 +82,8 @@ function ValueComp({item}: ValueComp) {
             </View>
           )
         }
+        <BaseSpace/>
+        <BaseHorizontalLine color={theme.primaryColor}/>
       </View>
     </TouchableWithoutFeedback>
   );

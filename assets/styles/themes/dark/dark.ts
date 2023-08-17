@@ -6,6 +6,7 @@ import { NavigationStyles } from './components/NavigationStyles';
 import { BaseTextInputStyles } from './components/common/BaseTextInputStyles';
 import { BaseActionSheetStyles } from './components/common/BaseActionSheetStyles';
 import { FavoritesStyles } from './components/FavoritesStyles';
+import { ValuesStyles } from './components/ValuesStyles';
 /** */
 
 export const darkTheme = {
@@ -19,4 +20,5 @@ export const darkTheme = {
 
   FavoritesStyles: FavoritesStyles,
   NavigationStyles: NavigationStyles,
+  ValuesStyles: ValuesStyles,
 };

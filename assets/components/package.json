@@ -1,0 +1,11 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "description": "Components for Med App",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Genesis Bell",
+  "license": "ISC"
+}

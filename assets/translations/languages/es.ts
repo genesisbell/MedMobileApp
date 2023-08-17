@@ -35,6 +35,10 @@ const es = {
     prom: 'Prom',
     min: 'Min',
     max: 'Max',
+    liverFunction: 'Función hepática',
+    albumin: 'Albúmina',
+    prealbumin: 'Prealbúmina',
+    haptoglobin: 'Haptoglobina',
   },
   theme: {
     selecTheme: 'Seleccionar Tema',

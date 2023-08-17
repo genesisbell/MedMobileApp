@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <title>Excel to JSON | Javacodepoint
+    </title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.min.js">
+    </script> 
+  </head>
+  <body>
+    <h1>Upload an excel file to convert into JSON
+    </h1>
+    <input type="file" id="file_upload" />
+    <button onclick="upload()">Upload
+    </button>	
+    <br>
+    <br>
+    <textarea id="json-result" style="display:none;height:500px;width:350px;">
+    </textarea> 
+    <script>// Method to upload a valid excel file
+      function upload() {
+        var files = document.getElementById('file_upload').files;
+        if(files.length==0){
+          alert("Please choose any file...");
+          return;
+        }
+        var filename = files[0].name;
+        var extension = filename.substring(filename.lastIndexOf(".")).toUpperCase();
+        if (extension == '.XLS' || extension == '.XLSX') {
+          excelFileToJSON(files[0]);
+        }
+        else{
+          alert("Please select a valid excel file.");
+        }
+      }
+      //Method to read excel file and convert it into JSON 
+      function excelFileToJSON(file){
+        try {
+          var reader = new FileReader();
+          reader.readAsBinaryString(file);
+          reader.onload = function(e) {
+            var data = e.target.result;
+            var workbook = XLSX.read(data, {
+              type : 'binary'
+            });
+            var result = [];
+            workbook.SheetNames.forEach(function(sheetName) {
+              var roa = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
+              if (roa.length > 0) {
+              	
+                //result.push(roa);
+                //Set data for values
+                for(let i = 3; i < roa.length-1; i++){
+                	const currentRow = roa[i];
+                    const age = currentRow["__EMPTY"];
+                    const promhg = currentRow["Biometría hemática"];
+                    const minhg = currentRow["__EMPTY_1"];
+                    const maxhg = currentRow["__EMPTY_2"];
+                    const promht = currentRow["__EMPTY_3"];
+                    const minht = currentRow["__EMPTY_4"];
+                    const maxht = currentRow["__EMPTY_5"];
+                    const retis = currentRow["__EMPTY_6"];
+                    const promleu = currentRow["__EMPTY_7"];
+                    const minleu = currentRow["__EMPTY_8"];
+                    const maxleu = currentRow["__EMPTY_9"];
+                    const neutros = currentRow["__EMPTY_10"];
+                    const linfos = currentRow["__EMPTY_11"];
+                    const eos = currentRow["__EMPTY_12"];
+                    const mono = currentRow["__EMPTY_13"];
+                    
+                    result.push(
+                      {
+                          age,
+                            values: [
+                              {
+                                  name: 'lang.values.hemoglobin',
+                                  values: [
+                                      {
+                                          name: 'lang.values.prom',
+                                          value: promhg
+                                      },
+                                      {
+                                          name: 'lang.values.min',
+                                          value: minhg
+                                      },
+                                      {
+                                          name: 'lang.values.max',
+                                          value: maxhg
+                                      },
+                                  ],
+                              },
+                              {
+                                  name: 'lang.values.hematocrit',
+                                  values: [
+                                      {
+                                          name: 'lang.values.prom',
+                                          value: promht
+                                      },
+                                      {
+                                          name: 'lang.values.min',
+                                          value: minht
+                                      },
+                                      {
+                                          name: 'lang.values.max',
+                                          value: maxht
+                                      },
+                                  ],
+                              },
+                              {
+                                  name: 'lang.values.leukocytes',
+                                  values: [
+                                      {
+                                          name: 'lang.values.prom',
+                                          value: promleu
+                                      },
+                                      {
+                                          name: 'lang.values.min',
+                                          value: minleu
+                                      },
+                                      {
+                                          name: 'lang.values.max',
+                                          value: maxleu
+                                      },
+                                  ],
+                              },
+                              {
+                                  name: 'lang.values.retis',
+                                  values: retis,
+                              },
+                              {
+                                  name: 'lang.values.differential',
+                                  values: [
+                                      {
+                                          name: 'lang.values.neutros',
+                                          value: neutros
+                                      },
+                                      {
+                                          name: 'lang.values.linfos',
+                                          value: linfos
+                                      },
+                                      {
+                                          name: 'lang.values.eos',
+                                          value: eos
+                                      },
+                                      {
+                                          name: 'lang.values.mono',
+                                          value: mono
+                                      },
+                                  ],
+                              },
+                           ]
+                        }
+                    )
+                }
+               	
+                
+              }
+            });
+            //displaying the json result
+            var resultEle=document.getElementById("json-result");
+            resultEle.value=JSON.stringify(result, null, 4);
+            resultEle.style.display='block';
+          }
+        }
+        catch(e){
+          console.error(e);
+        }
+      }
+    </script> 
+  </body>
+</html>

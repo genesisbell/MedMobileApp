@@ -88,6 +88,7 @@ export const constants = {
   menuIconActiveColor: menuIconActiveColor,
   menuIconInactiveColor: menuIconInactiveColor,
 
-  ...shadow,
+  shadow: shadow,
+  
   ...textStyles,
 };

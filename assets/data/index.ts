@@ -1,7 +1,8 @@
-import {bloodCountData} from './values/bloodCount';
 import { en, es } from 'translations';
+import {bloodCountData} from './values/bloodCount';
+import { liverFunctionData } from './values/liverFunction';
 
-export function bloodCount(lang: string){
+export function values(lang: string){
 
   const languages = {
     en,
@@ -14,8 +15,8 @@ export function bloodCount(lang: string){
       data: bloodCountData(languages[lang as keyof typeof languages]),
     },
     {
-      name: languages[lang as keyof typeof languages].values.bloodCount,
-      data: bloodCountData(languages[lang as keyof typeof languages]),
+      name: languages[lang as keyof typeof languages].values.liverFunction,
+      data: liverFunctionData(languages[lang as keyof typeof languages]),
     },
   ]
 } 
