@@ -15,7 +15,7 @@ import { useAppSelector } from '../../../app/hooks';
 
 function Values() {
   
-  const language = useAppSelector(({ language }) => language.value); 
+  const language = useAppSelector(({ language }) => language.value);
   const data = values(language.name);
 
   return (

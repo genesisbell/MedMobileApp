@@ -24,10 +24,16 @@ interface ValueComp {
 function ValueComp({item}: ValueComp) {
 
   /** @Variables */
+  const {patient, theme} = useAppSelector(({ patient, theme }) => (
+    {
+      patient,
+      theme: theme.value,
+    }
+  ));
   const [open, setOpen] = useState(false);
   const {name, data} = item;
-  const currData = data.find(d => d.age === 1);
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const age = patient.years*12 + patient.months;
+  const currData = data.find(d => d.age >= age);
   /** */
 
   /** @Handlers */

@@ -3,13 +3,14 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 
 /** @Components */
 import BottomTabStack from './BottomTabStack';
-import Settings from '../Settings/Screens/Settings';
 import DrawerButton from './Components/DrawerButton';
-import Favorites from '../Favorites/Screens/Favorites';
-import Values from '../Values/Screens/Values';
 import Drugs from '../Drugs/Screens/Drugs';
-import Urgencies from '../Urgencies/Screens/Urgencies';
+import Favorites from '../Favorites/Screens/Favorites';
+import HeaderRight from './Components/HeaderRight';
 import MenuLeft from './Components/MenuLeft';
+import Settings from '../Settings/Screens/Settings';
+import Urgencies from '../Urgencies/Screens/Urgencies';
+import Values from '../Values/Screens/Values';
 /** */
 
 import { useAppSelector } from '../../app/hooks';
@@ -43,6 +44,7 @@ export default function DrawerStack() {
           backgroundColor: theme.backgroundPrmColor,
         },
         headerLeft: () => <DrawerButton navigation={navigation} />,
+        headerRight: () => <HeaderRight />,
       })}
     >
       <DrawerNav.Screen name="Favorites" component={Favorites} />
