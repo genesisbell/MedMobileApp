@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-function BaseNavButton() {
+function BaseNavButtonFunc() {
   const BaseNavButtonStyles = StyleSheet.create({
     mainCont: {
       flexWrap: 'wrap',
@@ -23,4 +23,4 @@ function BaseNavButton() {
   );
 }
 
-export default React.memo(BaseNavButton);
+export const BaseNavButton = React.memo(BaseNavButtonFunc);

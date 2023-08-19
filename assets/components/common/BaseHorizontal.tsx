@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import { xsmSpace } from 'styles';
-import { useAppSelector } from '../../app/hooks';
+import { useAppSelector } from '../../../src/app/hooks';
 
 interface BaseHorizontalLineProps{
     height?: string | number,
@@ -11,7 +11,7 @@ interface BaseHorizontalLineProps{
 }
 
 
-export default function BaseHorizontalLine(props: BaseHorizontalLineProps){
+export function BaseHorizontalLine(props: BaseHorizontalLineProps){
 
     const { height, width, color, margin } = props;
     const theme = useAppSelector(({ theme }) => theme.value);

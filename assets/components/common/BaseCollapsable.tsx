@@ -12,7 +12,7 @@ import { chevronArrow } from 'icons';
 /** */
 
 /** @Components */
-import BaseSpace from './BaseSpace';
+import { BaseSpace } from './BaseSpace';
 /** */
 
 interface BaseCollapsableProps{
@@ -20,7 +20,7 @@ interface BaseCollapsableProps{
     collapsableContent: React.ReactNode,
 }
 
-function BaseCollapsable(props: BaseCollapsableProps){
+function BaseCollapsableFunc(props: BaseCollapsableProps){
 
     /** @Variables */
     const {
@@ -66,4 +66,4 @@ function BaseCollapsable(props: BaseCollapsableProps){
     )
 }
 
-export default React.memo(BaseCollapsable);
+export const BaseCollapsable = React.memo(BaseCollapsableFunc);

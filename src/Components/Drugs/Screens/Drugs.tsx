@@ -2,8 +2,10 @@ import React from 'react';
 import { Text, View } from 'react-native';
 
 /** @Components */
-import BaseCollapsable from '../../Common/BaseCollapsable';
-import BaseScreen from '../../Common/BaseScreen';
+import { 
+    BaseCollapsable,
+    BaseScreen,
+} from 'components';
 /** */
 
 let id = 0;

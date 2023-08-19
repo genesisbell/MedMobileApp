@@ -3,7 +3,7 @@ import { Text, TouchableWithoutFeedback, View } from 'react-native';
 import { SvgXml } from 'react-native-svg';
 
 /** @Components */
-import BaseSpace from '../../Common/BaseSpace';
+import { BaseSpace } from 'components';
 /** */
 
 import { useAppSelector } from '../../../app/hooks';

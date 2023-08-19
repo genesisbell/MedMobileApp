@@ -2,8 +2,7 @@ import React from 'react';
 import { Text } from 'react-native';
 
 /** @Components */
-import BaseScreen from '../../Common/BaseScreen';
-import BaseNavButton from '../../Common/BaseNavButton';
+import { BaseNavButton, BaseScreen } from 'components';
 /** */
 
 function Urgencies() {

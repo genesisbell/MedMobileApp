@@ -14,7 +14,7 @@ import {
 import { primaryColor, inputHelperButtonWidth, smBrRadius } from 'styles';
 /***/
 
-import { useAppSelector } from '../../app/hooks';
+import { useAppSelector } from '../../../src/app/hooks';
 
 export type ModeType = 'flat' | 'outlined';
 interface BaseTextInputProps extends TextInputProps {
@@ -30,7 +30,7 @@ interface BaseTextInputProps extends TextInputProps {
   disabled?: boolean;
 }
 
-function BaseTextInput(props: BaseTextInputProps) {
+export function BaseTextInput(props: BaseTextInputProps) {
   /** @Variables */
   const {
     value,
@@ -206,5 +206,3 @@ function BaseTextInput(props: BaseTextInputProps) {
     </View>
   );
 }
-
-export default BaseTextInput;

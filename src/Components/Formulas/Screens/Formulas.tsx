@@ -1,12 +1,12 @@
 import React from 'react';
 import { Text } from 'react-native';
-import MedScreen from '../../Common/BaseScreen';
+import { BaseScreen } from 'components';
 
 function Formulas() {
   return (
-    <MedScreen>
+    <BaseScreen>
       <Text>this is the formulas screen</Text>
-    </MedScreen>
+    </BaseScreen>
   );
 }
 

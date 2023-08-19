@@ -7,9 +7,11 @@ import { values} from 'data';
 /** */
 
 /** @Components */
-import { BaseText } from 'components';
-import BaseHorizontalLine from '../../Common/BaseHorizontal';
-import BaseSpace from '../../Common/BaseSpace';
+import { 
+  BaseHorizontalLine,
+  BaseSpace,
+  BaseText
+} from 'components';
 /** */
 
 import { useAppSelector } from '../../../app/hooks';

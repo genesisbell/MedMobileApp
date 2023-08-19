@@ -2,7 +2,6 @@ import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
 /** @Components */
-import BottomTabStack from './BottomTabStack';
 import DrawerButton from './Components/DrawerButton';
 import Drugs from '../Drugs/Screens/Drugs';
 import Favorites from '../Favorites/Screens/Favorites';
@@ -16,7 +15,6 @@ import Values from '../Values/Screens/Values';
 import { useAppSelector } from '../../app/hooks';
 
 export type RootStackParams = {
-  BottomTabStack: undefined;
   Favorites: undefined;
   Values: undefined;
   Urgencies: undefined;
@@ -52,7 +50,6 @@ export default function DrawerStack() {
       <DrawerNav.Screen name="Urgencies" component={Urgencies} />
       <DrawerNav.Screen name="Drugs" component={Drugs} />
       <DrawerNav.Screen name="Settings" component={Settings} />
-      <DrawerNav.Screen name="BottomTabStack" component={BottomTabStack} />
     </DrawerNav.Navigator>
   );
 }

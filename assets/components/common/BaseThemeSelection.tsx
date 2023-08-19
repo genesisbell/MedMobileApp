@@ -9,15 +9,15 @@ import { phoneIcon } from 'icons';
 /** */
 
 /** @Components */
-import BaseSpace from './BaseSpace';
+import { BaseSpace } from './BaseSpace';
 /** */
 
 /** @Hooks */
-import { useAppDispatch, useAppSelector } from '../../app/hooks';
-import { setDarkTheme, setLightTheme, setSolarTheme } from '../../app/slices/themeSlice';
+import { useAppDispatch, useAppSelector } from '../../../src/app/hooks';
+import { setDarkTheme, setLightTheme, setSolarTheme } from '../../../src/app/slices/themeSlice';
 /** */
 
-export default function BaseThemeSelection() {
+export function BaseThemeSelection() {
   const dispatch = useAppDispatch();
   const theme = useAppSelector(({ theme }) => theme.value);
   const language = useAppSelector(({ language }) => language.value);

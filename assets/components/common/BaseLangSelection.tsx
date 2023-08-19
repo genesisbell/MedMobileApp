@@ -4,13 +4,13 @@ import { Picker } from '@react-native-picker/picker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 /** @Components */
-import BaseSpace from './BaseSpace';
+import { BaseSpace } from './BaseSpace';
 /** */
 
-import { useAppSelector, useAppDispatch } from '../../app/hooks';
-import { dispatchSelectedLanguage } from '../../app/slices/languageSlice';
+import { useAppSelector, useAppDispatch } from '../../../src/app/hooks';
+import { dispatchSelectedLanguage } from '../../../src/app/slices/languageSlice';
 
-export default function BaseLangSelection() {
+export function BaseLangSelection() {
   const dispatch = useAppDispatch();
   const language = useAppSelector(({ language }) => language.value);
   const theme = useAppSelector(({ theme }) => theme.value);

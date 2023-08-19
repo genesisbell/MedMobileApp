@@ -7,7 +7,7 @@ import { mdSpace, smSpace } from 'styles';
 import { OptionType, OptionsType } from 'types';
 /** */
 
-import { useAppSelector } from '../../app/hooks';
+import { useAppSelector } from '../../../src/app/hooks';
 
 export interface BaseActionSheetProps {
   options: OptionsType;
@@ -25,7 +25,7 @@ export interface BaseActionSheetProps {
   initialOptionIndex?: number;
 }
 
-function BaseActionSheet(props: BaseActionSheetProps) {
+export function BaseActionSheet(props: BaseActionSheetProps) {
   /** @Variables */
   const {
     options,
@@ -166,5 +166,3 @@ function BaseActionSheet(props: BaseActionSheetProps) {
     </View>
   );
 }
-
-export default BaseActionSheet;

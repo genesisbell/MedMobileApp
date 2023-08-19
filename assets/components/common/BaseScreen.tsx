@@ -17,7 +17,7 @@ import {
 
 /** @Assets */
 import { CommonStyles, bgSpace, tabBarHeight, primaryColor } from 'styles';
-import { useAppSelector } from '../../app/hooks';
+import { useAppSelector } from '../../../src/app/hooks';
 /***/
 
 interface BaseScreenProps extends ViewProps {
@@ -87,7 +87,7 @@ function Screen(props: ScreenProps) {
   return <View style={style || baseStyle}>{children}</View>;
 }
 
-function BaseScreen(props: BaseScreenProps) {
+export function BaseScreen(props: BaseScreenProps) {
   const {
     style,
     children,
@@ -185,5 +185,3 @@ function BaseScreen(props: BaseScreenProps) {
     </SafeAreaView>
   );
 }
-
-export default BaseScreen;

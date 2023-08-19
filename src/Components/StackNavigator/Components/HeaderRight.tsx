@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Dimensions, View } from 'react-native';
 import { SvgXml } from 'react-native-svg';
 
-import BaseActionSheet from '../../Common/BaseActionSheet';
-
 /** @Assets */
 import { CommonStyles } from 'styles';
 import { userIcon } from 'icons';
@@ -12,9 +10,14 @@ import { getMonths, getYears } from 'configurations';
 /** */
 
 /** @Components */
-import { BaseButton, BaseModal, BaseText } from 'components';
-import BaseSpace from '../../Common/BaseSpace';
-import BaseTextInput from '../../Common/BaseTextInput';
+import { 
+  BaseActionSheet,
+  BaseButton,
+  BaseSpace,
+  BaseTextInput,
+  BaseModal,
+  BaseText,
+} from 'components';
 /** */
 
 /** @Hooks */
@@ -60,8 +63,9 @@ function HeaderRight(){
   }
 
   function handlePatientData(){
+    const auxWeight = weight === '' ? 0 : parseInt(weight);
     dispatchAge({years: year, months: month}, dispatch);
-    dispatchWeight(parseInt(weight), dispatch);
+    dispatchWeight(auxWeight, dispatch);
     setShowModal({
       key: Math.random(),
       show: false,

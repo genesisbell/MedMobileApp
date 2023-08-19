@@ -6,11 +6,11 @@ import {values} from 'data';
 /** */
 
 /** @Components */
-import BaseScreen from '../../Common/BaseScreen';
 import ValueComp from '../Components/ValueComp';
 /** */
 
 import { useAppSelector } from '../../../app/hooks';
+import { BaseScreen } from 'components';
 
 
 function Values() {

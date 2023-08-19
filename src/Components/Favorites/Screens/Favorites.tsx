@@ -1,7 +1,7 @@
 import React from 'react';
 
 /** @Components */
-import BaseScreen from '../../Common/BaseScreen';
+import { BaseScreen } from 'components';
 import PatientData from '../Components/PatientData';
 /** */
 

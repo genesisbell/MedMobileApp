@@ -13,7 +13,7 @@ interface BaseSpaceProps {
   size?: string | number;
 }
 
-export default function BaseSpace(props: BaseSpaceProps) {
+export function BaseSpace(props: BaseSpaceProps) {
   const { xsm, sm, md, bg, xbg, vertical, horizontal, size } = props;
   let sz = smSpace;
 

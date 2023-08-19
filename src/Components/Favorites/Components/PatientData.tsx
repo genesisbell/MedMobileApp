@@ -8,9 +8,7 @@ import { CommonStyles } from 'styles';
 /** */
 
 /** @Components */
-import BaseActionSheet from '../../Common/BaseActionSheet';
-import BaseSpace from '../../Common/BaseSpace';
-import BaseTextInput from '../../Common/BaseTextInput';
+import { BaseActionSheet, BaseSpace, BaseTextInput } from 'components';
 /** */
 
 import { useAppSelector } from '../../../app/hooks';

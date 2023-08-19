@@ -1,10 +1,7 @@
 import React from 'react';
+import { BaseLangSelection, BaseScreen, BaseSpace, BaseThemeSelection } from 'components';
 
 /** @Components */
-import BaseLangSelection from '../../Common/BaseLangSelection';
-import BaseScreen from '../../Common/BaseScreen';
-import BaseSpace from '../../Common/BaseSpace';
-import BaseThemeSelection from '../../Common/BaseThemeSelection';
 /** */
 
 function Settings() {
