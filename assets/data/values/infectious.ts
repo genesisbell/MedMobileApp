@@ -7,6 +7,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -20,6 +21,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -38,6 +40,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -51,6 +54,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -69,6 +73,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -82,6 +87,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -100,6 +106,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -113,6 +120,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -131,6 +139,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -144,6 +153,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -162,6 +172,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -175,6 +186,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -193,6 +205,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -206,6 +219,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -224,6 +238,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -237,6 +252,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -255,6 +271,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -268,6 +285,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -286,6 +304,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -299,6 +318,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -317,6 +337,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -330,6 +351,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -348,6 +370,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -361,6 +384,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -379,6 +403,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -392,6 +417,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -410,6 +436,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -423,6 +450,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -441,6 +469,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -454,6 +483,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -472,6 +502,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -485,6 +516,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -503,6 +535,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -516,6 +549,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -534,6 +568,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -547,6 +582,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -565,6 +601,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -578,6 +615,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -596,6 +634,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -609,6 +648,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.min,
@@ -627,6 +667,7 @@ export function infectiousData(lang: typeof en){
         values: [
             {
                 name: "PCR mg/L",
+                isGirl: true,
                 values: [
                     {
                         name: lang.values.min,
@@ -640,6 +681,7 @@ export function infectiousData(lang: typeof en){
             },
             {
                 name: "VSG mm/h",
+                isGirl: true,
                 values: [
                     {
                         name: lang.values.min,
@@ -650,8 +692,36 @@ export function infectiousData(lang: typeof en){
                         value: 20
                     }
                 ]
+            },
+            {
+                name: "PCR mg/L",
+                isGirl: false,
+                values: [
+                    {
+                        name: lang.values.min,
+                        value: 0.1
+                    },
+                    {
+                        name: lang.values.max,
+                        value: 1.7
+                    }
+                ]
+            },
+            {
+                name: "VSG mm/h",
+                isGirl: false,
+                values: [
+                    {
+                        name: lang.values.min,
+                        value: 0
+                    },
+                    {
+                        name: lang.values.max,
+                        value: 15
+                    }
+                ]
             }
         ]
-    }
+    },
 ];
 }

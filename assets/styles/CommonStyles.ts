@@ -123,6 +123,9 @@ const textSyles = StyleSheet.create({
 });
 
 const displayStyles = StyleSheet.create({
+  displayNone:{
+    display: 'none',
+  },
   flexOne: {
     flex: 1,
   },

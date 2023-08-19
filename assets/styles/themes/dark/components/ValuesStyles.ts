@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { bgSpace, normalBorder, smSpace, xsmSpace } from '../../../CommonStyles';
+import { bgSpace, mdSpace, normalBorder, smSpace, xsmSpace } from '../../../CommonStyles';
 import { backgroundPrmColor, borderPrmColor, shadow } from '../constants';
 
 export const ValuesStyles = StyleSheet.create({
@@ -12,4 +12,11 @@ export const ValuesStyles = StyleSheet.create({
     padding: xsmSpace,
     ...shadow
   },
+  ghostCont:{
+    flexBasis: '100%',
+    marginVertical: mdSpace,
+    borderWidth: .2,
+    borderStyle: 'dashed',
+    borderColor: 'grey',
+  }
 });

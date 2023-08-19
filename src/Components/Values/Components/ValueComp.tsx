@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import { View, TouchableWithoutFeedback } from 'react-native';
+import { SvgXml } from 'react-native-svg';
 
 /** @Assets */
 import { CommonStyles } from 'styles';
 import { values} from 'data';
+import { chevronArrow, femaleIcon, maleIcon } from 'icons';
 /** */
 
 /** @Components */
@@ -15,8 +17,6 @@ import {
 /** */
 
 import { useAppSelector } from '../../../app/hooks';
-import { SvgXml } from 'react-native-svg';
-import { chevronArrow } from 'icons';
 
 const data = values('en');
 interface ValueComp {
@@ -35,10 +35,29 @@ function ValueComp({item}: ValueComp) {
   const [open, setOpen] = useState(false);
   const {name, data} = item;
   const age = patient.years*12 + patient.months;
-  const currData = data.find(d => d.age >= age);
+  const currData = getCurrentData();
   /** */
 
   /** @Handlers */
+  function getCurrentData(){
+    let left = 0;
+    while (left <= data.length - 1) {
+
+      if(data[left].age === age || left + 1 === data.length ){
+        return data[left];
+      }
+
+      if(data[left].age < age && data[left + 1].age > age){
+        return data[left];
+      }
+
+      left = left + 1;
+
+    }
+
+    return data[left];
+  }
+
   function handleOpen(){
     setOpen(prevState => !prevState);
   }
@@ -59,32 +78,56 @@ function ValueComp({item}: ValueComp) {
             <View style={CommonStyles.flexWrapContentSpaceBetween}>
               {
                 currData?.values.map((d, idx) => (
-                  <View key={idx} style={theme.ValuesStyles.valueCont}>
-                    <BaseText style={[CommonStyles.h6, CommonStyles.centerText, {color: theme.primaryColor}]}>{d.name}</BaseText>
-                    <BaseHorizontalLine/>
-                    <View style={CommonStyles.flexWrapContentSpaceBetween}>
-                      {
-                        Array.isArray(d.values) ? d.values.map((dd, idx) => (
-                          <View key={idx} style={[
-                            CommonStyles.alignCenter,
-                            {
-                              marginRight: Array.isArray(d.values) && idx === d.values.length - 1 ? 0 : 15 ,
-                            }
-                          ]}>
-                            <BaseText style={[CommonStyles.extraSamllText, CommonStyles.boldText]}>{dd.name}</BaseText>
-                            <BaseText style={CommonStyles.smallText}>{dd.value}</BaseText>
+                  <Fragment key={idx}>
+                    <View style={theme.ValuesStyles.valueCont}>
+
+                      <View style={[CommonStyles.flexDirectionRow, CommonStyles.justifyCenter]}>
+                        <BaseText style={[CommonStyles.h6, CommonStyles.centerText, {color: theme.primaryColor}]}>{d.name}</BaseText>
+                        {
+                          d.isGirl === true && 
+                          <View style={CommonStyles.flexDirectionRow}>
+                            <BaseSpace xsm horizontal/>
+                            <SvgXml xml={femaleIcon('pink')} width={18} height={18}/>
                           </View>
-                        )):(
-                          <View style={CommonStyles.flexOne}>
-                            <BaseText style={[CommonStyles.centerText, CommonStyles.smallText]}>
-                              {d.values}
-                            </BaseText>
+                        }
+                        {
+                          d.isGirl === false &&
+                          <View style={CommonStyles.flexDirectionRow}>
+                            <BaseSpace xsm horizontal/>
+                            <SvgXml xml={maleIcon('#A2CDF0')} width={18} height={18}/>
                           </View>
-                        )
-                      }
+                        }
+                      </View>
+                      <BaseHorizontalLine/>
+                      <View style={CommonStyles.flexWrapContentSpaceBetween}>
+                        {
+                          Array.isArray(d.values) ? d.values.map((dd, idx) => (
+                            <View key={idx} style={[
+                              CommonStyles.alignCenter,
+                              {
+                                marginRight: Array.isArray(d.values) && idx === d.values.length - 1 ? 0 : 15 ,
+                              }
+                            ]}>
+                              <BaseText style={[CommonStyles.extraSamllText, CommonStyles.boldText]}>{dd.name}</BaseText>
+                              <BaseText style={CommonStyles.smallText}>{dd.value}</BaseText>
+                            </View>
+                          )):(
+                            <View style={CommonStyles.flexOne}>
+                              <BaseText style={[CommonStyles.centerText, CommonStyles.smallText]}>
+                                {d.values}
+                              </BaseText>
+                            </View>
+                          )
+                        }
+                      </View>
+                      <BaseSpace md/>
                     </View>
-                    <BaseSpace md/>
-                  </View>
+                    <View
+                      style={currData?.values[idx].isGirl && currData?.values[idx + 1].isGirl === false ? 
+                        theme.ValuesStyles.ghostCont:CommonStyles.displayNone
+                      }
+                    />
+                  </Fragment>
                 ))
               }
             </View>

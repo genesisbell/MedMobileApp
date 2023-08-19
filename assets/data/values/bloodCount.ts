@@ -7,6 +7,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -24,6 +25,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -41,6 +43,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -58,10 +61,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 5
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -88,6 +93,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -105,6 +111,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -122,6 +129,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -139,10 +147,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -169,6 +179,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -186,6 +197,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -203,6 +215,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -220,10 +233,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -250,6 +265,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -267,6 +283,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -284,6 +301,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -301,10 +319,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -331,6 +351,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -348,6 +369,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -365,6 +387,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -382,10 +405,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -412,6 +437,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -429,6 +455,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -446,6 +473,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -463,10 +491,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -493,6 +523,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -510,6 +541,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -527,6 +559,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -544,10 +577,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -574,6 +609,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -591,6 +627,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -608,6 +645,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -625,10 +663,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -655,6 +695,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -672,6 +713,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -689,6 +731,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -706,10 +749,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -736,6 +781,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -753,6 +799,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -770,6 +817,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -787,10 +835,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -817,6 +867,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -834,6 +885,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -851,6 +903,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -868,10 +921,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -898,6 +953,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -915,6 +971,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -932,6 +989,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -949,10 +1007,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -979,6 +1039,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -996,6 +1057,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1013,6 +1075,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1030,10 +1093,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -1060,6 +1125,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1077,6 +1143,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1094,6 +1161,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1111,10 +1179,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -1141,6 +1211,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1158,6 +1229,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1175,6 +1247,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1192,10 +1265,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -1222,6 +1297,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1239,6 +1315,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1256,6 +1333,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1273,10 +1351,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -1303,6 +1383,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1320,6 +1401,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1337,6 +1419,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1354,10 +1437,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -1384,6 +1469,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1401,6 +1487,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1418,6 +1505,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1435,10 +1523,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -1465,6 +1555,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1482,6 +1573,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1499,6 +1591,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1516,10 +1609,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -1546,6 +1641,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1563,6 +1659,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1580,6 +1677,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1597,10 +1695,12 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: null,
                 values: 1
             },
             {
                 name: lang.values.differential,
+                isGirl: null,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -1627,6 +1727,7 @@ export function bloodCountData(lang: typeof en){
         values: [
             {
                 name: lang.values.hemoglobin,
+                isGirl: true,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1644,6 +1745,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.hematocrit,
+                isGirl: true,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1661,6 +1763,7 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.leukocytes,
+                isGirl: true,
                 values: [
                     {
                         name: lang.values.prom,
@@ -1678,10 +1781,93 @@ export function bloodCountData(lang: typeof en){
             },
             {
                 name: lang.values.retis,
+                isGirl: true,
                 values: 1.6
             },
             {
                 name: lang.values.differential,
+                isGirl: true,
+                values: [
+                    {
+                        name: lang.values.neutros,
+                        value: "55%"
+                    },
+                    {
+                        name: lang.values.linfos,
+                        value: "35%"
+                    },
+                    {
+                        name: lang.values.eos,
+                        value: "3%"
+                    },
+                    {
+                        name: lang.values.mono,
+                        value: "0%"
+                    }
+                ]
+            },
+            {
+                name: lang.values.hemoglobin,
+                isGirl: false,
+                values: [
+                    {
+                        name: lang.values.prom,
+                        value: 16
+                    },
+                    {
+                        name: lang.values.min,
+                        value: 14
+                    },
+                    {
+                        name: lang.values.max,
+                        value: 18
+                    }
+                ]
+            },
+            {
+                name: lang.values.hematocrit,
+                isGirl: false,
+                values: [
+                    {
+                        name: lang.values.prom,
+                        value: 47
+                    },
+                    {
+                        name: lang.values.min,
+                        value: 42
+                    },
+                    {
+                        name: lang.values.max,
+                        value: 52
+                    }
+                ]
+            },
+            {
+                name: lang.values.leukocytes,
+                isGirl: false,
+                values: [
+                    {
+                        name: lang.values.prom,
+                        value: 7500
+                    },
+                    {
+                        name: lang.values.min,
+                        value: 5000
+                    },
+                    {
+                        name: lang.values.max,
+                        value: 10000
+                    }
+                ]
+            },
+            {
+                name: lang.values.retis,
+                isGirl: false,
+                values: 1
+            },
+            {
+                name: lang.values.differential,
+                isGirl: false,
                 values: [
                     {
                         name: lang.values.neutros,
@@ -1703,86 +1889,5 @@ export function bloodCountData(lang: typeof en){
             }
         ]
     },
-    {
-        age: 204,
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 16
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 14
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 18
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 47
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 42
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 52
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 7500
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 5000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10000
-                    }
-                ]
-            },
-            {
-                name: lang.values.retis,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "35%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "3%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
-                    }
-                ]
-            }
-        ]
-    }
 ]
 }
