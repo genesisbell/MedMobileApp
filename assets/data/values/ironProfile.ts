@@ -6,7 +6,8 @@ export function ironProfileData(lang: typeof en){
         age: 0,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -20,7 +21,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -34,7 +36,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -53,7 +56,8 @@ export function ironProfileData(lang: typeof en){
         age: 1,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -67,7 +71,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -81,7 +86,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -100,7 +106,8 @@ export function ironProfileData(lang: typeof en){
         age: 3,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -114,7 +121,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -128,7 +136,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -147,7 +156,8 @@ export function ironProfileData(lang: typeof en){
         age: 6,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -161,7 +171,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -175,7 +186,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -194,7 +206,8 @@ export function ironProfileData(lang: typeof en){
         age: 12,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -208,7 +221,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -222,7 +236,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -241,7 +256,8 @@ export function ironProfileData(lang: typeof en){
         age: 24,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -255,7 +271,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -269,7 +286,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -288,7 +306,8 @@ export function ironProfileData(lang: typeof en){
         age: 36,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -302,7 +321,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -316,7 +336,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -335,7 +356,8 @@ export function ironProfileData(lang: typeof en){
         age: 48,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -349,7 +371,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -363,7 +386,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -382,7 +406,8 @@ export function ironProfileData(lang: typeof en){
         age: 60,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -396,7 +421,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -410,7 +436,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -429,7 +456,8 @@ export function ironProfileData(lang: typeof en){
         age: 72,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -443,7 +471,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -457,7 +486,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -476,7 +506,8 @@ export function ironProfileData(lang: typeof en){
         age: 84,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -490,7 +521,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -504,7 +536,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -523,7 +556,8 @@ export function ironProfileData(lang: typeof en){
         age: 96,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -537,7 +571,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -551,7 +586,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -570,7 +606,8 @@ export function ironProfileData(lang: typeof en){
         age: 108,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -584,7 +621,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -598,7 +636,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -617,7 +656,8 @@ export function ironProfileData(lang: typeof en){
         age: 120,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -631,7 +671,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -645,7 +686,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -664,7 +706,8 @@ export function ironProfileData(lang: typeof en){
         age: 132,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -678,7 +721,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -692,7 +736,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -711,7 +756,8 @@ export function ironProfileData(lang: typeof en){
         age: 144,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -725,7 +771,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -739,7 +786,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -758,7 +806,8 @@ export function ironProfileData(lang: typeof en){
         age: 156,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -772,7 +821,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -786,7 +836,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -805,7 +856,8 @@ export function ironProfileData(lang: typeof en){
         age: 168,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -819,7 +871,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -833,7 +886,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -852,7 +906,8 @@ export function ironProfileData(lang: typeof en){
         age: 180,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -866,7 +921,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -880,7 +936,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -899,7 +956,8 @@ export function ironProfileData(lang: typeof en){
         age: 192,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: null,
                 values: [
                     {
@@ -913,7 +971,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -927,7 +986,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -946,7 +1006,8 @@ export function ironProfileData(lang: typeof en){
         age: 204,
         values: [
             {
-                name: `${lang.values.ferritin} ng/mL`,
+                name: lang.values.ferritin,
+                measure: 'ng/mL',
                 isGirl: true,
                 values: [
                     {
@@ -960,7 +1021,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.iron} mCg/dL`,
+                name: lang.values.iron,
+                measure: 'mCg/dL',
                 isGirl: true,
                 values: [
                     {
@@ -974,7 +1036,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-                name: `${lang.values.transferrin} mg/dL`,
+                name: lang.values.transferrin,
+                measure: 'mg/dL',
                 isGirl: true,
                 values: [
                     {
@@ -988,7 +1051,8 @@ export function ironProfileData(lang: typeof en){
                 ]
             },
             {
-              name: `${lang.values.ferritin} ng/mL`,
+              name: lang.values.ferritin,
+              measure: 'ng/mL',
               isGirl: false,
               values: [
                   {
@@ -1002,7 +1066,8 @@ export function ironProfileData(lang: typeof en){
               ]
           },
           {
-              name: `${lang.values.iron} mCg/dL`,
+              name: lang.values.iron,
+              measure: 'mCg/dL',
               isGirl: false,
               values: [
                   {
@@ -1016,7 +1081,8 @@ export function ironProfileData(lang: typeof en){
               ]
           },
           {
-              name: `${lang.values.transferrin} mg/dL`,
+              name: lang.values.transferrin,
+              measure: 'mg/dL',
               isGirl: false,
               values: [
                   {

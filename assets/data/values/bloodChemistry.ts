@@ -6,7 +6,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 0,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -21,6 +22,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -35,6 +37,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -53,7 +56,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 1,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -68,6 +72,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -82,6 +87,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -100,7 +106,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 3,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -115,6 +122,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -129,6 +137,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -147,7 +156,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 6,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -162,6 +172,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -176,6 +187,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -194,7 +206,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 12,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -209,6 +222,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -223,6 +237,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -241,7 +256,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 24,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -256,6 +272,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -270,6 +287,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -288,7 +306,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 36,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -303,6 +322,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -317,6 +337,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -335,7 +356,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 48,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -350,6 +372,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -364,6 +387,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -382,7 +406,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 60,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -397,6 +422,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -411,6 +437,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -429,7 +456,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 72,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -444,6 +472,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -458,6 +487,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -476,7 +506,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 84,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -491,6 +522,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -505,6 +537,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -523,7 +556,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 96,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -538,6 +572,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -552,6 +587,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -570,7 +606,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 108,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -585,6 +622,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -599,6 +637,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -617,7 +656,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 120,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -632,6 +672,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -646,6 +687,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -664,7 +706,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 132,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -679,6 +722,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -693,6 +737,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -711,7 +756,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 144,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -726,6 +772,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -740,6 +787,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -758,7 +806,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 156,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -773,6 +822,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -787,6 +837,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -805,7 +856,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 168,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -820,6 +872,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -834,6 +887,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -852,7 +906,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 180,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -867,6 +922,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -881,6 +937,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -899,7 +956,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 192,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: null,
                 values: [
                     {
@@ -914,6 +972,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -928,6 +987,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -946,7 +1006,8 @@ export function bloodChemistryData(lang: typeof en){
         age: 204,
         values: [
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: true,
                 values: [
                     {
@@ -961,6 +1022,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: true,
                 values: [
                     {
@@ -975,6 +1037,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: true,
                 values: [
                     {
@@ -988,7 +1051,8 @@ export function bloodChemistryData(lang: typeof en){
                 ]
             },
             {
-                name: "BUN mg/dL",
+                name: "BUN",
+                measure: "mg/dL",
                 isGirl: false,
                 values: [
                     {
@@ -1003,6 +1067,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.uricAcid,
+                measure: null,
                 isGirl: false,
                 values: [
                     {
@@ -1017,6 +1082,7 @@ export function bloodChemistryData(lang: typeof en){
             },
             {
                 name: lang.values.serumCreatinine,
+                measure: null,
                 isGirl: false,
                 values: [
                     {

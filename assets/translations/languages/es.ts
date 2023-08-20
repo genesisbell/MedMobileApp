@@ -49,6 +49,8 @@ const es = {
     ferritin: 'Ferritina',
     iron: 'Hierro',
     transferrin: 'Transferrina',
+    various: 'Variados',
+    lipase: 'Lipasa',
   },
   theme: {
     selecTheme: 'Seleccionar Tema',

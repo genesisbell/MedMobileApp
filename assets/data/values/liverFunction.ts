@@ -7,6 +7,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -21,6 +22,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -34,7 +36,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -48,7 +51,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -62,7 +66,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -76,7 +81,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -90,7 +96,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -104,7 +111,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -118,7 +126,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -132,7 +141,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -146,7 +156,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -166,6 +177,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -180,6 +192,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -193,7 +206,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -207,7 +221,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -221,7 +236,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -235,7 +251,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -249,7 +266,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -263,7 +281,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -277,7 +296,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -291,7 +311,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -305,7 +326,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -325,6 +347,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -339,6 +362,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -352,7 +376,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -366,7 +391,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -380,7 +406,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -394,7 +421,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -408,7 +436,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -422,7 +451,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -436,7 +466,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -450,7 +481,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -464,7 +496,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -484,6 +517,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -498,6 +532,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -511,7 +546,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -525,7 +561,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -539,7 +576,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -553,7 +591,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -567,7 +606,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -581,7 +621,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -595,7 +636,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -609,7 +651,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -623,7 +666,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -643,6 +687,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -657,6 +702,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -670,7 +716,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -684,7 +731,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -698,7 +746,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -712,7 +761,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -726,7 +776,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -740,7 +791,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -754,7 +806,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -768,7 +821,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -782,7 +836,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -802,6 +857,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -816,6 +872,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -829,7 +886,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -843,7 +901,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -857,7 +916,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -871,7 +931,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -885,7 +946,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -899,7 +961,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -913,7 +976,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -927,7 +991,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -941,7 +1006,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -961,6 +1027,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -975,6 +1042,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -988,7 +1056,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1002,7 +1071,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1016,7 +1086,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1030,7 +1101,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1044,7 +1116,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1058,7 +1131,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1072,7 +1146,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1086,7 +1161,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1100,7 +1176,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1120,6 +1197,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1134,6 +1212,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1147,7 +1226,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1161,7 +1241,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1175,7 +1256,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1189,7 +1271,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1203,7 +1286,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1217,7 +1301,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1231,7 +1316,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1245,7 +1331,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1259,7 +1346,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1279,6 +1367,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1293,6 +1382,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1306,7 +1396,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1320,7 +1411,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1334,7 +1426,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1348,7 +1441,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1362,7 +1456,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1376,7 +1471,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1390,7 +1486,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1404,7 +1501,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1418,7 +1516,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1438,6 +1537,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1452,6 +1552,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1465,7 +1566,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1479,7 +1581,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1493,7 +1596,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1507,7 +1611,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1521,7 +1626,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1535,7 +1641,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1549,7 +1656,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1563,7 +1671,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1577,7 +1686,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1597,6 +1707,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1611,6 +1722,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1624,7 +1736,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1638,7 +1751,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1652,7 +1766,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1666,7 +1781,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1680,7 +1796,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1694,7 +1811,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1708,7 +1826,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1722,7 +1841,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1736,7 +1856,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1756,6 +1877,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1770,6 +1892,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1783,7 +1906,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1797,7 +1921,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1811,7 +1936,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1825,7 +1951,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1839,7 +1966,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1853,7 +1981,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1867,7 +1996,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1881,7 +2011,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1895,7 +2026,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1915,6 +2047,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1929,6 +2062,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -1942,7 +2076,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1956,7 +2091,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -1970,7 +2106,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1984,7 +2121,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -1998,7 +2136,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2012,7 +2151,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2026,7 +2166,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2040,7 +2181,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2054,7 +2196,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2074,6 +2217,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2088,6 +2232,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2101,7 +2246,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2115,7 +2261,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2129,7 +2276,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2143,7 +2291,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2157,7 +2306,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2171,7 +2321,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2185,7 +2336,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2199,7 +2351,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2213,7 +2366,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2233,6 +2387,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2247,6 +2402,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2260,7 +2416,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2274,7 +2431,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2288,7 +2446,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2302,7 +2461,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2316,7 +2476,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2330,7 +2491,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2344,7 +2506,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2358,7 +2521,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2372,7 +2536,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2392,6 +2557,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2406,6 +2572,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2419,7 +2586,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2433,7 +2601,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2447,7 +2616,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2461,7 +2631,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2475,7 +2646,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2489,7 +2661,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2503,7 +2676,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2517,7 +2691,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2531,7 +2706,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2551,6 +2727,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2565,6 +2742,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2578,7 +2756,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2592,7 +2771,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2606,7 +2786,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2620,7 +2801,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2634,7 +2816,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2648,7 +2831,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2662,7 +2846,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2676,7 +2861,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2690,7 +2876,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2710,6 +2897,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2724,6 +2912,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2737,7 +2926,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2751,7 +2941,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2765,7 +2956,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2779,7 +2971,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2793,7 +2986,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2807,7 +3001,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2821,7 +3016,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2835,7 +3031,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2849,7 +3046,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2869,6 +3067,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2883,6 +3082,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -2896,7 +3096,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2910,7 +3111,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -2924,7 +3126,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2938,7 +3141,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2952,7 +3156,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2966,7 +3171,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2980,7 +3186,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -2994,7 +3201,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -3008,7 +3216,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -3028,6 +3237,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -3042,6 +3252,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: null,
                   values: [
                       {
@@ -3055,7 +3266,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -3069,7 +3281,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -3083,7 +3296,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -3097,7 +3311,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: null,
                   values: [
                       {
@@ -3111,7 +3326,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -3125,7 +3341,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -3139,7 +3356,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -3153,7 +3371,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: null,
                   values: [
                       {
@@ -3167,7 +3386,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: null,
                   values: [
                       {
@@ -3187,6 +3407,7 @@ export function liverFunctionData(lang: typeof en){
           values: [
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: true,
                   values: [
                       {
@@ -3201,6 +3422,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: true,
                   values: [
                       {
@@ -3214,7 +3436,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: true,
                   values: [
                       {
@@ -3228,7 +3451,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: true,
                   values: [
                       {
@@ -3242,7 +3466,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: true,
                   values: [
                       {
@@ -3256,7 +3481,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: true,
                   values: [
                       {
@@ -3270,7 +3496,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: true,
                   values: [
                       {
@@ -3284,7 +3511,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: true,
                   values: [
                       {
@@ -3298,7 +3526,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: true,
                   values: [
                       {
@@ -3312,7 +3541,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: true,
                   values: [
                       {
@@ -3326,7 +3556,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: true,
                   values: [
                       {
@@ -3341,6 +3572,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "ALT",
+                  measure: null,
                   isGirl: false,
                   values: [
                       {
@@ -3355,6 +3587,7 @@ export function liverFunctionData(lang: typeof en){
               },
               {
                   name: "AST",
+                  measure: null,
                   isGirl: false,
                   values: [
                       {
@@ -3368,7 +3601,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "GGT U/L",
+                  name: "GGT",
+                  measure: 'U/L',
                   isGirl: false,
                   values: [
                       {
@@ -3382,7 +3616,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "FA U/L",
+                  name: "FA",
+                  measure: 'U/L',
                   isGirl: false,
                   values: [
                       {
@@ -3396,7 +3631,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "Prot tot g/dL",
+                  name: "Prot tot",
+                  measure: 'g/dL',
                   isGirl: false,
                   values: [
                       {
@@ -3410,7 +3646,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.albumin} g/dL`,
+                  name: lang.values.albumin,
+                  measure: 'g/dL',
                   isGirl: false,
                   values: [
                       {
@@ -3424,7 +3661,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.prealbumin} mg/dL`,
+                  name: lang.values.prealbumin,
+                  measure: 'mg/dL',
                   isGirl: false,
                   values: [
                       {
@@ -3438,7 +3676,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: `${lang.values.haptoglobin} mg/dL`,
+                  name: lang.values.haptoglobin,
+                  measure: 'mg/dL',
                   isGirl: false,
                   values: [
                       {
@@ -3452,7 +3691,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BT mg/dL",
+                  name: "BT",
+                  measure: 'mg/dL',
                   isGirl: false,
                   values: [
                       {
@@ -3466,7 +3706,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "BD mg/dL",
+                  name: "BD",
+                  measure: 'mg/dL',
                   isGirl: false,
                   values: [
                       {
@@ -3480,7 +3721,8 @@ export function liverFunctionData(lang: typeof en){
                   ]
               },
               {
-                  name: "DHL U/L",
+                  name: "DHL",
+                  measure: 'U/L',
                   isGirl: false,
                   values: [
                       {

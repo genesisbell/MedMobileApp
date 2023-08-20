@@ -82,7 +82,12 @@ function ValueComp({item}: ValueComp) {
                     <View style={theme.ValuesStyles.valueCont}>
 
                       <View style={[CommonStyles.flexDirectionRow, CommonStyles.justifyCenter]}>
-                        <BaseText style={[CommonStyles.h6, CommonStyles.centerText, {color: theme.primaryColor}]}>{d.name}</BaseText>
+                        <BaseText>
+                          <BaseText style={[CommonStyles.h6, CommonStyles.centerText, {color: theme.primaryColor}]}>
+                            {d.name}
+                          </BaseText>
+                          <BaseText style={[{color: theme.primaryColor}, CommonStyles.extraSamllText]}> {d.measure}</BaseText>
+                        </BaseText>
                         {
                           d.isGirl === true && 
                           <View style={CommonStyles.flexDirectionRow}>

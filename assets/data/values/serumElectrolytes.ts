@@ -6,7 +6,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 0,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -20,7 +21,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -35,6 +37,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -48,7 +51,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -62,7 +66,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -76,7 +81,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -95,7 +101,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 1,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -109,7 +116,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -124,6 +132,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -137,7 +146,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -151,7 +161,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -165,7 +176,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -184,7 +196,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 3,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -198,7 +211,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -213,6 +227,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -226,7 +241,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -240,7 +256,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -254,7 +271,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -273,7 +291,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 6,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -287,7 +306,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -302,6 +322,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -315,7 +336,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -329,7 +351,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -343,7 +366,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -362,7 +386,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 12,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -376,7 +401,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -391,6 +417,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -404,7 +431,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -418,7 +446,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -432,7 +461,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -451,7 +481,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 24,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -465,7 +496,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -480,6 +512,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -493,7 +526,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -507,7 +541,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -521,7 +556,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -540,7 +576,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 36,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -554,7 +591,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -569,6 +607,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -582,7 +621,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -596,7 +636,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -610,7 +651,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -629,7 +671,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 48,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -643,7 +686,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -658,6 +702,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -671,7 +716,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -685,7 +731,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -699,7 +746,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -718,7 +766,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 60,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -732,7 +781,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -747,6 +797,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -760,7 +811,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -774,7 +826,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -788,7 +841,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -807,7 +861,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 72,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -821,7 +876,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -836,6 +892,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -849,7 +906,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -863,7 +921,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -877,7 +936,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -896,7 +956,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 84,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -910,7 +971,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -925,6 +987,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -938,7 +1001,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -952,7 +1016,8 @@ export function serumElectrolytesData(lang: typeof en){
                     ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -966,7 +1031,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -985,7 +1051,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 96,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -999,7 +1066,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1014,6 +1082,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -1027,7 +1096,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -1041,7 +1111,8 @@ export function serumElectrolytesData(lang: typeof en){
                     ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -1055,7 +1126,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -1074,7 +1146,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 108,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1088,7 +1161,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1103,6 +1177,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -1116,7 +1191,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -1130,7 +1206,8 @@ export function serumElectrolytesData(lang: typeof en){
                     ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -1144,7 +1221,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -1163,7 +1241,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 120,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1177,7 +1256,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1192,6 +1272,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -1205,7 +1286,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -1219,7 +1301,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -1233,7 +1316,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
               },
               {
-                  name: "Ca total mg/dL",
+                  name: "Ca total",
+                  measure: 'mg/dL',
                 isGirl: null,
                   values: [
                       {
@@ -1252,7 +1336,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 12,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1266,7 +1351,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1281,6 +1367,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -1294,7 +1381,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -1308,7 +1396,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -1322,7 +1411,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
               },
               {
-                  name: "Ca total mg/dL",
+                  name: "Ca total",
+                  measure: 'mg/dL',
                 isGirl: null,
                   values: [
                       {
@@ -1341,7 +1431,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 144,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1355,7 +1446,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1370,6 +1462,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -1383,7 +1476,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -1397,7 +1491,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -1411,7 +1506,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
               },
               {
-                  name: "Ca total mg/dL",
+                  name: "Ca total",
+                  measure: 'mg/dL',
                 isGirl: null,
                   values: [
                       {
@@ -1430,7 +1526,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 156,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1444,7 +1541,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1459,6 +1557,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -1472,7 +1571,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                     {
@@ -1486,7 +1586,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -1500,7 +1601,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
               },
               {
-                  name: "Ca total mg/dL",
+                  name: "Ca total",
+                  measure: 'mg/dL',
                 isGirl: null,
                   values: [
                       {
@@ -1519,7 +1621,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 168,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1533,7 +1636,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1548,6 +1652,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -1561,7 +1666,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                    name: "Mg mg/dL",
+                    name: "Mg",
+                    measure: 'mg/dL',
                 isGirl: null,
                     values: [
                     {
@@ -1575,7 +1681,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -1589,7 +1696,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
               },
               {
-                  name: "Ca total mg/dL",
+                  name: "Ca total",
+                  measure: 'mg/dL',
                 isGirl: null,
                   values: [
                       {
@@ -1608,7 +1716,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 180,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1622,7 +1731,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1637,6 +1747,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -1650,7 +1761,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                    name: "Mg mg/dL",
+                    name: "Mg",
+                    measure: 'mg/dL',
                 isGirl: null,
                     values: [
                     {
@@ -1664,7 +1776,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -1678,7 +1791,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
               },
               {
-                  name: "Ca total mg/dL",
+                  name: "Ca total",
+                  measure: 'mg/dL',
                 isGirl: null,
                   values: [
                       {
@@ -1697,7 +1811,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 192,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1711,7 +1826,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: null,
                 values: [
                     {
@@ -1726,6 +1842,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: null,
                 values: [
                     {
@@ -1739,7 +1856,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                    name: "Mg mg/dL",
+                    name: "Mg",
+                    measure: 'mg/dL',
                 isGirl: null,
                     values: [
                     {
@@ -1753,7 +1871,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: null,
                 values: [
                   {
@@ -1767,7 +1886,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
               },
               {
-                  name: "Ca total mg/dL",
+                  name: "Ca total",
+                  measure: 'mg/dL',
                 isGirl: null,
                   values: [
                       {
@@ -1786,7 +1906,8 @@ export function serumElectrolytesData(lang: typeof en){
         age: 204,
         values: [
             {
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: true,
                 values: [
                     {
@@ -1800,7 +1921,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: true,
                 values: [
                     {
@@ -1815,6 +1937,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: true,
                 values: [
                     {
@@ -1828,7 +1951,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: true,
                 values: [
                     {
@@ -1842,7 +1966,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: true,
                 values: [
                   {
@@ -1856,7 +1981,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: true,
                 values: [
                     {
@@ -1869,7 +1995,8 @@ export function serumElectrolytesData(lang: typeof en){
                     }
                 ]
             },{
-                name: "Na mEq/L",
+                name: "Na",
+                measure: 'mEq/L',
                 isGirl: false,
                 values: [
                     {
@@ -1883,7 +2010,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "K mEq/L",
+                name: "K",
+                measure: 'mEq/L',
                 isGirl: false,
                 values: [
                     {
@@ -1898,6 +2026,7 @@ export function serumElectrolytesData(lang: typeof en){
             },
             {
                 name: `Ca ${lang.values.ionized}`,
+                measure: null,
                 isGirl: false,
                 values: [
                     {
@@ -1911,7 +2040,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "Mg mg/dL",
+                name: "Mg",
+                measure: 'mg/dL',
                 isGirl: false,
                 values: [
                     {
@@ -1925,7 +2055,8 @@ export function serumElectrolytesData(lang: typeof en){
                 ]
             },
             {
-                name: "P mg/dL",
+                name: "P",
+                measure: 'mg/dL',
                 isGirl: false,
                 values: [
                   {
@@ -1939,7 +2070,8 @@ export function serumElectrolytesData(lang: typeof en){
                   ]
             },
             {
-                name: "Ca total mg/dL",
+                name: "Ca total",
+                measure: 'mg/dL',
                 isGirl: false,
                 values: [
                     {
