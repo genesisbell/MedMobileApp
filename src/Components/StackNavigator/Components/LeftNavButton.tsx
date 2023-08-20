@@ -23,7 +23,7 @@ function LeftNavButton(props: LeftNavButtonProps) {
   return (
     <TouchableWithoutFeedback onPress={onPress}>
       <View style={theme.NavigationStyles.leftNavBtn}>
-        <SvgXml xml={icon(theme.textPrmColor)} width={25} height={25} />
+        <SvgXml xml={icon(theme.textPrmColor)} width={40} height={40} />
         <BaseSpace horizontal />
         <Text style={theme.NavigationStyles.leftNavTxt}>{text}</Text>
       </View>

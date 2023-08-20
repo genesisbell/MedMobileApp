@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { DrawerContentComponentProps } from '@react-navigation/drawer';
 
 /** @Assets */
-import { homeIcon } from 'icons';
+import { homeIcon, settingsIcon, valuesIcon } from 'icons';
 /** */
 
 /** @Components */
@@ -22,36 +22,36 @@ export default function MenuLeft(props: DrawerContentComponentProps) {
   const language = useAppSelector(({ language }) => language.value);
   let id = 0;
   const screens = [
+    // {
+    //   id: id++,
+    //   icon: homeIcon,
+    //   text: 'Favoritos',
+    //   onPress: () => navigation.navigate('Favorites'),
+    // },
     {
       id: id++,
-      icon: homeIcon,
-      text: 'Favoritos',
-      onPress: () => navigation.navigate('Favorites'),
-    },
-    {
-      id: id++,
-      icon: homeIcon,
+      icon: valuesIcon,
       text: 'Values',
       onPress: () => navigation.navigate('Values'),
     },
     {
       id: id++,
-      icon: homeIcon,
+      icon: settingsIcon,
       text: 'Settings',
       onPress: () => navigation.navigate('Settings'),
     },
-    {
-      id: id++,
-      icon: homeIcon,
-      text: 'Urgencies',
-      onPress: () => navigation.navigate('Urgencies'),
-    },
-    {
-      id: id++,
-      icon: homeIcon,
-      text: 'Drugs',
-      onPress: () => navigation.navigate('Drugs'),
-    },
+    // {
+    //   id: id++,
+    //   icon: homeIcon,
+    //   text: 'Urgencies',
+    //   onPress: () => navigation.navigate('Urgencies'),
+    // },
+    // {
+    //   id: id++,
+    //   icon: homeIcon,
+    //   text: 'Drugs',
+    //   onPress: () => navigation.navigate('Drugs'),
+    // },
   ];
   /** */
   return (

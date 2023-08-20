@@ -29,7 +29,7 @@ export default function DrawerStack() {
 
   return (
     <DrawerNav.Navigator
-      initialRouteName="Favorites"
+      initialRouteName="Values"
       drawerContent={(props) => <MenuLeft {...props} />}
       screenOptions={({ navigation }) => ({
         headerStyle: {
