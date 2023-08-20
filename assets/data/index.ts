@@ -7,6 +7,8 @@ import { bloodChemistryData } from './values/bloodChemistry';
 import { ironProfileData } from './values/ironProfile';
 import { variousData } from './values/various';
 import { gasometryData } from './values/gasometry';
+import { vitaminsAndElementsData } from './values/vitaminsAndElements';
+import { cerebrospinalFluidData } from './values/cerebrospinalFluid';
 
 export function values(lang: string){
 
@@ -47,6 +49,14 @@ export function values(lang: string){
     {
       name: languages[lang as keyof typeof languages].values.gasometry,
       data: gasometryData(languages[lang as keyof typeof languages]),
+    },
+    {
+      name: languages[lang as keyof typeof languages].values.vitaminsAndElements,
+      data: vitaminsAndElementsData(languages[lang as keyof typeof languages]),
+    },
+    {
+      name: languages[lang as keyof typeof languages].values.cerebrospinalFluid,
+      data: cerebrospinalFluidData(languages[lang as keyof typeof languages]),
     },
   ]
 } 

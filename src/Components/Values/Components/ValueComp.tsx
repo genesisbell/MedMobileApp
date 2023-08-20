@@ -77,63 +77,66 @@ function ValueComp({item}: ValueComp) {
           open && (
             <View style={CommonStyles.flexWrapContentSpaceBetween}>
               {
-                currData?.values.map((d, idx) => (
-                  <Fragment key={idx}>
-                    <View style={theme.ValuesStyles.valueCont}>
+                currData?.values.map((d, idx) => {
+                  if(!d.values) return null;
+                  return (
+                    <Fragment key={idx}>
+                      <View style={theme.ValuesStyles.valueCont}>
 
-                      <View style={[CommonStyles.flexDirectionRow, CommonStyles.justifyCenter]}>
-                        <BaseText>
-                          <BaseText style={[CommonStyles.h6, CommonStyles.centerText, {color: theme.primaryColor}]}>
-                            {d.name}
+                        <View style={[CommonStyles.flexDirectionRow, CommonStyles.justifyCenter]}>
+                          <BaseText>
+                            <BaseText style={[CommonStyles.h6, CommonStyles.centerText, {color: theme.primaryColor}]}>
+                              {d.name}
+                            </BaseText>
+                            <BaseText style={[{color: theme.primaryColor}, CommonStyles.extraSamllText]}> {d.measure}</BaseText>
                           </BaseText>
-                          <BaseText style={[{color: theme.primaryColor}, CommonStyles.extraSamllText]}> {d.measure}</BaseText>
-                        </BaseText>
-                        {
-                          d.isGirl === true && 
-                          <View style={CommonStyles.flexDirectionRow}>
-                            <BaseSpace xsm horizontal/>
-                            <SvgXml xml={femaleIcon('pink')} width={18} height={18}/>
-                          </View>
-                        }
-                        {
-                          d.isGirl === false &&
-                          <View style={CommonStyles.flexDirectionRow}>
-                            <BaseSpace xsm horizontal/>
-                            <SvgXml xml={maleIcon('#A2CDF0')} width={18} height={18}/>
-                          </View>
-                        }
-                      </View>
-                      <BaseHorizontalLine/>
-                      <View style={CommonStyles.flexWrapContentSpaceBetween}>
-                        {
-                          Array.isArray(d.values) ? d.values.map((dd, idx) => (
-                            <View key={idx} style={[
-                              CommonStyles.alignCenter,
-                              {
-                                marginRight: Array.isArray(d.values) && idx === d.values.length - 1 ? 0 : 15 ,
-                              }
-                            ]}>
-                              <BaseText style={[CommonStyles.extraSamllText, CommonStyles.boldText]}>{dd.name}</BaseText>
-                              <BaseText style={CommonStyles.smallText}>{dd.value}</BaseText>
+                          {
+                            d.isGirl === true && 
+                            <View style={CommonStyles.flexDirectionRow}>
+                              <BaseSpace xsm horizontal/>
+                              <SvgXml xml={femaleIcon('pink')} width={18} height={18}/>
                             </View>
-                          )):(
-                            <View style={CommonStyles.flexOne}>
-                              <BaseText style={[CommonStyles.centerText, CommonStyles.smallText]}>
-                                {d.values}
-                              </BaseText>
+                          }
+                          {
+                            d.isGirl === false &&
+                            <View style={CommonStyles.flexDirectionRow}>
+                              <BaseSpace xsm horizontal/>
+                              <SvgXml xml={maleIcon('#A2CDF0')} width={18} height={18}/>
                             </View>
-                          )
-                        }
+                          }
+                        </View>
+                        <BaseHorizontalLine/>
+                        <View style={CommonStyles.flexWrapContentSpaceBetween}>
+                          {
+                            Array.isArray(d.values) ? d.values.map((dd, idx) => (
+                              <View key={idx} style={[
+                                CommonStyles.alignCenter,
+                                {
+                                  marginRight: Array.isArray(d.values) && idx === d.values.length - 1 ? 0 : 15 ,
+                                }
+                              ]}>
+                                <BaseText style={[CommonStyles.extraSamllText, CommonStyles.boldText]}>{dd.name}</BaseText>
+                                <BaseText style={CommonStyles.smallText}>{dd.value}</BaseText>
+                              </View>
+                            )):(
+                              <View style={CommonStyles.flexOne}>
+                                <BaseText style={[CommonStyles.centerText, CommonStyles.smallText]}>
+                                  {d.values}
+                                </BaseText>
+                              </View>
+                            )
+                          }
+                        </View>
+                        <BaseSpace md/>
                       </View>
-                      <BaseSpace md/>
-                    </View>
-                    <View
-                      style={currData?.values[idx].isGirl && currData?.values[idx + 1].isGirl === false ? 
-                        theme.ValuesStyles.ghostCont:CommonStyles.displayNone
-                      }
-                    />
-                  </Fragment>
-                ))
+                      <View
+                        style={currData?.values[idx].isGirl && currData?.values[idx + 1].isGirl === false ? 
+                          theme.ValuesStyles.ghostCont:CommonStyles.displayNone
+                        }
+                      />
+                    </Fragment>
+                  )
+                })
               }
             </View>
           )

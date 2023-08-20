@@ -53,6 +53,11 @@ const en = {
     lipase: 'Lipase',
     gasometry: 'Gasometry',
     lactate: 'Lactate',
+    vitaminsAndElements: 'Vitamins and Trace Elements',
+    cerebrospinalFluid: 'Cerebrospinal Fluid',
+    glucose: 'Glucose',
+    proteins: 'Proteins',
+    openingPressure: 'Opening Pressure',
   },
   theme: {
     selecTheme: 'Select Theme',

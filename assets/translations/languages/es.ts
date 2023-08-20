@@ -53,6 +53,11 @@ const es = {
     lipase: 'Lipasa',
     gasometry: 'Gasometría',
     lactate: 'Lactato',
+    vitaminsAndElements: 'Vitaminas y oligoelementos',
+    cerebrospinalFluid: 'Líquido Cefalorraquídeo',
+    glucose: 'Glucosa',
+    proteins: 'Proteinas',
+    openingPressure: 'Presión de apertura',
   },
   theme: {
     selecTheme: 'Seleccionar Tema',
