@@ -11,6 +11,7 @@ import { vitaminsAndElementsData } from './values/vitaminsAndElements';
 import { cerebrospinalFluidData } from './values/cerebrospinalFluid';
 import { urinaryValuesData } from './values/urinaryValues';
 import { fluidsData } from './values/fluid';
+import { lipidProfileData } from './values/lipidProfile';
 
 export function values(lang: string){
 
@@ -64,6 +65,11 @@ export function values(lang: string){
       name: languages[lang as keyof typeof languages].values.vitaminsAndElements,
       reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
       data: vitaminsAndElementsData(languages[lang as keyof typeof languages]),
+    },
+    {
+      name: languages[lang as keyof typeof languages].values.lipidProfile,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
+      data: lipidProfileData(languages[lang as keyof typeof languages]),
     },
     {
       name: languages[lang as keyof typeof languages].values.cerebrospinalFluid,
