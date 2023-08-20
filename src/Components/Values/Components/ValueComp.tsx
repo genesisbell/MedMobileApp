@@ -87,6 +87,7 @@ function ValueComp({item}: ValueComp) {
             <View style={CommonStyles.flexWrapContentSpaceBetween}>
               {
                 currData?.values.map((d, idx) => {
+                  const isLastGirl = currData?.values[idx].isGirl && currData?.values[idx + 1].isGirl === false;
                   if(!d.values) return null;
                   return (
                     <Fragment key={idx}>
@@ -138,11 +139,7 @@ function ValueComp({item}: ValueComp) {
                         </View>
                         <BaseSpace md/>
                       </View>
-                      <View
-                        style={currData?.values[idx].isGirl && currData?.values[idx + 1].isGirl === false ? 
-                          theme.ValuesStyles.ghostCont:CommonStyles.displayNone
-                        }
-                      />
+                      <View style={isLastGirl ? theme.ValuesStyles.ghostCont:CommonStyles.displayNone}/>
                     </Fragment>
                   )
                 })

@@ -4,6 +4,7 @@ const en = {
     age: 'Age',
     cancel: 'Cancel',
     chooseOption: 'Choose an Option',
+    day: 'day',
     months: 'Months',
     reference: 'Reference',
     years: 'Years',
@@ -59,6 +60,7 @@ const en = {
     glucose: 'Glucose',
     proteins: 'Proteins',
     openingPressure: 'Opening Pressure',
+    urinaryValues: 'Urinary Values',
   },
   theme: {
     selecTheme: 'Select Theme',
