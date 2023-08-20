@@ -10,6 +10,7 @@ import { gasometryData } from './values/gasometry';
 import { vitaminsAndElementsData } from './values/vitaminsAndElements';
 import { cerebrospinalFluidData } from './values/cerebrospinalFluid';
 import { urinaryValuesData } from './values/urinaryValues';
+import { fluidsData } from './values/fluid';
 
 export function values(lang: string){
 
@@ -73,6 +74,11 @@ export function values(lang: string){
       name: languages[lang as keyof typeof languages].values.urinaryValues,
       reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
       data: urinaryValuesData(languages[lang as keyof typeof languages]),
+    },
+    {
+      name: languages[lang as keyof typeof languages].values.fluids,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
+      data: fluidsData(languages[lang as keyof typeof languages]),
     },
   ]
 } 
