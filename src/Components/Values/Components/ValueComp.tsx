@@ -5,12 +5,13 @@ import { SvgXml } from 'react-native-svg';
 /** @Assets */
 import { CommonStyles } from 'styles';
 import { values} from 'data';
-import { chevronArrow, femaleIcon, maleIcon } from 'icons';
+import { chevronArrow, femaleIcon, maleIcon, referenceIcon } from 'icons';
 /** */
 
 /** @Components */
 import { 
   BaseHorizontalLine,
+  BaseModal,
   BaseSpace,
   BaseText
 } from 'components';
@@ -26,14 +27,15 @@ interface ValueComp {
 function ValueComp({item}: ValueComp) {
 
   /** @Variables */
-  const {patient, theme} = useAppSelector(({ patient, theme }) => (
+  const {patient, theme, language} = useAppSelector(({ patient, theme, language }) => (
     {
       patient,
       theme: theme.value,
+      language: language.value
     }
   ));
   const [open, setOpen] = useState(false);
-  const {name, data} = item;
+  const {name, data, reference} = item;
   const age = patient.years*12 + patient.months;
   const currData = getCurrentData();
   /** */
@@ -71,7 +73,14 @@ function ValueComp({item}: ValueComp) {
             <SvgXml xml={chevronArrow(theme.primaryColor)} width={20} height={20}/>
           </View>
           <BaseSpace horizontal/>
-          <BaseText style={CommonStyles.h3}>{name}</BaseText>
+          <BaseText style={[CommonStyles.h3, CommonStyles.flexOne]}>{name}</BaseText>
+          <BaseModal
+            iconStyle={{paddingLeft: 10}}
+            icon={<SvgXml xml={referenceIcon(theme.primaryColor)} width={20} height={20}/>}
+          >
+            <BaseText style={CommonStyles.boldText}>{language.general.reference}</BaseText>
+            <BaseText>{reference}</BaseText>
+          </BaseModal>
         </View>
         {
           open && (

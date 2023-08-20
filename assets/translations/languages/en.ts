@@ -5,6 +5,7 @@ const en = {
     cancel: 'Cancel',
     chooseOption: 'Choose an Option',
     months: 'Months',
+    reference: 'Reference',
     years: 'Years',
     weight: 'Weight',
   },

@@ -20,42 +20,52 @@ export function values(lang: string){
   return [
     {
       name: languages[lang as keyof typeof languages].values.bloodCount,
+      reference: 'Nelson. Essentials of pediatrics. 9th ed. Philadelphia: Elsevier; 2023',
       data: bloodCountData(languages[lang as keyof typeof languages]),
     },
     {
       name: languages[lang as keyof typeof languages].values.liverFunction,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
       data: liverFunctionData(languages[lang as keyof typeof languages]),
     },
     {
       name: languages[lang as keyof typeof languages].values.infectious,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
       data: infectiousData(languages[lang as keyof typeof languages]),
     },
     {
       name: languages[lang as keyof typeof languages].values.serumElectrolytes,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
       data: serumElectrolytesData(languages[lang as keyof typeof languages]),
     },
     {
       name: languages[lang as keyof typeof languages].values.bloodChemistry,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
       data: bloodChemistryData(languages[lang as keyof typeof languages]),
     },
     {
       name: languages[lang as keyof typeof languages].values.ironProfile,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
       data: ironProfileData(languages[lang as keyof typeof languages]),
     },
     {
-      name: languages[lang as keyof typeof languages].values.various,
-      data: variousData(languages[lang as keyof typeof languages]),
-    },
-    {
       name: languages[lang as keyof typeof languages].values.gasometry,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
       data: gasometryData(languages[lang as keyof typeof languages]),
     },
     {
+      name: languages[lang as keyof typeof languages].values.various,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
+      data: variousData(languages[lang as keyof typeof languages]),
+    },
+    {
       name: languages[lang as keyof typeof languages].values.vitaminsAndElements,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
       data: vitaminsAndElementsData(languages[lang as keyof typeof languages]),
     },
     {
       name: languages[lang as keyof typeof languages].values.cerebrospinalFluid,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
       data: cerebrospinalFluidData(languages[lang as keyof typeof languages]),
     },
   ]
