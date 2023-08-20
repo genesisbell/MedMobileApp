@@ -45,6 +45,10 @@ const en = {
     bloodChemistry: 'Blood Chemistry',
     serumCreatinine: 'Serum Creatinine',
     uricAcid: 'Uric Acid',
+    ironProfile: 'Iron Profile',
+    ferritin: 'Ferritin',
+    iron: 'Iron',
+    transferrin: 'Transferrin',
   },
   theme: {
     selecTheme: 'Select Theme',

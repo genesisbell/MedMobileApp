@@ -4,6 +4,7 @@ import { liverFunctionData } from './values/liverFunction';
 import { infectiousData } from './values/infectious';
 import { serumElectrolytesData } from './values/serumElectrolytes';
 import { bloodChemistryData } from './values/bloodChemistry';
+import { ironProfileData } from './values/ironProfile';
 
 export function values(lang: string){
 
@@ -32,6 +33,10 @@ export function values(lang: string){
     {
       name: languages[lang as keyof typeof languages].values.bloodChemistry,
       data: bloodChemistryData(languages[lang as keyof typeof languages]),
+    },
+    {
+      name: languages[lang as keyof typeof languages].values.ironProfile,
+      data: ironProfileData(languages[lang as keyof typeof languages]),
     },
   ]
 } 

@@ -45,6 +45,10 @@ const es = {
     bloodChemistry: 'Química sanguínea',
     serumCreatinine: 'Creatinina sérica',
     uricAcid: 'Ácido úrico',
+    ironProfile: 'Pefril de hierro',
+    ferritin: 'Ferritina',
+    iron: 'Hierro',
+    transferrin: 'Transferrina',
   },
   theme: {
     selecTheme: 'Seleccionar Tema',
