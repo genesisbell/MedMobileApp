@@ -46,6 +46,7 @@ export const BaseTextInputStyles = StyleSheet.create({
     backgroundColor: backgroundPrmColor,
     borderBottomWidth: thinBorder,
     borderColor: borderSryColor,
+    height: '99%'
   },
   button: {
     alignItems: 'center',
@@ -53,6 +54,7 @@ export const BaseTextInputStyles = StyleSheet.create({
     backgroundColor: backgroundSryColor,
     minWidth: inputHelperButtonWidth,
     padding: smSpace,
+    height: '95%'
   },
   buttonsContainer: {
     flexDirection: 'row',

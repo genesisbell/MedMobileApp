@@ -8,8 +8,8 @@ import { smText } from '../../CommonStyles';
 export const primaryColor = '#54BAB9';
 export const secondaryColor = '#787a91';
 
-export const backgroundPrmColor = '#181818';
-export const backgroundSryColor = '#041C32';
+export const backgroundPrmColor = '#252525';
+export const backgroundSryColor = '#181818';
 export const backgroundTryColor = '#FFFFFF';
 
 export const textPrmColor = '#DFDFDF';
