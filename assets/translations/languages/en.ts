@@ -51,6 +51,8 @@ const en = {
     transferrin: 'Transferrin',
     various: 'Various',
     lipase: 'Lipase',
+    gasometry: 'Gasometry',
+    lactate: 'Lactate',
   },
   theme: {
     selecTheme: 'Select Theme',
