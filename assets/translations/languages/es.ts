@@ -40,8 +40,11 @@ const es = {
     prealbumin: 'Prealbúmina',
     haptoglobin: 'Haptoglobina',
     infectious: 'Infeccioso',
-    serumElectrolytes: 'Electrolitos Séricos',
+    serumElectrolytes: 'Electrolitos séricos',
     ionized: 'ionizado',
+    bloodChemistry: 'Química sanguínea',
+    serumCreatinine: 'Creatinina sérica',
+    uricAcid: 'Ácido úrico',
   },
   theme: {
     selecTheme: 'Seleccionar Tema',

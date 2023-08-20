@@ -42,6 +42,9 @@ const en = {
     infectious: 'Infectious',
     serumElectrolytes: 'Serum Electrolytes',
     ionized: 'Ionized',
+    bloodChemistry: 'Blood Chemistry',
+    serumCreatinine: 'Serum Creatinine',
+    uricAcid: 'Uric Acid',
   },
   theme: {
     selecTheme: 'Select Theme',
