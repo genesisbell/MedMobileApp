@@ -95,10 +95,10 @@ function ValueComp({item}: ValueComp) {
 
                         <View style={[CommonStyles.flexDirectionRow, CommonStyles.justifyCenter]}>
                           <BaseText>
-                            <BaseText style={[CommonStyles.h6, CommonStyles.centerText, {color: theme.primaryColor}]}>
+                            <BaseText style={[CommonStyles.h6, CommonStyles.centerText, {color: theme.tertiaryColor}]}>
                               {d.name}
                             </BaseText>
-                            <BaseText style={[{color: theme.primaryColor}, CommonStyles.extraSamllText]}> {d.measure}</BaseText>
+                            <BaseText style={[{color: theme.secondaryColor}, CommonStyles.extraSamllText]}> {d.measure}</BaseText>
                           </BaseText>
                           {
                             d.isGirl === true && 
@@ -148,7 +148,7 @@ function ValueComp({item}: ValueComp) {
           )
         }
         <BaseSpace/>
-        <BaseHorizontalLine color={theme.primaryColor}/>
+        <BaseHorizontalLine height={2}/>
       </View>
     </TouchableWithoutFeedback>
   );

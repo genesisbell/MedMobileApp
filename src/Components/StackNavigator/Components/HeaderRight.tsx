@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Dimensions, View } from 'react-native';
 import { SvgXml } from 'react-native-svg';
+import { RouteProp, getFocusedRouteNameFromRoute, useRoute } from '@react-navigation/native';
 
 /** @Assets */
 import { CommonStyles } from 'styles';
@@ -25,11 +26,18 @@ import { useAppDispatch, useAppSelector } from '../../../app/hooks';
 import { dispatchAge, dispatchWeight } from '../../../app/slices/patientSlice';
 /** */
 
+import { RootStackParams } from '../DrawerStack';
+
 const vw = Dimensions.get('window').width;
 
-function HeaderRight(){
+interface HeaderRightProps{
+  route: RouteProp<RootStackParams, keyof RootStackParams>,
+}
+
+function HeaderRight(props: HeaderRightProps){
 
   /** @Variables */
+  const { route } = props;
   const dispatch = useAppDispatch();
   const {patient, theme, language} = useAppSelector(({ patient, theme, language }) => (
     {
@@ -47,6 +55,7 @@ function HeaderRight(){
     key: 1,
     show: false,
   });
+  const isWeightDependant = route.name === 'Values';
   /** */
 
   /** @Handlers */
@@ -79,9 +88,14 @@ function HeaderRight(){
       icon={(
         <View style={[CommonStyles.alignCenter, {paddingRight: 10}]}>
           <SvgXml xml={userIcon(theme.headerTextColor)} width={25} height={25} />
-          <BaseText style={[CommonStyles.smallText, {color: theme.headerTextColor}]}>
-            {patient.weight} kg | {patient.years}a {patient.months}m
-          </BaseText>
+          <View style={CommonStyles.flexDirectionRow}>
+            <BaseText style={[CommonStyles.smallText, {color: theme.headerTextColor}]}>
+              {patient.weight} kg | 
+            </BaseText>
+            <BaseText style={[CommonStyles.smallText, {color: isWeightDependant ? theme.secondaryColor : theme.headerTextColor, fontWeight: isWeightDependant ? 'bold' : 'normal'}]}>
+              {' '}{patient.years}a {patient.months}m
+            </BaseText>
+          </View>
         </View>
       )}
     >

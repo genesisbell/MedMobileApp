@@ -43,7 +43,7 @@ const es = {
     albumin: 'Albúmina',
     prealbumin: 'Prealbúmina',
     haptoglobin: 'Haptoglobina',
-    infectious: 'Infeccioso',
+    infectious: 'Reactantes de fase aguda',
     serumElectrolytes: 'Electrolitos séricos',
     ionized: 'ionizado',
     bloodChemistry: 'Química sanguínea',

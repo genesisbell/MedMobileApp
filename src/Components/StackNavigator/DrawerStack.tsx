@@ -15,10 +15,10 @@ import Values from '../Values/Screens/Values';
 import { useAppSelector } from '../../app/hooks';
 
 export type RootStackParams = {
-  Favorites: undefined;
+  // Favorites: undefined;
   Values: undefined;
-  Urgencies: undefined;
-  Drugs: undefined;
+  // Urgencies: undefined;
+  // Drugs: undefined;
   Settings: undefined;
 };
 
@@ -31,7 +31,7 @@ export default function DrawerStack() {
     <DrawerNav.Navigator
       initialRouteName="Values"
       drawerContent={(props) => <MenuLeft {...props} />}
-      screenOptions={({ navigation }) => ({
+      screenOptions={({ navigation, route }) => ({
         headerStyle: {
           backgroundColor: theme.headerBgColor,
         },
@@ -42,13 +42,13 @@ export default function DrawerStack() {
           backgroundColor: theme.backgroundPrmColor,
         },
         headerLeft: () => <DrawerButton navigation={navigation} />,
-        headerRight: () => <HeaderRight />,
+        headerRight: () => <HeaderRight route={route}/>,
       })}
     >
-      <DrawerNav.Screen name="Favorites" component={Favorites} />
+      {/* <DrawerNav.Screen name="Favorites" component={Favorites} /> */}
       <DrawerNav.Screen name="Values" component={Values} />
-      <DrawerNav.Screen name="Urgencies" component={Urgencies} />
-      <DrawerNav.Screen name="Drugs" component={Drugs} />
+      {/* <DrawerNav.Screen name="Urgencies" component={Urgencies} /> */}
+      {/* <DrawerNav.Screen name="Drugs" component={Drugs} /> */}
       <DrawerNav.Screen name="Settings" component={Settings} />
     </DrawerNav.Navigator>
   );

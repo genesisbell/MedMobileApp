@@ -5,8 +5,10 @@
 
 import { smText } from '../../CommonStyles';
 
-export const primaryColor = '#54BAB9';
-export const secondaryColor = '#787a91';
+export const primaryColor = '#0C356A';
+export const secondaryColor = '#F86F03';
+export const tertiaryColor = '#6F61C0';
+export const quarternaryColor = '#FFA41B';
 
 export const backgroundPrmColor = '#fdf6e3';
 export const backgroundSryColor = '#f5e5b8';
@@ -69,6 +71,8 @@ export const textStyles = {
 export const constants = {
   primaryColor: primaryColor,
   secondaryColor: secondaryColor,
+  tertiaryColor: tertiaryColor,
+  quarternaryColor: quarternaryColor,
   backgroundPrmColor: backgroundPrmColor,
   backgroundSryColor: backgroundSryColor,
   backgroundTryColor: backgroundTryColor,
