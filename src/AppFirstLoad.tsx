@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import SplashScreen from 'react-native-splash-screen';
+
+/** @Components */
+import AppRouter from './AppRouter';
+/** */
+
+/** @Hooks */
 import { useAppDispatch } from './app/hooks';
 import { dispatchThemeSelection } from './app/slices/themeSlice';
 import { dispatchSelectedLanguage } from './app/slices/languageSlice';
-import AppRouter from './AppRouter';
+/** */
 
 export default function AppFirsLoad() {
   const dispatch = useAppDispatch();
@@ -17,6 +24,10 @@ export default function AppFirsLoad() {
     const language = await AsyncStorage.getItem('language');
     dispatchSelectedLanguage(language ? language : 'en', dispatch);
   })();
+
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
 
   return <AppRouter />;
 }

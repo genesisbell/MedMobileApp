@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Dimensions, View } from 'react-native';
 import { SvgXml } from 'react-native-svg';
-import { RouteProp, getFocusedRouteNameFromRoute, useRoute } from '@react-navigation/native';
+import { RouteProp } from '@react-navigation/native';
 
 /** @Assets */
 import { CommonStyles } from 'styles';

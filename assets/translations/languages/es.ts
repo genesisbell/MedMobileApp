@@ -63,7 +63,7 @@ const es = {
     wanted: 'Deseado',
     border: 'Border',
     high: 'Alto',
-    triglycerides: 'Triglycerides',
+    triglycerides: 'Triglicéridos',
     cerebrospinalFluid: 'Líquido Cefalorraquídeo',
     glucose: 'Glucosa',
     proteins: 'Proteinas',
@@ -72,7 +72,7 @@ const es = {
     fluids: 'Líquido pericárdico, pleural, peritoneal',
     erythrocytes: 'Eritrocitos',
     transudate: 'Trasudado',
-    exudate: 'Exudate',
+    exudate: 'Exudado',
     protein: 'Proteína',
   },
   theme: {
