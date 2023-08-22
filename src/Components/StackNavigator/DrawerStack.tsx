@@ -25,7 +25,10 @@ export type RootStackParams = {
 const DrawerNav = createDrawerNavigator<RootStackParams>();
 
 export default function DrawerStack() {
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const {theme, language} = useAppSelector(({ theme, language }) => ({
+    theme: theme.value,
+    language: language.value,
+  }));
 
   return (
     <DrawerNav.Navigator
@@ -46,10 +49,18 @@ export default function DrawerStack() {
       })}
     >
       {/* <DrawerNav.Screen name="Favorites" component={Favorites} /> */}
-      <DrawerNav.Screen name="Values" component={Values} />
+      <DrawerNav.Screen
+        name="Values"
+        component={Values}
+        options={{title: language.values.values}}
+      />
       {/* <DrawerNav.Screen name="Urgencies" component={Urgencies} /> */}
       {/* <DrawerNav.Screen name="Drugs" component={Drugs} /> */}
-      <DrawerNav.Screen name="Settings" component={Settings} />
+      <DrawerNav.Screen 
+        name="Settings"
+        component={Settings}
+        options={{title: language.settings.settings}}
+      />
     </DrawerNav.Navigator>
   );
 }

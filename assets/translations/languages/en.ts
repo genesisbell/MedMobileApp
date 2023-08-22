@@ -26,6 +26,7 @@ const en = {
     },
   },
   values:{
+    values: 'Values',
     bloodCount: 'Blood Count',
     hemoglobin: 'Hemoglobin',
     hematocrit: 'Hematocrit',
@@ -74,6 +75,9 @@ const en = {
     transudate: 'Transudate',
     exudate: 'Exudate',
     protein: 'Protein',
+  },
+  settings:{
+    settings: 'Settings',
   },
   theme: {
     selecTheme: 'Select Theme',

@@ -31,13 +31,13 @@ export default function MenuLeft(props: DrawerContentComponentProps) {
     {
       id: id++,
       icon: valuesIcon,
-      text: 'Values',
+      text: language.values.values,
       onPress: () => navigation.navigate('Values'),
     },
     {
       id: id++,
       icon: settingsIcon,
-      text: 'Settings',
+      text: language.settings.settings,
       onPress: () => navigation.navigate('Settings'),
     },
     // {
@@ -66,7 +66,7 @@ export default function MenuLeft(props: DrawerContentComponentProps) {
           />
         ))}
         <View style={theme.NavigationStyles.drawerBottomCont}>
-          <Text style={{ color: theme.textSryColor }}>
+          <Text style={theme.subText}>
             genesisbell.com | {language.copyright.version}
           </Text>
         </View>

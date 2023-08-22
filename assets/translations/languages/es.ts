@@ -26,6 +26,7 @@ const es = {
     },
   },
   values:{
+    values: 'Valores',
     bloodCount: 'Biometría hemática',
     hemoglobin: 'Hemoglobina',
     hematocrit: 'Hematocrito',
@@ -74,6 +75,9 @@ const es = {
     transudate: 'Trasudado',
     exudate: 'Exudado',
     protein: 'Proteína',
+  },
+  settings:{
+    settings: 'Configuraciones',
   },
   theme: {
     selecTheme: 'Seleccionar Tema',
