@@ -54,6 +54,18 @@ export const textStyles = {
     fontStyle: 'italic',
     fontSize: smText,
   },
+  emphasisPrmTxt: {
+    color: primaryColor
+  },
+  emphasisSryTxt: {
+    color: secondaryColor
+  },
+  emphasisTryTxt: {
+    color: tertiaryColor
+  },
+  emphasisQryTxt: {
+    color: quarternaryColor
+  },
   // popText:{
   //   color: popTextColor,
   // },

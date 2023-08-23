@@ -4,8 +4,8 @@ import { SvgXml } from 'react-native-svg';
 
 /** @Assets */
 import { CommonStyles } from 'styles';
-import { values} from 'data';
 import { chevronArrow, femaleIcon, maleIcon, referenceIcon } from 'icons';
+import { valuesType } from 'types';
 /** */
 
 /** @Components */
@@ -18,10 +18,9 @@ import {
 /** */
 
 import { useAppSelector } from '../../../app/hooks';
-
-const data = values('en');
+import { getCurrentDataBasedOnAge } from '../../../utils';
 interface ValueComp {
-  item: typeof data[0];
+  item: valuesType;
 }
 
 function ValueComp({item}: ValueComp) {
@@ -35,35 +34,88 @@ function ValueComp({item}: ValueComp) {
     }
   ));
   const [open, setOpen] = useState(false);
-  const {name, data, reference} = item;
+  const {key, name, data, reference} = item;
   const age = patient.years*12 + patient.months;
-  const currData = getCurrentData();
+  const currData = getCurrentDataBasedOnAge(data, age);
   /** */
 
   /** @Handlers */
-  function getCurrentData(){
-    let left = 0;
-    while (left <= data.length - 1) {
-
-      if(data[left].age === age || left + 1 === data.length ){
-        return data[left];
-      }
-
-      if(data[left].age < age && data[left + 1].age > age){
-        return data[left];
-      }
-
-      left = left + 1;
-
-    }
-
-    return data[left];
-  }
-
   function handleOpen(){
     setOpen(prevState => !prevState);
   }
   /** */
+
+  if(key === 'fluids'){
+    return (    
+      <TouchableWithoutFeedback onPress={handleOpen}>
+        <View>
+          <View style={CommonStyles.flexDirectionRow}>
+            <View style={open ? CommonStyles.rotate180deg : CommonStyles.rotate90deg}>
+              <SvgXml xml={chevronArrow(theme.primaryColor)} width={20} height={20}/>
+            </View>
+            <BaseSpace horizontal/>
+            <BaseText style={[CommonStyles.h3, CommonStyles.flexOne]}>{name}</BaseText>
+            <BaseModal
+              iconStyle={{paddingLeft: 10}}
+              icon={<SvgXml xml={referenceIcon(theme.primaryColor)} width={20} height={20}/>}
+            >
+              <BaseText style={CommonStyles.boldText}>{language.general.reference}</BaseText>
+              <BaseText>{reference}</BaseText>
+            </BaseModal>
+          </View>
+          {
+            open && (
+              <View>
+                <View style={CommonStyles.flexDirectionRow}>
+                  <View style={CommonStyles.flexThird}/>
+                  <View style={[CommonStyles.flexThird, CommonStyles.alignCenter]}>
+                    <BaseText style={CommonStyles.boldText}>{language.values.transudate}</BaseText>
+                  </View>
+                  <View style={[CommonStyles.flexThird, CommonStyles.alignCenter]}>
+                    <BaseText style={CommonStyles.boldText}>{language.values.exudate}</BaseText>
+                  </View>
+                </View>
+                {
+                  currData?.values.map((d, idx) => (
+                    <View key={idx}>
+                      <BaseHorizontalLine height={.5}/>
+                      <View style={CommonStyles.flexDirectionRow}>
+
+                        <View style={[CommonStyles.flexThird, CommonStyles.justifyCenter]}>
+                          <BaseText style={[CommonStyles.h6, theme.emphasisTryTxt]}>
+                            {d.name}
+                          </BaseText>
+                          <BaseText style={[theme.emphasisSryTxt, CommonStyles.extraSamllText]}>
+                            {d.measure}
+                          </BaseText>
+                        </View>
+
+                        {
+                          Array.isArray(d.values) && (
+                            <>
+                              <View style={[CommonStyles.flexThird, CommonStyles.alignCenter]}>
+                                <BaseText>{d.values[0].value}</BaseText>
+                              </View>
+
+                              <View style={[CommonStyles.flexThird, CommonStyles.alignCenter]}>
+                                <BaseText>{d.values[1].value}</BaseText>
+                              </View>
+                            </>
+                          )
+                        }
+                      </View>
+                    </View>
+                  ))
+                }
+              </View>
+            )
+          }
+          <BaseSpace/>
+          <BaseHorizontalLine height={2}/>
+        </View>
+      </TouchableWithoutFeedback>
+    )
+  }
 
   return (
     <TouchableWithoutFeedback onPress={handleOpen}>
@@ -95,10 +147,10 @@ function ValueComp({item}: ValueComp) {
 
                         <View style={[CommonStyles.flexDirectionRow, CommonStyles.justifyCenter]}>
                           <BaseText>
-                            <BaseText style={[CommonStyles.h6, CommonStyles.centerText, {color: theme.tertiaryColor}]}>
+                            <BaseText style={[CommonStyles.h6, CommonStyles.centerText, theme.emphasisTryTxt]}>
                               {d.name}
                             </BaseText>
-                            <BaseText style={[{color: theme.secondaryColor}, CommonStyles.extraSamllText]}> {d.measure}</BaseText>
+                            <BaseText style={[theme.emphasisSryTxt, CommonStyles.extraSamllText]}> {d.measure}</BaseText>
                           </BaseText>
                           {
                             d.isGirl === true && 
