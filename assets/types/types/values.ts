@@ -16,7 +16,19 @@ export const valuesKey = {
 
 export interface valueDataType{
   age: number;
+  titles: Array<{
+    name: string,
+  }>
   values: Array<{
+    name: string;
+    measure: string | null;
+    isGirl: boolean | null;
+    values: Array<{
+      name: string,
+      value: string | number,
+    }> | null;
+  }>
+  extraValues?: Array<{
     name: string;
     measure: string | null;
     isGirl: boolean | null;
