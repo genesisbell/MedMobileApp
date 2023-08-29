@@ -28,12 +28,12 @@ export function values(lang: string):Array<valuesType>{
       reference: 'Nelson. Essentials of pediatrics. 9th ed. Philadelphia: Elsevier; 2023',
       data: bloodCountData(languages[lang as keyof typeof languages]),
     },
-    {
-      key: 'liver',
-      name: languages[lang as keyof typeof languages].values.liverFunction,
-      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
-      data: liverFunctionData(languages[lang as keyof typeof languages]),
-    },
+    // {
+    //   key: 'liver',
+    //   name: languages[lang as keyof typeof languages].values.liverFunction,
+    //   reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
+    //   data: liverFunctionData(languages[lang as keyof typeof languages]),
+    // },
     // {
     //   key: 'infectious',
     //   name: languages[lang as keyof typeof languages].values.infectious,

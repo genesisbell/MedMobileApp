@@ -50,19 +50,24 @@
               	
                 //result.push(roa);
                 //Set data for values
-                for(let i = 3; i < roa.length-1; i++){
+                for(let i = 3; i < roa.length; i++){
                 	const currentRow = roa[i];
                     const age = currentRow["__EMPTY"];
+
                     const promhg = currentRow["Biometría hemática"];
                     const minhg = currentRow["__EMPTY_1"];
                     const maxhg = currentRow["__EMPTY_2"];
+
                     const promht = currentRow["__EMPTY_3"];
                     const minht = currentRow["__EMPTY_4"];
                     const maxht = currentRow["__EMPTY_5"];
+
                     const retis = currentRow["__EMPTY_6"];
+                    
                     const promleu = currentRow["__EMPTY_7"];
                     const minleu = currentRow["__EMPTY_8"];
                     const maxleu = currentRow["__EMPTY_9"];
+                    
                     const neutros = currentRow["__EMPTY_10"];
                     const linfos = currentRow["__EMPTY_11"];
                     const eos = currentRow["__EMPTY_12"];
@@ -71,84 +76,81 @@
                     result.push(
                       {
                           age,
-                            values: [
-                              {
-                                  name: 'lang.values.hemoglobin',
-                                  values: [
-                                      {
-                                          name: 'lang.values.prom',
-                                          value: promhg
-                                      },
-                                      {
-                                          name: 'lang.values.min',
-                                          value: minhg
-                                      },
-                                      {
-                                          name: 'lang.values.max',
-                                          value: maxhg
-                                      },
-                                  ],
-                              },
-                              {
-                                  name: 'lang.values.hematocrit',
-                                  values: [
-                                      {
-                                          name: 'lang.values.prom',
-                                          value: promht
-                                      },
-                                      {
-                                          name: 'lang.values.min',
-                                          value: minht
-                                      },
-                                      {
-                                          name: 'lang.values.max',
-                                          value: maxht
-                                      },
-                                  ],
-                              },
-                              {
-                                  name: 'lang.values.leukocytes',
-                                  values: [
-                                      {
-                                          name: 'lang.values.prom',
-                                          value: promleu
-                                      },
-                                      {
-                                          name: 'lang.values.min',
-                                          value: minleu
-                                      },
-                                      {
-                                          name: 'lang.values.max',
-                                          value: maxleu
-                                      },
-                                  ],
-                              },
-                              {
-                                  name: 'lang.values.retis',
-                                  values: retis,
-                              },
-                              {
-                                  name: 'lang.values.differential',
-                                  values: [
-                                      {
-                                          name: 'lang.values.neutros',
-                                          value: neutros
-                                      },
-                                      {
-                                          name: 'lang.values.linfos',
-                                          value: linfos
-                                      },
-                                      {
-                                          name: 'lang.values.eos',
-                                          value: eos
-                                      },
-                                      {
-                                          name: 'lang.values.mono',
-                                          value: mono
-                                      },
-                                  ],
-                              },
-                           ]
+                          titles: [
+                            'lang.values.prom',
+                            'lang.values.min',
+                            'lang.values.max',
+                          ],
+                          values: [
+                            {
+                                name: 'lang.values.hemoglobin',
+                                measure: null,
+                                isGirl: null,
+                                values: [
+                                  promhg,
+                                  minhg,
+                                  maxhg,
+                                ],
+                            },
+                            {
+                                name: 'lang.values.hematocrit',
+                                measure: null,
+                                isGirl: null,
+                                values: [
+                                  promht,
+                                  minht,
+                                  maxht,
+                                ],
+                            },
+                            {
+                                name: 'lang.values.leukocytes',
+                                measure: null,
+                                isGirl: null,
+                                values: [
+                                  promleu,
+                                  minleu,
+                                  maxleu,
+                                ],
+                            },
+                          ],
+                          extraValues: [
+                            {
+                                name: 'lang.values.retis',
+                                measure: null,
+                                values: {
+                                    names: null,
+                                    values: [
+                                        {
+                                            isGirl: null,
+                                            values: [retis]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                name: 'lang.values.differential',
+                                measure: null,
+                                values: {
+                                    names: [
+                                      'lang.values.neutros',
+                                      'lang.values.linfos',
+                                      'lang.values.eos',
+                                      'lang.values.mono',
+                                    ],
+                                    values: [
+                                        {
+                                          isGirl: null,
+                                          values: [
+                                            neutros,
+                                            linfos,
+                                            eos,
+                                            mono,
+                                          ]
+                                        }
+                                    ]
+                                }
+                            },
+                          ]
                         }
                     )
                 }

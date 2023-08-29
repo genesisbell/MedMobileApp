@@ -135,6 +135,9 @@ const displayStyles = StyleSheet.create({
   flexThird:{
     flex: 1/3
   },
+  flexQuarter:{
+    flex: 1/4
+  },
   flexGrowOne: {
     flexGrow: 1,
   },

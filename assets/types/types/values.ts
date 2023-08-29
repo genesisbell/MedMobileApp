@@ -1,3 +1,5 @@
+import { ObjectType } from "./common";
+
 export const valuesKey = {
   bloodCount: 'bloodCount',
   liver: 'liver',
@@ -16,26 +18,23 @@ export const valuesKey = {
 
 export interface valueDataType{
   age: number;
-  titles: Array<{
-    name: string,
-  }>
+  titles: Array<string>
   values: Array<{
     name: string;
     measure: string | null;
     isGirl: boolean | null;
-    values: Array<{
-      name: string,
-      value: string | number,
-    }> | null;
+    values: Array<string | number>;
   }>
   extraValues?: Array<{
     name: string;
     measure: string | null;
-    isGirl: boolean | null;
-    values: Array<{
-      name: string,
-      value: string | number,
-    }> | number | null;
+    values: {
+      names: null | Array<string>;
+      values: Array<{
+        isGirl: boolean | null;
+        values: Array<string> | Array<number>;
+      }>
+    };
   }>
 }; 
 

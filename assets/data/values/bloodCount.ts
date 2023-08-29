@@ -2,2275 +2,1730 @@ import { en } from 'translations';
 export function bloodCountData(lang: typeof en){
   
   return [
-    {
-        age: 0,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 16.8
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 13.7
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 20.1
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 55
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 45
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 65
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 18000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 9000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 30000
-                    }
-                ]
-            },            
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: null,
-                values: 5
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "40-80%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "31%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "2%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "6%"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        age: 1,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 16.5
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 13
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 20
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 50
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 42
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 66
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 12000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 5000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 21000
-                    }
-                ]
-            },
-        ],
-        extraValues: [
+        {
+            age: 0,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        16.8,
+                        13.7,
+                        20.1
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        55,
+                        45,
+                        65
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        18000,
+                        9000,
+                        30000
+                    ]
+                }
+            ],
+            extraValues: [
                 {
                     name: lang.values.retis,
                     measure: null,
-                    isGirl: null,
-                    values: 1
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    5
+                                ]
+                            }
+                        ]
+                    }
                 },
                 {
                     name: lang.values.differential,
                     measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "40-80%",
+                                    "31%",
+                                    "2%",
+                                    "6%"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            age: 1,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.neutros,
-                            value: "40%"
-                        },
-                        {
-                            name: lang.values.linfos,
-                            value: "48%"
-                        },
-                        {
-                            name: lang.values.eos,
-                            value: "3%"
-                        },
-                        {
-                            name: lang.values.mono,
-                            value: "3-10%"
-                        }
+                        16.5,
+                        13,
+                        20
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        50,
+                        42,
+                        66
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        12000,
+                        5000,
+                        21000
                     ]
                 }
-        ]
-    },
-    {
-        age: 3,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 12
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 9.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 14.5
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 36
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 31
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 41
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 12000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 6000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 18000
-                    }
-                ]
-            },
-        ],
-        extraValues: [
+            ],
+            extraValues: [
                 {
                     name: lang.values.retis,
                     measure: null,
-                    isGirl: null,
-                    values: 1
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
+                    }
                 },
                 {
                     name: lang.values.differential,
                     measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "40%",
+                                    "48%",
+                                    "3%",
+                                    "3-10%"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            age: 3,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.neutros,
-                            value: "30%"
-                        },
-                        {
-                            name: lang.values.linfos,
-                            value: "63%"
-                        },
-                        {
-                            name: lang.values.eos,
-                            value: "2%"
-                        },
-                        {
-                            name: lang.values.mono,
-                            value: "0%"
-                        }
+                        12,
+                        9.5,
+                        14.5
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        36,
+                        31,
+                        41
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        12000,
+                        6000,
+                        18000
                     ]
                 }
-        ]
-    },
-    {
-        age: 6,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 12
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 10.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 14
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 37
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 33
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 42
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 10000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 6000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 15000
-                    }
-                ]
-            },
-        ],
-        extraValues: [
+            ],
+            extraValues: [
                 {
                     name: lang.values.retis,
                     measure: null,
-                    isGirl: null,
-                    values: 1
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
+                    }
                 },
                 {
                     name: lang.values.differential,
                     measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "30%",
+                                    "63%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            age: 6,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.neutros,
-                            value: "45%"
-                        },
-                        {
-                            name: lang.values.linfos,
-                            value: "48%"
-                        },
-                        {
-                            name: lang.values.eos,
-                            value: "2%"
-                        },
-                        {
-                            name: lang.values.mono,
-                            value: "0%"
-                        }
+                        12,
+                        10.5,
+                        14
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        37,
+                        33,
+                        42
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        10000,
+                        6000,
+                        15000
                     ]
                 }
-        ]
-    },
-    {
-        age: 12,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 12
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 10.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 14
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 37
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 33
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 42
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 10000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 6000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 15000
-                    }
-                ]
-            },
-        ],
-        extraValues: [
+            ],
+            extraValues: [
                 {
                     name: lang.values.retis,
                     measure: null,
-                    isGirl: null,
-                    values: 1
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
+                    }
                 },
                 {
                     name: lang.values.differential,
                     measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "45%",
+                                    "48%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            age: 12,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.neutros,
-                            value: "45%"
-                        },
-                        {
-                            name: lang.values.linfos,
-                            value: "48%"
-                        },
-                        {
-                            name: lang.values.eos,
-                            value: "2%"
-                        },
-                        {
-                            name: lang.values.mono,
-                            value: "0%"
-                        }
+                        12,
+                        10.5,
+                        14
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        37,
+                        33,
+                        42
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        10000,
+                        6000,
+                        15000
                     ]
                 }
-        ]
-    },
-    {
-        age: 24,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 12
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 10.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 14
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 37
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 33
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 42
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 10000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 6000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 15000
-                    }
-                ]
-            },
-        ],
-        extraValues: [
+            ],
+            extraValues: [
                 {
                     name: lang.values.retis,
                     measure: null,
-                    isGirl: null,
-                    values: 1
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
+                    }
                 },
                 {
                     name: lang.values.differential,
                     measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "45%",
+                                    "48%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            age: 24,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.neutros,
-                            value: "45%"
-                        },
-                        {
-                            name: lang.values.linfos,
-                            value: "48%"
-                        },
-                        {
-                            name: lang.values.eos,
-                            value: "2%"
-                        },
-                        {
-                            name: lang.values.mono,
-                            value: "0%"
-                        }
+                        12,
+                        10.5,
+                        14
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        37,
+                        33,
+                        42
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        10000,
+                        6000,
+                        15000
                     ]
                 }
-        ]
-    },
-    {
-        age: 36,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 12
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 10.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 14
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 37
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 33
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 42
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 10000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 6000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 15000
-                    }
-                ]
-            },
-        ],
-        extraValues: [
+            ],
+            extraValues: [
                 {
                     name: lang.values.retis,
                     measure: null,
-                    isGirl: null,
-                    values: 1
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
+                    }
                 },
                 {
                     name: lang.values.differential,
                     measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "45%",
+                                    "48%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            age: 36,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.neutros,
-                            value: "45%"
-                        },
-                        {
-                            name: lang.values.linfos,
-                            value: "48%"
-                        },
-                        {
-                            name: lang.values.eos,
-                            value: "2%"
-                        },
-                        {
-                            name: lang.values.mono,
-                            value: "0%"
-                        }
+                        12,
+                        10.5,
+                        14
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        37,
+                        33,
+                        42
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        10000,
+                        6000,
+                        15000
                     ]
                 }
-        ]
-    },
-    {
-        age: 48,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 12
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 10.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 14
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 37
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 33
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 42
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 10000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 6000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 15000
-                    }
-                ]
-            },
-        ],
-        extraValues: [
+            ],
+            extraValues: [
                 {
                     name: lang.values.retis,
                     measure: null,
-                    isGirl: null,
-                    values: 1
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
+                    }
                 },
                 {
                     name: lang.values.differential,
                     measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "45%",
+                                    "48%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            age: 48,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.neutros,
-                            value: "45%"
-                        },
-                        {
-                            name: lang.values.linfos,
-                            value: "48%"
-                        },
-                        {
-                            name: lang.values.eos,
-                            value: "2%"
-                        },
-                        {
-                            name: lang.values.mono,
-                            value: "0%"
-                        }
+                        12,
+                        10.5,
+                        14
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        37,
+                        33,
+                        42
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        10000,
+                        6000,
+                        15000
                     ]
                 }
-        ]
-    },
-    {
-        age: 60,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 12
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 10.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 14
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 37
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 33
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 42
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 10000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 6000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 15000
-                    }
-                ]
-            },
-        ],
-        extraValues: [
+            ],
+            extraValues: [
                 {
                     name: lang.values.retis,
                     measure: null,
-                    isGirl: null,
-                    values: 1
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
+                    }
                 },
                 {
                     name: lang.values.differential,
                     measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "45%",
+                                    "48%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            age: 60,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.neutros,
-                            value: "45%"
-                        },
-                        {
-                            name: lang.values.linfos,
-                            value: "48%"
-                        },
-                        {
-                            name: lang.values.eos,
-                            value: "2%"
-                        },
-                        {
-                            name: lang.values.mono,
-                            value: "0%"
-                        }
+                        12,
+                        10.5,
+                        14
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        37,
+                        33,
+                        42
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        10000,
+                        6000,
+                        15000
                     ]
                 }
-        ]
-    },
-    {
-        age: 72,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 12
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 10.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 14
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 37
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 33
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 42
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 10000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 6000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 15000
-                    }
-                ]
-            },
-        ],
-        extraValues: [
+            ],
+            extraValues: [
                 {
                     name: lang.values.retis,
                     measure: null,
-                    isGirl: null,
-                    values: 1
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
+                    }
                 },
                 {
                     name: lang.values.differential,
                     measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "45%",
+                                    "48%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            age: 72,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.neutros,
-                            value: "45%"
-                        },
-                        {
-                            name: lang.values.linfos,
-                            value: "48%"
-                        },
-                        {
-                            name: lang.values.eos,
-                            value: "2%"
-                        },
-                        {
-                            name: lang.values.mono,
-                            value: "0%"
-                        }
+                        12,
+                        10.5,
+                        14
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        37,
+                        33,
+                        42
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        10000,
+                        6000,
+                        15000
                     ]
                 }
-        ]
-    },
-    {
-        age: 84,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 13
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 11
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 38
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 34
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 40
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "45%",
+                                    "48%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 8000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 4500
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 13500
+                }
+            ]
+        },
+        {
+            age: 84,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        13,
+                        11,
+                        16
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        38,
+                        34,
+                        40
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        8000,
+                        4500,
+                        13500
+                    ]
+                }
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: null,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "38%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "2%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "55%",
+                                    "38%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            }
-        ]
-    },
-    {
-        age: 96,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 13
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 11
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16
+                }
+            ]
+        },
+        {
+            age: 96,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        13,
+                        11,
+                        16
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        38,
+                        34,
+                        40
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        8000,
+                        4500,
+                        13500
+                    ]
+                }
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 38
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 34
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 40
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "55%",
+                                    "38%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 8000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 4500
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 13500
+                }
+            ]
+        },
+        {
+            age: 108,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        13,
+                        11,
+                        16
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        38,
+                        34,
+                        40
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        8000,
+                        4500,
+                        13500
+                    ]
+                }
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: null,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "38%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "2%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "55%",
+                                    "38%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            }
-        ]
-    },
-    {
-        age: 108,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 13
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 11
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16
+                }
+            ]
+        },
+        {
+            age: 120,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        13,
+                        11,
+                        16
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        38,
+                        34,
+                        40
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        8000,
+                        4500,
+                        13500
+                    ]
+                }
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 38
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 34
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 40
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "55%",
+                                    "38%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 8000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 4500
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 13500
+                }
+            ]
+        },
+        {
+            age: 132,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        13,
+                        11,
+                        16
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        38,
+                        34,
+                        40
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        8000,
+                        4500,
+                        13500
+                    ]
+                }
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: null,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "38%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "2%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "55%",
+                                    "38%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            }
-        ]
-    },
-    {
-        age: 120,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 13
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 11
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16
+                }
+            ]
+        },
+        {
+            age: 144,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        13,
+                        11,
+                        16
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        38,
+                        34,
+                        40
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        8000,
+                        4500,
+                        13500
+                    ]
+                }
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 38
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 34
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 40
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "55%",
+                                    "38%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 8000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 4500
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 13500
+                }
+            ]
+        },
+        {
+            age: 156,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        13,
+                        11,
+                        16
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        38,
+                        34,
+                        40
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        8000,
+                        4500,
+                        13500
+                    ]
+                }
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: null,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "38%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "2%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "55%",
+                                    "38%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            }
-        ]
-    },
-    {
-        age: 132,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 13
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 11
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16
+                }
+            ]
+        },
+        {
+            age: 168,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        13,
+                        11,
+                        16
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        38,
+                        34,
+                        40
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        8000,
+                        4500,
+                        13500
+                    ]
+                }
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 38
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 34
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 40
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "55%",
+                                    "38%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 8000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 4500
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 13500
+                }
+            ]
+        },
+        {
+            age: 180,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        13,
+                        11,
+                        16
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        38,
+                        34,
+                        40
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        8000,
+                        4500,
+                        13500
+                    ]
+                }
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: null,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "38%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "2%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "55%",
+                                    "38%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            }
-        ]
-    },
-    {
-        age: 144,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 13
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 11
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16
+                }
+            ]
+        },
+        {
+            age: 192,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        13,
+                        11,
+                        16
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        38,
+                        34,
+                        40
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        8000,
+                        4500,
+                        13500
+                    ]
+                }
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 38
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 34
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 40
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: null,
+                                values: [
+                                    "55%",
+                                    "38%",
+                                    "2%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 8000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 4500
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 13500
+                }
+            ]
+        },
+        {
+            age: 204,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: true,
+                    values: [
+                        14,
+                        12,
+                        16
+                    ]
+                },
+                {
+                    name: lang.values.hemoglobin,
+                    measure: null,
+                    isGirl: false,
+                    values: [
+                        16,
+                        14,
+                        18
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: true,
+                    values: [
+                        42,
+                        37,
+                        47
+                    ]
+                },
+                {
+                    name: lang.values.hematocrit,
+                    measure: null,
+                    isGirl: false,
+                    values: [
+                        47,
+                        42,
+                        52
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: true,
+                    values: [
+                        7500,
+                        5000,
+                        10000
+                    ]
+                },
+                {
+                    name: lang.values.leukocytes,
+                    measure: null,
+                    isGirl: false,
+                    values: [
+                        7500,
+                        5000,
+                        10000
+                    ]
+                }
+            ],
+            extraValues: [
+                {
+                    name: lang.values.retis,
+                    measure: null,
+                    values: {
+                        names: null,
+                        values: [
+                            {
+                                isGirl: true,
+                                values: [
+                                    1.6
+                                ]
+                            },
+                            {
+                                isGirl: false,
+                                values: [
+                                    1
+                                ]
+                            }
+                        ]
                     }
-                ]
-            },
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: null,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "38%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "2%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
+                },
+                {
+                    name: lang.values.differential,
+                    measure: null,
+                    values: {
+                        names: [
+                            lang.values.neutros,
+                            lang.values.linfos,
+                            lang.values.eos,
+                            lang.values.mono
+                        ],
+                        values: [
+                            {
+                                isGirl: true,
+                                values: [
+                                    "55%",
+                                    "35%",
+                                    "3%",
+                                    "0%"
+                                ]
+                            },
+                            {
+                                isGirl: false,
+                                values: [
+                                    "55%",
+                                    "35%",
+                                    "3%",
+                                    "0%"
+                                ]
+                            }
+                        ]
                     }
-                ]
-            }
-        ]
-    },
-    {
-        age: 156,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 13
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 11
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 38
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 34
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 40
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 8000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 4500
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 13500
-                    }
-                ]
-            },
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: null,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "38%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "2%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        age: 168,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 13
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 11
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 38
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 34
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 40
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 8000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 4500
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 13500
-                    }
-                ]
-            },
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: null,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "38%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "2%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        age: 180,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 13
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 11
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 38
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 34
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 40
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 8000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 4500
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 13500
-                    }
-                ]
-            },
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: null,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "38%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "2%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        age: 192,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 13
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 11
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 38
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 34
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 40
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 8000
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 4500
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 13500
-                    }
-                ]
-            },
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: null,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "38%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "2%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        age: 204,
-        titles: [
-            {
-                name: lang.values.prom,
-            },
-            {
-                name: lang.values.min,
-            },
-            {
-                name: lang.values.max,
-            },
-        ],
-        values: [
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 14
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 12
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16
-                    }
-                ]
-            },
-            {
-                name: lang.values.hemoglobin,
-                measure: null,
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 16
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 14
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 18
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 42
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 37
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 47
-                    }
-                ]
-            },
-            {
-                name: lang.values.hematocrit,
-                measure: null,
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 47
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 42
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 52
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 7500
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 5000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10000
-                    }
-                ]
-            },
-            {
-                name: lang.values.leukocytes,
-                measure: null,
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.prom,
-                        value: 7500
-                    },
-                    {
-                        name: lang.values.min,
-                        value: 5000
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10000
-                    }
-                ]
-            },
-        ],
-        extraValues: [
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: true,
-                values: 1.6
-            },
-            {
-                name: lang.values.retis,
-                measure: null,
-                isGirl: false,
-                values: 1
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "35%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "3%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
-                    }
-                ]
-            },
-            {
-                name: lang.values.differential,
-                measure: null,
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.neutros,
-                        value: "55%"
-                    },
-                    {
-                        name: lang.values.linfos,
-                        value: "35%"
-                    },
-                    {
-                        name: lang.values.eos,
-                        value: "3%"
-                    },
-                    {
-                        name: lang.values.mono,
-                        value: "0%"
-                    }
-                ]
-            }
-        ]
-    },
-]
+                }
+            ]
+        },
+    ]
 }
