@@ -50,7 +50,7 @@
               	
                 //result.push(roa);
                 //Set data for values
-                for(let i = 3; i < roa.length-1; i++){
+                for(let i = 3; i < roa.length; i++){
                 	const currentRow = roa[i];
                     const age = currentRow["__EMPTY"];
 
@@ -91,148 +91,108 @@
                     result.push(
                       {
                         age,
+                        titles: [
+                        'lang.values.min',
+                        'lang.values.max'
+                        ],
                         values: [
                           {
                             name: 'ALT',
+                            measure: null,
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minalt
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxalt
-                              },
+                              minalt,
+                              maxalt,                              
                             ],
                           },
                           {
                             name: 'AST',
+                            measure: null,
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minast
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxast
-                              },
+                              minast,
+                              maxast,
                             ],
                           },
                           {
-                            name: 'GGT U/L',
+                            name: 'GGT',
+                            measure: 'U/L',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minggt
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxggt
-                              },
+                              minggt,
+                              maxggt,
                             ],
                           },
                           {
-                            name: 'FA U/L',
+                            name: 'FA',
+                            measure: 'U/L',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minfa
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxfa
-                              },
+                              minfa,
+                              maxfa,
                             ],
                           },
                           {
-                            name: 'Prot tot g/dL',
+                            name: 'Prot tot',
+                            measure: 'g/dL',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minprot
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxprot
-                              },
+                              minprot,
+                              maxprot,
                             ],
                           },
                           {
-                            name: `${'lang.values.albumin'} g/dL`,
+                            name: 'lang.values.albumin',
+                            measure: 'g/dL',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minal
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxal
-                              },
+                              minal,
+                              maxal,
                             ],
                           },
                           {
-                            name: `${'lang.values.prealbumin'} mg/dL`,
+                            name: 'lang.values.prealbumin',
+                            measure: 'mg/dL',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minpreal
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxpreal
-                              },
+                              minpreal,
+                              maxpreal,
                             ],
                           },
                           {
-                            name: `${'lang.values.haptoglobin'} mg/dL`,
+                            name: 'lang.values.haptoglobin',
+                            measure: 'mg/dL',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minhap
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxhap
-                              },
+                              minhap,
+                              maxhap,
                             ],
                           },
                           {
-                            name: 'BT mg/dL',
+                            name: 'BT',
+                            measure: 'mg/dL',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minbt
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxbt
-                              },
+                              minbt,
+                              maxbt,
                             ],
                           },
                           {
-                            name: 'BD mg/dL',
+                            name: 'BD',
+                            measure: 'mg/dL',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minbd
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxbd
-                              },
+                              minbd,
+                              maxbd,
                             ],
                           },
                           {
-                            name: 'DHL U/L',
+                            name: 'DHL',
+                            measure: 'U/L',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: mindhl
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxdhl
-                              },
+                              mindhl,
+                              maxdhl,
                             ],
                           },
                         ]

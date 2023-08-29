@@ -50,7 +50,7 @@
               	
                 //result.push(roa);
                 //Set data for values
-                for(let i = 3; i < roa.length-1; i++){
+                for(let i = 3; i < roa.length; i++){
                 	const currentRow = roa[i];
                     const age = currentRow["__EMPTY"];
 
@@ -76,83 +76,63 @@
                     result.push(
                       {
                         age,
+                        titles: [
+                          'lang.values.min',
+                          'lang.values.max',
+                        ],
                         values: [
                           {
-                            name: 'Na mEq/L',
+                            name: 'Na',
+                            measure: 'mEq/L',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minna
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxna
-                              },
+                              minna,
+                              maxna,
                             ],
                           },
                           {
-                            name: 'K mEq/L',
+                            name: 'K',
+                            measure: 'mEq/L',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: mink
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxk
-                              },
+                              mink,
+                              maxk,
                             ],
                           },
                           {
                             name: 'Ca ionizado',
+                            measure: '',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minca
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxca
-                              },
+                              minca,
+                              maxca,
                             ],
                           },
                           {
-                            name: 'Ca total mg/dL',
+                            name: 'Ca total',
+                            measure: 'mg/dL',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: mincat
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxcat
-                              },
+                              mincat,
+                              maxcat,
                             ],
                           },
                           {
-                            name: 'Mg mg/dL',
+                            name: 'Mg',
+                            measure: 'mg/dL',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minmg
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxmg
-                              },
+                              minmg,
+                              maxmg,
                             ],
                           },
                           {
-                            name: `P mg/dL`,
+                            name: 'P',
+                            measure: 'mg/dL',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minp
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxp
-                              },
+                              minp,
+                              maxp,
                             ],
                           },
                         ]

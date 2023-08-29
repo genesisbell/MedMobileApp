@@ -50,7 +50,7 @@
               	
                 //result.push(roa);
                 //Set data for values
-                for(let i = 3; i < roa.length-1; i++){
+                for(let i = 3; i < roa.length; i++){
                 	const currentRow = roa[i];
                     const age = currentRow["__EMPTY"];
 
@@ -64,31 +64,27 @@
                     result.push(
                       {
                         age,
+                        titles: [
+                          'lang.values.min',
+                          'lang.values.max',
+                        ],
                         values: [
                           {
-                            name: 'PCR mg/L',
+                            name: 'PCR',
+                            measure: 'mg/L',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minpcr
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxpcr
-                              },
+                              minpcr,
+                              maxpcr,
                             ],
                           },
                           {
-                            name: 'VSG mm/h',
+                            name: 'VSG',
+                            measure: 'mm/h',
+                            isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: minvsg
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: maxvsg
-                              },
+                              minvsg,
+                              maxvsg,
                             ],
                           },
                         ]

@@ -4,20 +4,18 @@ export function variousData(lang: typeof en){
     return [
         {
             age: 0,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -25,14 +23,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -40,34 +32,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 1,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -75,14 +59,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -90,34 +68,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 3,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -125,14 +95,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -140,34 +104,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 6,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -175,14 +131,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -190,34 +140,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 12,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -225,14 +167,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -240,34 +176,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 24,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -275,14 +203,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -290,34 +212,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 36,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -325,14 +239,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -340,34 +248,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 48,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -375,14 +275,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -390,34 +284,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 60,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -425,14 +311,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -440,34 +320,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 72,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -475,14 +347,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -490,34 +356,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 84,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -525,14 +383,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -540,34 +392,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 96,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -575,14 +419,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -590,34 +428,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 108,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -625,14 +455,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -640,34 +464,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 120,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -675,14 +491,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -690,34 +500,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 132,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -725,14 +527,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -740,34 +536,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 144,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -775,14 +563,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -790,34 +572,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 156,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -825,14 +599,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -840,34 +608,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 168,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -875,14 +635,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -890,34 +644,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 180,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -925,14 +671,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -940,34 +680,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 192,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -975,14 +707,8 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
                     ]
                 },
                 {
@@ -990,64 +716,26 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 271
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 296
-                        }
+                        271,
+                        296
                     ]
                 }
             ]
         },
         {
             age: 204,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: lang.values.lipase,
                     measure: "U/L",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
-                    ]
-                },
-                {
-                    name: "FR",
-                    measure: "IU/mL",
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
-                    ]
-                },
-                {
-                    name: "Osm",
-                    measure: "mOsm/kg",
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 280
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 303
-                        }
+                        4,
+                        39
                     ]
                 },
                 {
@@ -1055,14 +743,17 @@ export function variousData(lang: typeof en){
                     measure: "U/L",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 39
-                        }
+                        4,
+                        39
+                    ]
+                },
+                {
+                    name: "FR",
+                    measure: "IU/mL",
+                    isGirl: true,
+                    values: [
+                        0,
+                        9
                     ]
                 },
                 {
@@ -1070,14 +761,17 @@ export function variousData(lang: typeof en){
                     measure: "IU/mL",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 9
-                        }
+                        0,
+                        9
+                    ]
+                },
+                {
+                    name: "Osm",
+                    measure: "mOsm/kg",
+                    isGirl: true,
+                    values: [
+                        280,
+                        303
                     ]
                 },
                 {
@@ -1085,14 +779,8 @@ export function variousData(lang: typeof en){
                     measure: "mOsm/kg",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 280
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 303
-                        }
+                        280,
+                        303
                     ]
                 }
             ]

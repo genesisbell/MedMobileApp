@@ -4,20 +4,18 @@ export function vitaminsAndElementsData(lang: typeof en){
   return [
         {
             age: 0,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 53.6
-                        }
+                        8,
+                        53.6
                     ]
                 },
                 {
@@ -25,14 +23,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -40,14 +32,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -55,14 +41,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 259
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1576
-                        }
+                        259,
+                        1576
                     ]
                 },
                 {
@@ -70,14 +50,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -85,14 +59,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 32.1
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 196.2
-                        }
+                        32.1,
+                        196.2
                     ]
                 },
                 {
@@ -100,14 +68,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2.1
-                        }
+                        0.2,
+                        2.1
                     ]
                 },
                 {
@@ -115,34 +77,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 56
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        56,
+                        125
                     ]
                 }
             ]
         },
         {
             age: 1,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 53.6
-                        }
+                        8,
+                        53.6
                     ]
                 },
                 {
@@ -150,14 +104,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -165,14 +113,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -180,14 +122,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 259
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1576
-                        }
+                        259,
+                        1576
                     ]
                 },
                 {
@@ -195,14 +131,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -210,14 +140,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 32.1
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 196.2
-                        }
+                        32.1,
+                        196.2
                     ]
                 },
                 {
@@ -225,14 +149,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2.1
-                        }
+                        0.2,
+                        2.1
                     ]
                 },
                 {
@@ -240,34 +158,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 56
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        56,
+                        125
                     ]
                 }
             ]
         },
         {
             age: 3,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 53.6
-                        }
+                        8,
+                        53.6
                     ]
                 },
                 {
@@ -275,14 +185,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -290,14 +194,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -305,14 +203,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 259
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1576
-                        }
+                        259,
+                        1576
                     ]
                 },
                 {
@@ -320,14 +212,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -335,14 +221,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 32.1
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 196.2
-                        }
+                        32.1,
+                        196.2
                     ]
                 },
                 {
@@ -350,14 +230,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2.1
-                        }
+                        0.2,
+                        2.1
                     ]
                 },
                 {
@@ -365,34 +239,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 56
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        56,
+                        125
                     ]
                 }
             ]
         },
         {
             age: 6,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 53.6
-                        }
+                        8,
+                        53.6
                     ]
                 },
                 {
@@ -400,14 +266,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -415,14 +275,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -430,14 +284,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 259
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1576
-                        }
+                        259,
+                        1576
                     ]
                 },
                 {
@@ -445,14 +293,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -460,14 +302,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 32.1
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 196.2
-                        }
+                        32.1,
+                        196.2
                     ]
                 },
                 {
@@ -475,14 +311,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2.1
-                        }
+                        0.2,
+                        2.1
                     ]
                 },
                 {
@@ -490,34 +320,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 56
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        56,
+                        125
                     ]
                 }
             ]
         },
         {
             age: 12,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 27.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 44.4
-                        }
+                        27.5,
+                        44.4
                     ]
                 },
                 {
@@ -525,14 +347,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -540,14 +356,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -555,14 +365,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 283
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1613
-                        }
+                        283,
+                        1613
                     ]
                 },
                 {
@@ -570,14 +374,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -585,14 +383,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 47.1
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 151.2
-                        }
+                        47.1,
+                        151.2
                     ]
                 },
                 {
@@ -600,14 +392,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -615,34 +401,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 56
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        56,
+                        125
                     ]
                 }
             ]
         },
         {
             age: 24,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 27.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 44.4
-                        }
+                        27.5,
+                        44.4
                     ]
                 },
                 {
@@ -650,14 +428,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -665,14 +437,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -680,14 +446,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 283
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1613
-                        }
+                        283,
+                        1613
                     ]
                 },
                 {
@@ -695,14 +455,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -710,14 +464,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 47.1
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 151.2
-                        }
+                        47.1,
+                        151.2
                     ]
                 },
                 {
@@ -725,14 +473,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -740,34 +482,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 56
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        56,
+                        125
                     ]
                 }
             ]
         },
         {
             age: 36,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 27.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 44.4
-                        }
+                        27.5,
+                        44.4
                     ]
                 },
                 {
@@ -775,14 +509,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -790,14 +518,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -805,14 +527,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 283
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1613
-                        }
+                        283,
+                        1613
                     ]
                 },
                 {
@@ -820,14 +536,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -835,14 +545,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -850,14 +554,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -865,34 +563,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 60
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 120
-                        }
+                        60,
+                        120
                     ]
                 }
             ]
         },
         {
             age: 48,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 27.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 44.4
-                        }
+                        27.5,
+                        44.4
                     ]
                 },
                 {
@@ -900,14 +590,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -915,14 +599,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -930,14 +608,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 283
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1613
-                        }
+                        283,
+                        1613
                     ]
                 },
                 {
@@ -945,14 +617,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -960,14 +626,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -975,14 +635,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -990,34 +644,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 60
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 120
-                        }
+                        60,
+                        120
                     ]
                 }
             ]
         },
         {
             age: 60,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 27.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 44.4
-                        }
+                        27.5,
+                        44.4
                     ]
                 },
                 {
@@ -1025,14 +671,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -1040,14 +680,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -1055,14 +689,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 283
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1613
-                        }
+                        283,
+                        1613
                     ]
                 },
                 {
@@ -1070,14 +698,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -1085,14 +707,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -1100,14 +716,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -1115,34 +725,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 117
-                        }
+                        64,
+                        117
                     ]
                 }
             ]
         },
         {
             age: 72,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 27.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 44.4
-                        }
+                        27.5,
+                        44.4
                     ]
                 },
                 {
@@ -1150,14 +752,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -1165,14 +761,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -1180,14 +770,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 283
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1613
-                        }
+                        283,
+                        1613
                     ]
                 },
                 {
@@ -1195,14 +779,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -1210,14 +788,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -1225,14 +797,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -1240,34 +806,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 117
-                        }
+                        64,
+                        117
                     ]
                 }
             ]
         },
         {
             age: 84,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 27.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 44.4
-                        }
+                        27.5,
+                        44.4
                     ]
                 },
                 {
@@ -1275,14 +833,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -1290,14 +842,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -1305,14 +851,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 283
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1613
-                        }
+                        283,
+                        1613
                     ]
                 },
                 {
@@ -1320,14 +860,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -1335,14 +869,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -1350,14 +878,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -1365,34 +887,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 65
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        65,
+                        125
                     ]
                 }
             ]
         },
         {
             age: 96,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 27.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 44.4
-                        }
+                        27.5,
+                        44.4
                     ]
                 },
                 {
@@ -1400,14 +914,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -1415,14 +923,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -1430,14 +932,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 283
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1613
-                        }
+                        283,
+                        1613
                     ]
                 },
                 {
@@ -1445,14 +941,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -1460,14 +950,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -1475,14 +959,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -1490,34 +968,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 65
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        65,
+                        125
                     ]
                 }
             ]
         },
         {
             age: 108,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 27.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 44.4
-                        }
+                        27.5,
+                        44.4
                     ]
                 },
                 {
@@ -1525,14 +995,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -1540,14 +1004,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -1555,14 +1013,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 252
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1125
-                        }
+                        252,
+                        1125
                     ]
                 },
                 {
@@ -1570,14 +1022,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -1585,14 +1031,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -1600,14 +1040,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -1615,34 +1049,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 66
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        66,
+                        125
                     ]
                 }
             ]
         },
         {
             age: 120,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 27.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 44.4
-                        }
+                        27.5,
+                        44.4
                     ]
                 },
                 {
@@ -1650,14 +1076,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -1665,14 +1085,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -1680,14 +1094,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 252
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1125
-                        }
+                        252,
+                        1125
                     ]
                 },
                 {
@@ -1695,14 +1103,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -1710,14 +1112,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -1725,14 +1121,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -1740,34 +1130,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 66
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        66,
+                        125
                     ]
                 }
             ]
         },
         {
             age: 132,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 24.9
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 55
-                        }
+                        24.9,
+                        55
                     ]
                 },
                 {
@@ -1775,14 +1157,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -1790,14 +1166,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -1805,14 +1175,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 252
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1125
-                        }
+                        252,
+                        1125
                     ]
                 },
                 {
@@ -1820,14 +1184,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -1835,14 +1193,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -1850,14 +1202,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -1865,34 +1211,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 66
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 127
-                        }
+                        66,
+                        127
                     ]
                 }
             ]
         },
         {
             age: 144,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 24.9
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 55
-                        }
+                        24.9,
+                        55
                     ]
                 },
                 {
@@ -1900,14 +1238,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -1915,14 +1247,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -1930,14 +1256,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 252
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1125
-                        }
+                        252,
+                        1125
                     ]
                 },
                 {
@@ -1945,14 +1265,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -1960,14 +1274,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -1975,14 +1283,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -1990,34 +1292,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 66
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 127
-                        }
+                        66,
+                        127
                     ]
                 }
             ]
         },
         {
             age: 156,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 24.9
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 55
-                        }
+                        24.9,
+                        55
                     ]
                 },
                 {
@@ -2025,14 +1319,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -2040,14 +1328,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -2055,14 +1337,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 252
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1125
-                        }
+                        252,
+                        1125
                     ]
                 },
                 {
@@ -2070,14 +1346,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -2085,14 +1355,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -2100,14 +1364,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -2115,34 +1373,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 69
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 124
-                        }
+                        69,
+                        124
                     ]
                 }
             ]
         },
         {
             age: 168,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 24.9
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 55
-                        }
+                        24.9,
+                        55
                     ]
                 },
                 {
@@ -2150,14 +1400,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -2165,14 +1409,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -2180,14 +1418,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 244
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 888
-                        }
+                        244,
+                        888
                     ]
                 },
                 {
@@ -2195,14 +1427,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -2210,14 +1436,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -2225,14 +1445,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -2240,34 +1454,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 69
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 124
-                        }
+                        69,
+                        124
                     ]
                 }
             ]
         },
         {
             age: 180,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 24.9
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 55
-                        }
+                        24.9,
+                        55
                     ]
                 },
                 {
@@ -2275,14 +1481,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -2290,14 +1490,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -2305,14 +1499,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 244
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 888
-                        }
+                        244,
+                        888
                     ]
                 },
                 {
@@ -2320,14 +1508,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -2335,14 +1517,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -2350,14 +1526,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -2365,34 +1535,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 62
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 123
-                        }
+                        62,
+                        123
                     ]
                 }
             ]
         },
         {
             age: 192,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 28.7
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 75.1
-                        }
+                        28.7,
+                        75.1
                     ]
                 },
                 {
@@ -2400,14 +1562,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -2415,14 +1571,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
                     ]
                 },
                 {
@@ -2430,14 +1580,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 244
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 888
-                        }
+                        244,
+                        888
                     ]
                 },
                 {
@@ -2445,14 +1589,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -2460,14 +1598,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -2475,14 +1607,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -2490,139 +1616,26 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 62
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 123
-                        }
+                        62,
+                        123
                     ]
                 }
             ]
         },
         {
             age: 204,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
             values: [
                 {
                     name: "Vit A",
                     measure: "mg/dL",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 28.7
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 75.1
-                        }
-                    ]
-                },
-                {
-                    name: "Vit B1",
-                    measure: "mCg/dL",
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
-                    ]
-                },
-                {
-                    name: "Vit B2",
-                    measure: "mCg/dL",
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
-                    ]
-                },
-                {
-                    name: "Vit B12",
-                    measure: "pg/mL",
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 203
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 811
-                        }
-                    ]
-                },
-                {
-                    name: "Vit C",
-                    measure: "mg/dL",
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
-                    ]
-                },
-                {
-                    name: "Vit D",
-                    measure: "pg/mL",
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
-                    ]
-                },
-                {
-                    name: "Vit E",
-                    measure: "mg/dL",
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
-                    ]
-                },
-                {
-                    name: "Zinc",
-                    measure: "mCg/dL",
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 62
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 133
-                        }
+                        28.7,
+                        75.1
                     ]
                 },
                 {
@@ -2630,14 +1643,17 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 28.7
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 75.1
-                        }
+                        28.7,
+                        75.1
+                    ]
+                },
+                {
+                    name: "Vit B1",
+                    measure: "mCg/dL",
+                    isGirl: true,
+                    values: [
+                        4.5,
+                        10.3
                     ]
                 },
                 {
@@ -2645,14 +1661,17 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10.3
-                        }
+                        4.5,
+                        10.3
+                    ]
+                },
+                {
+                    name: "Vit B2",
+                    measure: "mCg/dL",
+                    isGirl: true,
+                    values: [
+                        4,
+                        24
                     ]
                 },
                 {
@@ -2660,14 +1679,17 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 24
-                        }
+                        4,
+                        24
+                    ]
+                },
+                {
+                    name: "Vit B12",
+                    measure: "pg/mL",
+                    isGirl: true,
+                    values: [
+                        203,
+                        811
                     ]
                 },
                 {
@@ -2675,14 +1697,17 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 203
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 811
-                        }
+                        203,
+                        811
+                    ]
+                },
+                {
+                    name: "Vit C",
+                    measure: "mg/dL",
+                    isGirl: true,
+                    values: [
+                        0.4,
+                        2
                     ]
                 },
                 {
@@ -2690,14 +1715,17 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.4
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 2
-                        }
+                        0.4,
+                        2
+                    ]
+                },
+                {
+                    name: "Vit D",
+                    measure: "pg/mL",
+                    isGirl: true,
+                    values: [
+                        45,
+                        102.5
                     ]
                 },
                 {
@@ -2705,14 +1733,17 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "pg/mL",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 45
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 102.5
-                        }
+                        45,
+                        102.5
+                    ]
+                },
+                {
+                    name: "Vit E",
+                    measure: "mg/dL",
+                    isGirl: true,
+                    values: [
+                        0.6,
+                        1.4
                     ]
                 },
                 {
@@ -2720,14 +1751,17 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0.6
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 1.4
-                        }
+                        0.6,
+                        1.4
+                    ]
+                },
+                {
+                    name: "Zinc",
+                    measure: "mCg/dL",
+                    isGirl: true,
+                    values: [
+                        62,
+                        133
                     ]
                 },
                 {
@@ -2735,14 +1769,8 @@ export function vitaminsAndElementsData(lang: typeof en){
                     measure: "mCg/dL",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 62
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 133
-                        }
+                        62,
+                        133
                     ]
                 }
             ]

@@ -2,1100 +2,788 @@ import { en } from 'translations';
 export function bloodChemistryData(lang: typeof en){
   
   return [
-    {
-        age: 0,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 23
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 12.7
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.32
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.92
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 1,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.4
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16.8
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.6
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 6.3
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.1
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.36
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 3,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.4
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16.8
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.6
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 6.3
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.1
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.36
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 6,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.4
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 16.8
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.6
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 6.3
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.1
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.36
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 12,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 22.1
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.9
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.1
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.36
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 24,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 22.1
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.9
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.43
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 36,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 22.1
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.9
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.43
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 48,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 22.1
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.9
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.43
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 60,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 22.1
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.9
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.31
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.61
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 72,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 22.1
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.9
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.31
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.61
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 84,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 22.1
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.9
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.31
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.61
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 96,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 22.1
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.9
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.31
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.61
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 108,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 22.1
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.9
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.31
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.61
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 120,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 7.3
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 21
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.9
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.31
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.61
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 132,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 7.3
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 21
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.8
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.9
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.31
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.61
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 144,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 7.3
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 21
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.6
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 7.6
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.45
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.81
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 156,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 7.3
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 21
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.6
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 7.6
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.45
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.81
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 168,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 7.3
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 21
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.6
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 7.6
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.45
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.81
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 180,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 7.3
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 21
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.6
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 7.6
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.49
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 1.08
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 192,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 7.3
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 21
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.6
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 7.6
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.49
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 1.08
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 204,
-        values: [
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 7.3
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 19
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.6
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 6.8
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.49
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0.84
-                    }
-                ]
-            },
-            {
-                name: "BUN",
-                measure: "mg/dL",
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 7.3
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 21
-                    }
-                ]
-            },
-            {
-                name: lang.values.uricAcid,
-                measure: null,
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.6
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 7.5
-                    }
-                ]
-            },
-            {
-                name: lang.values.serumCreatinine,
-                measure: null,
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0.62
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 1.08
-                    }
-                ]
-            },
-        ]
-    },
-  ]
+        {
+            age: 0,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.32,
+                        0.92
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.8,
+                        23
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        2.8,
+                        12.7
+                    ]
+                }
+            ]
+        },
+        {
+            age: 1,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.1,
+                        0.36
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        3.4,
+                        16.8
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.6,
+                        6.3
+                    ]
+                }
+            ]
+        },
+        {
+            age: 3,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.1,
+                        0.36
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        3.4,
+                        16.8
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.6,
+                        6.3
+                    ]
+                }
+            ]
+        },
+        {
+            age: 6,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.1,
+                        0.36
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        3.4,
+                        16.8
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.6,
+                        6.3
+                    ]
+                }
+            ]
+        },
+        {
+            age: 12,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.1,
+                        0.36
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9,
+                        22.1
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.8,
+                        4.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 24,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.2,
+                        0.43
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9,
+                        22.1
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.8,
+                        4.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 36,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.2,
+                        0.43
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9,
+                        22.1
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.8,
+                        4.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 48,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.2,
+                        0.43
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9,
+                        22.1
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.8,
+                        4.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 60,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.31,
+                        0.61
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9,
+                        22.1
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.8,
+                        4.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 72,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.31,
+                        0.61
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9,
+                        22.1
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.8,
+                        4.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 84,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.31,
+                        0.61
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9,
+                        22.1
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.8,
+                        4.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 96,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.31,
+                        0.61
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9,
+                        22.1
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.8,
+                        4.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 108,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.31,
+                        0.61
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9,
+                        22.1
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.8,
+                        4.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 120,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.31,
+                        0.61
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        7.3,
+                        21
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.8,
+                        4.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 132,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.31,
+                        0.61
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        7.3,
+                        21
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        1.8,
+                        4.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 144,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.45,
+                        0.81
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        7.3,
+                        21
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        2.6,
+                        7.6
+                    ]
+                }
+            ]
+        },
+        {
+            age: 156,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.45,
+                        0.81
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        7.3,
+                        21
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        2.6,
+                        7.6
+                    ]
+                }
+            ]
+        },
+        {
+            age: 168,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.45,
+                        0.81
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        7.3,
+                        21
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        2.6,
+                        7.6
+                    ]
+                }
+            ]
+        },
+        {
+            age: 180,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.49,
+                        1.08
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        7.3,
+                        21
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        2.6,
+                        7.6
+                    ]
+                }
+            ]
+        },
+        {
+            age: 192,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        0.49,
+                        1.08
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        7.3,
+                        21
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: null,
+                    values: [
+                        2.6,
+                        7.6
+                    ]
+                }
+            ]
+        },
+        {
+            age: 204,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: true,
+                    values: [
+                        0.49,
+                        0.84
+                    ]
+                },
+                {
+                    name: lang.values.serumCreatinine,
+                    measure: null,
+                    isGirl: false,
+                    values: [
+                        0.62,
+                        1.08
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: true,
+                    values: [
+                        7.3,
+                        19
+                    ]
+                },
+                {
+                    name: "BUN",
+                    measure: "mg/dL",
+                    isGirl: false,
+                    values: [
+                        7.3,
+                        21
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: true,
+                    values: [
+                        2.6,
+                        6.8
+                    ]
+                },
+                {
+                    name: lang.values.uricAcid,
+                    measure: null,
+                    isGirl: false,
+                    values: [
+                        2.6,
+                        7.5
+                    ]
+                }                
+            ]
+        },
+    ]
 }

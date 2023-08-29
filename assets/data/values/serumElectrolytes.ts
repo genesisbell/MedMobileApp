@@ -1,2090 +1,1366 @@
 import { en } from 'translations';
-export function serumElectrolytesData(lang: typeof en){
+import { valuesDataType } from 'types';
+export function serumElectrolytesData(lang: typeof en):valuesDataType{
  
   return [
-    {
-        age: 0,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.7
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.9
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 6
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.99
-                    },
-                    {
-                      name: lang.values.max,
-                      value: 3.94
-                    }
-                  ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 5.6
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 10.5
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 8.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 11
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 1,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.7
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.9
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.7
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.9
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.97
-                    },
-                    {
-                      name: lang.values.max,
-                      value: 3.09
-                    }
-                  ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.8
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 8.4
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 8.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 11
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 3,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.7
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.9
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.7
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.9
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.97
-                    },
-                    {
-                      name: lang.values.max,
-                      value: 3.09
-                    }
-                  ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.8
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 8.4
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 8.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 11
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 6,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.7
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.9
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.7
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.9
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 1.97
-                    },
-                    {
-                      name: lang.values.max,
-                      value: 3.09
-                    }
-                  ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.8
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 8.4
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 8.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 11
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 12,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.1
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.3
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                      name: lang.values.max,
-                      value: 2.84
-                    }
-                  ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.3
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 6.8
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10.5
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 24,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 0
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 0
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.1
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.3
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                      name: lang.values.max,
-                      value: 2.84
-                    }
-                  ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.3
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 6.8
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10.5
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 36,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 135
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 142
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.1
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.3
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                      name: lang.values.max,
-                      value: 2.84
-                    }
-                  ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.3
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 6.8
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10.5
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 48,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 135
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 142
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.1
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.3
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                      name: lang.values.max,
-                      value: 2.84
-                    }
-                  ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.3
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 6.8
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10.5
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 60,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 135
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 142
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.4
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.7
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                      name: lang.values.max,
-                      value: 2.84
-                    }
-                  ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.1
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 5.9
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10.5
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 72,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 136
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.4
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.7
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                      name: lang.values.max,
-                      value: 2.84
-                    }
-                  ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.1
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 5.9
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10.5
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 84,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 136
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.4
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.7
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                      }
-                    ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.1
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 5.9
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10.5
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 96,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 136
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.4
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.7
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                      }
-                    ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.1
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 5.9
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10.5
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 108,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 136
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.4
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.7
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                      }
-                    ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.1
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 5.9
-                  }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10.5
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        age: 120,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 136
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.4
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.7
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                      }
-                ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.1
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 5.9
-                    }
-                  ]
-              },
-              {
-                  name: "Ca total",
-                  measure: 'mg/dL',
-                isGirl: null,
-                  values: [
-                      {
-                          name: lang.values.min,
-                          value: 9.2
-                      },
-                      {
-                          name: lang.values.max,
-                          value: 10.5
-                      }
-                  ]
-              },
-        ]
-    },
-    {
-        age: 12,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 136
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.4
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 4.7
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                      }
-                ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.1
-                  },
-                  {
-                    name: lang.values.max,
-                    value: 5.9
-                    }
-                  ]
-              },
-              {
-                  name: "Ca total",
-                  measure: 'mg/dL',
-                isGirl: null,
-                  values: [
-                      {
-                          name: lang.values.min,
-                          value: 9.2
-                      },
-                      {
-                          name: lang.values.max,
-                          value: 10.5
-                      }
-                  ]
-              },
-        ]
-    },
-    {
-        age: 144,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 136
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.1
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                    }
-                ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 4.1
-                  },
-                  {
-                    name: lang.values.max,
-                        value: 5.9
-                    }
-                  ]
-              },
-              {
-                  name: "Ca total",
-                  measure: 'mg/dL',
-                isGirl: null,
-                  values: [
-                      {
-                          name: lang.values.min,
-                          value: 9.2
-                      },
-                      {
-                          name: lang.values.max,
-                          value: 10.5
-                      }
-                  ]
-              },
-        ]
-    },
-    {
-        age: 156,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 136
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.1
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                    }
-                ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 3.2
-                  },
-                  {
-                    name: lang.values.max,
-                        value: 6.2
-                    }
-                  ]
-              },
-              {
-                  name: "Ca total",
-                  measure: 'mg/dL',
-                isGirl: null,
-                  values: [
-                      {
-                          name: lang.values.min,
-                          value: 9.2
-                      },
-                      {
-                          name: lang.values.max,
-                          value: 10.5
-                      }
-                  ]
-              },
-        ]
-    },
-    {
-        age: 168,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 136
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.1
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                    name: "Mg",
-                    measure: 'mg/dL',
-                isGirl: null,
+        {
+            age: 0,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: null,
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
                     values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                    }
-                ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 3.2
-                  },
-                  {
-                    name: lang.values.max,
-                        value: 6.2
-                    }
-                  ]
-              },
-              {
-                  name: "Ca total",
-                  measure: 'mg/dL',
-                isGirl: null,
-                  values: [
-                      {
-                          name: lang.values.min,
-                          value: 9.2
-                      },
-                      {
-                          name: lang.values.max,
-                          value: 10.5
-                      }
-                  ]
-              },
-        ]
-    },
-    {
-        age: 180,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 136
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.1
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                    name: "Mg",
-                    measure: 'mg/dL',
-                isGirl: null,
+                        3.7,
+                        5.9
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
                     values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                    }
-                ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 3.2
-                  },
-                  {
-                    name: lang.values.max,
-                        value: 6.2
-                    }
-                  ]
-              },
-              {
-                  name: "Ca total",
-                  measure: 'mg/dL',
-                isGirl: null,
-                  values: [
-                      {
-                          name: lang.values.min,
-                          value: 9.2
-                      },
-                      {
-                          name: lang.values.max,
-                          value: 10.5
-                      }
-                  ]
-              },
-        ]
-    },
-    {
-        age: 192,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 136
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.1
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: null,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                    name: "Mg",
-                    measure: 'mg/dL',
-                isGirl: null,
+                        3.9,
+                        6
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
                     values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                    }
-                ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: null,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 3.2
-                  },
-                  {
-                    name: lang.values.max,
-                        value: 6.2
-                    }
-                  ]
-              },
-              {
-                  name: "Ca total",
-                  measure: 'mg/dL',
-                isGirl: null,
-                  values: [
-                      {
-                          name: lang.values.min,
-                          value: 9.2
-                      },
-                      {
-                          name: lang.values.max,
-                          value: 10.5
-                      }
-                  ]
-              },
-        ]
-    },
-    {
-        age: 204,
-        values: [
-            {
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 137
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 142
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.1
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                    }
-                ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: true,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 2.9
-                  },
-                  {
-                    name: lang.values.max,
-                        value: 5
-                    }
-                ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: true,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10.5
-                    }
-                ]
-            },{
-                name: "Na",
-                measure: 'mEq/L',
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 137
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 143
-                    }
-                ]
-            },
-            {
-                name: "K",
-                measure: 'mEq/L',
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 3.5
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.1
-                    }
-                ]
-            },
-            {
-                name: `Ca ${lang.values.ionized}`,
-                measure: null,
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 4.9
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 5.5
-                    }
-                ]
-            },
-            {
-                name: "Mg",
-                measure: 'mg/dL',
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 2.09
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 2.84
-                    }
-                ]
-            },
-            {
-                name: "P",
-                measure: 'mg/dL',
-                isGirl: false,
-                values: [
-                  {
-                    name: lang.values.min,
-                    value: 2.9
-                  },
-                  {
-                    name: lang.values.max,
-                        value: 5
-                    }
-                  ]
-            },
-            {
-                name: "Ca total",
-                measure: 'mg/dL',
-                isGirl: false,
-                values: [
-                    {
-                        name: lang.values.min,
-                        value: 9.2
-                    },
-                    {
-                        name: lang.values.max,
-                        value: 10.5
-                    }
-                ]
-            },
-        ]
-    },
-  ];
+                        8.5,
+                        11
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        1.99,
+                        3.94
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        5.6,
+                        10.5
+                    ]
+                }
+            ]
+        },
+        {
+            age: 1,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: null
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.7,
+                        5.9
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        3.7,
+                        5.9
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        8.5,
+                        11
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        1.97,
+                        3.09
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.8,
+                        8.4
+                    ]
+                }
+            ]
+        },
+        {
+            age: 3,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: null
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.7,
+                        5.9
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        3.7,
+                        5.9
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        8.5,
+                        11
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        1.97,
+                        3.09
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.8,
+                        8.4
+                    ]
+                }
+            ]
+        },
+        {
+            age: 6,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: null
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.7,
+                        5.9
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        3.7,
+                        5.9
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        8.5,
+                        11
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        1.97,
+                        3.09
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.8,
+                        8.4
+                    ]
+                }
+            ]
+        },
+        {
+            age: 12,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: null
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.3
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.3,
+                        6.8
+                    ]
+                }
+            ]
+        },
+        {
+            age: 24,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: null
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.3
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.3,
+                        6.8
+                    ]
+                }
+            ]
+        },
+        {
+            age: 36,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        135,
+                        142
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.3
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.3,
+                        6.8
+                    ]
+                }
+            ]
+        },
+        {
+            age: 48,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        135,
+                        142
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.3
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.3,
+                        6.8
+                    ]
+                }
+            ]
+        },
+        {
+            age: 60,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        135,
+                        142
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.4,
+                        4.7
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 72,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        136,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.4,
+                        4.7
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 84,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        136,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.4,
+                        4.7
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 96,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        136,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.4,
+                        4.7
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 108,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        136,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.4,
+                        4.7
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 120,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        136,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.4,
+                        4.7
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 132,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        136,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.4,
+                        4.7
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 144,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        136,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.5,
+                        5.1
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        4.1,
+                        5.9
+                    ]
+                }
+            ]
+        },
+        {
+            age: 156,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        136,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.5,
+                        5.1
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        3.2,
+                        6.2
+                    ]
+                }
+            ]
+        },
+        {
+            age: 168,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        136,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.5,
+                        5.1
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        3.2,
+                        6.2
+                    ]
+                }
+            ]
+        },
+        {
+            age: 180,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        136,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.5,
+                        5.1
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        3.2,
+                        6.2
+                    ]
+                }
+            ]
+        },
+        {
+            age: 192,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        136,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: null,
+                    values: [
+                        3.5,
+                        5.1
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: null,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: null,
+                    values: [
+                        3.2,
+                        6.2
+                    ]
+                }
+            ]
+        },
+        {
+            age: 204,
+            titles: [
+                lang.values.min,
+                lang.values.max
+            ],
+            values: [
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: true,
+                    values: [
+                        137,
+                        142
+                    ]
+                },
+                {
+                    name: "Na",
+                    measure: "mEq/L",
+                    isGirl: false,
+                    values: [
+                        137,
+                        143
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: true,
+                    values: [
+                        3.5,
+                        5.1
+                    ]
+                },
+                {
+                    name: "K",
+                    measure: "mEq/L",
+                    isGirl: false,
+                    values: [
+                        3.5,
+                        5.1
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: true,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca ionizado",
+                    measure: "",
+                    isGirl: false,
+                    values: [
+                        4.9,
+                        5.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: true,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Ca total",
+                    measure: "mg/dL",
+                    isGirl: false,
+                    values: [
+                        9.2,
+                        10.5
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: true,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "Mg",
+                    measure: "mg/dL",
+                    isGirl: false,
+                    values: [
+                        2.09,
+                        2.84
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: true,
+                    values: [
+                        2.9,
+                        5
+                    ]
+                },
+                {
+                    name: "P",
+                    measure: "mg/dL",
+                    isGirl: false,
+                    values: [
+                        2.9,
+                        5
+                    ]
+                }
+            ]
+        },
+    ];
 }

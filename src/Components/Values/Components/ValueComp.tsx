@@ -98,10 +98,10 @@ function ValueComp({item}: ValueComp) {
                           </View>
                         }
                       </View>
-
-                      {value.measure && (
-                      <BaseText style={[theme.emphasisSryTxt, CommonStyles.extraSamllText]}>{value.measure}</BaseText>
-                      )}
+                      {
+                        value.measure !== null && 
+                        <BaseText style={[theme.emphasisSryTxt, CommonStyles.extraSamllText]}>{value.measure}</BaseText>
+                      }
                     </View>
                     {
                       value.values?.map((value2, idx) => (
@@ -134,7 +134,7 @@ function ValueComp({item}: ValueComp) {
                         extraValue.values.names && (
                           <View style={CommonStyles.flexDirectionRowSpaceBetween}>
                             {
-                              extraValue.values.values[0].isGirl !== null && (
+                              extraValue.values.values && extraValue.values.values[0].isGirl !== null && (
                                 <View>
                                   <SvgXml xml={femaleIcon(theme.backgroundPrmColor)} width={18} height={18}/>
                                 </View>
@@ -156,7 +156,7 @@ function ValueComp({item}: ValueComp) {
                         )
                       }
                       {
-                        extraValue.values.values.map((ext, idx) => (
+                        extraValue.values.values?.map((ext, idx) => (
                           <View key={idx} style={CommonStyles.flexDirectionRowSpaceBetween}>
                             {
                               ext.isGirl !== null && (
@@ -172,7 +172,7 @@ function ValueComp({item}: ValueComp) {
                               )
                             }
                             {
-                              ext.values.map((value, idx) => (
+                              ext.values?.map((value, idx) => (
                                 <View key={idx} style={[CommonStyles.flexOne, CommonStyles.alignCenter]}>
                                   <BaseText>{value}</BaseText>
                                 </View>
