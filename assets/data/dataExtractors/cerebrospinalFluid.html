@@ -71,24 +71,24 @@
                     result.push(
                       {
                         age,
+                        titles: [
+                          'lang.values.prom',
+                          'lang.values.min',
+                          'lang.values.max',
+                          '5th P',
+                          '95th P'
+                        ],
                         values: [
                           {
                             name: 'lang.values.leukocytes',
-                            measure: null,
+                            measure: 'Leukos/μl',
                             isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: min1
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: prom1
-                              },
-                              {
-                                name: '95th P',
-                                value: p951
-                              },
+                              prom1,
+                              min1,
+                              null,
+                              null,
+                              p951,
                             ],
                           },
                           {
@@ -96,14 +96,11 @@
                             measure: 'mg/dL',
                             isGirl: null,
                             values: [
-                              {
-                                name: '5th P',
-                                value: p52
-                              },
-                              {
-                                name: 'lang.values.prom',
-                                value: prom2
-                              },
+                              prom2,
+                              null,
+                              null,
+                              p52,
+                              null,
                             ],
                           },
                           {
@@ -111,14 +108,11 @@
                             measure: 'mg/dL',
                             isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.prom',
-                                value: prom3
-                              },
-                              {
-                                name: '95th p',
-                                value: p953
-                              },
+                              prom3,
+                              null,
+                              null,
+                              null,
+                              p953,
                             ],
                           },
                           {
@@ -126,14 +120,11 @@
                             measure: 'cmH2O',
                             isGirl: null,
                             values: [
-                              {
-                                name: 'lang.values.min',
-                                value: min4
-                              },
-                              {
-                                name: 'lang.values.max',
-                                value: max4
-                              },
+                              null,
+                              min4,
+                              max4,
+                              null,
+                              null,
                             ],
                           },
                         ]

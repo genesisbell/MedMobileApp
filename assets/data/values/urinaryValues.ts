@@ -4,661 +4,792 @@ export function urinaryValuesData(lang: typeof en){
     return[
         {
             age: 0,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`,
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "Ca",
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.8"
-                        }
+                        null,
+                        "<0.8",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 20
-                        }
+                        8,
+                        20,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 }
             ]
         },
         {
             age: 1,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "Ca",
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.8"
-                        }
+                        null,
+                        "<0.8",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 20
-                        }
+                        8,
+                        20,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 }
             ]
         },
         {
             age: 3,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "Ca",
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.8"
-                        }
+                        null,
+                        "<0.8",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 20
-                        }
+                        8,
+                        20,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 }
             ]
         },
         {
             age: 6,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "Ca",
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.8"
-                        }
+                        null,
+                        "<0.8",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 20
-                        }
+                        8,
+                        20,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 }
             ]
         },
         {
             age: 12,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "Ca",
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.6"
-                        }
+                        null,
+                        "<0.6",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 20
-                        }
+                        8,
+                        20,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 }
             ]
         },
         {
             age: 24,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "Ca",
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.21"
-                        }
+                        null,
+                        "<0.21",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 20
-                        }
+                        8,
+                        20,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 }
             ]
         },
         {
             age: 36,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "Ca",
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.21"
-                        }
+                        null,
+                        "<0.21",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 20
-                        }
+                        8,
+                        20,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 2
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 10
-                        }
+                        2,
+                        10,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 }
             ]
         },
         {
             age: 48,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -666,103 +797,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.22"
-                        }
+                        null,
+                        "<0.22",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 22
-                        }
+                        8,
+                        22,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 15
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 40
-                        }
+                        15,
+                        40,
+                        null,
+                        null
                     ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 14
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 40
-                        }
+                        14,
+                        40,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 }
             ]
         },
         {
             age: 60,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -770,103 +907,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.22"
-                        }
+                        null,
+                        "<0.22",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 22
-                        }
+                        8,
+                        22,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 15
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 40
-                        }
+                        15,
+                        40,
+                        null,
+                        null
                     ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: null,
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 14
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 40
-                        }
+                        14,
+                        40,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 }
             ]
         },
         {
             age: 72,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -874,139 +1017,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.23"
-                        }
+                        null,
+                        "<0.23",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 22
-                        }
+                        8,
+                        22,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 18
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 74
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 20
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 69
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 37
-                        }
+                        18,
+                        74,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 36
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 110
-                        }
+                        36,
+                        110,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        20,
+                        69,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 41
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 115
-                        }
+                        41,
+                        115,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        8,
+                        37,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 17
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 54
-                        }
+                        17,
+                        54,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 84,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -1014,139 +1127,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.23"
-                        }
+                        null,
+                        "<0.23",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 22
-                        }
+                        8,
+                        22,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 18
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 74
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 20
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 69
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 37
-                        }
+                        18,
+                        74,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 36
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 110
-                        }
+                        36,
+                        110,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        20,
+                        69,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 41
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 115
-                        }
+                        41,
+                        115,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        8,
+                        37,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 17
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 54
-                        }
+                        17,
+                        54,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 96,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -1154,139 +1237,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.23"
-                        }
+                        null,
+                        "<0.23",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 22
-                        }
+                        8,
+                        22,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 18
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 74
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 20
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 69
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 37
-                        }
+                        18,
+                        74,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 36
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 110
-                        }
+                        36,
+                        110,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        20,
+                        69,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 41
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 115
-                        }
+                        41,
+                        115,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        8,
+                        37,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 17
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 54
-                        }
+                        17,
+                        54,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 108,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -1294,139 +1347,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.23"
-                        }
+                        null,
+                        "<0.23",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 22
-                        }
+                        8,
+                        22,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 18
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 74
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 20
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 69
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 37
-                        }
+                        18,
+                        74,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 36
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 110
-                        }
+                        36,
+                        110,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        20,
+                        69,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 41
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 115
-                        }
+                        41,
+                        115,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        8,
+                        37,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 17
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 54
-                        }
+                        17,
+                        54,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 120,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -1434,139 +1457,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.24"
-                        }
+                        null,
+                        "<0.23",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 22
-                        }
+                        8,
+                        22,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 176
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 48
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 168
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 18
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 58
-                        }
+                        18,
+                        74,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 176
-                        }
+                        36,
+                        110,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        20,
+                        69,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 63
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 177
-                        }
+                        41,
+                        115,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        8,
+                        37,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 22
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 57
-                        }
+                        17,
+                        54,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 132,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -1574,139 +1567,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.24"
-                        }
+                        null,
+                        "<0.24",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 22
-                        }
+                        8,
+                        22,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 176
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 48
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 168
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 18
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 58
-                        }
+                        64,
+                        176,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 176
-                        }
+                        64,
+                        176,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        48,
+                        168,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 63
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 177
-                        }
+                        63,
+                        177,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        18,
+                        58,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 22
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 57
-                        }
+                        22,
+                        57,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 144,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -1714,139 +1677,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.25"
-                        }
+                        null,
+                        "<0.24",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 30
-                        }
+                        8,
+                        22,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 176
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 48
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 168
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 18
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 58
-                        }
+                        64,
+                        176,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 176
-                        }
+                        64,
+                        176,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        48,
+                        168,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 63
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 177
-                        }
+                        63,
+                        177,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        18,
+                        58,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 22
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 57
-                        }
+                        22,
+                        57,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 156,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -1854,139 +1787,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.25"
-                        }
+                        null,
+                        "<0.25",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 30
-                        }
+                        8,
+                        30,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 176
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 48
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 168
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 18
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 58
-                        }
+                        64,
+                        176,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 176
-                        }
+                        64,
+                        176,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        48,
+                        168,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 63
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 177
-                        }
+                        63,
+                        177,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        18,
+                        58,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 22
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 57
-                        }
+                        22,
+                        57,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 168,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -1994,139 +1897,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.25"
-                        }
+                        null,
+                        "<0.25",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 30
-                        }
+                        8,
+                        30,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 176
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 48
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 168
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 18
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 58
-                        }
+                        64,
+                        176,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 64
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 176
-                        }
+                        64,
+                        176,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        48,
+                        168,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 63
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 177
-                        }
+                        63,
+                        177,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        18,
+                        58,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 22
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 57
-                        }
+                        22,
+                        57,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 180,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -2134,139 +2007,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.26"
-                        }
+                        null,
+                        "<0.26",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 30
-                        }
+                        8,
+                        30,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 110
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 250
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 40
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 220
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 25
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        110,
+                        250,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 110
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 250
-                        }
+                        110,
+                        250,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        40,
+                        220,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 40
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 220
-                        }
+                        40,
+                        220,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        25,
+                        125,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 25
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        25,
+                        125,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 192,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -2274,139 +2117,109 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.26"
-                        }
+                        null,
+                        "<0.26",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 30
-                        }
+                        8,
+                        30,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 110
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 250
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 40
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 220
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 25
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        110,
+                        250,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 110
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 250
-                        }
+                        110,
+                        250,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        40,
+                        220,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 40
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 220
-                        }
+                        40,
+                        220,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        25,
+                        125,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 25
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        25,
+                        125,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 204,
+            titles: [
+                lang.values.min,
+                lang.values.max,
+                `${lang.values.max} H`,
+                `${lang.values.max} M`
+            ],
             values: [
                 {
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 3.35
-                        },
-                        {
-                            name: `${lang.values.max} H`,
-                            value: 13.15
-                        },
-                        {
-                            name: `${lang.values.max} M`,
-                            value: 18.34
-                        }
+                        3.35,
+                        null,
+                        13.15,
+                        18.34
                     ]
                 },
                 {
@@ -2414,118 +2227,90 @@ export function urinaryValuesData(lang: typeof en){
                     measure: "mg/mgCr",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.max,
-                            value: "<0.26"
-                        }
+                        null,
+                        "<0.26",
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cr 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 30
-                        }
+                        8,
+                        30,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: true,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 110
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 250
-                        }
-                    ]
-                },
-                {
-                    name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 40
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 220
-                        }
-                    ]
-                },
-                {
-                    name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
-                    isGirl: true,
-                    values: [
-                        {
-                            name: lang.values.min,
-                            value: 25
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        110,
+                        250,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Cl 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 110
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 250
-                        }
+                        110,
+                        250,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "Na 24h",
-                    measure: `mEq/${lang.general.day}`,
+                    measure: "mEq/día",
+                    isGirl: true,
+                    values: [
+                        40,
+                        220,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "Na 24h",
+                    measure: "mEq/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 40
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 220
-                        }
+                        40,
+                        220,
+                        null,
+                        null
                     ]
                 },
                 {
                     name: "K 24h",
-                    measure: `mg/kg/${lang.general.day}`,
+                    measure: "mg/kg/día",
+                    isGirl: true,
+                    values: [
+                        25,
+                        125,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    name: "K 24h",
+                    measure: "mg/kg/día",
                     isGirl: false,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 25
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 125
-                        }
+                        25,
+                        125,
+                        null,
+                        null
                     ]
                 }
             ]
-        }
+        },
     ]
 }

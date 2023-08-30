@@ -11,7 +11,6 @@ import { Platform, StyleSheet } from 'react-native';
 // #787A91
 // #EEEEEE
 
-export const primaryColor = '#54BAB9';
 export const overlayColor = 'rgba(0,0,0,0.5)';
 
 /** @Style_Constants */
@@ -91,15 +90,15 @@ const textSyles = StyleSheet.create({
   rightAlignText: {
     textAlign: 'right',
   },
-  emphasisText: {
-    color: primaryColor,
-  },
-  emphasisHeaderText: {
-    fontSize: h3Size,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    color: primaryColor,
-  },
+  // emphasisText: {
+  //   color: primaryColor,
+  // },
+  // emphasisHeaderText: {
+  //   fontSize: h3Size,
+  //   fontWeight: 'bold',
+  //   textAlign: 'center',
+  //   color: primaryColor,
+  // },
   // subText:{
   //     color: textSryColor,
   // },

@@ -11,7 +11,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.32,
@@ -29,7 +29,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         2.8,
@@ -47,7 +47,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.1,
@@ -65,7 +65,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.6,
@@ -83,7 +83,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.1,
@@ -101,7 +101,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.6,
@@ -119,7 +119,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.1,
@@ -137,7 +137,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.6,
@@ -155,7 +155,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.1,
@@ -173,7 +173,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.8,
@@ -191,7 +191,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.2,
@@ -209,7 +209,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.8,
@@ -227,7 +227,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.2,
@@ -245,7 +245,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.8,
@@ -263,7 +263,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.2,
@@ -281,7 +281,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.8,
@@ -299,7 +299,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.31,
@@ -317,7 +317,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.8,
@@ -335,7 +335,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.31,
@@ -353,7 +353,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.8,
@@ -371,7 +371,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.31,
@@ -389,7 +389,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.8,
@@ -407,7 +407,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.31,
@@ -425,7 +425,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.8,
@@ -443,7 +443,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.31,
@@ -461,7 +461,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.8,
@@ -479,7 +479,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.31,
@@ -497,7 +497,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.8,
@@ -515,7 +515,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.31,
@@ -533,7 +533,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         1.8,
@@ -551,7 +551,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.45,
@@ -569,7 +569,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         2.6,
@@ -587,7 +587,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.45,
@@ -605,7 +605,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         2.6,
@@ -623,7 +623,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.45,
@@ -641,7 +641,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         2.6,
@@ -659,7 +659,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.49,
@@ -677,7 +677,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         2.6,
@@ -695,7 +695,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         0.49,
@@ -713,7 +713,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: null,
                     values: [
                         2.6,
@@ -731,7 +731,7 @@ export function bloodChemistryData(lang: typeof en){
             values: [
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: true,
                     values: [
                         0.49,
@@ -740,7 +740,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.serumCreatinine,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: false,
                     values: [
                         0.62,
@@ -767,7 +767,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: true,
                     values: [
                         2.6,
@@ -776,7 +776,7 @@ export function bloodChemistryData(lang: typeof en){
                 },
                 {
                     name: lang.values.uricAcid,
-                    measure: null,
+                    measure: 'mg/dL',
                     isGirl: false,
                     values: [
                         2.6,

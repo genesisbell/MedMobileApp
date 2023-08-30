@@ -12,7 +12,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         16.8,
@@ -22,7 +22,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         55,
@@ -32,7 +32,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         18000,
@@ -92,7 +92,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         16.5,
@@ -102,7 +102,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         50,
@@ -112,7 +112,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         12000,
@@ -172,7 +172,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         12,
@@ -182,7 +182,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         36,
@@ -192,7 +192,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         12000,
@@ -252,7 +252,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         12,
@@ -262,7 +262,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         37,
@@ -272,7 +272,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         10000,
@@ -332,7 +332,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         12,
@@ -342,7 +342,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         37,
@@ -352,7 +352,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         10000,
@@ -412,7 +412,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         12,
@@ -422,7 +422,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         37,
@@ -432,7 +432,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         10000,
@@ -492,7 +492,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         12,
@@ -502,7 +502,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         37,
@@ -512,7 +512,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         10000,
@@ -572,7 +572,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         12,
@@ -582,7 +582,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         37,
@@ -592,7 +592,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         10000,
@@ -652,7 +652,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         12,
@@ -662,7 +662,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         37,
@@ -672,7 +672,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         10000,
@@ -732,7 +732,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         12,
@@ -742,7 +742,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         37,
@@ -752,7 +752,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         10000,
@@ -812,7 +812,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         13,
@@ -822,7 +822,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         38,
@@ -832,7 +832,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         8000,
@@ -892,7 +892,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         13,
@@ -902,7 +902,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         38,
@@ -912,7 +912,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         8000,
@@ -972,7 +972,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         13,
@@ -982,7 +982,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         38,
@@ -992,7 +992,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         8000,
@@ -1052,7 +1052,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         13,
@@ -1062,7 +1062,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         38,
@@ -1072,7 +1072,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         8000,
@@ -1132,7 +1132,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         13,
@@ -1142,7 +1142,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         38,
@@ -1152,7 +1152,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         8000,
@@ -1212,7 +1212,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         13,
@@ -1222,7 +1222,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         38,
@@ -1232,7 +1232,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         8000,
@@ -1292,7 +1292,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         13,
@@ -1302,7 +1302,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         38,
@@ -1312,7 +1312,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         8000,
@@ -1372,7 +1372,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         13,
@@ -1382,7 +1382,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         38,
@@ -1392,7 +1392,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         8000,
@@ -1452,7 +1452,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         13,
@@ -1462,7 +1462,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         38,
@@ -1472,7 +1472,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         8000,
@@ -1532,7 +1532,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: null,
                     values: [
                         13,
@@ -1542,7 +1542,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: null,
                     values: [
                         38,
@@ -1552,7 +1552,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: null,
                     values: [
                         8000,
@@ -1612,7 +1612,7 @@ export function bloodCountData(lang: typeof en){
             values: [
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: true,
                     values: [
                         14,
@@ -1622,7 +1622,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hemoglobin,
-                    measure: null,
+                    measure: "g/dL",
                     isGirl: false,
                     values: [
                         16,
@@ -1632,7 +1632,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: true,
                     values: [
                         42,
@@ -1642,7 +1642,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.hematocrit,
-                    measure: null,
+                    measure: '%',
                     isGirl: false,
                     values: [
                         47,
@@ -1652,7 +1652,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: true,
                     values: [
                         7500,
@@ -1662,7 +1662,7 @@ export function bloodCountData(lang: typeof en){
                 },
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: '10³/μl',
                     isGirl: false,
                     values: [
                         7500,

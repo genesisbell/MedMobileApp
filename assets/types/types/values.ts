@@ -23,7 +23,7 @@ export interface valueDataType{
     name: string;
     measure: string | null;
     isGirl: boolean | null;
-    values: Array<string | number> | null;
+    values: Array<string | number | null> | null;
   }>
   extraValues?: Array<{
     name: string;

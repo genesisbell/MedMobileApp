@@ -27,7 +27,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         3.9,
@@ -87,7 +87,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         3.7,
@@ -147,7 +147,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         3.7,
@@ -207,7 +207,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         3.7,
@@ -267,7 +267,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -327,7 +327,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -390,7 +390,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -453,7 +453,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -516,7 +516,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -579,7 +579,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -642,7 +642,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -705,7 +705,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -768,7 +768,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -831,7 +831,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -894,7 +894,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -957,7 +957,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -1020,7 +1020,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -1083,7 +1083,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -1146,7 +1146,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -1209,7 +1209,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: null,
                     values: [
                         4.9,
@@ -1290,7 +1290,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: true,
                     values: [
                         4.9,
@@ -1299,7 +1299,7 @@ export function serumElectrolytesData(lang: typeof en):valuesDataType{
                 },
                 {
                     name: "Ca ionizado",
-                    measure: "",
+                    measure: "mg/dL",
                     isGirl: false,
                     values: [
                         4.9,

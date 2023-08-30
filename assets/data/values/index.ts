@@ -76,30 +76,30 @@ export function values(lang: string):Array<valuesType>{
       reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
       data: vitaminsAndElementsData(languages[lang as keyof typeof languages]),
     },
-    // {
-    //   key: 'lipid',
-    //   name: languages[lang as keyof typeof languages].values.lipidProfile,
-    //   reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
-    //   data: lipidProfileData(languages[lang as keyof typeof languages]),
-    // },
-    // {
-    //   key: 'cerebral',
-    //   name: languages[lang as keyof typeof languages].values.cerebrospinalFluid,
-    //   reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
-    //   data: cerebrospinalFluidData(languages[lang as keyof typeof languages]),
-    // },
-    // {
-    //   key: 'urinary',
-    //   name: languages[lang as keyof typeof languages].values.urinaryValues,
-    //   reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
-    //   data: urinaryValuesData(languages[lang as keyof typeof languages]),
-    // },
-    // {
-    //   key: 'fluids',
-    //   name: languages[lang as keyof typeof languages].values.fluids,
-    //   reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
-    //   data: fluidsData(languages[lang as keyof typeof languages]),
-    // },
+    {
+      key: 'lipid',
+      name: languages[lang as keyof typeof languages].values.lipidProfile,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
+      data: lipidProfileData(languages[lang as keyof typeof languages]),
+    },
+    {
+      key: 'cerebral',
+      name: languages[lang as keyof typeof languages].values.cerebrospinalFluid,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
+      data: cerebrospinalFluidData(languages[lang as keyof typeof languages]),
+    },
+    {
+      key: 'urinary',
+      name: languages[lang as keyof typeof languages].values.urinaryValues,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
+      data: urinaryValuesData(languages[lang as keyof typeof languages]),
+    },
+    {
+      key: 'fluids',
+      name: languages[lang as keyof typeof languages].values.fluids,
+      reference: 'K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.',
+      data: fluidsData(languages[lang as keyof typeof languages]),
+    },
   ]
 }
 

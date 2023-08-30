@@ -4,24 +4,24 @@ export function cerebrospinalFluidData(lang: typeof en){
   return [
         {
             age: 0,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 12
-                        },
-                        {
-                            name: "95th P",
-                            value: 16
-                        }
+                        12,
+                        0,
+                        null,
+                        null,
+                        16
                     ]
                 },
                 {
@@ -29,14 +29,11 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: "5th P",
-                            value: 35
-                        },
-                        {
-                            name: lang.values.prom,
-                            value: 45
-                        }
+                        45,
+                        null,
+                        null,
+                        35,
+                        null
                     ]
                 },
                 {
@@ -44,14 +41,11 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 66
-                        },
-                        {
-                            name: "95th p",
-                            value: 118
-                        }
+                        66,
+                        null,
+                        null,
+                        null,
+                        118
                     ]
                 },
                 {
@@ -59,38 +53,35 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 11
-                        }
+                        null,
+                        8,
+                        11,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 1,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 8
-                        },
-                        {
-                            name: "95th P",
-                            value: 11
-                        }
+                        8,
+                        0,
+                        null,
+                        null,
+                        11
                     ]
                 },
                 {
@@ -98,14 +89,11 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: "5th P",
-                            value: 37
-                        },
-                        {
-                            name: lang.values.prom,
-                            value: 47
-                        }
+                        47,
+                        null,
+                        null,
+                        37,
+                        null
                     ]
                 },
                 {
@@ -113,14 +101,11 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 49
-                        },
-                        {
-                            name: "95th p",
-                            value: 91
-                        }
+                        49,
+                        null,
+                        null,
+                        null,
+                        91
                     ]
                 },
                 {
@@ -128,59 +113,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 11
-                        }
+                        null,
+                        8,
+                        11,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 3,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        8,
+                        0,
+                        null,
+                        null,
+                        11
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        47,
+                        null,
+                        null,
+                        37,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 6
-                        },
-                        {
-                            name: "95th p",
-                            value: 25
-                        }
+                        49,
+                        null,
+                        null,
+                        null,
+                        91
                     ]
                 },
                 {
@@ -188,59 +173,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 11
-                        }
+                        null,
+                        8,
+                        11,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 6,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 6
-                        },
-                        {
-                            name: "95th p",
-                            value: 25
-                        }
+                        6,
+                        null,
+                        null,
+                        null,
+                        25
                     ]
                 },
                 {
@@ -248,59 +233,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 8
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 11
-                        }
+                        null,
+                        8,
+                        11,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 12,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 6
-                        },
-                        {
-                            name: "95th p",
-                            value: 25
-                        }
+                        6,
+                        null,
+                        null,
+                        null,
+                        25
                     ]
                 },
                 {
@@ -308,59 +293,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 24,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 5
-                        },
-                        {
-                            name: "95th p",
-                            value: 25
-                        }
+                        5,
+                        null,
+                        null,
+                        null,
+                        25
                     ]
                 },
                 {
@@ -368,59 +353,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 36,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 5
-                        },
-                        {
-                            name: "95th p",
-                            value: 25
-                        }
+                        5,
+                        null,
+                        null,
+                        null,
+                        25
                     ]
                 },
                 {
@@ -428,59 +413,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 48,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 5
-                        },
-                        {
-                            name: "95th p",
-                            value: 25
-                        }
+                        5,
+                        null,
+                        null,
+                        null,
+                        25
                     ]
                 },
                 {
@@ -488,59 +473,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 60,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 5
-                        },
-                        {
-                            name: "95th p",
-                            value: 25
-                        }
+                        5,
+                        null,
+                        null,
+                        null,
+                        25
                     ]
                 },
                 {
@@ -548,59 +533,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 72,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 5
-                        },
-                        {
-                            name: "95th p",
-                            value: 28
-                        }
+                        5,
+                        null,
+                        null,
+                        null,
+                        28
                     ]
                 },
                 {
@@ -608,59 +593,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 84,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 5
-                        },
-                        {
-                            name: "95th p",
-                            value: 28
-                        }
+                        5,
+                        null,
+                        null,
+                        null,
+                        28
                     ]
                 },
                 {
@@ -668,59 +653,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 96,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 5
-                        },
-                        {
-                            name: "95th p",
-                            value: 28
-                        }
+                        5,
+                        null,
+                        null,
+                        null,
+                        28
                     ]
                 },
                 {
@@ -728,59 +713,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 108,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 5
-                        },
-                        {
-                            name: "95th p",
-                            value: 28
-                        }
+                        5,
+                        null,
+                        null,
+                        null,
+                        28
                     ]
                 },
                 {
@@ -788,59 +773,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 120,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 5
-                        },
-                        {
-                            name: "95th p",
-                            value: 28
-                        }
+                        5,
+                        null,
+                        null,
+                        null,
+                        28
                     ]
                 },
                 {
@@ -848,59 +833,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 132,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 5
-                        },
-                        {
-                            name: "95th p",
-                            value: 28
-                        }
+                        5,
+                        null,
+                        null,
+                        null,
+                        28
                     ]
                 },
                 {
@@ -908,59 +893,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 144,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 6
-                        },
-                        {
-                            name: "95th p",
-                            value: 34
-                        }
+                        6,
+                        null,
+                        null,
+                        null,
+                        34
                     ]
                 },
                 {
@@ -968,59 +953,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 156,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 6
-                        },
-                        {
-                            name: "95th p",
-                            value: 34
-                        }
+                        6,
+                        null,
+                        null,
+                        null,
+                        34
                     ]
                 },
                 {
@@ -1028,59 +1013,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 168,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 6
-                        },
-                        {
-                            name: "95th p",
-                            value: 34
-                        }
+                        6,
+                        null,
+                        null,
+                        null,
+                        34
                     ]
                 },
                 {
@@ -1088,59 +1073,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 180,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 6
-                        },
-                        {
-                            name: "95th p",
-                            value: 34
-                        }
+                        6,
+                        null,
+                        null,
+                        null,
+                        34
                     ]
                 },
                 {
@@ -1148,59 +1133,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 192,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 6
-                        },
-                        {
-                            name: "95th p",
-                            value: 34
-                        }
+                        6,
+                        null,
+                        null,
+                        null,
+                        34
                     ]
                 },
                 {
@@ -1208,59 +1193,59 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]
         },
         {
             age: 204,
+            titles: [
+                lang.values.prom,
+                lang.values.min,
+                lang.values.max,
+                "5th P",
+                "95th P"
+            ],
             values: [
                 {
                     name: lang.values.leukocytes,
-                    measure: null,
+                    measure: 'Leukos/μl',
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 0
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 7
-                        },
-                        {
-                            name: "95th P",
-                            value: "-"
-                        }
+                        7,
+                        0,
+                        null,
+                        null,
+                        "-"
                     ]
                 },
                 {
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: null,
+                    values: [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
                 },
                 {
                     name: lang.values.proteins,
                     measure: "mg/dL",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.prom,
-                            value: 6
-                        },
-                        {
-                            name: "95th p",
-                            value: 34
-                        }
+                        6,
+                        null,
+                        null,
+                        null,
+                        34
                     ]
                 },
                 {
@@ -1268,14 +1253,11 @@ export function cerebrospinalFluidData(lang: typeof en){
                     measure: "cmH2O",
                     isGirl: null,
                     values: [
-                        {
-                            name: lang.values.min,
-                            value: 11.5
-                        },
-                        {
-                            name: lang.values.max,
-                            value: 28
-                        }
+                        null,
+                        11.5,
+                        28,
+                        null,
+                        null
                     ]
                 }
             ]

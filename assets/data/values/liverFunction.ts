@@ -11,7 +11,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         5,
@@ -20,7 +20,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         32,
@@ -119,7 +119,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         5,
@@ -128,7 +128,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         20,
@@ -227,7 +227,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         5,
@@ -236,7 +236,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         20,
@@ -335,7 +335,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         5,
@@ -344,7 +344,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         20,
@@ -443,7 +443,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -452,7 +452,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         21,
@@ -551,7 +551,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -560,7 +560,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         21,
@@ -659,7 +659,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -668,7 +668,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         21,
@@ -767,7 +767,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -776,7 +776,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         21,
@@ -875,7 +875,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -884,7 +884,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         21,
@@ -983,7 +983,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -992,7 +992,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         21,
@@ -1091,7 +1091,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -1100,7 +1100,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         18,
@@ -1199,7 +1199,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -1208,7 +1208,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         18,
@@ -1307,7 +1307,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -1316,7 +1316,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         18,
@@ -1415,7 +1415,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -1424,7 +1424,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         18,
@@ -1523,7 +1523,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -1532,7 +1532,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         18,
@@ -1631,7 +1631,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -1640,7 +1640,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         13,
@@ -1739,7 +1739,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -1748,7 +1748,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         13,
@@ -1847,7 +1847,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -1856,7 +1856,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         13,
@@ -1955,7 +1955,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -1964,7 +1964,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         13,
@@ -2063,7 +2063,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         9,
@@ -2072,7 +2072,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: null,
                     values: [
                         13,
@@ -2171,7 +2171,7 @@ export function liverFunctionData(lang: typeof en){
             values: [
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: true,
                     values: [
                         9,
@@ -2180,7 +2180,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "ALT",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: false,
                     values: [
                         9,
@@ -2189,7 +2189,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: true,
                     values: [
                         13,
@@ -2198,7 +2198,7 @@ export function liverFunctionData(lang: typeof en){
                 },
                 {
                     name: "AST",
-                    measure: null,
+                    measure: "U/L",
                     isGirl: false,
                     values: [
                         14,

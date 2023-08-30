@@ -8,8 +8,7 @@ import {
 } from 'react-native';
 
 /** @Assets */
-import { 
-    primaryColor,
+import {
     thickBorder,
     mdSpace,
 } from 'styles';
@@ -56,7 +55,7 @@ export function BaseButton(props: BaseButtonProps){
 
   const theme = useAppSelector(({ theme }) => theme.value); 
 
-    const bcolor = buttonColor || primaryColor;
+    const bcolor = buttonColor || theme.primaryColor;
     const hasShadow = shadow === undefined ? true : shadow;
     const shadowObject = hasShadow ? theme.shadow : {};
     // let disabled = true;
@@ -68,9 +67,9 @@ export function BaseButton(props: BaseButtonProps){
         finalHeight = 35;
     }
 
-    const colorButton = buttonColor || primaryColor;
+    const colorButton = buttonColor || theme.primaryColor;
     const colorBorder = borderColor || bcolor;
-    const colorText = textColor || theme.textSryColor;
+    const colorText = textColor || theme.textTryColor;
 
     const conditionalStyle = StyleSheet.create({
         button:{

@@ -16,6 +16,7 @@ export const backgroundTryColor = '#FFFFFF';
 
 export const textPrmColor = '#CECECE';
 export const textSryColor = '#787a91';
+export const textTryColor = '#FFFFFF';
 
 export const borderPrmColor = '#444444';
 export const borderSryColor = '#5D5D5D';
@@ -91,6 +92,7 @@ export const constants = {
 
   textPrmColor: textPrmColor,
   textSryColor: textSryColor,
+  textTryColor: textTryColor,
 
   borderPrmColor: borderPrmColor,
   borderSryColor: borderSryColor,
