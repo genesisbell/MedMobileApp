@@ -15,12 +15,7 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Ca",
@@ -70,45 +65,25 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 }
             ]
         },
@@ -125,12 +100,7 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Ca",
@@ -180,45 +150,25 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 }
             ]
         },
@@ -235,12 +185,7 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Ca",
@@ -290,45 +235,25 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null
                 },
                 {
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 }
             ]
         },
@@ -345,12 +270,7 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Ca",
@@ -400,45 +320,25 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 }
             ]
         },
@@ -455,12 +355,7 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Ca",
@@ -510,45 +405,25 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 }
             ]
         },
@@ -565,12 +440,7 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Ca",
@@ -620,45 +490,25 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 }
             ]
         },
@@ -675,12 +525,7 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Alb",
                     measure: "mg/m2/d",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Ca",
@@ -730,45 +575,25 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 }
             ]
         },
@@ -840,45 +665,25 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 }
             ]
         },
@@ -950,45 +755,25 @@ export function urinaryValuesData(lang: typeof en){
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "Na 24h",
                     measure: "mEq/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: true,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: "K 24h",
                     measure: "mg/kg/día",
                     isGirl: false,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 }
             ]
         },

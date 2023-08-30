@@ -208,13 +208,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -268,13 +262,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -328,13 +316,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -388,13 +370,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -448,13 +424,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -508,13 +478,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -568,13 +532,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -628,13 +586,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -688,13 +640,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -748,13 +694,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -808,13 +748,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -868,13 +802,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -928,13 +856,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -988,13 +910,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -1048,13 +964,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -1108,13 +1018,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -1168,13 +1072,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,
@@ -1228,13 +1126,7 @@ export function cerebrospinalFluidData(lang: typeof en){
                     name: lang.values.glucose,
                     measure: "mg/dL",
                     isGirl: null,
-                    values: [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
-                    ]
+                    values: null,
                 },
                 {
                     name: lang.values.proteins,

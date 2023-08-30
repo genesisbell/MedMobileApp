@@ -76,43 +76,46 @@ function ValueComp({item}: ValueComp) {
               }
             </View>
             {
-              currData.values.map((value, idx) => (
-                <View key={idx}>
-                  <BaseHorizontalLine height={.5}/>
-                  <View style={CommonStyles.flexDirectionRow}>
-                    <View style={[CommonStyles.flexOne, CommonStyles.justifyCenter]}>
-                      <View style={CommonStyles.flexDirectionRow}>
-                        <BaseText style={[CommonStyles.h6, theme.emphasisTryTxt]}>{value.name}</BaseText>
+              currData.values.map((value, idx) => {
+                if(!value.values) return null;
+                return (
+                  <View key={idx}>
+                    <BaseHorizontalLine height={.5}/>
+                    <View style={CommonStyles.flexDirectionRow}>
+                      <View style={[CommonStyles.flexOne, CommonStyles.justifyCenter]}>
+                        <View style={CommonStyles.flexDirectionRow}>
+                          <BaseText style={[CommonStyles.h6, theme.emphasisTryTxt]}>{value.name}</BaseText>
+                          {
+                            value.isGirl === true && 
+                            <View style={CommonStyles.flexDirectionRow}>
+                              <BaseSpace xsm horizontal/>
+                              <SvgXml xml={femaleIcon('pink')} width={18} height={18}/>
+                            </View>
+                          }
+                          {
+                            value.isGirl === false &&
+                            <View style={CommonStyles.flexDirectionRow}>
+                              <BaseSpace xsm horizontal/>
+                              <SvgXml xml={maleIcon('#A2CDF0')} width={18} height={18}/>
+                            </View>
+                          }
+                        </View>
                         {
-                          value.isGirl === true && 
-                          <View style={CommonStyles.flexDirectionRow}>
-                            <BaseSpace xsm horizontal/>
-                            <SvgXml xml={femaleIcon('pink')} width={18} height={18}/>
-                          </View>
-                        }
-                        {
-                          value.isGirl === false &&
-                          <View style={CommonStyles.flexDirectionRow}>
-                            <BaseSpace xsm horizontal/>
-                            <SvgXml xml={maleIcon('#A2CDF0')} width={18} height={18}/>
-                          </View>
+                          value.measure !== null && 
+                          <BaseText style={[theme.emphasisSryTxt, CommonStyles.extraSamllText]}>{value.measure}</BaseText>
                         }
                       </View>
                       {
-                        value.measure !== null && 
-                        <BaseText style={[theme.emphasisSryTxt, CommonStyles.extraSamllText]}>{value.measure}</BaseText>
+                        value.values?.map((value2, idx) => (
+                          <View key={idx} style={[CommonStyles.flexHalf, CommonStyles.alignCenter]}>
+                            <BaseText>{value2}</BaseText>
+                          </View>
+                        ))
                       }
                     </View>
-                    {
-                      value.values?.map((value2, idx) => (
-                        <View key={idx} style={[CommonStyles.flexHalf, CommonStyles.alignCenter]}>
-                          <BaseText>{value2}</BaseText>
-                        </View>
-                      ))
-                    }
                   </View>
-                </View>
-              ))
+                )
+              })
             }
             <BaseSpace bg/>
             <View>
