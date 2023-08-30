@@ -16,7 +16,7 @@ import {
 // import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 
 /** @Assets */
-import { CommonStyles, bgSpace, tabBarHeight, primaryColor } from 'styles';
+import { CommonStyles, bgSpace, tabBarHeight } from 'styles';
 import { useAppSelector } from '../../../src/app/hooks';
 /***/
 
@@ -65,7 +65,7 @@ function Screen(props: ScreenProps) {
             justifyContent: 'center',
           }}
         >
-          <ActivityIndicator size={'large'} color={primaryColor} />
+          <ActivityIndicator size={'large'} color={theme.primaryColor} />
         </View>
       </View>
     );
@@ -126,7 +126,7 @@ export function BaseScreen(props: BaseScreenProps) {
   }
   return (
     <SafeAreaView style={[CommonStyles.flexOne, { backgroundColor: bgColor }]}>
-      <StatusBar barStyle={'dark-content'} backgroundColor={'white'} />
+      <StatusBar barStyle={'dark-content'} backgroundColor={theme.headerBgColor} />
       {isIos ? (
         isKeyboardAvoidingViewNative ? (
           <KeyboardAvoidingView
