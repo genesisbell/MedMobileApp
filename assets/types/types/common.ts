@@ -1,7 +1,10 @@
 export type ObjectType = { [key: string]: any };
 export type OptionType = {
   text: string;
-  info: ObjectType;
+  info: {
+    key: string | number,
+    [key: string]: any,
+  };
   onPress?: (info: ObjectType) => void;
   index?: number;
   component?: React.ReactNode;

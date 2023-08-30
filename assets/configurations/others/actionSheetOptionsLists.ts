@@ -25,3 +25,19 @@ export function getMonths() {
 
   return months;
 }
+
+
+export const langOptions:OptionsType = [
+  {
+    text: 'English',
+    info: {
+      key: 'en'
+    }
+  },
+  {
+    text: 'Español',
+    info: {
+      key: 'es'
+    }
+  },
+]

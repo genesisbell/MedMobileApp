@@ -1,10 +1,16 @@
 import React from 'react';
-import { Text, View } from 'react-native';
-import { Picker } from '@react-native-picker/picker';
+import { View } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+/** @Assets */
+import { langOptions } from 'configurations';
+import { OptionType } from 'types';
+/** */
+
 /** @Components */
+import { BaseActionSheet } from './BaseActionSheet';
 import { BaseSpace } from './BaseSpace';
+import { BaseText } from './BaseText';
 /** */
 
 import { useAppSelector, useAppDispatch } from '../../../src/app/hooks';
@@ -14,27 +20,27 @@ export function BaseLangSelection() {
   const dispatch = useAppDispatch();
   const language = useAppSelector(({ language }) => language.value);
   const theme = useAppSelector(({ theme }) => theme.value);
+  const langIndex = langOptions.findIndex(lang => lang.info.key === language.name);
 
-  function saveLanguageSelection(value: string) {
-    dispatchSelectedLanguage(value, dispatch);
+  function saveLanguageSelection(option: OptionType) {
+    dispatchSelectedLanguage(option.info.key.toString(), dispatch);
     void (async function () {
-      await AsyncStorage.setItem('language', value);
+      await AsyncStorage.setItem('language', option.info.key.toString());
     })();
   }
 
   return (
     <View>
       <BaseSpace xbg />
-      <Text style={[theme.bigText, theme.centerText, { color: theme.textPrmColor }]}>
+      <BaseText style={[theme.bigText, theme.centerText]}>
         {language.language.selectLanguage}
-      </Text>
-      <Picker
-        selectedValue={language.name}
-        onValueChange={(itemValue) => saveLanguageSelection(itemValue)}
-      >
-        <Picker.Item label="English" value="en" color={theme.textPrmColor} />
-        <Picker.Item label="Español" value="es" color={theme.textPrmColor} />
-      </Picker>
+      </BaseText>
+      <BaseSpace />
+      <BaseActionSheet
+        options={langOptions}
+        initialOptionIndex={langIndex}
+        getOptionInfo={saveLanguageSelection}
+      />
     </View>
   );
 }
