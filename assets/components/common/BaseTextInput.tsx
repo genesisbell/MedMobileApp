@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 
 /** @Assets */
-import { primaryColor, inputHelperButtonWidth, smBrRadius } from 'styles';
+import { inputHelperButtonWidth, smBrRadius } from 'styles';
 /***/
 
 import { useAppSelector } from '../../../src/app/hooks';
@@ -84,7 +84,7 @@ export function BaseTextInput(props: BaseTextInputProps) {
   const handleOnFocus = () => {
     if (!disabled) {
       animate(1);
-      setColor(primaryColor);
+      setColor(theme.primaryColor);
       setShowBorder(true);
     }
   };

@@ -61,7 +61,7 @@ export function getSolutionsByOptions(lang: typeof en){
   ]
 }
 
-export function getSolutionsWithOptions(lang: typeof en){
+export function getSalineTypeOptions(lang: typeof en){
 
   return [
     {
