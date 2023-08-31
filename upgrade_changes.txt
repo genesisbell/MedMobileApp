@@ -1,0 +1,24 @@
+info Fetching diff between v0.68.7 and v0.69.0...
+info Applying diff...
+warn Excluding files that exist in the template, but not in your project:
+  - .flowconfig
+error Excluding files that failed to apply the diff:
+  - android/app/build.gradle
+
+info Fetching diff between v0.69.0 and v0.69.12...
+info Applying diff...
+warn Excluding files that exist in the template, but not in your project:
+  - ios/MedMobileApp.xcworkspace.xcodeproj/project.pbxproj
+  - ios/MedMobileApp.xcworkspace.xcworkspace/contents.xcworkspacedata
+error Excluding files that failed to apply the diff:
+  - ios/Podfile
+
+info Fetching diff between v0.69.12 and v0.70.0...
+info Applying diff...
+warn Excluding files that exist in the template, but not in your project:
+  - App.js
+error Excluding files that failed to apply the diff:
+  - .flowconfig
+  - android/app/build.gradle
+  - android/app/src/main/jni/Android.mk
+  - ios/Podfile
