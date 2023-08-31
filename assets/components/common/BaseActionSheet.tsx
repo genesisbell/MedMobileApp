@@ -100,7 +100,7 @@ export function BaseActionSheet(props: BaseActionSheetProps) {
                 }}
               >
                 {!option ? (
-                  <Text style={theme.subText}>{language.general.chooseOption}</Text>
+                  <Text style={theme.subSmText}>{language.general.chooseOption}</Text>
                 ) : (
                   <Text style={theme.prmTxt}>{option.text}</Text>
                 )}

@@ -8,7 +8,7 @@ export function BaseText(props: TextProps){
   const theme = useAppSelector(({ theme }) => theme.value);
 
   return(
-    <Text {...props} style={[theme.prmTxt, props.style]} >
+    <Text {...props} style={[theme.BaseTextStyles.text, props.style]} >
       {props.children}
     </Text>
   )

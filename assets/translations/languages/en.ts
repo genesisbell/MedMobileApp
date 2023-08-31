@@ -1,7 +1,9 @@
 const en = {
   name: 'en',
+  appName: 'Blueberry Pedriatrics',
   general: {
     age: 'Age',
+    by: 'By',
     cancel: 'Cancel',
     chooseOption: 'Choose an Option',
     day: 'day',
@@ -11,6 +13,7 @@ const en = {
     serum: 'Serum',
     years: 'Years',
     weight: 'Weight',
+    with: 'With',
   },
   drugs:{
     pneumology: 'Pneumology',
@@ -78,6 +81,12 @@ const en = {
   },
   settings:{
     settings: 'Settings',
+  },
+  solutions:{
+    solutions: 'Solutions',
+    bodySurface: 'Body Surface',
+    naConcentrate: 'Concentrate of NA',
+    salineSolution: 'Saline Solution',
   },
   theme: {
     selecTheme: 'Select Theme',

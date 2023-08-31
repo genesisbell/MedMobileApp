@@ -3,6 +3,7 @@
 //Sry: Secondary
 //Try: Tertiary
 
+import { StyleSheet } from 'react-native';
 import { smText } from '../../CommonStyles';
 
 export const primaryColor = '#114B97';
@@ -43,43 +44,45 @@ export const shadow = {
   elevation: 2,
 };
 
-export const textStyles = {
-  prmTxt: {
-    color: textPrmColor,
-  },
-  subText: {
-    color: textSryColor,
-  },
-  subSmText: {
-    color: textSryColor,
-    fontStyle: 'italic',
-    fontSize: smText,
-  },
-  emphasisPrmTxt: {
-    color: primaryColor
-  },
-  emphasisSryTxt: {
-    color: secondaryColor
-  },
-  emphasisTryTxt: {
-    color: tertiaryColor
-  },
-  emphasisQryTxt: {
-    color: quarternaryColor
-  },
-  // popText:{
-  //   color: popTextColor,
-  // },
-  // tryText:{
-  //   color: textTryColor,
-  // },
-  // errText:{
-  //   color: errColor,
-  // },
-  // successText:{
-  //   color: textSuccessColor,
-  // }
-};
+export const textStyles = StyleSheet.create(
+  {
+    prmTxt: {
+      color: textPrmColor,
+    },
+    subText: {
+      color: textSryColor,
+    },
+    subSmText: {
+      color: textSryColor,
+      fontStyle: 'italic',
+      fontSize: smText,
+    },
+    emphasisPrmTxt: {
+      color: primaryColor
+    },
+    emphasisSryTxt: {
+      color: secondaryColor
+    },
+    emphasisTryTxt: {
+      color: tertiaryColor
+    },
+    emphasisQryTxt: {
+      color: quarternaryColor
+    },
+    // popText:{
+    //   color: popTextColor,
+    // },
+    // tryText:{
+    //   color: textTryColor,
+    // },
+    // errText:{
+    //   color: errColor,
+    // },
+    // successText:{
+    //   color: textSuccessColor,
+    // }
+  }
+);
 
 export const constants = {
   primaryColor: primaryColor,

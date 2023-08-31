@@ -1,7 +1,9 @@
 const es = {
   name: 'es',
+  appName: 'Blueberry Pediatría',
   general: {
     age: 'Edad',
+    by: 'por',
     cancel: 'Cancelar',
     chooseOption: 'Elige una opción',
     day: 'día',
@@ -11,6 +13,7 @@ const es = {
     serum: 'Sérico',
     years: 'Años',
     weight: 'Peso',
+    with: 'con',
   },
   drugs:{
     pneumology: 'Neumología',
@@ -78,6 +81,12 @@ const es = {
   },
   settings:{
     settings: 'Configuraciones',
+  },
+  solutions:{
+    solutions: 'Soluciones',
+    bodySurface: 'Superficie corporal',
+    naConcentrate: 'Concentrado de Na',
+    salineSolution: 'Solución Salina',
   },
   theme: {
     selecTheme: 'Seleccionar Tema',

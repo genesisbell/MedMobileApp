@@ -1,14 +1,17 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Image, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { DrawerContentComponentProps } from '@react-navigation/drawer';
 
 /** @Assets */
-import { homeIcon, settingsIcon, valuesIcon } from 'icons';
+import { settingsIcon, solutionsIcon, valuesIcon } from 'icons';
+import { logo } from 'images';
+import { CommonStyles } from 'styles';
 /** */
 
 /** @Components */
 import LeftNavButton from './LeftNavButton';
+import { BaseHorizontalLine, BaseText } from 'components';
 /** */
 
 /** @Hooks */
@@ -36,6 +39,12 @@ export default function MenuLeft(props: DrawerContentComponentProps) {
     },
     {
       id: id++,
+      icon: solutionsIcon,
+      text: language.solutions.solutions,
+      onPress: () => navigation.navigate('Solutions'),
+    },
+    {
+      id: id++,
       icon: settingsIcon,
       text: language.settings.settings,
       onPress: () => navigation.navigate('Settings'),
@@ -57,6 +66,21 @@ export default function MenuLeft(props: DrawerContentComponentProps) {
   return (
     <SafeAreaView>
       <View style={theme.NavigationStyles.drawerMainCont}>
+        <View style={CommonStyles.flexDirectionRow}>
+          <Image
+            source={logo}
+            style={{
+              height: 120,
+              width: 120,
+            }}
+          />
+          <BaseText style={[
+            CommonStyles.flexOne,
+            CommonStyles.h1,
+            CommonStyles.letterSpacingOne,
+          ]}>{language.appName}</BaseText>
+        </View>
+        <BaseHorizontalLine/>
         {screens.map((screen) => (
           <LeftNavButton
             key={screen.id}

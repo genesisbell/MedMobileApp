@@ -1,3 +1,4 @@
+import { en } from 'translations';
 import { OptionsType } from 'types';
 
 // General Options
@@ -41,3 +42,39 @@ export const langOptions:OptionsType = [
     }
   },
 ]
+
+export function getSolutionsByOptions(lang: typeof en){
+
+  return [
+    {
+      text: 'Holliday Segar',
+      info: {
+        key: 'holliday_segar',
+      }
+    },
+    {
+      text: lang.solutions.bodySurface,
+      info: {
+        key: 'body_surface',
+      }
+    },
+  ]
+}
+
+export function getSolutionsWithOptions(lang: typeof en){
+
+  return [
+    {
+      text: lang.solutions.naConcentrate,
+      info: {
+        key: 'na_concentrate',
+      }
+    },
+    {
+      text: lang.solutions.salineSolution,
+      info: {
+        key: 'saline_solution',
+      }
+    },
+  ]
+}

@@ -90,6 +90,9 @@ const textSyles = StyleSheet.create({
   rightAlignText: {
     textAlign: 'right',
   },
+  letterSpacingOne:{
+    letterSpacing: 1,
+  }
   // emphasisText: {
   //   color: primaryColor,
   // },
@@ -212,7 +215,9 @@ const displayStyles = StyleSheet.create({
   },
 });
 
-export const CommonStyles = {
-  ...textSyles,
-  ...displayStyles,
-};
+export const CommonStyles = StyleSheet.create(
+  {
+    ...textSyles,
+    ...displayStyles,
+  }
+);

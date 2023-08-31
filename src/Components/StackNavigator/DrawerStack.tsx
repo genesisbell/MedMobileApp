@@ -8,6 +8,7 @@ import Favorites from '../Favorites/Screens/Favorites';
 import HeaderRight from './Components/HeaderRight';
 import MenuLeft from './Components/MenuLeft';
 import Settings from '../Settings/Screens/Settings';
+import Solutions from '../Solutions/Screen/Solutions';
 import Urgencies from '../Urgencies/Screens/Urgencies';
 import Values from '../Values/Screens/Values';
 /** */
@@ -17,6 +18,7 @@ import { useAppSelector } from '../../app/hooks';
 export type RootStackParams = {
   // Favorites: undefined;
   Values: undefined;
+  Solutions: undefined;
   // Urgencies: undefined;
   // Drugs: undefined;
   Settings: undefined;
@@ -56,6 +58,11 @@ export default function DrawerStack() {
       />
       {/* <DrawerNav.Screen name="Urgencies" component={Urgencies} /> */}
       {/* <DrawerNav.Screen name="Drugs" component={Drugs} /> */}
+      <DrawerNav.Screen 
+        name="Solutions"
+        component={Solutions}
+        options={{title: language.solutions.solutions}}
+      />
       <DrawerNav.Screen 
         name="Settings"
         component={Settings}
