@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { View } from 'react-native';
 
 /** @Assets */
 import { CommonStyles } from 'styles';
 import { getSolutionsByOptions, getSalineTypeOptions } from 'configurations';
+import { getBodySurface, getHollidayVolume } from 'data';
+import { OptionType } from 'types';
 /** */
 
 /** @Components */
@@ -18,8 +20,6 @@ import {
 /** */
 
 import { useAppSelector } from '../../../app/hooks';
-import { getBodySurface } from 'data';
-import { OptionType } from 'types';
 
 function Solutions(){
 
@@ -43,7 +43,19 @@ function Solutions(){
     mg: '',
     glucose: '',
   });
-  const bodySurface = getBodySurface(patient.weight)
+  const [hasSodium, setHasSodium] = useState(false);
+  const bodySurface = getBodySurface(patient.weight);
+  const hollidayVolumne = getHollidayVolume(patient.weight, parseInt(form.hollidayPer))
+  /** */
+
+  /** @useEffect */
+  useEffect(() => {
+    if(form.na !== '' && parseInt(form.na) > 0){
+      setHasSodium(true);
+    }else{
+      setHasSodium(false);
+    }
+  }, [form.na]);
   /** */
 
   /** @Handlers */
@@ -96,6 +108,7 @@ function Solutions(){
                 name={'hollidayPer'}
                 placeholder='Porcentaje'
                 onChangeText={handleInputChange}
+                keyboardType='numeric'
                 auxButtons={[
                   {
                     icon: <BaseText>%</BaseText>
@@ -114,6 +127,7 @@ function Solutions(){
                 name={'bodySurface'}
                 placeholder='ml/m2/día'
                 onChangeText={handleInputChange}
+                keyboardType='numeric'
                 auxButtons={[
                   {
                     icon: <BaseText>ml/m2/día</BaseText>
@@ -128,15 +142,18 @@ function Solutions(){
 
       <BaseSpace xbg/>
 
+      <BaseText>{hollidayVolumne}</BaseText>
+
       <BaseText style={[CommonStyles.h6, CommonStyles.centerText]}>Requerimientos deseados</BaseText>
       <View style={CommonStyles.flexDirectionRowSpaceBetween}>
 
-        <View style={CommonStyles.flexHalf}>
+        <View style={hasSodium ? CommonStyles.flexHalf : CommonStyles.flexOne}>
           <BaseTextInput
             value={form.na}
             name={'na'}
             placeholder='Sodio (na)'
             onChangeText={handleInputChange}
+            keyboardType='numeric'
             auxButtons={[
               {
                 icon: <BaseText>mEq/kg/día</BaseText>
@@ -145,16 +162,21 @@ function Solutions(){
           />
         </View>
 
-        <BaseSpace xbg horizontal/>
+        {hasSodium && <BaseSpace xbg horizontal/>}
 
-        <View style={CommonStyles.flexHalf}>
-          <BaseActionSheet
-            options={salineTypeOptions}
-            initialOptionIndex={-1}
-            message={`${language.solutions.solutions} ${language.general.by}:`}
-            getOptionInfo={handleSolutionOption}
-          />
-        </View>
+        {
+          hasSodium && (
+            <View style={CommonStyles.flexHalf}>
+              <BaseActionSheet
+                options={salineTypeOptions}
+                initialOptionIndex={-1}
+                message={`${language.solutions.solutions} ${language.general.by}:`}
+                getOptionInfo={handleSolutionOption}
+              />
+            </View>
+          )
+        }
+
 
       </View>
 
@@ -163,6 +185,7 @@ function Solutions(){
         name={'k'}
         placeholder='Potasio (k)'
         onChangeText={handleInputChange}
+        keyboardType='numeric'
         auxButtons={[
           {
             icon: <BaseText>mEq/kg/día</BaseText>
@@ -174,6 +197,7 @@ function Solutions(){
         name={'ca'}
         placeholder='Calcio (ca)'
         onChangeText={handleInputChange}
+        keyboardType='numeric'
         auxButtons={[
           {
             icon: <BaseText>mg/kg/día</BaseText>
@@ -185,6 +209,7 @@ function Solutions(){
         name={'mg'}
         placeholder='Magnesio (mg)'
         onChangeText={handleInputChange}
+        keyboardType='numeric'
         auxButtons={[
           {
             icon: <BaseText>mg/kg/día</BaseText>
@@ -196,6 +221,7 @@ function Solutions(){
         name={'glucose'}
         placeholder='Glucosa'
         onChangeText={handleInputChange}
+        keyboardType='numeric'
         auxButtons={[
           {
             icon: <BaseText>GKM</BaseText>
