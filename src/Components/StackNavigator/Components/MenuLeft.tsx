@@ -15,14 +15,16 @@ import { BaseHorizontalLine, BaseText } from 'components';
 /** */
 
 /** @Hooks */
-import { useAppSelector } from '../../../app/hooks';
+import { useAppSelector, getLangState, getThemeState } from '../../../app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../app/store';
 /** */
 
 export default function MenuLeft(props: DrawerContentComponentProps) {
   /** @Variables */
   const { navigation } = props;
-  const theme = useAppSelector(({ theme }) => theme.value);
-  const language = useAppSelector(({ language }) => language.value);
+  const language = useSelector((rootState: RootState) => getLangState(rootState).value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   let id = 0;
   const screens = [
     // {

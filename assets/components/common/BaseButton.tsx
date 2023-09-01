@@ -14,7 +14,9 @@ import {
 } from 'styles';
 import { FontWeightType } from 'types';
 import { BaseText } from './BaseText';
-import { useAppSelector } from '../../../src/app/hooks';
+import { useAppSelector, getThemeState } from '../../../src/app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../src/app/store';
 /***/
 
 
@@ -53,7 +55,7 @@ export function BaseButton(props: BaseButtonProps){
         loading,
     } = props;
 
-  const theme = useAppSelector(({ theme }) => theme.value); 
+    const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
 
     const bcolor = buttonColor || theme.primaryColor;
     const hasShadow = shadow === undefined ? true : shadow;

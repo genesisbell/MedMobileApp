@@ -6,14 +6,16 @@ import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import MenuButton from './MenuButton';
 /** */
 
-import { useAppSelector } from '../../../app/hooks';
+import { useAppSelector, getThemeState } from '../../../app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../app/store';
 
 export default function MenuBottom(props: BottomTabBarProps) {
   /** @Variables */
   const { state, navigation } = props;
   const buttonsCount = state.routes.length;
   const buttonWidth = `${100 / buttonsCount}%`;
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   /** */
 
   return (

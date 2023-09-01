@@ -8,7 +8,9 @@ import { burgerMenuIcon } from 'icons';
 /** */
 
 /** @Hooks */
-import { useAppSelector } from '../../../app/hooks';
+import { useAppSelector, getThemeState } from '../../../app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../app/store';
 /** */
 
 interface DrawerButtonProps {
@@ -22,7 +24,7 @@ function DrawerButton(props: DrawerButtonProps) {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     navigation,
   } = props;
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   /** */
 
   function openLeftDrawer() {

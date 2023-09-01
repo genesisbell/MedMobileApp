@@ -13,13 +13,15 @@ import { BaseSpace } from './BaseSpace';
 import { BaseText } from './BaseText';
 /** */
 
-import { useAppSelector, useAppDispatch } from '../../../src/app/hooks';
+import { useAppSelector, useAppDispatch, getLangState, getThemeState } from '../../../src/app/hooks';
 import { dispatchSelectedLanguage } from '../../../src/app/slices/languageSlice';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../src/app/store';
 
 export function BaseLangSelection() {
   const dispatch = useAppDispatch();
-  const language = useAppSelector(({ language }) => language.value);
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const language = useSelector((rootState: RootState) => getLangState(rootState).value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const langIndex = langOptions.findIndex(lang => lang.info.key === language.name);
 
   function saveLanguageSelection(option: OptionType) {

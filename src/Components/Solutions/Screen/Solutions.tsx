@@ -19,15 +19,15 @@ import {
 } from 'components';
 /** */
 
-import { useAppSelector } from '../../../app/hooks';
+import { useAppSelector, getLangState, getPatientState } from '../../../app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../app/store';
 
 function Solutions(){
 
   /** @Variables */
-  const {language, patient} = useAppSelector((data) => ({
-    language: data.language.value,
-    patient: data.patient,
-  }));
+  const language = useSelector((rootState: RootState) => getLangState(rootState).value);
+  const patient = useSelector((rootState: RootState) => getPatientState(rootState));
   const solutionsByOptions = getSolutionsByOptions(language);
   const salineTypeOptions = getSalineTypeOptions(language);
   const [solutionBy, setSolutionBy] = useState({

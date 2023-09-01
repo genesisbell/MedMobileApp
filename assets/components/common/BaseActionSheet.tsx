@@ -7,7 +7,9 @@ import { mdSpace, smSpace } from 'styles';
 import { OptionType, OptionsType } from 'types';
 /** */
 
-import { useAppSelector } from '../../../src/app/hooks';
+import { useAppSelector, getLangState, getThemeState } from '../../../src/app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../src/app/store';
 
 export interface BaseActionSheetProps {
   options: OptionsType;
@@ -39,8 +41,8 @@ export function BaseActionSheet(props: BaseActionSheetProps) {
     customCancel,
   } = props;
 
-  const language = useAppSelector(({ language }) => language.value);
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const language = useSelector((rootState: RootState) => getLangState(rootState).value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const actionSheetRef = useRef<ActionSheetRef>(null);
   const [option, setOption] = useState(
     options[initialOptionIndex === undefined ? 0 : initialOptionIndex],

@@ -1,5 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { darkTheme, lightTheme, solarTheme } from 'styles';
+import { RootState } from '../store';
 
 export const themeSlice = createSlice({
   name: 'theme',
@@ -22,6 +23,9 @@ export const themeSlice = createSlice({
 export const { setLightTheme, setDarkTheme, setSolarTheme } = themeSlice.actions;
 
 export default themeSlice.reducer;
+
+export const getThemeState = (state: RootState) => state.theme;
+
 
 export function dispatchThemeSelection(value: string, dispatch: (arg0: PayloadAction) => void) {
   switch (value) {

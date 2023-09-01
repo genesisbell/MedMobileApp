@@ -1,4 +1,5 @@
 import { AnyAction, createSlice, Dispatch } from '@reduxjs/toolkit';
+import { RootState } from '../store';
 
 export const patientSlice = createSlice({
   name: 'patient',
@@ -21,6 +22,8 @@ export const patientSlice = createSlice({
 export const { setWeight, setAge } = patientSlice.actions;
 
 export default patientSlice.reducer;
+
+export const getPatientState = (state: RootState) => state.patient;
 
 export function dispatchWeight(
   value: number,

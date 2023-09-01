@@ -17,8 +17,10 @@ import {
 } from 'components';
 /** */
 
-import { useAppSelector } from '../../../app/hooks';
+import { getLangState, getPatientState, getThemeState, useAppSelector } from '../../../app/hooks';
 import { getCurrentDataBasedOnAge } from '../../../utils';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../app/store';
 interface ValueComp {
   item: valuesType;
 }
@@ -26,13 +28,9 @@ interface ValueComp {
 function ValueComp({item}: ValueComp) {
 
   /** @Variables */
-  const {patient, theme, language} = useAppSelector(({ patient, theme, language }) => (
-    {
-      patient,
-      theme: theme.value,
-      language: language.value
-    }
-  ));
+  const language = useSelector((rootState: RootState) => getLangState(rootState).value);
+  const patient = useSelector((rootState: RootState) => getPatientState(rootState));
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const [open, setOpen] = useState(false);
   const {name, data, reference} = item;
   const age = patient.years*12 + patient.months;

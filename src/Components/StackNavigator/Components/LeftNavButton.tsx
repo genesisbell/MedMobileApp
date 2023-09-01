@@ -6,7 +6,9 @@ import { SvgXml } from 'react-native-svg';
 import { BaseSpace } from 'components';
 /** */
 
-import { useAppSelector } from '../../../app/hooks';
+import { useAppSelector, getThemeState } from '../../../app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../app/store';
 
 interface LeftNavButtonProps {
   icon: (color?: string) => string;
@@ -17,7 +19,7 @@ interface LeftNavButtonProps {
 function LeftNavButton(props: LeftNavButtonProps) {
   /** @Variables */
   const { icon, text, onPress } = props;
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   /** */
 
   return (

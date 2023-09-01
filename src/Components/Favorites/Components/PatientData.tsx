@@ -11,7 +11,9 @@ import { CommonStyles } from 'styles';
 import { BaseActionSheet, BaseSpace, BaseTextInput } from 'components';
 /** */
 
-import { useAppSelector } from '../../../app/hooks';
+import { useAppSelector, getLangState, getThemeState } from '../../../app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../app/store';
 
 function PatientData() {
   /** @Variables */
@@ -21,8 +23,8 @@ function PatientData() {
   });
   const [year, setYear] = useState(0);
   const [month, setMonth] = useState(0);
-  const language = useAppSelector(({ language }) => language.value);
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const language = useSelector((rootState: RootState) => getLangState(rootState).value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const yearsOptions = getYears();
   const monthsOptions = getMonths();
   /** */

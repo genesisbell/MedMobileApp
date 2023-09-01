@@ -22,11 +22,13 @@ import {
 /** */
 
 /** @Hooks */
-import { useAppDispatch, useAppSelector } from '../../../app/hooks';
+import { useAppDispatch, useAppSelector, getLangState, getPatientState, getThemeState } from '../../../app/hooks';
 import { dispatchAge, dispatchWeight } from '../../../app/slices/patientSlice';
 /** */
 
 import { RootStackParams } from '../DrawerStack';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../app/store';
 
 const vw = Dimensions.get('window').width;
 
@@ -39,13 +41,9 @@ function HeaderRight(props: HeaderRightProps){
   /** @Variables */
   const { route } = props;
   const dispatch = useAppDispatch();
-  const {patient, theme, language} = useAppSelector(({ patient, theme, language }) => (
-    {
-      patient,
-      theme: theme.value,
-      language: language.value
-    }
-  ));
+  const language = useSelector((rootState: RootState) => getLangState(rootState).value);
+  const patient = useSelector((rootState: RootState) => getPatientState(rootState));
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const yearsOptions = getYears();
   const monthsOptions = getMonths();
   const [weight, setWeight] = useState(patient.weight ? patient.weight.toString() : '');

@@ -14,7 +14,9 @@ import {
 import { 
   mdBrRadius,
 } from "styles";
-import { useAppSelector } from "../../../src/app/hooks";
+import { useAppSelector, getThemeState } from "../../../src/app/hooks";
+import { useSelector } from "react-redux";
+import { RootState } from "../../../src/app/store";
 /** */
 export interface BaseModalProps extends ViewProps{
   icon?: React.ReactNode,
@@ -51,7 +53,7 @@ export function BaseModal(props: BaseModalProps){
   } = props;
   const [handleShowModal, setHandleShowModal] = useState(showModal?.show || false);
   const scrollable = isScrollable === undefined ? true : isScrollable;
-  const theme = useAppSelector(({ theme }) => theme.value); 
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   /** */
   
   const conditionalStyles = StyleSheet.create({

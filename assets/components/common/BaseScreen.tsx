@@ -17,7 +17,9 @@ import {
 
 /** @Assets */
 import { CommonStyles, bgSpace, tabBarHeight } from 'styles';
-import { useAppSelector } from '../../../src/app/hooks';
+import { useAppSelector, getThemeState } from '../../../src/app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../src/app/store';
 /***/
 
 interface BaseScreenProps extends ViewProps {
@@ -43,7 +45,7 @@ const isIos = Platform.OS === 'ios';
 
 function Screen(props: ScreenProps) {
   const { loading, style, children, scrollable, extraStyle, backgroundColor } = props;
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
 
   const baseStyle = [
     theme.BaseScreenStyles.screen,
@@ -100,7 +102,7 @@ export function BaseScreen(props: BaseScreenProps) {
     isCompleteScreen,
   } = props;
 
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const scrollable = isScrollable === undefined ? true : isScrollable;
   const bgColor = backgroundColor || theme.backgroundPrmColor;
 

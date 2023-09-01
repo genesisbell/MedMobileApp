@@ -13,7 +13,9 @@ import Urgencies from '../Urgencies/Screens/Urgencies';
 import Values from '../Values/Screens/Values';
 /** */
 
-import { useAppSelector } from '../../app/hooks';
+import { useAppSelector, getLangState, getThemeState } from '../../app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../app/store';
 
 export type RootStackParams = {
   // Favorites: undefined;
@@ -27,10 +29,8 @@ export type RootStackParams = {
 const DrawerNav = createDrawerNavigator<RootStackParams>();
 
 export default function DrawerStack() {
-  const {theme, language} = useAppSelector(({ theme, language }) => ({
-    theme: theme.value,
-    language: language.value,
-  }));
+  const language = useSelector((rootState: RootState) => getLangState(rootState).value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
 
   return (
     <DrawerNav.Navigator
