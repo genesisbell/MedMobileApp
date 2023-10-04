@@ -1,0 +1,592 @@
+{
+    "key": "infectious",
+    "name": "infectious",
+    "reference": "K. KLEINMAN. The Harriet Lane Handbook. The John Hopkins Hospital. 21ed. Elsevier.",
+    "data": [
+      {
+          "age": 0,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.3,
+                      6.1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 1,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 3,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 6,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 12,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 24,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 36,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 48,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 60,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 72,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 84,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 96,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 108,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 120,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 132,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 144,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 156,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 168,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 180,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1.7
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 192,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": null,
+                  "values": [
+                      0.1,
+                      1.7
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": null,
+                  "values": [
+                      0,
+                      10
+                  ]
+              }
+          ]
+      },
+      {
+          "age": 204,
+          "titles": [
+              "min",
+              "max"
+          ],
+          "values": [
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": true,
+                  "values": [
+                      0.1,
+                      1.7
+                  ]
+              },
+              {
+                  "name": "PCR",
+                  "measure": "mg/L",
+                  "isGirl": false,
+                  "values": [
+                      0.1,
+                      1.7
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": true,
+                  "values": [
+                      0,
+                      20
+                  ]
+              },
+              {
+                  "name": "VSG",
+                  "measure": "mm/h",
+                  "isGirl": false,
+                  "values": [
+                      0,
+                      15
+                  ]
+              }
+          ]
+      }
+  ]
+}
