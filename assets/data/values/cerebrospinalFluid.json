@@ -1,0 +1,1046 @@
+[
+  {
+      "age": 0,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "12",
+                  "0",
+                  "",
+                  "",
+                  "16"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "45",
+                  "",
+                  "",
+                  "35",
+                  ""
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "66",
+                  "",
+                  "",
+                  "",
+                  "118"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "8",
+                  "11",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 1,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "0",
+                  "",
+                  "",
+                  "11"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "47",
+                  "",
+                  "",
+                  "37",
+                  ""
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "49",
+                  "",
+                  "",
+                  "",
+                  "91"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "8",
+                  "11",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 3,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "0",
+                  "",
+                  "",
+                  "11"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "47",
+                  "",
+                  "",
+                  "37",
+                  ""
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "49",
+                  "",
+                  "",
+                  "",
+                  "91"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "8",
+                  "11",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 6,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "6",
+                  "",
+                  "",
+                  "",
+                  "25"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "8",
+                  "11",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 12,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "6",
+                  "",
+                  "",
+                  "",
+                  "25"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 24,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "25"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 36,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "25"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 48,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "25"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 60,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "25"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 72,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "28"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 84,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "28"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 96,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "28"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 108,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "28"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 120,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "28"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 132,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "28"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 144,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "6",
+                  "",
+                  "",
+                  "",
+                  "34"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 156,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "6",
+                  "",
+                  "",
+                  "",
+                  "34"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 168,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "6",
+                  "",
+                  "",
+                  "",
+                  "34"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 180,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "6",
+                  "",
+                  "",
+                  "",
+                  "34"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 192,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "6",
+                  "",
+                  "",
+                  "",
+                  "34"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 204,
+      "titles": [
+          "prom",
+          "min",
+          "max",
+          "5th P",
+          "95th P"
+      ],
+      "values": [
+          {
+              "name": "leukocytes",
+              "measure": "Leukos/μl",
+              "isGirl": null,
+              "values": [
+                  "7",
+                  "0",
+                  "",
+                  "",
+                  "-"
+              ]
+          },
+          {
+              "name": "proteins",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  "6",
+                  "",
+                  "",
+                  "",
+                  "34"
+              ]
+          },
+          {
+              "name": "openingPressure",
+              "measure": "cmH2O",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "11.5",
+                  "28",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  }
+]

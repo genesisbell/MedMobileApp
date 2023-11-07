@@ -19,14 +19,14 @@
     </textarea> 
     <script>// Method to upload a valid excel file
       function upload() {
-        var files = document.getElementById('file_upload').files;
+        var files = document.getElementById("file_upload").files;
         if(files.length==0){
           alert("Please choose any file...");
           return;
         }
         var filename = files[0].name;
         var extension = filename.substring(filename.lastIndexOf(".")).toUpperCase();
-        if (extension == '.XLS' || extension == '.XLSX') {
+        if (extension == ".XLS" || extension == ".XLSX") {
           excelFileToJSON(files[0]);
         }
         else{
@@ -41,7 +41,7 @@
           reader.onload = function(e) {
             var data = e.target.result;
             var workbook = XLSX.read(data, {
-              type : 'binary'
+              type : "binary"
             });
             var result = [];
             workbook.SheetNames.forEach(function(sheetName) {
@@ -54,7 +54,7 @@
                 	const currentRow = roa[i];
                     const age = currentRow["__EMPTY"];
 
-                    const min1 = currentRow["líquido cefalorraquídeo"];
+                    const min1 = currentRow["LÍQUIDO CEFALORRAQUÍDEO"];
                     const prom1 = currentRow["__EMPTY_1"];
                     const p951 = currentRow["__EMPTY_2"];
 
@@ -67,64 +67,64 @@
                     const min4 = currentRow["__EMPTY_7"];
                     const max4 = currentRow["__EMPTY_8"];
                     
-                    // name: 'lang.values.hemoglobin',
+                    // name: "lang.values.hemoglobin",
                     result.push(
                       {
                         age,
                         titles: [
-                          'lang.values.prom',
-                          'lang.values.min',
-                          'lang.values.max',
-                          '5th P',
-                          '95th P'
+                          "lang.values.prom",
+                          "lang.values.min",
+                          "lang.values.max",
+                          "5th P",
+                          "95th P"
                         ],
                         values: [
                           {
-                            name: 'lang.values.leukocytes',
-                            measure: 'Leukos/μl',
+                            name: "lang.values.leukocytes",
+                            measure: "Leukos/μl",
                             isGirl: null,
                             values: [
-                              prom1,
-                              min1,
-                              null,
-                              null,
-                              p951,
+                              `${prom1}`,
+                              `${min1}`,
+                              "",
+                              "",
+                              `${p951}`
                             ],
                           },
                           {
-                            name: 'lang.values.glucose',
-                            measure: 'mg/dL',
+                            name: "lang.values.glucose",
+                            measure: "mg/dL",
                             isGirl: null,
                             values: [
-                              prom2,
-                              null,
-                              null,
-                              p52,
-                              null,
+                              `${prom2}`,
+                              "",
+                              "",
+                              `${p52}`,
+                              ""
                             ],
                           },
                           {
-                            name: 'lang.values.proteins',
-                            measure: 'mg/dL',
+                            name: "lang.values.proteins",
+                            measure: "mg/dL",
                             isGirl: null,
                             values: [
-                              prom3,
-                              null,
-                              null,
-                              null,
-                              p953,
+                              `${prom3}`,
+                              "",
+                              "",
+                              "",
+                              `${p953}`
                             ],
                           },
                           {
-                            name: 'lang.values.openingPressure',
-                            measure: 'cmH2O',
+                            name: "lang.values.openingPressure",
+                            measure: "cmH2O",
                             isGirl: null,
                             values: [
-                              null,
-                              min4,
-                              max4,
-                              null,
-                              null,
+                              "",
+                              `${min4}`,
+                              `${max4}`,
+                              "",
+                              ""
                             ],
                           },
                         ]
@@ -138,7 +138,7 @@
             //displaying the json result
             var resultEle=document.getElementById("json-result");
             resultEle.value=JSON.stringify(result, null, 4);
-            resultEle.style.display='block';
+            resultEle.style.display="block";
           }
         }
         catch(e){

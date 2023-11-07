@@ -1,0 +1,587 @@
+[
+  {
+      "age": 0,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  5,
+                  20
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  32
+              ]
+          }
+      ]
+  },
+  {
+      "age": 1,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  10,
+                  24
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  32
+              ]
+          }
+      ]
+  },
+  {
+      "age": 3,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  10,
+                  24
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  30
+              ]
+          }
+      ]
+  },
+  {
+      "age": 6,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  10,
+                  24
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  30
+              ]
+          }
+      ]
+  },
+  {
+      "age": 12,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  14,
+                  24
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  30
+              ]
+          }
+      ]
+  },
+  {
+      "age": 24,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  14,
+                  24
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  30
+              ]
+          }
+      ]
+  },
+  {
+      "age": 36,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  14,
+                  24
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 48,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  14,
+                  24
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 60,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  26
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 72,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  26
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 84,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  26
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 96,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  26
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 108,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  26
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 120,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  26
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 132,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  26
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 144,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  26
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 156,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  26
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 168,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  26
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 180,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  28
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 192,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": null,
+              "values": [
+                  17,
+                  28
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  },
+  {
+      "age": 204,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": true,
+              "values": [
+                  17,
+                  26
+              ]
+          },
+          {
+              "name": "HC03",
+              "measure": "mEq/L",
+              "isGirl": false,
+              "values": [
+                  18,
+                  28
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": true,
+              "values": [
+                  9,
+                  22
+              ]
+          },
+          {
+              "name": "lactate",
+              "measure": "mg/dL",
+              "isGirl": false,
+              "values": [
+                  9,
+                  22
+              ]
+          }
+      ]
+  }
+]

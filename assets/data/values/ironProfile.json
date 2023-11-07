@@ -1,0 +1,785 @@
+[
+  {
+      "age": 0,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  100,
+                  717
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  16,
+                  128
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  104,
+                  224
+              ]
+          }
+      ]
+  },
+  {
+      "age": 1,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  14,
+                  647
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  104,
+                  224
+              ]
+          }
+      ]
+  },
+  {
+      "age": 3,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  14,
+                  647
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  104,
+                  224
+              ]
+          }
+      ]
+  },
+  {
+      "age": 6,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  8,
+                  182
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  104,
+                  224
+              ]
+          }
+      ]
+  },
+  {
+      "age": 12,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  5,
+                  100
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  107,
+                  324
+              ]
+          }
+      ]
+  },
+  {
+      "age": 24,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  5,
+                  100
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 36,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  5,
+                  100
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 48,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  5,
+                  100
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 60,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  14,
+                  79
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 72,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  14,
+                  79
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 84,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  14,
+                  79
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 96,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  14,
+                  79
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 108,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  14,
+                  79
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 120,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  14,
+                  79
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 132,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  14,
+                  79
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 144,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  14,
+                  79
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 156,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  14,
+                  79
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 168,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  6,
+                  83
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 180,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  6,
+                  83
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 192,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": null,
+              "values": [
+                  6,
+                  83
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  20,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  },
+  {
+      "age": 204,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": true,
+              "values": [
+                  13,
+                  83
+              ]
+          },
+          {
+              "name": "ferritin",
+              "measure": "ng/mL",
+              "isGirl": false,
+              "values": [
+                  11,
+                  172
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": true,
+              "values": [
+                  20,
+                  162
+              ]
+          },
+          {
+              "name": "iron",
+              "measure": "mCg/dL",
+              "isGirl": false,
+              "values": [
+                  31,
+                  168
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": true,
+              "values": [
+                  220,
+                  337
+              ]
+          },
+          {
+              "name": "transferrin",
+              "measure": "mg/dL",
+              "isGirl": false,
+              "values": [
+                  220,
+                  337
+              ]
+          }
+      ]
+  }
+]
