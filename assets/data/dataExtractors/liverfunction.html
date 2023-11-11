@@ -19,14 +19,14 @@
     </textarea> 
     <script>// Method to upload a valid excel file
       function upload() {
-        var files = document.getElementById('file_upload').files;
+        var files = document.getElementById("file_upload").files;
         if(files.length==0){
           alert("Please choose any file...");
           return;
         }
         var filename = files[0].name;
         var extension = filename.substring(filename.lastIndexOf(".")).toUpperCase();
-        if (extension == '.XLS' || extension == '.XLSX') {
+        if (extension == ".XLS" || extension == ".XLSX") {
           excelFileToJSON(files[0]);
         }
         else{
@@ -41,7 +41,7 @@
           reader.onload = function(e) {
             var data = e.target.result;
             var workbook = XLSX.read(data, {
-              type : 'binary'
+              type : "binary"
             });
             var result = [];
             workbook.SheetNames.forEach(function(sheetName) {
@@ -87,18 +87,18 @@
                     const mindhl = currentRow["__EMPTY_20"];                    
                     const maxdhl = currentRow["__EMPTY_21"];
                     
-                    // name: 'lang.values.hemoglobin',
+                    // name: "lang.values.hemoglobin",
                     result.push(
                       {
                         age,
                         titles: [
-                        'lang.values.min',
-                        'lang.values.max'
+                        "lang.values.min",
+                        "lang.values.max"
                         ],
                         values: [
                           {
-                            name: 'ALT',
-                            measure: 'U/L',
+                            name: "ALT",
+                            measure: "U/L",
                             isGirl: null,
                             values: [
                               minalt,
@@ -106,8 +106,8 @@
                             ],
                           },
                           {
-                            name: 'AST',
-                            measure: 'U/L',
+                            name: "AST",
+                            measure: "U/L",
                             isGirl: null,
                             values: [
                               minast,
@@ -115,8 +115,8 @@
                             ],
                           },
                           {
-                            name: 'GGT',
-                            measure: 'U/L',
+                            name: "GGT",
+                            measure: "U/L",
                             isGirl: null,
                             values: [
                               minggt,
@@ -124,8 +124,8 @@
                             ],
                           },
                           {
-                            name: 'FA',
-                            measure: 'U/L',
+                            name: "FA",
+                            measure: "U/L",
                             isGirl: null,
                             values: [
                               minfa,
@@ -133,8 +133,8 @@
                             ],
                           },
                           {
-                            name: 'Prot tot',
-                            measure: 'g/dL',
+                            name: "Prot tot",
+                            measure: "g/dL",
                             isGirl: null,
                             values: [
                               minprot,
@@ -142,8 +142,8 @@
                             ],
                           },
                           {
-                            name: 'lang.values.albumin',
-                            measure: 'g/dL',
+                            name: "lang.values.albumin",
+                            measure: "g/dL",
                             isGirl: null,
                             values: [
                               minal,
@@ -151,8 +151,8 @@
                             ],
                           },
                           {
-                            name: 'lang.values.prealbumin',
-                            measure: 'mg/dL',
+                            name: "lang.values.prealbumin",
+                            measure: "mg/dL",
                             isGirl: null,
                             values: [
                               minpreal,
@@ -160,8 +160,8 @@
                             ],
                           },
                           {
-                            name: 'lang.values.haptoglobin',
-                            measure: 'mg/dL',
+                            name: "lang.values.haptoglobin",
+                            measure: "mg/dL",
                             isGirl: null,
                             values: [
                               minhap,
@@ -169,8 +169,8 @@
                             ],
                           },
                           {
-                            name: 'BT',
-                            measure: 'mg/dL',
+                            name: "BT",
+                            measure: "mg/dL",
                             isGirl: null,
                             values: [
                               minbt,
@@ -178,8 +178,8 @@
                             ],
                           },
                           {
-                            name: 'BD',
-                            measure: 'mg/dL',
+                            name: "BD",
+                            measure: "mg/dL",
                             isGirl: null,
                             values: [
                               minbd,
@@ -187,8 +187,8 @@
                             ],
                           },
                           {
-                            name: 'DHL',
-                            measure: 'U/L',
+                            name: "DHL",
+                            measure: "U/L",
                             isGirl: null,
                             values: [
                               mindhl,
@@ -206,7 +206,7 @@
             //displaying the json result
             var resultEle=document.getElementById("json-result");
             resultEle.value=JSON.stringify(result, null, 4);
-            resultEle.style.display='block';
+            resultEle.style.display="block";
           }
         }
         catch(e){

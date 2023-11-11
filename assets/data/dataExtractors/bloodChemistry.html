@@ -19,14 +19,14 @@
     </textarea> 
     <script>// Method to upload a valid excel file
       function upload() {
-        var files = document.getElementById('file_upload').files;
+        var files = document.getElementById("file_upload").files;
         if(files.length==0){
           alert("Please choose any file...");
           return;
         }
         var filename = files[0].name;
         var extension = filename.substring(filename.lastIndexOf(".")).toUpperCase();
-        if (extension == '.XLS' || extension == '.XLSX') {
+        if (extension == ".XLS" || extension == ".XLSX") {
           excelFileToJSON(files[0]);
         }
         else{
@@ -41,7 +41,7 @@
           reader.onload = function(e) {
             var data = e.target.result;
             var workbook = XLSX.read(data, {
-              type : 'binary'
+              type : "binary"
             });
             var result = [];
             workbook.SheetNames.forEach(function(sheetName) {
@@ -67,13 +67,13 @@
                       {
                         age,
                         titles: [
-                          'lang.values.min',
-                          'lang.values.max',
+                          "lang.values.min",
+                          "lang.values.max",
                         ],
                         values: [
                             {
-                                name: 'lang.values.serumCreatinine',
-                                measure: 'mg/dL',
+                                name: "lang.values.serumCreatinine",
+                                measure: "mg/dL",
                                 isGirl: null,
                                 values: [
                                   min1,
@@ -81,8 +81,8 @@
                                 ],
                             },
                             {
-                                name: 'BUN',
-                                measure: 'mg/dL',
+                                name: "BUN",
+                                measure: "mg/dL",
                                 isGirl: null,
                                 values: [
                                   min2,
@@ -90,8 +90,8 @@
                                 ],
                             },
                             {
-                                name: 'lang.values.uricAcid',
-                                measure: 'mg/dL',
+                                name: "lang.values.uricAcid",
+                                measure: "mg/dL",
                                 isGirl: null,
                                 values: [
                                   min3,
@@ -109,7 +109,7 @@
             //displaying the json result
             var resultEle=document.getElementById("json-result");
             resultEle.value=JSON.stringify(result, null, 4);
-            resultEle.style.display='block';
+            resultEle.style.display="block";
           }
         }
         catch(e){

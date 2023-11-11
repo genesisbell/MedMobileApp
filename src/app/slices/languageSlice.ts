@@ -1,5 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { en, es } from 'translations';
+import { RootState } from '../store';
 
 export const languageSlice = createSlice({
   name: 'language',
@@ -19,6 +20,8 @@ export const languageSlice = createSlice({
 export const { setEnglishLanguage, setSpanishLanguage } = languageSlice.actions;
 
 export default languageSlice.reducer;
+
+export const getLangState = (state: RootState) => state.language;
 
 export function dispatchSelectedLanguage(value: string, dispatch: (arg0: PayloadAction) => void) {
   switch (value) {

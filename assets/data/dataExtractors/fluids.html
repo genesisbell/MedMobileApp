@@ -19,14 +19,14 @@
     </textarea> 
     <script>// Method to upload a valid excel file
       function upload() {
-        var files = document.getElementById('file_upload').files;
+        var files = document.getElementById("file_upload").files;
         if(files.length==0){
           alert("Please choose any file...");
           return;
         }
         var filename = files[0].name;
         var extension = filename.substring(filename.lastIndexOf(".")).toUpperCase();
-        if (extension == '.XLS' || extension == '.XLSX') {
+        if (extension == ".XLS" || extension == ".XLSX") {
           excelFileToJSON(files[0]);
         }
         else{
@@ -41,7 +41,7 @@
           reader.onload = function(e) {
             var data = e.target.result;
             var workbook = XLSX.read(data, {
-              type : 'binary'
+              type : "binary"
             });
             var result = [];
             workbook.SheetNames.forEach(function(sheetName) {
@@ -82,13 +82,13 @@
                       {
                         age,
                         titles: [
-                          'lang.values.transudate',
-                          'lang.values.exudate',
+                          "lang.values.transudate",
+                          "lang.values.exudate",
                         ],
                         values: [
                             {
-                                name: 'lang.values.protein',
-                                measure: 'g/dL',
+                                name: "lang.values.protein",
+                                measure: "g/dL",
                                 isGirl: null,
                                 values: [
                                   transudate1,
@@ -96,8 +96,8 @@
                                 ],
                             },
                             {
-                                name: 'lang.values.protein',
-                                measure: 'Liq/Serico',
+                                name: "lang.values.protein",
+                                measure: "Liq/Serico",
                                 isGirl: null,
                                 values: [
                                   transudate2,
@@ -105,8 +105,8 @@
                                 ],
                             },
                             {
-                                name: 'LDH',
-                                measure: 'UI/L',
+                                name: "LDH",
+                                measure: "UI/L",
                                 isGirl: null,
                                 values: [
                                   transudate3,
@@ -114,8 +114,8 @@
                                 ],
                             },
                             {
-                                name: 'LDH',
-                                measure: 'Líq/SéricomEq/día',
+                                name: "LDH",
+                                measure: "Líq/SéricomEq/día",
                                 isGirl: null,
                                 values: [
                                   transudate4,
@@ -123,8 +123,8 @@
                                 ],
                             },
                             {
-                                name: 'lang.values.leukocytes',
-                                measure: 'mm3',
+                                name: "lang.values.leukocytes",
+                                measure: "mm3",
                                 isGirl: null,
                                 values: [
                                   transudate5,
@@ -132,8 +132,8 @@
                                 ],
                             },
                             {
-                                name: 'lang.values.erythrocytes',
-                                measure: 'mm3mEq/día',
+                                name: "lang.values.erythrocytes",
+                                measure: "mm3mEq/día",
                                 isGirl: null,
                                 values: [
                                   transudate6,
@@ -141,8 +141,8 @@
                                 ],
                             },
                             {
-                                name: 'lang.values.glucose',
-                                measure: 'mg/dLmEq/día',
+                                name: "lang.values.glucose",
+                                measure: "mg/dLmEq/día",
                                 isGirl: null,
                                 values: [
                                   transudate7,
@@ -150,7 +150,7 @@
                                 ],
                             },
                             {
-                                name: 'pH',
+                                name: "pH",
                                 measure: null,
                                 isGirl: null,
                                 values: [
@@ -169,7 +169,7 @@
             //displaying the json result
             var resultEle=document.getElementById("json-result");
             resultEle.value=JSON.stringify(result, null, 4);
-            resultEle.style.display='block';
+            resultEle.style.display="block";
           }
         }
         catch(e){

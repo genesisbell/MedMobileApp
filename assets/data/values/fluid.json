@@ -1,0 +1,1703 @@
+[
+  {
+      "age": 0,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 1,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 3,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 6,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 12,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 24,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 36,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 48,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 60,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 72,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 84,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 96,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 108,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 120,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 132,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 144,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 156,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 168,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 180,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 192,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 204,
+      "titles": [
+          "transudate",
+          "exudate"
+      ],
+      "values": [
+          {
+              "name": "protein",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  "<3.0",
+                  ">3.0"
+              ]
+          },
+          {
+              "name": "protein",
+              "measure": "Liq/Serico",
+              "isGirl": null,
+              "values": [
+                  "<0.5",
+                  ">0.5"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "UI/L",
+              "isGirl": null,
+              "values": [
+                  "<200",
+                  ">200"
+              ]
+          },
+          {
+              "name": "LDH",
+              "measure": "Líq/SéricomEq/día",
+              "isGirl": null,
+              "values": [
+                  "<0.6",
+                  ">0.6"
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "mm3",
+              "isGirl": null,
+              "values": [
+                  "<10000",
+                  ">10000"
+              ]
+          },
+          {
+              "name": "erythrocytes",
+              "measure": "mm3mEq/día",
+              "isGirl": null,
+              "values": [
+                  "<5000",
+                  ">5000"
+              ]
+          },
+          {
+              "name": "glucose",
+              "measure": "mg/dLmEq/día",
+              "isGirl": null,
+              "values": [
+                  ">40",
+                  "<40"
+              ]
+          },
+          {
+              "name": "pH",
+              "measure": null,
+              "isGirl": null,
+              "values": [
+                  ">7.2",
+                  "<7.2"
+              ]
+          }
+      ]
+  }
+]

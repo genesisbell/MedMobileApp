@@ -13,7 +13,9 @@ import { SvgXml } from 'react-native-svg';
 import { MenuBottomIcons } from 'configurations';
 /** */
 
-import { useAppSelector } from '../../../app/hooks';
+import { useAppSelector, getThemeState } from '../../../app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../app/store';
 
 type MenuButtonProps = {
   state: TabNavigationState<ParamListBase>;
@@ -27,7 +29,7 @@ function MenuButton(props: MenuButtonProps) {
   /** @Variables */
   const { state, index, navigation, route, buttonWidth } = props;
 
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const isFocused = state.index === index;
   const color = isFocused ? theme.menuIconActiveColor : theme.menuIconInactiveColor;
   const icon = MenuBottomIcons[index](color);

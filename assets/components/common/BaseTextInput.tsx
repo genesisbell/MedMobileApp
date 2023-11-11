@@ -14,7 +14,9 @@ import {
 import { inputHelperButtonWidth, smBrRadius } from 'styles';
 /***/
 
-import { useAppSelector } from '../../../src/app/hooks';
+import { useAppSelector, getThemeState } from '../../../src/app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../src/app/store';
 
 export type ModeType = 'flat' | 'outlined';
 interface BaseTextInputProps extends TextInputProps {
@@ -46,7 +48,7 @@ export function BaseTextInput(props: BaseTextInputProps) {
     disabled,
   } = props;
 
-  const theme = useAppSelector(({ theme }) => theme.value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const [inputHeight, setHeight] = useState(0);
   const [placeholderWidth, setWidth] = useState(0);
   const [inputWidth, setInputWidth] = useState(0);

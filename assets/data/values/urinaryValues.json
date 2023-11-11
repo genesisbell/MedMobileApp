@@ -1,0 +1,1769 @@
+[
+  {
+      "age": 0,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.8"
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "20"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 1,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.8"
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "20"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 3,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.8"
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "20"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 6,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.8"
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "20"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 12,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.6"
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "20"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 24,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.21"
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "20"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 36,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.21"
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "20"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "2",
+                  "10"
+              ]
+          }
+      ]
+  },
+  {
+      "age": 48,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.22",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "22",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "15",
+                  "40",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "14",
+                  "40",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 60,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.22",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "22",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "15",
+                  "40",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "14",
+                  "40",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 72,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.23",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "22",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "18",
+                  "74",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "36",
+                  "110",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "20",
+                  "69",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "41",
+                  "115",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "8",
+                  "37",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "17",
+                  "54",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 84,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.23",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "22",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "18",
+                  "74",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "36",
+                  "110",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "20",
+                  "69",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "41",
+                  "115",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "8",
+                  "37",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "17",
+                  "54",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 96,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.23",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "22",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "18",
+                  "74",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "36",
+                  "110",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "20",
+                  "69",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "41",
+                  "115",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "8",
+                  "37",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "17",
+                  "54",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 108,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.23",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "22",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "18",
+                  "74",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "36",
+                  "110",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "20",
+                  "69",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "41",
+                  "115",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "8",
+                  "37",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "17",
+                  "54",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 120,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.23",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "22",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "18",
+                  "74",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "36",
+                  "110",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "20",
+                  "69",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "41",
+                  "115",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "8",
+                  "37",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "17",
+                  "54",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 132,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.24",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "22",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "64",
+                  "176",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "64",
+                  "176",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "48",
+                  "168",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "63",
+                  "177",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "18",
+                  "58",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "22",
+                  "57",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 144,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.24",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "22",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "64",
+                  "176",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "64",
+                  "176",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "48",
+                  "168",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "63",
+                  "177",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "18",
+                  "58",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "22",
+                  "57",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 156,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.25",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "30",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "64",
+                  "176",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "64",
+                  "176",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "48",
+                  "168",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "63",
+                  "177",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "18",
+                  "58",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "22",
+                  "57",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 168,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.25",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "30",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "64",
+                  "176",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "64",
+                  "176",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "48",
+                  "168",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "63",
+                  "177",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "18",
+                  "58",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "22",
+                  "57",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 180,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.26",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "30",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "110",
+                  "250",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "110",
+                  "250",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "40",
+                  "220",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "40",
+                  "220",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "25",
+                  "125",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "25",
+                  "125",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 192,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.26",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "30",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "110",
+                  "250",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "110",
+                  "250",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "40",
+                  "220",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "40",
+                  "220",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "25",
+                  "125",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "25",
+                  "125",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  },
+  {
+      "age": 204,
+      "titles": [
+          "min",
+          "max",
+          "Max H",
+          "Max M"
+      ],
+      "values": [
+          {
+              "name": "Alb",
+              "measure": "mg/m2/d",
+              "isGirl": null,
+              "values": [
+                  "3.35",
+                  "",
+                  "13.15",
+                  "18.34"
+              ]
+          },
+          {
+              "name": "Ca",
+              "measure": "mg/mgCr",
+              "isGirl": null,
+              "values": [
+                  "",
+                  "<0.26",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cr 24h",
+              "measure": "mg/kg/día",
+              "isGirl": null,
+              "values": [
+                  "8",
+                  "30",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "110",
+                  "250",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Cl 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "110",
+                  "250",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": true,
+              "values": [
+                  "40",
+                  "220",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "Na 24h",
+              "measure": "mEq/día",
+              "isGirl": false,
+              "values": [
+                  "40",
+                  "220",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": true,
+              "values": [
+                  "25",
+                  "125",
+                  "",
+                  ""
+              ]
+          },
+          {
+              "name": "K 24h",
+              "measure": "mg/kg/día",
+              "isGirl": false,
+              "values": [
+                  "25",
+                  "125",
+                  "",
+                  ""
+              ]
+          }
+      ]
+  }
+]

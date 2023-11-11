@@ -1,18 +1,18 @@
 import { en, es } from 'translations';
 import { valuesType } from 'types';
-import { bloodCountData } from './bloodCount';
-import { liverFunctionData } from './liverFunction';
-import { infectiousData } from './infectious';
-import { serumElectrolytesData } from './serumElectrolytes';
-import { bloodChemistryData } from './bloodChemistry';
-import { ironProfileData } from './ironProfile';
-import { variousData } from './various';
-import { gasometryData } from './gasometry';
-import { vitaminsAndElementsData } from './vitaminsAndElements';
-import { cerebrospinalFluidData } from './cerebrospinalFluid';
-import { urinaryValuesData } from './urinaryValues';
-import { fluidsData } from './fluid';
-import { lipidProfileData } from './lipidProfile';
+import { bloodCountData } from './bloodCount.ts';
+import { liverFunctionData } from './liverFunction.ts';
+import { infectiousData } from './infectious.ts';
+import { serumElectrolytesData } from './serumElectrolytes.ts';
+import { bloodChemistryData } from './bloodChemistry.ts';
+import { ironProfileData } from './ironProfile.ts';
+import { variousData } from './various.ts';
+import { gasometryData } from './gasometry.ts';
+import { vitaminsAndElementsData } from './vitaminsAndElements.ts';
+import { cerebrospinalFluidData } from './cerebrospinalFluid.ts';
+import { urinaryValuesData } from './urinaryValues.ts';
+import { fluidsData } from './fluid.ts';
+import { lipidProfileData } from './lipidProfile.ts';
 
 export function values(lang: string):Array<valuesType>{
 

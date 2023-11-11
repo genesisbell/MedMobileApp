@@ -1,0 +1,1775 @@
+[
+  {
+      "age": 0,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  8,
+                  53.6
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  259,
+                  1576
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  32.1,
+                  196.2
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.2,
+                  2.1
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  56,
+                  125
+              ]
+          }
+      ]
+  },
+  {
+      "age": 1,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  8,
+                  53.6
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  259,
+                  1576
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  32.1,
+                  196.2
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.2,
+                  2.1
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  56,
+                  125
+              ]
+          }
+      ]
+  },
+  {
+      "age": 3,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  8,
+                  53.6
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  259,
+                  1576
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  32.1,
+                  196.2
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.2,
+                  2.1
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  56,
+                  125
+              ]
+          }
+      ]
+  },
+  {
+      "age": 6,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  8,
+                  53.6
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  259,
+                  1576
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  32.1,
+                  196.2
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.2,
+                  2.1
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  56,
+                  125
+              ]
+          }
+      ]
+  },
+  {
+      "age": 12,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  27.5,
+                  44.4
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  283,
+                  1613
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  47.1,
+                  151.2
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  56,
+                  125
+              ]
+          }
+      ]
+  },
+  {
+      "age": 24,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  27.5,
+                  44.4
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  283,
+                  1613
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  47.1,
+                  151.2
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  56,
+                  125
+              ]
+          }
+      ]
+  },
+  {
+      "age": 36,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  27.5,
+                  44.4
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  283,
+                  1613
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  60,
+                  120
+              ]
+          }
+      ]
+  },
+  {
+      "age": 48,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  27.5,
+                  44.4
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  283,
+                  1613
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  60,
+                  120
+              ]
+          }
+      ]
+  },
+  {
+      "age": 60,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  27.5,
+                  44.4
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  283,
+                  1613
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  64,
+                  117
+              ]
+          }
+      ]
+  },
+  {
+      "age": 72,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  27.5,
+                  44.4
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  283,
+                  1613
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  64,
+                  117
+              ]
+          }
+      ]
+  },
+  {
+      "age": 84,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  27.5,
+                  44.4
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  283,
+                  1613
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  65,
+                  125
+              ]
+          }
+      ]
+  },
+  {
+      "age": 96,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  27.5,
+                  44.4
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  283,
+                  1613
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  65,
+                  125
+              ]
+          }
+      ]
+  },
+  {
+      "age": 108,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  27.5,
+                  44.4
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  252,
+                  1125
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  66,
+                  125
+              ]
+          }
+      ]
+  },
+  {
+      "age": 120,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  27.5,
+                  44.4
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  252,
+                  1125
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  66,
+                  125
+              ]
+          }
+      ]
+  },
+  {
+      "age": 132,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  24.9,
+                  55
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  252,
+                  1125
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  66,
+                  127
+              ]
+          }
+      ]
+  },
+  {
+      "age": 144,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  24.9,
+                  55
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  252,
+                  1125
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  66,
+                  127
+              ]
+          }
+      ]
+  },
+  {
+      "age": 156,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  24.9,
+                  55
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  252,
+                  1125
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  69,
+                  124
+              ]
+          }
+      ]
+  },
+  {
+      "age": 168,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  24.9,
+                  55
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  244,
+                  888
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  69,
+                  124
+              ]
+          }
+      ]
+  },
+  {
+      "age": 180,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  24.9,
+                  55
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  244,
+                  888
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  62,
+                  123
+              ]
+          }
+      ]
+  },
+  {
+      "age": 192,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  28.7,
+                  75.1
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  244,
+                  888
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": null,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": null,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": null,
+              "values": [
+                  62,
+                  123
+              ]
+          }
+      ]
+  },
+  {
+      "age": 204,
+      "titles": [
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": true,
+              "values": [
+                  28.7,
+                  75.1
+              ]
+          },
+          {
+              "name": "Vit A",
+              "measure": "mg/dL",
+              "isGirl": false,
+              "values": [
+                  28.7,
+                  75.1
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": true,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B1",
+              "measure": "mCg/dL",
+              "isGirl": false,
+              "values": [
+                  4.5,
+                  10.3
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": true,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B2",
+              "measure": "mCg/dL",
+              "isGirl": false,
+              "values": [
+                  4,
+                  24
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": true,
+              "values": [
+                  203,
+                  811
+              ]
+          },
+          {
+              "name": "Vit B12",
+              "measure": "pg/mL",
+              "isGirl": false,
+              "values": [
+                  203,
+                  811
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": true,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit C",
+              "measure": "mg/dL",
+              "isGirl": false,
+              "values": [
+                  0.4,
+                  2
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": true,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit D",
+              "measure": "pg/mL",
+              "isGirl": false,
+              "values": [
+                  45,
+                  102.5
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": true,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Vit E",
+              "measure": "mg/dL",
+              "isGirl": false,
+              "values": [
+                  0.6,
+                  1.4
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": true,
+              "values": [
+                  62,
+                  133
+              ]
+          },
+          {
+              "name": "Zinc",
+              "measure": "mCg/dL",
+              "isGirl": false,
+              "values": [
+                  62,
+                  133
+              ]
+          }
+      ]
+  }
+]

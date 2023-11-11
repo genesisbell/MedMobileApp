@@ -13,14 +13,16 @@ import { BaseSpace } from './BaseSpace';
 /** */
 
 /** @Hooks */
-import { useAppDispatch, useAppSelector } from '../../../src/app/hooks';
+import { useAppDispatch, useAppSelector, getLangState, getThemeState } from '../../../src/app/hooks';
 import { setDarkTheme, setLightTheme, setSolarTheme } from '../../../src/app/slices/themeSlice';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../src/app/store';
 /** */
 
 export function BaseThemeSelection() {
   const dispatch = useAppDispatch();
-  const theme = useAppSelector(({ theme }) => theme.value);
-  const language = useAppSelector(({ language }) => language.value);
+  const language = useSelector((rootState: RootState) => getLangState(rootState).value);
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
 
   function saveThemeSelection(themeName: string) {
     try {

@@ -11,12 +11,14 @@ import { BaseScreen } from 'components';
 import ValueComp from '../Components/ValueComp';
 /** */
 
-import { useAppSelector } from '../../../app/hooks';
+import { useAppSelector, getLangState } from '../../../app/hooks';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../app/store';
 
 
 function Values() {
   
-  const language = useAppSelector(({language}) => language.value);
+  const language = useSelector((rootState: RootState) => getLangState(rootState).value);
   const data = values(language.name);
 
   return (

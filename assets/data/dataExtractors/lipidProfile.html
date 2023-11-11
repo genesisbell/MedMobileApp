@@ -19,14 +19,14 @@
     </textarea> 
     <script>// Method to upload a valid excel file
       function upload() {
-        var files = document.getElementById('file_upload').files;
+        var files = document.getElementById("file_upload").files;
         if(files.length==0){
           alert("Please choose any file...");
           return;
         }
         var filename = files[0].name;
         var extension = filename.substring(filename.lastIndexOf(".")).toUpperCase();
-        if (extension == '.XLS' || extension == '.XLSX') {
+        if (extension == ".XLS" || extension == ".XLSX") {
           excelFileToJSON(files[0]);
         }
         else{
@@ -41,7 +41,7 @@
           reader.onload = function(e) {
             var data = e.target.result;
             var workbook = XLSX.read(data, {
-              type : 'binary'
+              type : "binary"
             });
             var result = [];
             workbook.SheetNames.forEach(function(sheetName) {
@@ -74,14 +74,14 @@
                       {
                         age,
                         titles: [
-                          'lang.values.wanted',
-                          'lang.values.border',
-                          'lang.values.high',
+                          "lang.values.wanted",
+                          "lang.values.border",
+                          "lang.values.high",
                         ],
                         values: [
                             {
-                                name: 'lang.values.cholesterol',
-                                measure: 'mg/dL',
+                                name: "lang.values.cholesterol",
+                                measure: "mg/dL",
                                 isGirl: null,
                                 values: [
                                   des1,
@@ -90,8 +90,8 @@
                                 ],
                             },
                             {
-                                name: 'LDL',
-                                measure: 'mg/dL',
+                                name: "LDL",
+                                measure: "mg/dL",
                                 isGirl: null,
                                 values: [
                                   des2,
@@ -100,8 +100,8 @@
                                 ],
                             },
                             {
-                                name: 'HDL',
-                                measure: 'mg/dL',
+                                name: "HDL",
+                                measure: "mg/dL",
                                 isGirl: null,
                                 values: [
                                   des3,
@@ -110,8 +110,8 @@
                                 ],
                             },
                             {
-                                name: 'lang.values.triglycerides',
-                                measure: 'mg/dL',
+                                name: "lang.values.triglycerides",
+                                measure: "mg/dL",
                                 isGirl: null,
                                 values: [
                                   des4,
@@ -130,7 +130,7 @@
             //displaying the json result
             var resultEle=document.getElementById("json-result");
             resultEle.value=JSON.stringify(result, null, 4);
-            resultEle.style.display='block';
+            resultEle.style.display="block";
           }
         }
         catch(e){

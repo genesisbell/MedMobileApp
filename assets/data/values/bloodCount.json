@@ -1,0 +1,1727 @@
+[
+  {
+      "age": 0,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  16.8,
+                  13.7,
+                  20.1
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  55,
+                  45,
+                  65
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  18000,
+                  9000,
+                  30000
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              5
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "40-80%",
+                              "31%",
+                              "2%",
+                              "6%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 1,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  16.5,
+                  13,
+                  20
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  50,
+                  42,
+                  66
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  12000,
+                  5000,
+                  21000
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "40%",
+                              "48%",
+                              "3%",
+                              "3-10%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 3,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  12,
+                  9.5,
+                  14.5
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  36,
+                  31,
+                  41
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  12000,
+                  6000,
+                  18000
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "30%",
+                              "63%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 6,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  12,
+                  10.5,
+                  14
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  37,
+                  33,
+                  42
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  10000,
+                  6000,
+                  15000
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "45%",
+                              "48%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 12,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  12,
+                  10.5,
+                  14
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  37,
+                  33,
+                  42
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  10000,
+                  6000,
+                  15000
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "45%",
+                              "48%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 24,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  12,
+                  10.5,
+                  14
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  37,
+                  33,
+                  42
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  10000,
+                  6000,
+                  15000
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "45%",
+                              "48%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 36,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  12,
+                  10.5,
+                  14
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  37,
+                  33,
+                  42
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  10000,
+                  6000,
+                  15000
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "45%",
+                              "48%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 48,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  12,
+                  10.5,
+                  14
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  37,
+                  33,
+                  42
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  10000,
+                  6000,
+                  15000
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "45%",
+                              "48%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 60,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  12,
+                  10.5,
+                  14
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  37,
+                  33,
+                  42
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  10000,
+                  6000,
+                  15000
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "45%",
+                              "48%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 72,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  12,
+                  10.5,
+                  14
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  37,
+                  33,
+                  42
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  10000,
+                  6000,
+                  15000
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "45%",
+                              "48%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 84,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  13,
+                  11,
+                  16
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  38,
+                  34,
+                  40
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  8000,
+                  4500,
+                  13500
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "55%",
+                              "38%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 96,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  13,
+                  11,
+                  16
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  38,
+                  34,
+                  40
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  8000,
+                  4500,
+                  13500
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "55%",
+                              "38%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 108,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  13,
+                  11,
+                  16
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  38,
+                  34,
+                  40
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  8000,
+                  4500,
+                  13500
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "55%",
+                              "38%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 120,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  13,
+                  11,
+                  16
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  38,
+                  34,
+                  40
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  8000,
+                  4500,
+                  13500
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "55%",
+                              "38%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 132,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  13,
+                  11,
+                  16
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  38,
+                  34,
+                  40
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  8000,
+                  4500,
+                  13500
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "55%",
+                              "38%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 144,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  13,
+                  11,
+                  16
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  38,
+                  34,
+                  40
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  8000,
+                  4500,
+                  13500
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "55%",
+                              "38%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 156,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  13,
+                  11,
+                  16
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  38,
+                  34,
+                  40
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  8000,
+                  4500,
+                  13500
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "55%",
+                              "38%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 168,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  13,
+                  11,
+                  16
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  38,
+                  34,
+                  40
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  8000,
+                  4500,
+                  13500
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "55%",
+                              "38%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 180,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  13,
+                  11,
+                  16
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  38,
+                  34,
+                  40
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  8000,
+                  4500,
+                  13500
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "55%",
+                              "38%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 192,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": null,
+              "values": [
+                  13,
+                  11,
+                  16
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": null,
+              "values": [
+                  38,
+                  34,
+                  40
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": null,
+              "values": [
+                  8000,
+                  4500,
+                  13500
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": null,
+                          "values": [
+                              "55%",
+                              "38%",
+                              "2%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "age": 204,
+      "titles": [
+          "prom",
+          "min",
+          "max"
+      ],
+      "values": [
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": true,
+              "values": [
+                  14,
+                  12,
+                  16
+              ]
+          },
+          {
+              "name": "hemoglobin",
+              "measure": "g/dL",
+              "isGirl": false,
+              "values": [
+                  16,
+                  14,
+                  18
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": true,
+              "values": [
+                  42,
+                  37,
+                  47
+              ]
+          },
+          {
+              "name": "hematocrit",
+              "measure": "%",
+              "isGirl": false,
+              "values": [
+                  47,
+                  42,
+                  52
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": true,
+              "values": [
+                  7500,
+                  5000,
+                  10000
+              ]
+          },
+          {
+              "name": "leukocytes",
+              "measure": "10³/μl",
+              "isGirl": false,
+              "values": [
+                  7500,
+                  5000,
+                  10000
+              ]
+          }
+      ],
+      "extraValues": [
+          {
+              "name": "retis",
+              "measure": null,
+              "values": {
+                  "names": null,
+                  "values": [
+                      {
+                          "isGirl": true,
+                          "values": [
+                              1.6
+                          ]
+                      },
+                      {
+                          "isGirl": false,
+                          "values": [
+                              1
+                          ]
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "differential",
+              "measure": null,
+              "values": {
+                  "names": [
+                      "neutros",
+                      "linfos",
+                      "eos",
+                      "mono"
+                  ],
+                  "values": [
+                      {
+                          "isGirl": true,
+                          "values": [
+                              "55%",
+                              "35%",
+                              "3%",
+                              "0%"
+                          ]
+                      },
+                      {
+                          "isGirl": false,
+                          "values": [
+                              "55%",
+                              "35%",
+                              "3%",
+                              "0%"
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+  }
+]

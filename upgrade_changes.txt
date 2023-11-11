@@ -1,0 +1,42 @@
+info Fetching diff between v0.68.7 and v0.69.0...
+info Applying diff...
+warn Excluding files that exist in the template, but not in your project:
+  - .flowconfig
+error Excluding files that failed to apply the diff:
+  - android/app/build.gradle
+
+info Fetching diff between v0.69.0 and v0.69.12...
+info Applying diff...
+warn Excluding files that exist in the template, but not in your project:
+  - ios/MedMobileApp.xcworkspace.xcodeproj/project.pbxproj
+  - ios/MedMobileApp.xcworkspace.xcworkspace/contents.xcworkspacedata
+error Excluding files that failed to apply the diff:
+  - ios/Podfile
+
+info Fetching diff between v0.69.12 and v0.70.0...
+info Applying diff...
+warn Excluding files that exist in the template, but not in your project:
+  - App.js
+error Excluding files that failed to apply the diff:
+  - .flowconfig
+  - android/app/build.gradle
+  - android/app/src/main/jni/Android.mk
+  - ios/Podfile
+
+info Fetching diff between v0.71.0 and v0.71.13...
+warn Multiple Podfiles were found: ios/Podfile,vendor/bundle/ruby/2.7.0/gems/cocoapods-core-1.12.1/lib/cocoapods-core/Podfile. Choosing ios/Podfile automatically. If you would like to select a different one, you can configure it via "project.ios.sourceDir". You can learn more about it here: https://github.com/react-native-community/cli/blob/master/docs/configuration.md
+info Applying diff...
+warn Excluding files that exist in the template, but not in your project:
+  - ios/MedMobileApp.xcworkspace/AppDelegate.mm
+
+info Fetching diff between v0.71.13 and v0.72.0...
+warn Multiple Podfiles were found: ios/Podfile,vendor/bundle/ruby/2.7.0/gems/cocoapods-core-1.12.1/lib/cocoapods-core/Podfile. Choosing ios/Podfile automatically. If you would like to select a different one, you can configure it via "project.ios.sourceDir". You can learn more about it here: https://github.com/react-native-community/cli/blob/master/docs/configuration.md
+info Applying diff...
+warn Excluding files that exist in the template, but not in your project:
+  - ios/MedMobileApp.xcworkspace/AppDelegate.mm
+error Excluding files that failed to apply the diff:
+  - .eslintrc.js
+  - android/gradlew.bat
+  - android/settings.gradle
+  - app.json
+  - ios/Podfile

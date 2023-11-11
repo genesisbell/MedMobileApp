@@ -19,14 +19,14 @@
     </textarea> 
     <script>// Method to upload a valid excel file
       function upload() {
-        var files = document.getElementById('file_upload').files;
+        var files = document.getElementById("file_upload").files;
         if(files.length==0){
           alert("Please choose any file...");
           return;
         }
         var filename = files[0].name;
         var extension = filename.substring(filename.lastIndexOf(".")).toUpperCase();
-        if (extension == '.XLS' || extension == '.XLSX') {
+        if (extension == ".XLS" || extension == ".XLSX") {
           excelFileToJSON(files[0]);
         }
         else{
@@ -41,7 +41,7 @@
           reader.onload = function(e) {
             var data = e.target.result;
             var workbook = XLSX.read(data, {
-              type : 'binary'
+              type : "binary"
             });
             var result = [];
             workbook.SheetNames.forEach(function(sheetName) {
@@ -60,18 +60,18 @@
                     const minvsg = currentRow["__EMPTY_2"];
                     const maxvsg = currentRow["__EMPTY_3"];
                     
-                    // name: 'lang.values.hemoglobin',
+                    // name: "lang.values.hemoglobin",
                     result.push(
                       {
                         age,
                         titles: [
-                          'lang.values.min',
-                          'lang.values.max',
+                          "lang.values.min",
+                          "lang.values.max",
                         ],
                         values: [
                           {
-                            name: 'PCR',
-                            measure: 'mg/L',
+                            name: "PCR",
+                            measure: "mg/L",
                             isGirl: null,
                             values: [
                               minpcr,
@@ -79,8 +79,8 @@
                             ],
                           },
                           {
-                            name: 'VSG',
-                            measure: 'mm/h',
+                            name: "VSG",
+                            measure: "mm/h",
                             isGirl: null,
                             values: [
                               minvsg,
@@ -98,7 +98,7 @@
             //displaying the json result
             var resultEle=document.getElementById("json-result");
             resultEle.value=JSON.stringify(result, null, 4);
-            resultEle.style.display='block';
+            resultEle.style.display="block";
           }
         }
         catch(e){

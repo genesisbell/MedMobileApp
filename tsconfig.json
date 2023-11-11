@@ -102,5 +102,6 @@
   "exclude": [
     "node_modules", "babel.config.js", "metro.config.js", "jest.config.js"
   ],
-  "include": ["src", "index.d.ts"]
+  "include": ["src", "index.d.ts"],
+  "extends": "@tsconfig/react-native/tsconfig.json"
 }
