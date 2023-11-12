@@ -17,13 +17,12 @@ const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 
 function CircularProgress(props: CircularProgressProps, ref: any){
   const {
-
-  radius,
-  strokeWidth,
-  backgroundColor,
-  percentageComplete,
-  duration,
-  children,
+    radius,
+    strokeWidth,
+    backgroundColor,
+    percentageComplete,
+    duration,
+    children,
   } = props;
   useImperativeHandle(ref, () => ({
     start: () => {theta.value = animateTo.value},
@@ -45,24 +44,29 @@ function CircularProgress(props: CircularProgressProps, ref: any){
   })
 
   return (
-    <View style={styles.container}>
-      <Svg style={StyleSheet.absoluteFill}>
+    <View style={{
+      width: radius * 2,
+      height: radius * 2
+    }}>
+      <View style={styles.container}>
+        <Svg style={StyleSheet.absoluteFill}>
 
-        <Circle cx={radius} cy={radius} strokeWidth={strokeWidth} r={innerRadius} stroke={'grey'}/>
-        <AnimatedCircle
-          animatedProps={animatedProps}
-          cx={radius}
-          cy={radius}
-          fill={'transparent'}
-          r={innerRadius}
-          strokeWidth={strokeWidth}
-          stroke={backgroundColor}
-          strokeDasharray={circumference}
-          strokeDashoffset={circumference * invertedCompletion}
-          strokeLinecap='round'
-        />
-      </Svg>
-      {children}
+          <Circle cx={radius} cy={radius} strokeWidth={strokeWidth} r={innerRadius} stroke={'grey'}/>
+          <AnimatedCircle
+            animatedProps={animatedProps}
+            cx={radius}
+            cy={radius}
+            fill={'transparent'}
+            r={innerRadius}
+            strokeWidth={strokeWidth}
+            stroke={backgroundColor}
+            strokeDasharray={circumference}
+            strokeDashoffset={circumference * invertedCompletion}
+            strokeLinecap='round'
+          />
+        </Svg>
+        {children}
+      </View>
     </View>
   );
 };

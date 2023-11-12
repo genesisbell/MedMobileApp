@@ -1,13 +1,7 @@
 import React, { useState, useEffect, useRef, useImperativeHandle, forwardRef } from 'react';
 import {
-  View,
   Text,
-  Pressable,
 } from 'react-native';
-
-/** @Components */
-import { BaseButton } from './BaseButton';
-/** */
 
 import { getClock } from '../../../src/utils';
 
@@ -29,7 +23,7 @@ function BaseTimer(props: BaseTimerProps, ref: any){
     return () => {
       clearInterval(intervalId.current)
     }
-  }, [basis])
+  }, [basis]);
 
 
   useEffect(() => {
@@ -39,14 +33,8 @@ function BaseTimer(props: BaseTimerProps, ref: any){
     }
   }, [timer]);
 
-
-  // useEffect(() => {
-  //   if (timerDisp <= 0) {
-  //     clearInterval(intervalId.current);
-  //   }
-  // }, [timerDisp])
-
   function handleStart(){
+    console.log('this gets caleed')
     var t = new Date();
     setBasis(t.valueOf());
   }
@@ -62,11 +50,7 @@ function BaseTimer(props: BaseTimerProps, ref: any){
     timer: Math.floor((timer - basis) / 1000),
   }));
 
-  return (
-    <View>
-      <Text>{timerDisp}</Text>
-    </View>
-  )
+  return <Text>{timerDisp}</Text>;
 }
 
 export default forwardRef(BaseTimer);
