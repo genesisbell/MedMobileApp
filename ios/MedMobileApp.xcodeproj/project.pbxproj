@@ -12,6 +12,9 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1974D93CD5398EEC52FAAC22 /* libPods-MedMobileApp-MedMobileAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7BF7DD0B96399275EED183 /* libPods-MedMobileApp-MedMobileAppTests.a */; };
+		44A91E052B00534300792350 /* bip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A91E042B00534100792350 /* bip.mp3 */; };
+		44A91E072B007D3900792350 /* longnotif.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A91E062B007D3100792350 /* longnotif.mp3 */; };
+		44A91E092B007D4000792350 /* bip1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A91E082B007D3F00792350 /* bip1.mp3 */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		AFCD95344857EE2CF0144E4D /* libPods-MedMobileApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BF52CA6DCB6E7FA434CE7D /* libPods-MedMobileApp.a */; };
 /* End PBXBuildFile section */
@@ -38,6 +41,9 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MedMobileApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MedMobileApp/main.m; sourceTree = "<group>"; };
 		24BF52CA6DCB6E7FA434CE7D /* libPods-MedMobileApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MedMobileApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A91E042B00534100792350 /* bip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bip.mp3; sourceTree = "<group>"; };
+		44A91E062B007D3100792350 /* longnotif.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = longnotif.mp3; sourceTree = "<group>"; };
+		44A91E082B007D3F00792350 /* bip1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bip1.mp3; sourceTree = "<group>"; };
 		4C7BF7DD0B96399275EED183 /* libPods-MedMobileApp-MedMobileAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MedMobileApp-MedMobileAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E0A8574938AF0C812C8CA5 /* Pods-MedMobileApp-MedMobileAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedMobileApp-MedMobileAppTests.release.xcconfig"; path = "Target Support Files/Pods-MedMobileApp-MedMobileAppTests/Pods-MedMobileApp-MedMobileAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MedMobileApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -116,6 +122,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				44A91E082B007D3F00792350 /* bip1.mp3 */,
+				44A91E062B007D3100792350 /* longnotif.mp3 */,
+				44A91E042B00534100792350 /* bip.mp3 */,
 				13B07FAE1A68108700A75B9A /* MedMobileApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* MedMobileAppTests */,
@@ -242,8 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A91E052B00534300792350 /* bip.mp3 in Resources */,
+				44A91E092B007D4000792350 /* bip1.mp3 in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				44A91E072B007D3900792350 /* longnotif.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

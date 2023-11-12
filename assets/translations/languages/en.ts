@@ -15,20 +15,23 @@ const en = {
     weight: 'Weight',
     with: 'With',
   },
-  drugs:{
+  cpr: {
+    cpr: 'CPR',
+  },
+  drugs: {
     pneumology: 'Pneumology',
-    adrenaline:{
+    adrenaline: {
       name: 'Racemic Adrenaline',
       indication1: 'Nebulizar con',
       indication2: 'ml de Sol. Salina 0.9%, por 15 minutos',
     },
-    hydrocortisone:{
+    hydrocortisone: {
       name: 'Hydrocortisone',
       indication1: 'Nebulizar con',
       indication2: 'ml de Sol. Salina 0.9%, por 15 minutos',
     },
   },
-  values:{
+  values: {
     values: 'Values',
     bloodCount: 'Blood Count',
     hemoglobin: 'Hemoglobin',
@@ -79,10 +82,10 @@ const en = {
     exudate: 'Exudate',
     protein: 'Protein',
   },
-  settings:{
+  settings: {
     settings: 'Settings',
   },
-  solutions:{
+  solutions: {
     solutions: 'Solutions',
     bodySurface: 'Body Surface',
     naConcentrate: 'Concentrate of NA',

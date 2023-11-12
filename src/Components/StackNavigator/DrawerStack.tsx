@@ -2,6 +2,7 @@ import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
 /** @Components */
+import CPR from '../CPR/Screens/CPR';
 import DrawerButton from './Components/DrawerButton';
 import Drugs from '../Drugs/Screens/Drugs';
 import Favorites from '../Favorites/Screens/Favorites';
@@ -19,6 +20,7 @@ import { RootState } from '../../app/store';
 
 export type RootStackParams = {
   // Favorites: undefined;
+  CPR: undefined;
   Values: undefined;
   Solutions: undefined;
   // Urgencies: undefined;
@@ -47,26 +49,27 @@ export default function DrawerStack() {
           backgroundColor: theme.backgroundPrmColor,
         },
         headerLeft: () => <DrawerButton navigation={navigation} />,
-        headerRight: () => <HeaderRight route={route}/>,
+        headerRight: () => <HeaderRight route={route} />,
       })}
     >
       {/* <DrawerNav.Screen name="Favorites" component={Favorites} /> */}
+      <DrawerNav.Screen name="CPR" component={CPR} options={{ title: language.cpr.cpr }} />
       <DrawerNav.Screen
         name="Values"
         component={Values}
-        options={{title: language.values.values}}
+        options={{ title: language.values.values }}
       />
       {/* <DrawerNav.Screen name="Urgencies" component={Urgencies} /> */}
       {/* <DrawerNav.Screen name="Drugs" component={Drugs} /> */}
-      <DrawerNav.Screen 
+      <DrawerNav.Screen
         name="Solutions"
         component={Solutions}
-        options={{title: language.solutions.solutions}}
+        options={{ title: language.solutions.solutions }}
       />
-      <DrawerNav.Screen 
+      <DrawerNav.Screen
         name="Settings"
         component={Settings}
-        options={{title: language.settings.settings}}
+        options={{ title: language.settings.settings }}
       />
     </DrawerNav.Navigator>
   );
