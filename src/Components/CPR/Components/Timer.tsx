@@ -108,7 +108,7 @@ function Timer(){
   return(
     <View>
       <BaseButton
-        text={timer < 0 ? lang.general.start : lang.general.stop}
+        text={timer < 0 ? lang.general.start : lang.general.stop  }
         onPress={handleTimer}
         buttonColor={timer < 0 ? 'green' : 'red'}
       />
