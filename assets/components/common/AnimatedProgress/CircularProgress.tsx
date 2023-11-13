@@ -7,6 +7,7 @@ import { BaseButton } from '../BaseButton';
 type CircularProgressProps = {
   strokeWidth: number;
   radius: number;
+  color: string;
   backgroundColor: string;
   percentageComplete: number;
   duration: number;
@@ -19,6 +20,7 @@ function CircularProgress(props: CircularProgressProps, ref: any){
   const {
     radius,
     strokeWidth,
+    color,
     backgroundColor,
     percentageComplete,
     duration,
@@ -51,7 +53,7 @@ function CircularProgress(props: CircularProgressProps, ref: any){
       <View style={styles.container}>
         <Svg style={StyleSheet.absoluteFill}>
 
-          <Circle cx={radius} cy={radius} strokeWidth={strokeWidth} r={innerRadius} stroke={'grey'}/>
+          <Circle cx={radius} cy={radius} strokeWidth={strokeWidth} r={innerRadius} stroke={backgroundColor}/>
           <AnimatedCircle
             animatedProps={animatedProps}
             cx={radius}
@@ -59,10 +61,10 @@ function CircularProgress(props: CircularProgressProps, ref: any){
             fill={'transparent'}
             r={innerRadius}
             strokeWidth={strokeWidth}
-            stroke={backgroundColor}
+            stroke={color}
             strokeDasharray={circumference}
             strokeDashoffset={circumference * invertedCompletion}
-            strokeLinecap='round'
+            // strokeLinecap='round'
           />
         </Svg>
         {children}

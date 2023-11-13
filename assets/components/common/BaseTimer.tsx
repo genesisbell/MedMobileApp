@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef, useImperativeHandle, forwardRef } from 'react';
-import {
-  Text,
-} from 'react-native';
+
+import { CommonStyles } from 'styles';
+
+import { BaseText } from './BaseText';
 
 import { getClock } from '../../../src/utils';
 
@@ -50,7 +51,7 @@ function BaseTimer(props: BaseTimerProps, ref: any){
     timer: Math.floor((timer - basis) / 1000),
   }));
 
-  return <Text>{timerDisp}</Text>;
+  return <BaseText style={CommonStyles.h6}>{timerDisp}</BaseText>;
 }
 
 export default forwardRef(BaseTimer);

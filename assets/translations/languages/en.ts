@@ -11,6 +11,8 @@ const en = {
     months: 'Months',
     reference: 'Reference',
     serum: 'Serum',
+    start: 'Start',
+    stop: 'Stop',
     years: 'Years',
     weight: 'Weight',
     with: 'With',
