@@ -17,10 +17,11 @@ import Values from '../Values/Screens/Values';
 import { useAppSelector, getLangState, getThemeState } from '../../app/hooks';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../app/store';
+import CPRStack from './CPRStack';
 
 export type RootStackParams = {
   // Favorites: undefined;
-  CPR: undefined;
+  CPRStack: undefined;
   Values: undefined;
   Solutions: undefined;
   // Urgencies: undefined;
@@ -53,7 +54,7 @@ export default function DrawerStack() {
       })}
     >
       {/* <DrawerNav.Screen name="Favorites" component={Favorites} /> */}
-      <DrawerNav.Screen name="CPR" component={CPR} options={{ title: language.cpr.cpr }} />
+      <DrawerNav.Screen name="CPRStack" component={CPRStack} options={{ title: language.cpr.cpr }} />
       <DrawerNav.Screen
         name="Values"
         component={Values}

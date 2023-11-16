@@ -18,7 +18,12 @@ const es = {
     with: 'con',
   },
   cpr: {
+    addEvent: 'Agregar Evento',
+    adrenaline: 'Adrenalina',
+    charge: 'Descarga',
     cpr: 'RCP',
+    lastEvents: 'Ultimos Eventos',
+    logs: 'Bitacora',
   },
   drugs: {
     pneumology: 'Neumología',

@@ -18,7 +18,12 @@ const en = {
     with: 'With',
   },
   cpr: {
+    addEvent: 'Add Event',
+    adrenaline: 'Adrenaline',
+    charge: 'Charge',
     cpr: 'CPR',
+    lastEvents: 'Last Events',
+    logs: 'Logs',
   },
   drugs: {
     pneumology: 'Pneumology',
