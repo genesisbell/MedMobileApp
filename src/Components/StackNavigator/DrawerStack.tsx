@@ -1,32 +1,25 @@
 import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
+import { useSelector } from 'react-redux';
 
 /** @Components */
-import CPR from '../CPR/Screens/CPR';
 import DrawerButton from './Components/DrawerButton';
-import Drugs from '../Drugs/Screens/Drugs';
-import Favorites from '../Favorites/Screens/Favorites';
 import HeaderRight from './Components/HeaderRight';
 import MenuLeft from './Components/MenuLeft';
-import Settings from '../Settings/Screens/Settings';
-import Solutions from '../Solutions/Screen/Solutions';
-import Urgencies from '../Urgencies/Screens/Urgencies';
-import Values from '../Values/Screens/Values';
+import CPRStack from './CPRStack';
+import ValuesStack from './ValuesStack';
+import SolutionsStack from './SolutionsStack';
+import SettingsStack from './SettingsStack';
 /** */
 
-import { useAppSelector, getLangState, getThemeState } from '../../app/hooks';
-import { useSelector } from 'react-redux';
+import { getLangState, getThemeState } from '../../app/hooks';
 import { RootState } from '../../app/store';
-import CPRStack from './CPRStack';
 
 export type RootStackParams = {
-  // Favorites: undefined;
   CPRStack: undefined;
-  Values: undefined;
-  Solutions: undefined;
-  // Urgencies: undefined;
-  // Drugs: undefined;
-  Settings: undefined;
+  ValuesStack: undefined;
+  SolutionsStack: undefined;
+  SettingsStack: undefined;
 };
 
 const DrawerNav = createDrawerNavigator<RootStackParams>();
@@ -37,41 +30,42 @@ export default function DrawerStack() {
 
   return (
     <DrawerNav.Navigator
-      initialRouteName="Values"
+      initialRouteName="ValuesStack"
       drawerContent={(props) => <MenuLeft {...props} />}
-      screenOptions={({ navigation, route }) => ({
-        headerStyle: {
-          backgroundColor: theme.headerBgColor,
-        },
-        headerTitleStyle: {
-          color: theme.headerTextColor,
-        },
-        drawerStyle: {
-          backgroundColor: theme.backgroundPrmColor,
-        },
-        headerLeft: () => <DrawerButton navigation={navigation} />,
-        headerRight: () => <HeaderRight route={route} />,
-      })}
+      screenOptions={{
+        headerShown: false,
+      }}
     >
-      {/* <DrawerNav.Screen name="Favorites" component={Favorites} /> */}
-      <DrawerNav.Screen name="CPRStack" component={CPRStack} options={{ title: language.cpr.cpr }} />
-      <DrawerNav.Screen
-        name="Values"
-        component={Values}
-        options={{ title: language.values.values }}
-      />
-      {/* <DrawerNav.Screen name="Urgencies" component={Urgencies} /> */}
-      {/* <DrawerNav.Screen name="Drugs" component={Drugs} /> */}
-      <DrawerNav.Screen
-        name="Solutions"
-        component={Solutions}
-        options={{ title: language.solutions.solutions }}
-      />
-      <DrawerNav.Screen
-        name="Settings"
-        component={Settings}
-        options={{ title: language.settings.settings }}
-      />
+      <DrawerNav.Screen name="CPRStack" component={CPRStack} />
+      <DrawerNav.Screen name="ValuesStack" component={ValuesStack} />
+      <DrawerNav.Screen name="SolutionsStack" component={SolutionsStack} />
+      <DrawerNav.Screen name="SettingsStack" component={SettingsStack} />
     </DrawerNav.Navigator>
   );
+}
+
+export function headerOptions(props: any){
+
+  const {
+    navigation,
+    route,
+    theme,
+    canGoBack,
+  } = props;
+
+  return({
+    headerShown: true,
+    headerStyle: {
+      backgroundColor: theme.headerBgColor,
+    },
+    headerTitleStyle: {
+      color: theme.headerTextColor,
+    },
+    drawerStyle: {
+      backgroundColor: theme.backgroundPrmColor,
+    },
+    headerLeft: () => canGoBack ? null : <DrawerButton navigation={navigation} />,
+    headerRight: () => <HeaderRight route={route} />,
+  })
+
 }

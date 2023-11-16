@@ -33,7 +33,8 @@ import { RootState } from '../../../app/store';
 const vw = Dimensions.get('window').width;
 
 interface HeaderRightProps{
-  route: RouteProp<RootStackParams, keyof RootStackParams>,
+  // route: RouteProp<RootStackParams, keyof RootStackParams>,
+  route: any,
 }
 
 function HeaderRight(props: HeaderRightProps){
@@ -62,11 +63,11 @@ function HeaderRight(props: HeaderRightProps){
   }
 
   function handleYearInfo(option: OptionType) {
-    setYear(option.info.key);
+    setYear(option.info.key as number);
   }
 
   function handleMonthInfo(option: OptionType) {
-    setMonth(option.info.key);
+    setMonth(option.info.key as number);
   }
 
   function handlePatientData(){
@@ -84,7 +85,7 @@ function HeaderRight(props: HeaderRightProps){
     <BaseModal
     showModal={showModal}
       icon={(
-        <View style={[CommonStyles.alignCenter, {paddingRight: 10}]}>
+        <View style={[CommonStyles.alignCenter]}>
           <SvgXml xml={userIcon(theme.headerTextColor)} width={25} height={25} />
           <View style={CommonStyles.flexDirectionRow}>
             <BaseText style={[CommonStyles.smallText, {color: theme.headerTextColor}]}>

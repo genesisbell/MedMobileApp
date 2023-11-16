@@ -43,19 +43,19 @@ export default function MenuLeft(props: DrawerContentComponentProps) {
       id: id++,
       icon: valuesIcon,
       text: language.values.values,
-      onPress: () => navigation.navigate('Values'),
+      onPress: () => navigation.navigate('ValuesStack'),
     },
     {
       id: id++,
       icon: solutionsIcon,
       text: language.solutions.solutions,
-      onPress: () => navigation.navigate('Solutions'),
+      onPress: () => navigation.navigate('SolutionsStack'),
     },
     {
       id: id++,
       icon: settingsIcon,
       text: language.settings.settings,
-      onPress: () => navigation.navigate('Settings'),
+      onPress: () => navigation.navigate('SettingsStack'),
     },
     // {
     //   id: id++,
