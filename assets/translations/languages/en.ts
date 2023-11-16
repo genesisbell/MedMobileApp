@@ -22,6 +22,7 @@ const en = {
     adrenaline: 'Adrenaline',
     charge: 'Charge',
     cpr: 'CPR',
+    event: 'Event',
     lastEvents: 'Last Events',
     logs: 'Logs',
   },

@@ -22,6 +22,7 @@ const es = {
     adrenaline: 'Adrenalina',
     charge: 'Descarga',
     cpr: 'RCP',
+    event: 'Evento',
     lastEvents: 'Ultimos Eventos',
     logs: 'Bitacora',
   },
