@@ -5,6 +5,7 @@ import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
 import { BaseScreen, BaseText } from 'components';
 import { CPRStackParams } from '../../StackNavigator/CPRStack';
+import LogFileComponent from '../Components/LogFileComponent';
 
 
 type LogsProps = NativeStackScreenProps<CPRStackParams, 'Logs'> & {};
@@ -19,20 +20,18 @@ function Logs(props: LogsProps){
   /** @useEffect */
   useEffect(() => {
 
-    readeFile();
+    readDirectory();
 
   }, []);
   /** */
 
   /** @Handlers */
-  function readeFile(){
+  function readDirectory(){
     RNFS.readDir(RNFS.DocumentDirectoryPath) // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
     .then((result) => {
       
       const paths:Array<string> = [];
       result.map(re => {
-        
-        console.log(re.path, re.mtime, re.ctime)
         paths.push(re.name);
         
       });
@@ -43,22 +42,18 @@ function Logs(props: LogsProps){
       console.log(err.message, err.code);
     });
   }
-  
-  function handleReadFile(file: ReadDirItem){
-
-    navigation.navigate('Log', {file: file.path});
-  }
   /** */
 
   return (
     <BaseScreen>
       {
         files.map(file => (
-          <TouchableWithoutFeedback key={file.ctime?.toString()} onPress={() => handleReadFile(file)}>
-            <View>
-              <BaseText>{file.name}</BaseText>
-            </View>
-          </TouchableWithoutFeedback>
+          <LogFileComponent
+            key={file.name}
+            file={file}
+            navigation={navigation}
+            reloadDirectory={readDirectory}
+          />
         ))
       }
     </BaseScreen>

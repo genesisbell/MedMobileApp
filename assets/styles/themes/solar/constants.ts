@@ -30,6 +30,8 @@ export const bottomBgColor = '#F3EEDE';
 
 export const menuIconActiveColor = '#54BAB9';
 export const menuIconInactiveColor = '#787a91';
+
+export const errColor = 'red';
 /** */
 
 export const shadow = {
@@ -75,9 +77,9 @@ export const textStyles = StyleSheet.create(
     // tryText:{
     //   color: textTryColor,
     // },
-    // errText:{
-    //   color: errColor,
-    // },
+    errText:{
+      color: errColor,
+    },
     // successText:{
     //   color: textSuccessColor,
     // }
@@ -108,6 +110,8 @@ export const constants = {
 
   menuIconActiveColor: menuIconActiveColor,
   menuIconInactiveColor: menuIconInactiveColor,
+
+  errColor: errColor,
 
   shadow: shadow,
   

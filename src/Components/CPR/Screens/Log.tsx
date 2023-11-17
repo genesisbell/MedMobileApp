@@ -23,15 +23,18 @@ type LogProps = NativeStackScreenProps<CPRStackParams, 'Log'> & {};
 function Log(props: LogProps){
 
   const {
+    navigation,
     route,
   } = props;
-  const {file} = route.params;
+  const {filePath, fileName} = route.params;
   const [data, setData] = useState<string[]>();
   const lang = useSelector((rootState: RootState) => getLangState(rootState).value);
 
   useEffect(() => {
 
-    RNFS.readFile(file)
+    navigation.setOptions({title: fileName})
+
+    RNFS.readFile(filePath)
     .then(contents => {
       setData(contents.split('\n').slice(0, -1));
     })
@@ -52,6 +55,7 @@ function Log(props: LogProps){
         <BaseText style={[CommonStyles.h5, CommonStyles.flexOne]}>{lang.cpr.event}</BaseText>
       </View>
       <BaseHorizontalLine/>
+      <BaseSpace md/>
       <ScrollView showsVerticalScrollIndicator={false}>
         {
           data?.map((d, key) => {

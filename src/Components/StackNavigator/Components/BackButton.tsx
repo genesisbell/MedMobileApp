@@ -27,7 +27,7 @@ function BackButton(props: BackButtonProps){
   return(
     <TouchableWithoutFeedback onPress={handleGoBack}>
       <View style={CommonStyles.rotate270deg}>
-        <SvgXml xml={chevronArrow(theme.textPrmColor)} width={30} height={30}/>
+        <SvgXml xml={chevronArrow(theme.headerTextColor)} width={30} height={30}/>
       </View>
     </TouchableWithoutFeedback>
   )

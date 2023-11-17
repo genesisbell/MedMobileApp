@@ -18,7 +18,10 @@ import { ReadDirItem } from 'react-native-fs';
 export type CPRStackParams = {
   CPR: undefined;
   Logs: undefined;
-  Log: {file: string};
+  Log: {
+    filePath: string,
+    fileName: string,
+  };
 };
 
 const Stack = createNativeStackNavigator<CPRStackParams>();

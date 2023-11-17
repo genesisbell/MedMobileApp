@@ -57,8 +57,6 @@ export function headerOptions(props: any){
     canGoBack,
   } = props;
 
-  console.log(theme.headerBgColor)
-
   return({
     headerShown: true,
     headerStyle: {

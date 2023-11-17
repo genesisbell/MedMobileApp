@@ -14,9 +14,10 @@ import {
 import { inputHelperButtonWidth, smBrRadius } from 'styles';
 /***/
 
-import { useAppSelector, getThemeState } from '../../../src/app/hooks';
+import { getThemeState } from '../../../src/app/hooks';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../../src/app/store';
+import BaseErrors from './BaseErrors';
 
 export type ModeType = 'flat' | 'outlined';
 interface BaseTextInputProps extends TextInputProps {
@@ -30,6 +31,10 @@ interface BaseTextInputProps extends TextInputProps {
   onChangeText: (value: string, name?: string) => void;
   mode?: ModeType;
   disabled?: boolean;
+  error?:{
+    errors: Array<string>,
+    visible: boolean
+  }
 }
 
 export function BaseTextInput(props: BaseTextInputProps) {
@@ -46,6 +51,7 @@ export function BaseTextInput(props: BaseTextInputProps) {
     keyboardType,
     mode,
     disabled,
+    error,
   } = props;
 
   const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
@@ -205,6 +211,7 @@ export function BaseTextInput(props: BaseTextInputProps) {
           </View>
         )}
       </View>
+      <BaseErrors errors={error?.errors} visible={error?.visible || false}/>
     </View>
   );
 }
