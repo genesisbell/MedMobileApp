@@ -3,19 +3,22 @@ import { PixelRatio, View } from 'react-native';
 import { useSelector } from 'react-redux';
 import Sound from 'react-native-sound';
 import RNFS from 'react-native-fs';
+import Toast from 'react-native-root-toast';
 
 /** @Assets */
 import { CommonStyles } from 'styles';
+import { errorToast, successToast } from 'configurations';
 /** */
 
 /** @Components */
 import { BaseButton, BaseSpace, BaseTimer, CircularProgress } from 'components';
+import Events from './Events';
+import Logs from './Logs';
 /** */
 
 import { getLangState, getThemeState } from '../../../app/hooks';
 import { RootState } from '../../../app/store';
-import Events from './Events';
-import Logs from './Logs';
+import { FormatDate } from '../../../utils';
 
 const STROKE_WIDTH = 30;
 const radius = PixelRatio.roundToNearestPixel(100);
@@ -113,7 +116,8 @@ function Timer(){
   }
   
   function createFile(){
-    const path = `${RNFS.DocumentDirectoryPath}/log${new Date().valueOf()}.csv`
+    const date = new FormatDate(new Date()).format('dd-MM-yy.HH:mm:ss');
+    const path = `${RNFS.DocumentDirectoryPath}/log${date}.csv`
     events.current.push([new Date(), lang.general.stop])
     const values = events.current
     // construct csvString
@@ -125,10 +129,11 @@ function Timer(){
     // write the file
     RNFS.writeFile(path, csvString, 'utf8')
       .then((success) => {
-        console.log('FILE WRITTEN!', path, success);
+        Toast.show(lang.cpr.fileCreated, successToast(theme));
       })
       .catch((err) => {
         console.log(err.message);
+        Toast.show(lang.general.defaultError, errorToast(theme));
       });
   }
   

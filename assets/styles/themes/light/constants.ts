@@ -32,6 +32,7 @@ export const menuIconInactiveColor = '#787a91';
 export const bottomBgColor = '#FFFFFF';
 
 export const errColor = 'red';
+export const successColor = 'green';
 /** */
 
 export const shadow = {
@@ -112,6 +113,7 @@ export const constants = {
   menuIconInactiveColor: menuIconInactiveColor,
 
   errColor: errColor,
+  successColor: successColor,
 
   shadow: shadow,
   

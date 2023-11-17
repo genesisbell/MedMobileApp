@@ -16,6 +16,8 @@ import { BaseActionSheet, BaseButton, BaseSpace, BaseText, BaseTextInput } from 
 
 import { RootState } from '../../../app/store';
 import { getLangState, getThemeState } from '../../../app/hooks';
+import Toast from 'react-native-root-toast';
+import { errorToast, successToast } from 'configurations';
 
 interface LogFileComponentProps{
   file: ReadDirItem,
@@ -80,9 +82,11 @@ function LogFileComponent(props: LogFileComponentProps){
     RNFS.unlink(file.path)
     .then(() => {
         reloadDirectory();
+        Toast.show(lang.cpr.fileDeleted, successToast(theme));
       })
       .catch((err) => {
         console.log(err.message);
+        Toast.show(lang.general.defaultError, errorToast(theme));
       });
   }
 
@@ -100,10 +104,12 @@ function LogFileComponent(props: LogFileComponentProps){
 
       RNFS.moveFile(file.path, newPath)
       .then(() => {
-          reloadDirectory();
+        reloadDirectory();
+        Toast.show(lang.cpr.fileRenamed, successToast(theme));
       })
       .catch((err) => {
         console.log(err.message);
+        Toast.show(lang.general.defaultError, errorToast(theme));
       });
     });
 
