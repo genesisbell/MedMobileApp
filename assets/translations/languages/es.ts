@@ -13,6 +13,7 @@ const es = {
     serum: 'Sérico',
     start: 'Empezar',
     stop: 'Parar',
+    timestamp: 'Tiempo',
     years: 'Años',
     weight: 'Peso',
     with: 'con',

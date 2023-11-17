@@ -13,9 +13,10 @@ const en = {
     serum: 'Serum',
     start: 'Start',
     stop: 'Stop',
+    timestamp: 'Timestamp',
     years: 'Years',
     weight: 'Weight',
-    with: 'With',
+    with: 'With',    
   },
   cpr: {
     addEvent: 'Add Event',

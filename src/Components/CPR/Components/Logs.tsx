@@ -12,29 +12,22 @@ import { BaseHorizontalLine, BaseText } from 'components';
 
 import { RootState } from '../../../app/store';
 import { getLangState } from '../../../app/hooks';
+import { FormatDate } from '../../../utils';
 
 interface LogsProps {
-  logs: Array<[string, Date]>,
+  logs: Array<[Date, string]>,
 }
 
 function Logs(props: LogsProps){
 
   const { logs } = props;
-  const _logs = logs.slice(-3);
+  const _logs = logs.slice(-5);
   _logs.reverse();
 
   const lang = useSelector((rootState: RootState) => getLangState(rootState).value);
-  // const _logs = logs;
 
   function formatDate(date: Date){
-    let hours = twoDigit(date.getHours());
-    let minutes = twoDigit(date.getMinutes());
-    let seconds = twoDigit(date.getSeconds());
-    return `${hours}:${minutes}:${seconds}`;
-  }
-
-  function twoDigit(value: number){
-    return value < 10 ? '0' + value : value;
+    return new FormatDate(date).format('HH:mm:ss')
   }
 
   return(
@@ -43,11 +36,11 @@ function Logs(props: LogsProps){
       <BaseText style={CommonStyles.h6}>{lang.cpr.lastEvents}</BaseText>
       {
         _logs?.map((log, index) => (
-          <Text key={index}>
-            <Text>{formatDate(log[1])}</Text>
-            <Text> - </Text>
-            <Text style={CommonStyles.boldText}>{log[0]}</Text>
-          </Text>
+          <BaseText key={index}>
+            <BaseText>{formatDate(log[0])}</BaseText>
+            <BaseText> - </BaseText>
+            <BaseText style={CommonStyles.boldText}>{log[1]}</BaseText>
+          </BaseText>
         ))
       }
     </View>

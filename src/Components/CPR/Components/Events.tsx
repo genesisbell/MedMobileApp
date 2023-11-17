@@ -14,7 +14,7 @@ import { getLangState } from '../../../app/hooks';
 import { RootState } from '../../../app/store';
 
 interface EventsProps {
-  events: Array<[string, Date]>;
+  events: Array<[Date, string]>;
   disabled: boolean;
 }
 
@@ -25,7 +25,7 @@ function Events(props: EventsProps){
   const lang = useSelector((rootState: RootState) => getLangState(rootState).value);
 
   function handleAddEvent(event: string){
-    events.push([event, new Date()]);
+    events.push([new Date(), event]);
     setCustomEvent('');
   }
 

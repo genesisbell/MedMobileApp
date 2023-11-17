@@ -36,7 +36,7 @@ function Timer(){
   const clocktime = useRef(0);
   const cref = useRef<any>();
   const timerref = useRef<any>();
-  let events = useRef<Array<[string, Date]>>([]);
+  let events = useRef<Array<[Date, string]>>([]);
 
   const longding = useRef(new Sound('longnotif.mp3', Sound.MAIN_BUNDLE, (error) => {
     if (error) {
@@ -85,12 +85,11 @@ function Timer(){
       clearInterval(soundRef.current);
       setKey(Math.random());
       timerref.current.stop();
-      readeFile()
       return;
     }
     
     events.current = [];
-    events.current.push(['start', new Date()])
+    events.current.push([new Date(), lang.general.start])
     setTimer(1);
     const interval = (60 / BPM) * 1000;
     soundRef.current = setInterval(() => {
@@ -114,23 +113,14 @@ function Timer(){
   }
   
   function createFile(){
-    var path = RNFS.DocumentDirectoryPath + '/test.csv';
-    // const values = [
-      //   ['build', '2017-11-05T05:40:35.515Z'],
-      //   ['deploy', '2017-11-05T05:42:04.810Z'],
-      //   ['start', new Date],
-      
-      // ];
-      // const values = [
-        //   ['start', new Date],
-        //   ...events.current,
-        // ]
-    events.current.push(['stop', new Date()])
+    const path = `${RNFS.DocumentDirectoryPath}/log${new Date().valueOf()}.csv`
+    events.current.push([new Date(), lang.general.stop])
     const values = events.current
     // construct csvString
-    const headerString = 'event,timestamp\n';
+    // const headerString = 'Event,Timestamp\n';
     const rowString = values.map(d => `${d[0]},${d[1]}\n`).join('');
-    const csvString = `${headerString}${rowString}`;
+    // const csvString = `${headerString}${rowString}`;
+    const csvString = `${rowString}`;
 
     // write the file
     RNFS.writeFile(path, csvString, 'utf8')
@@ -140,31 +130,6 @@ function Timer(){
       .catch((err) => {
         console.log(err.message);
       });
-  }
-
-  function readeFile(){
-    RNFS.readDir(RNFS.DocumentDirectoryPath) // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
-    .then((result) => {
-      // console.log('GOT RESULT', result);
-
-      // stat the first file
-      return Promise.all([RNFS.stat(result[0].path), result[0].path]);
-    })
-    .then((statResult) => {
-      if (statResult[0].isFile()) {
-        // if we have a file, read it
-        return RNFS.readFile(statResult[1], 'utf8');
-      }
-
-      return 'no file';
-    })
-    .then((contents) => {
-      // log the file contents
-      console.log(contents);
-    })
-    .catch((err) => {
-      console.log(err.message, err.code);
-    });
   }
   
   return(

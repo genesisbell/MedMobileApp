@@ -12,10 +12,13 @@ import { RootState } from '../../app/store';
 import DrawerButton from './Components/DrawerButton';
 import HeaderRight from './Components/HeaderRight';
 import { headerOptions } from './DrawerStack';
+import Log from '../CPR/Screens/Log';
+import { ReadDirItem } from 'react-native-fs';
 
 export type CPRStackParams = {
   CPR: undefined;
   Logs: undefined;
+  Log: {file: string};
 };
 
 const Stack = createNativeStackNavigator<CPRStackParams>();
@@ -42,6 +45,19 @@ export default function CPRStack() {
       <Stack.Screen
         name="Logs"
         component={Logs}
+        options={({navigation, route}) => ({
+          title: language.cpr.logs,
+          ...headerOptions({
+            navigation,
+            route,
+            theme,
+            canGoBack: true,
+          }),
+        })}
+      />
+      <Stack.Screen
+        name="Log"
+        component={Log}
         options={({navigation, route}) => ({
           title: language.cpr.logs,
           ...headerOptions({
