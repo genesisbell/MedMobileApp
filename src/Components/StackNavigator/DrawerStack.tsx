@@ -34,6 +34,9 @@ export default function DrawerStack() {
       drawerContent={(props) => <MenuLeft {...props} />}
       screenOptions={{
         headerShown: false,
+        drawerStyle: {
+          backgroundColor: theme.backgroundPrmColor,
+        },
       }}
     >
       <DrawerNav.Screen name="CPRStack" component={CPRStack} />
@@ -53,6 +56,8 @@ export function headerOptions(props: any){
     canGoBack,
   } = props;
 
+  console.log(theme.headerBgColor)
+
   return({
     headerShown: true,
     headerStyle: {
@@ -60,9 +65,6 @@ export function headerOptions(props: any){
     },
     headerTitleStyle: {
       color: theme.headerTextColor,
-    },
-    drawerStyle: {
-      backgroundColor: theme.backgroundPrmColor,
     },
     headerLeft: () => canGoBack ? null : <DrawerButton navigation={navigation} />,
     headerRight: () => <HeaderRight route={route} />,
