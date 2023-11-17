@@ -3,6 +3,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { useSelector } from 'react-redux';
 
 /** @Components */
+import BackButton from './Components/BackButton';
 import DrawerButton from './Components/DrawerButton';
 import HeaderRight from './Components/HeaderRight';
 import MenuLeft from './Components/MenuLeft';
@@ -66,7 +67,7 @@ export function headerOptions(props: any){
     headerTitleStyle: {
       color: theme.headerTextColor,
     },
-    headerLeft: () => canGoBack ? null : <DrawerButton navigation={navigation} />,
+    headerLeft: () => canGoBack ? <BackButton navigation={navigation}/> : <DrawerButton navigation={navigation} />,
     headerRight: () => <HeaderRight route={route} />,
   })
 

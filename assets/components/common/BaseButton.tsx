@@ -102,7 +102,6 @@ export function BaseButton(props: BaseButtonProps){
             height: finalHeight,
             width,
             paddingHorizontal: paddingHorizontal !== undefined ? paddingHorizontal : mdSpace,
-            ...shadowObject,
             opacity: ( disabled || loading ) ? .5 : 1,
         }
     });
