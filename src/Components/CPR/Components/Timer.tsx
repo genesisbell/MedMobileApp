@@ -117,7 +117,8 @@ function Timer(){
   
   function createFile(){
     const date = new FormatDate(new Date()).format('dd-MM-yy HH.mm.ss');
-    const path = `${RNFS.DocumentDirectoryPath}/log${date}.csv`
+    const folderPath = `${RNFS.DocumentDirectoryPath}/blueberry_logs`;
+    const filePath = `${folderPath}/log${date}.csv`;
     events.current.push([new Date(), lang.general.stop])
     const values = events.current
     // construct csvString
@@ -126,10 +127,16 @@ function Timer(){
     // const csvString = `${headerString}${rowString}`;
     const csvString = `${rowString}`;
 
-    // write the file
-    RNFS.writeFile(path, csvString, 'utf8')
+
+    RNFS.mkdir(folderPath)
     .then((success) => {
-      Toast.show(lang.cpr.fileCreated, successToast(theme));
+      RNFS.writeFile(filePath, csvString, 'utf8')
+      .then((success) => {
+        Toast.show(lang.cpr.fileCreated, successToast(theme));
+      })
+      .catch((err) => {
+        Toast.show(lang.general.defaultError, errorToast(theme));
+      });
     })
     .catch((err) => {
       Toast.show(lang.general.defaultError, errorToast(theme));

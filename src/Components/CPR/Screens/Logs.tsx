@@ -27,7 +27,7 @@ function Logs(props: LogsProps){
 
   /** @Handlers */
   function readDirectory(){
-    RNFS.readDir(RNFS.DocumentDirectoryPath) // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
+    RNFS.readDir(`${RNFS.DocumentDirectoryPath}/blueberry_logs`) // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
     .then((result) => {
       
       const paths:Array<string> = [];
