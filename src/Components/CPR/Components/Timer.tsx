@@ -116,25 +116,24 @@ function Timer(){
   }
   
   function createFile(){
-    // const date = new FormatDate(new Date()).format('dd-MM-yy.HH:mm:ss');
-    // const path = `${RNFS.DocumentDirectoryPath}/log${date}.csv`
-    // events.current.push([new Date(), lang.general.stop])
-    // const values = events.current
-    // // construct csvString
-    // // const headerString = 'Event,Timestamp\n';
-    // const rowString = values.map(d => `${d[0]},${d[1]}\n`).join('');
-    // // const csvString = `${headerString}${rowString}`;
-    // const csvString = `${rowString}`;
+    const date = new FormatDate(new Date()).format('dd-MM-yy HH.mm.ss');
+    const path = `${RNFS.DocumentDirectoryPath}/log${date}.csv`
+    events.current.push([new Date(), lang.general.stop])
+    const values = events.current
+    // construct csvString
+    // const headerString = 'Event,Timestamp\n';
+    const rowString = values.map(d => `${d[0]},${d[1]}\n`).join('');
+    // const csvString = `${headerString}${rowString}`;
+    const csvString = `${rowString}`;
 
-    // // write the file
-    // RNFS.writeFile(path, csvString, 'utf8')
-    // .then((success) => {
-    //   Toast.show(lang.cpr.fileCreated, successToast(theme));
-    // })
-    // .catch((err) => {
-    //   console.log(err.message);
-    //   Toast.show(lang.general.defaultError, errorToast(theme));
-    // });
+    // write the file
+    RNFS.writeFile(path, csvString, 'utf8')
+    .then((success) => {
+      Toast.show(lang.cpr.fileCreated, successToast(theme));
+    })
+    .catch((err) => {
+      Toast.show(lang.general.defaultError, errorToast(theme));
+    });
   }
   
   return(

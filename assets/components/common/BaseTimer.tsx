@@ -35,7 +35,6 @@ function BaseTimer(props: BaseTimerProps, ref: any){
   }, [timer]);
 
   function handleStart(){
-    console.log('this gets caleed')
     var t = new Date();
     setBasis(t.valueOf());
   }
