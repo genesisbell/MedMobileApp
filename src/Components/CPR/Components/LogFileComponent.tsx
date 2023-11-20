@@ -3,11 +3,14 @@ import { TouchableWithoutFeedback, View } from 'react-native';
 import { useSelector } from 'react-redux';
 import RNFS, { ReadDirItem } from 'react-native-fs';
 import { SvgXml } from 'react-native-svg';
+import Share from 'react-native-share';
+import Toast from 'react-native-root-toast';
 
 /** @Assets */
-import { CommonStyles, mdSpace, smBrRadius } from 'styles';
+import { CommonStyles } from 'styles';
 import { options } from 'icons';
 import { OptionsType } from 'types';
+import { errorToast, successToast } from 'configurations';
 /** */
 
 /** @Components */
@@ -16,8 +19,6 @@ import { BaseActionSheet, BaseButton, BaseSpace, BaseText, BaseTextInput } from 
 
 import { RootState } from '../../../app/store';
 import { getLangState, getThemeState } from '../../../app/hooks';
-import Toast from 'react-native-root-toast';
-import { errorToast, successToast } from 'configurations';
 
 interface LogFileComponentProps{
   file: ReadDirItem,
@@ -42,6 +43,13 @@ function LogFileComponent(props: LogFileComponentProps){
 
   const fileOptions:OptionsType = [
     {
+      text: lang.general.share,
+      info: {
+        key: 'share',
+      },
+      onPress: handleShare,
+    },
+    {
       text: lang.cpr.rename,
       info: {
         key: 'rename',
@@ -53,7 +61,6 @@ function LogFileComponent(props: LogFileComponentProps){
           delete: false,
         })
       },
-
     },
     {
       text: lang.general.delete,
@@ -129,6 +136,12 @@ function LogFileComponent(props: LogFileComponentProps){
       errors: prevState.errors,
       visible: false,
     }));
+  }
+
+  function handleShare(){
+    Share.open({
+      url: `file://${file.path}`
+    }).then(res => console.log(' si se pudo'))
   }
   /** */
 

@@ -13,6 +13,7 @@ const en = {
     months: 'Months',
     reference: 'Reference',
     serum: 'Serum',
+    share: 'Share',
     start: 'Start',
     stop: 'Stop',
     timestamp: 'Timestamp',

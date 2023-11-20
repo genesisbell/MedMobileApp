@@ -13,6 +13,7 @@ const es = {
     months: 'Meses',
     reference: 'Referencia',
     serum: 'Sérico',
+    share: 'Compartir',
     start: 'Empezar',
     stop: 'Parar',
     timestamp: 'Tiempo',
