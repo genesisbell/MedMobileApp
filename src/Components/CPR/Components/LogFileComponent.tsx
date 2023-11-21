@@ -98,7 +98,7 @@ function LogFileComponent(props: LogFileComponentProps){
   }
 
   function handleRenameFile(){
-    const newPath = `${RNFS.DocumentDirectoryPath}/${fileName}.csv`
+    const newPath = `${RNFS.DocumentDirectoryPath}/blueberry_logs/${fileName}.csv`
 
     RNFS.exists(newPath).then((exist) => {
       if(exist) {
