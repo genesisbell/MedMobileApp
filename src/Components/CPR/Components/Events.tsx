@@ -10,7 +10,7 @@ import { CommonStyles } from 'styles';
 import { BaseButton, BaseSpace, BaseTextInput } from 'components';
 /** */
 
-import { getLangState } from '../../../app/hooks';
+import { getLangState, getPatientState } from '../../../app/hooks';
 import { RootState } from '../../../app/store';
 
 interface EventsProps {
@@ -23,6 +23,9 @@ function Events(props: EventsProps){
   const { events, disabled } = props;
   const [customEvent, setCustomEvent] = useState('');
   const lang = useSelector((rootState: RootState) => getLangState(rootState).value);
+  const patient = useSelector((rootState: RootState) => getPatientState(rootState));
+  const adrenaline = patient.weight * .01;
+  const charge = patient.weight * 2;
 
   function handleAddEvent(event: string){
     events.push([new Date(), event]);
@@ -36,8 +39,8 @@ function Events(props: EventsProps){
 
   return(
     <View>
-      <BaseButton text={lang.cpr.charge} onPress={() => handleAddEvent(lang.cpr.charge)} disabled={disabled}/>
-      <BaseButton text={lang.cpr.adrenaline} onPress={() => handleAddEvent(lang.cpr.adrenaline)} disabled={disabled}/>
+      <BaseButton text={`${lang.cpr.charge} ${charge} J`} onPress={() => handleAddEvent(lang.cpr.charge)} disabled={disabled}/>
+      <BaseButton text={`${lang.cpr.adrenaline} ${adrenaline} mg`} onPress={() => handleAddEvent(lang.cpr.adrenaline)} disabled={disabled}/>
       <View style={CommonStyles.flexDirectionRowSpaceBetween}>
         <View style={CommonStyles.flexOne}>
           <BaseTextInput

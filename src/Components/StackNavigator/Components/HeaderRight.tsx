@@ -54,7 +54,8 @@ function HeaderRight(props: HeaderRightProps){
     key: 1,
     show: false,
   });
-  const isWeightDependant = route.name === 'Values';
+  const isWeightDependant = route.name === 'CPR';
+  const isAgeDependant = route.name === 'Values';
   /** */
 
   /** @Handlers */
@@ -88,10 +89,11 @@ function HeaderRight(props: HeaderRightProps){
         <View style={[CommonStyles.alignCenter]}>
           <SvgXml xml={userIcon(theme.headerTextColor)} width={25} height={25} />
           <View style={CommonStyles.flexDirectionRow}>
-            <BaseText style={[CommonStyles.smallText, {color: theme.headerTextColor}]}>
-              {patient.weight} kg | 
-            </BaseText>
             <BaseText style={[CommonStyles.smallText, {color: isWeightDependant ? theme.secondaryColor : theme.headerTextColor, fontWeight: isWeightDependant ? 'bold' : 'normal'}]}>
+              {patient.weight} kg
+            </BaseText>
+            <BaseText style={{color: theme.headerTextColor, fontWeight: 'bold'}}> | </BaseText>
+            <BaseText style={[CommonStyles.smallText, {color: isAgeDependant ? theme.secondaryColor : theme.headerTextColor, fontWeight: isAgeDependant ? 'bold' : 'normal'}]}>
               {' '}{patient.years}a {patient.months}m
             </BaseText>
           </View>
