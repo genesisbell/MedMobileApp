@@ -10,7 +10,8 @@
     "lint": "eslint --ext .tsx --ext .ts --ext .js --ext .jsx src/ assets/",
     "lint:fix": "eslint ./src/**/*.tsx ./assets/**/*.ts --fix",
     "format": "prettier --check ./src ./assets",
-    "format:write": "prettier --write ./src ./assets"
+    "format:write": "prettier --write ./src ./assets",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.19.3",
@@ -20,11 +21,13 @@
     "@react-navigation/native-stack": "^6.9.13",
     "@reduxjs/toolkit": "^1.9.5",
     "@shopify/flash-list": "^1.5.0",
+    "app-constants": "file:assets/app-constants",
     "components": "file:assets/components",
     "configurations": "file:assets/configurations",
     "data": "file:assets/data",
     "icons": "file:assets/icons",
     "images": "file:assets/images",
+    "patch-package": "^8.0.0",
     "react": "18.2.0",
     "react-native": "0.72.6",
     "react-native-actions-sheet": "^0.9.0-alpha.21",
