@@ -157,7 +157,7 @@ function HeaderRight(props: HeaderRightProps){
         </View>
 
         <BaseSpace bg/>
-        <BaseButton text='Done' onPress={handlePatientData}/>
+        <BaseButton text={language.general.accept} onPress={handlePatientData}/>
       </View>
     </BaseModal>
   )

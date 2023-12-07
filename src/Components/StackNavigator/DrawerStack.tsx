@@ -1,4 +1,5 @@
 import React from 'react';
+import { Animated } from "react-native";
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { useSelector } from 'react-redux';
 
@@ -29,6 +30,10 @@ export default function DrawerStack() {
   const language = useSelector((rootState: RootState) => getLangState(rootState).value);
   const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
 
+  //For warning: Sending `onAnimatedValueUpdate` with no listeners registered.
+  const av = new Animated.Value(0);
+  av.addListener(() => {return});
+  
   return (
     <DrawerNav.Navigator
       initialRouteName="ValuesStack"

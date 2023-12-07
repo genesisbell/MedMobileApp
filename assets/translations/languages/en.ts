@@ -3,6 +3,7 @@ const en = {
   appName: 'Blueberry Pedriatrics',
   general: {
     age: 'Age',
+    accept: 'Accept',
     by: 'By',
     cancel: 'Cancel',
     chooseOption: 'Choose an Option',
@@ -24,6 +25,8 @@ const en = {
   cpr: {
     addEvent: 'Add Event',
     adrenaline: 'Adrenaline',
+    bpmError: 'The bpm sould be between 80 and 120',
+    bpmSuccess: 'BPM set successfully!',
     charge: 'Charge',
     cpr: 'CPR',
     event: 'Event',
@@ -104,6 +107,8 @@ const en = {
   },
   settings: {
     settings: 'Settings',
+    bpmCurrent: 'Current BPM',
+    bpmInst: 'Enter a value betwwen 80 and 120',
   },
   solutions: {
     solutions: 'Solutions',

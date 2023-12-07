@@ -3,6 +3,7 @@ const es = {
   appName: 'Blueberry Pediatría',
   general: {
     age: 'Edad',
+    accept: 'Aceptar',
     by: 'por',
     cancel: 'Cancelar',
     chooseOption: 'Elige una opción',
@@ -24,6 +25,8 @@ const es = {
   cpr: {
     addEvent: 'Agregar Evento',
     adrenaline: 'Adrenalina',
+    bpmError: 'BPM debe estar entre 80 y 120',
+    bpmSuccess: 'BPM se ha colocado exitosamente!',
     charge: 'Descarga',
     cpr: 'RCP',
     event: 'Evento',
@@ -104,6 +107,8 @@ const es = {
   },
   settings: {
     settings: 'Configuraciones',
+    bpmCurrent: 'BPM Actual',
+    bpmInst: 'Introduzca un valor entre 80 y 120',
   },
   solutions: {
     solutions: 'Soluciones',

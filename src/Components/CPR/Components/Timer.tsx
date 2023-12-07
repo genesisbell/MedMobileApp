@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { PixelRatio, View } from 'react-native';
 import { useSelector } from 'react-redux';
 import Sound from 'react-native-sound';
@@ -19,12 +19,13 @@ import Logs from './Logs';
 import { getLangState, getThemeState } from '../../../app/hooks';
 import { RootState } from '../../../app/store';
 import { FormatDate } from '../../../utils';
+import { getSettingsState } from '../../../app/slices/settingsSlice';
 
 const STROKE_WIDTH = 30;
 const radius = PixelRatio.roundToNearestPixel(100);
 const CYCLE = 25;
 const LAST_SECONDS = 10;
-const BPM = 80; //80 - 120
+// const BPM = 120; //80 - 120
 
 Sound.setCategory('Playback');
 
@@ -33,10 +34,10 @@ function Timer(){
   /** @Variables */
   const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const lang = useSelector((rootState: RootState) => getLangState(rootState).value);
-  const [timer, setTimer] = useState(-1);
+  const settings = useSelector((rootState: RootState) => getSettingsState(rootState));
+  const [started, setStarted] = useState(false);
   const [key, setKey] = useState(0);
   const soundRef = useRef(0);
-  const clocktime = useRef(0);
   const cref = useRef<any>();
   const timerref = useRef<any>();
   let events = useRef<Array<[Date, string]>>([]);
@@ -64,26 +65,10 @@ function Timer(){
   });
   /**/
 
-  /** @useEffect */
-  useEffect(() => {
-    if (timer >= 0) {
-      
-      clocktime.current = setInterval(() => {
-        setTimer((prevState) => prevState + 1);
-      }, 1000);
-
-    }
-    return () => {        
-      clearInterval(clocktime.current);
-      // clearInterval(soundRef.current);
-    };
-  }, [timer]);
-  /**/
-
   /** @Handlers */
   function handleTimer() {
-    if (timer >= 0) {
-      setTimer(-1);
+    if (started) {
+      setStarted(false);
       createFile();
       clearInterval(soundRef.current);
       setKey(Math.random());
@@ -92,12 +77,13 @@ function Timer(){
     }
     
     events.current = [];
-    events.current.push([new Date(), lang.general.start])
-    setTimer(1);
-    const interval = (60 / BPM) * 1000;
+    events.current.push([new Date(), lang.general.start]);
+    setStarted(true);
+    const interval = (60 / settings.bpm) * 1000;
+    ding.play();
     soundRef.current = setInterval(() => {
       
-      if(timerref.current?.timer % CYCLE >= CYCLE - LAST_SECONDS){
+      if(timerref.current?.timer % CYCLE === CYCLE - LAST_SECONDS){
         lastDing.current.play();
         return;
       }
@@ -146,9 +132,9 @@ function Timer(){
   return(
     <View>
       <BaseButton
-        text={timer < 0 ? lang.general.start : lang.general.stop  }
+        text={started ? lang.general.stop : lang.general.start }
         onPress={handleTimer}
-        buttonColor={timer < 0 ? 'green' : 'red'}
+        buttonColor={started ? 'red' : 'green'}
       />
       <View style={CommonStyles.absoluteCenter}>
         <BaseSpace xbg/>
@@ -167,7 +153,7 @@ function Timer(){
         <BaseSpace xbg/>
       </View>
 
-      <Events events={events.current} disabled={timer < 0}/>      
+      <Events events={events.current} disabled={!started}/>      
 
       <Logs logs={events.current}/>
 

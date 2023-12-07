@@ -41,7 +41,7 @@ function CPR(props: CPRProps) {
         </View>
         <BaseSpace horizontal md/>
         <View style={CommonStyles.flexOne}>
-          <BaseButton text={lang.settings.settings} sm outlined/>
+          <BaseButton text={lang.settings.settings} sm outlined onPress={() => navigation.navigate('Settings')}/>
         </View>
       </View>
       <BaseSpace md/>

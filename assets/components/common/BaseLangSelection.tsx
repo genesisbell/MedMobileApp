@@ -5,6 +5,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 /** @Assets */
 import { langOptions } from 'configurations';
 import { OptionType } from 'types';
+import { langKey } from 'app-constants';
 /** */
 
 /** @Components */
@@ -20,14 +21,14 @@ import { RootState } from '../../../src/app/store';
 
 export function BaseLangSelection() {
   const dispatch = useAppDispatch();
-  const language = useSelector((rootState: RootState) => getLangState(rootState).value);
-  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
+  const language = useAppSelector((rootState: RootState) => getLangState(rootState).value);
+  const theme = useAppSelector((rootState: RootState) => getThemeState(rootState).value);
   const langIndex = langOptions.findIndex(lang => lang.info.key === language.name);
 
   function saveLanguageSelection(option: OptionType) {
     dispatchSelectedLanguage(option.info.key.toString(), dispatch);
     void (async function () {
-      await AsyncStorage.setItem('language', option.info.key.toString());
+      await AsyncStorage.setItem(langKey, option.info.key.toString());
     })();
   }
 

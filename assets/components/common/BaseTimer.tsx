@@ -1,8 +1,12 @@
 import React, { useState, useEffect, useRef, useImperativeHandle, forwardRef } from 'react';
 
+/** @Assets */
 import { CommonStyles } from 'styles';
+/** */
 
+/** @Components */
 import { BaseText } from './BaseText';
+/** */
 
 import { getClock } from '../../../src/utils';
 
@@ -35,7 +39,7 @@ function BaseTimer(props: BaseTimerProps, ref: any){
   }, [timer]);
 
   function handleStart(){
-    var t = new Date();
+    const t = new Date();
     setBasis(t.valueOf());
   }
 

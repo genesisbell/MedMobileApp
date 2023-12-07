@@ -17,6 +17,7 @@ import { useAppDispatch, useAppSelector, getLangState, getThemeState } from '../
 import { setDarkTheme, setLightTheme, setSolarTheme } from '../../../src/app/slices/themeSlice';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../../src/app/store';
+import { themeKey } from 'app-constants';
 /** */
 
 export function BaseThemeSelection() {
@@ -43,7 +44,7 @@ export function BaseThemeSelection() {
           break;
       }
       void (async function () {
-        await AsyncStorage.setItem('theme', themeName);
+        await AsyncStorage.setItem(themeKey, themeName);
       })();
     } catch (e) {
       console.error('Error saving theme selection', e);
