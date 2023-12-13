@@ -1,0 +1,106 @@
+diff --git a/node_modules/react-native-metronome-module/ios/MetronomeModule.m b/node_modules/react-native-metronome-module/ios/MetronomeModule.m
+index 09fd637..917b3ec 100644
+--- a/node_modules/react-native-metronome-module/ios/MetronomeModule.m
++++ b/node_modules/react-native-metronome-module/ios/MetronomeModule.m
+@@ -6,6 +6,7 @@
+ RCT_EXTERN_METHOD(start)
+ RCT_EXTERN_METHOD(stop)
+ 
++RCT_EXTERN_METHOD(setCycle:(int)newCycle)
+ RCT_EXTERN_METHOD(setBPM:(int)newBPM)
+ RCT_EXTERN_METHOD(getBPM:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
+ 
+diff --git a/node_modules/react-native-metronome-module/ios/MetronomeModule.swift b/node_modules/react-native-metronome-module/ios/MetronomeModule.swift
+index 5968596..0c62682 100644
+--- a/node_modules/react-native-metronome-module/ios/MetronomeModule.swift
++++ b/node_modules/react-native-metronome-module/ios/MetronomeModule.swift
+@@ -13,10 +13,14 @@ import React
+ class MetronomeModule: NSObject, RCTInvalidating {
+ 
+   var bpm: Int = 60 ;
++  var cycle: Int = 25;
+   var shouldPauseOnLostFocus: Bool = true;
+ 
+   var timer: Timer?;
+   var player: AVAudioPlayer?;
++  var playerLast: AVAudioPlayer?;
++
++  var startTime: UInt64 = 0;
+ 
+   enum metronomeState {
+     case PLAYING
+@@ -26,11 +30,14 @@ class MetronomeModule: NSObject, RCTInvalidating {
+   var currentState: metronomeState = metronomeState.STOPPED;
+ 
+   /** === Public constructor =============================================== */
+-/*  override init() {
+-    super.init();
++  @objc static func requiresMainQueueSetup() -> Bool {
++    return false
++  }
++  // override init() {
++  //   super.init();
+ 
+-    self.initializeSoundPlayer();
+-  }*/
++  //   self.initializeSoundPlayer();
++  // }
+ 
+   /** === Private methods ================================================== */
+   private func getIntervalMS() -> Double {
+@@ -39,12 +46,14 @@ class MetronomeModule: NSObject, RCTInvalidating {
+ 
+   private func initializeSoundPlayer() -> Void {
+     guard let url = Bundle.main.url(forResource: "metronome", withExtension: "wav") else { print("metronome.wav file not found"); return; };
++    guard let urlLast = Bundle.main.url(forResource: "last", withExtension: "mp3") else { print("last.mp3 file not found"); return; };
+ 
+     do {
+       try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback, mode: AVAudioSession.Mode.default);
+       try AVAudioSession.sharedInstance().setActive(true);
+ 
+       self.player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.wav.rawValue);
++      self.playerLast = try AVAudioPlayer(contentsOf: urlLast, fileTypeHint: AVFileType.mp3.rawValue);
+     } catch let error {
+       print(error.localizedDescription)
+     }
+@@ -52,7 +61,14 @@ class MetronomeModule: NSObject, RCTInvalidating {
+ 
+   @objc private func tok()
+   {
+-    self.player?.play();
++    let elapsed = DispatchTime.now().uptimeNanoseconds - self.startTime;
++    let elapsedTime: Int = Int(floor(Double(elapsed) / 1_000_000_000));
++    if(elapsedTime % self.cycle >= self.cycle - 10){
++      self.playerLast?.play();
++    }else{
++      self.player?.play();
++    }
++    
+   }
+ 
+   /** === React Methods ==================================================== */
+@@ -67,6 +83,7 @@ class MetronomeModule: NSObject, RCTInvalidating {
+ 
+       // Start Timer on another thread
+       DispatchQueue.global(qos:.userInteractive).async(execute: {
++        self.startTime = DispatchTime.now().uptimeNanoseconds;
+         self.timer = Timer.scheduledTimer(timeInterval: self.getIntervalMS(), target: self, selector: #selector(self.tok), userInfo: nil, repeats: true);
+         RunLoop.current.run();
+       });
+@@ -95,6 +112,16 @@ class MetronomeModule: NSObject, RCTInvalidating {
+     }
+   }
+ 
++  @objc(setCycle:)
++  func setCycle(_ newCycle: Int) -> Void {
++    self.cycle = newCycle;
++
++    if (self.currentState == metronomeState.PLAYING) {
++      self.stop();
++      self.start();
++    }
++  }
++
+   @objc(getBPM:rejecter:)
+   func getBPM(_ resolve: RCTPromiseResolveBlock, rejecter reject: RCTPromiseRejectBlock) -> Void {
+     resolve(self.bpm);

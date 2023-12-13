@@ -19,7 +19,6 @@ import Logs from './Logs';
 import { getLangState, getThemeState } from '../../../app/hooks';
 import { RootState } from '../../../app/store';
 import { FormatDate } from '../../../utils';
-import { getSettingsState } from '../../../app/slices/settingsSlice';
 
 const STROKE_WIDTH = 30;
 const radius = PixelRatio.roundToNearestPixel(100);
@@ -34,39 +33,16 @@ function Timer(){
   /** @Variables */
   const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const lang = useSelector((rootState: RootState) => getLangState(rootState).value);
-  const settings = useSelector((rootState: RootState) => getSettingsState(rootState));
   const [started, setStarted] = useState(false);
   const [key, setKey] = useState(0);
   const soundRef = useRef(0);
   const cref = useRef<any>();
   const timerref = useRef<any>();
   let events = useRef<Array<[Date, string]>>([]);
-
-  const longding = useRef(new Sound('longnotif.mp3', Sound.MAIN_BUNDLE, (error) => {
-    if (error) {
-      console.log('failed to load the sound', error);
-      return;
-    }
-  }));
-
-  const lastDing = useRef(new Sound('bip2.mp3', Sound.MAIN_BUNDLE, (error) => {
-    if (error) {
-      console.log('failed to load the sound', error);
-      return;
-    }
-  }));
-
-  //Change this audio
-  const ding = new Sound('bip1.mp3', Sound.MAIN_BUNDLE, (error) => {
-    if (error) {
-      console.log('failed to load the sound', error);
-      return;
-    }
-  });
   /**/
 
   /** @Handlers */
-  function handleTimer() {
+  async function handleTimer() {
     if (started) {
       setStarted(false);
       createFile();
@@ -79,23 +55,6 @@ function Timer(){
     events.current = [];
     events.current.push([new Date(), lang.general.start]);
     setStarted(true);
-    const interval = (60 / settings.bpm) * 1000;
-    ding.play();
-    soundRef.current = setInterval(() => {
-      
-      if(timerref.current?.timer % CYCLE === CYCLE - LAST_SECONDS){
-        lastDing.current.play();
-        return;
-      }
-      
-      if(timerref.current.timer >= CYCLE && timerref.current.timer % CYCLE === 0){        
-        longding.current.play();
-        return;
-      }
-      
-      ding.play();
-      
-    }, interval);
     cref.current?.start();
     timerref.current.start();
     return;
