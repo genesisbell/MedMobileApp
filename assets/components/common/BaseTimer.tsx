@@ -31,13 +31,6 @@ function BaseTimer(props: BaseTimerProps, ref: any){
   const [timerDisp, setTimerDisp] = useState('00:00');
   const intervalId = useRef(0);
 
-  const longding = useRef(new Sound('longnotif.mp3', Sound.MAIN_BUNDLE, (error) => {
-    if (error) {
-      console.log('failed to load the sound', error);
-      return;
-    }
-  }));
-
   useEffect(() => {
     if (basis)
       intervalId.current = setInterval(() => {
@@ -53,10 +46,6 @@ function BaseTimer(props: BaseTimerProps, ref: any){
     if (basis && timer) {
       const toDisp = Math.floor((timer - basis) / 1000)
       setTimerDisp(getClock(toDisp));
-
-      if(toDisp >= CYCLE && toDisp % CYCLE === 0){        
-        longding.current.play();
-      }
     }
   }, [timer]);
 
