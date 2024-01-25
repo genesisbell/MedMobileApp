@@ -1,26 +1,56 @@
 package com.medmobileapp;
-import com.facebook.react.bridge.NativeModule;
+import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
-import java.util.Map;
-import java.util.HashMap;
+
+import java.util.concurrent.ScheduledThreadPoolExecutor;
 
 public class StopWatchModule extends ReactContextBaseJavaModule {
-   StopWatchModule(ReactApplicationContext context) {
-       super(context);
-   }
- 
+
+    /** === Private members ================================================== */
+    private enum stopWatchState {
+        PLAYING,
+        PAUSED,
+        STOPPED
+    }
+    private stopWatchState currentState = stopWatchState.STOPPED;
+    private long startTime = 0;
+
+    /** === Public constructor =============================================== */
+    StopWatchModule(ReactApplicationContext context) {
+        super(context);
+    }
+
+    /** === React Methods ==================================================== */
+    @ReactMethod
+    public void startStopWatch(){
+        if(this.currentState != stopWatchState.PLAYING){
+            this.startTime = System.currentTimeMillis();
+            this.currentState = stopWatchState.PLAYING;
+        }
+    }
+
+    @ReactMethod
+    public void stopStopWatch(){
+        if(this.currentState == stopWatchState.PLAYING){
+            this.currentState = stopWatchState.STOPPED;
+        }
+    }
+
+    @ReactMethod
+    public void getElapsedTime(Promise promise){
+        promise.resolve((int)(System.currentTimeMillis() - this.startTime));
+    }
+
+    @ReactMethod
+    public void testModule(Promise promise){
+        promise.resolve("this is a good module");
+    }
+
+    /** === Public methods =================================================== */
     @Override
     public String getName() {
         return "StopWatch";
-    }
-
-    @Override
-    public Map<String, Object> getConstants() {
-        final Map<String, Object> contansts = new HashMap<>();
-        // contansts.put("env", BuildConfig.RN_CONFIG_ENV);
-        return contansts;
     }
 }
