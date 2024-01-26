@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { FlatList, NativeModules } from 'react-native';
+import { FlatList, NativeModules, Text, View } from 'react-native';
 
 /** @Assets */
 import { values } from 'data';
@@ -14,7 +14,8 @@ import ValueComp from '../Components/ValueComp';
 import { useAppSelector, getLangState } from '../../../app/hooks';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../../app/store';
-import { StopWatch } from '../../../NativeModules';
+import { CPRView, StopWatch } from '../../../NativeModules';
+import { CPRViewManager } from '../../../NativeModules/CPR/CPRViewManager';
 
 
 function Values() {
@@ -47,20 +48,15 @@ function Values() {
   async function getTime(){
     console.log('we are getting the time');
     const s =  await StopWatch.getElapsedTime();
-    console.log('this is the time --->', Math.floor(s/1000));
+    const t = await CPRViewManager.getCPRState();
+    console.log('this is the time --->', Math.floor(t/1000));
   }
 
-  useEffect(() => {
-    console.log(state, elapsed);
-    if(state === 'started'){
-    }
-    StopWatch.getElapsedTime().then(response => setElapsed(Math.floor(response/1000)));
-    console.log('timeee', elapsed);
 
-  }, [elapsed, state]);
 
   return (
     <BaseScreen isScrollable={false}>
+      <CPRView/>
       <BaseButton onPress={callModule} text='Test module'/>
       <BaseButton onPress={startWatch} text='Start'/>
       <BaseButton onPress={stopWatch} text='Stop'/>
