@@ -1,49 +1,40 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useRef} from 'react';
 import {
-  PixelRatio,
   UIManager,
   View,
   findNodeHandle,
 } from 'react-native';
 
+import { BaseButton } from 'components';
+
 import {CPRViewManager} from './CPRViewManager';
 
 export function CPRView(){
+
+  const ref = useRef(null);
+  function stop(){
+    UIManager.dispatchViewManagerCommand(
+      findNodeHandle(ref.current),
+      "stop",
+      // [/* additional arguments */]
+    );
+  }
+  function start(){
+    UIManager.dispatchViewManagerCommand(
+      findNodeHandle(ref.current),
+      "start",
+      // [/* additional arguments */]
+    );
+  }
+
   return (
-    <CPRViewManager
-      style={{height:100, width: '100%'}}
-    />
+    <View>
+      <CPRViewManager
+        ref={ref}
+        style={{height: 30, width:60, alignSelf:'center'}}
+      />
+      <BaseButton text='Start' onPress={start}/>
+      <BaseButton text='Stop' onPress={stop}/>
+    </View>
   )
 }
-
-// const createFragment = (viewId:any) =>
-//   UIManager.dispatchViewManagerCommand(
-//     viewId,
-//     // we are calling the 'create' command
-//     UIManager.CPRViewManager.Commands.create.toString(),
-//     [viewId],
-//   );
-
-// export const CPRView = () => {
-//   const ref = useRef(null);
-
-//   useEffect(() => {
-//     const viewId = findNodeHandle(ref.current);
-//     createFragment(viewId);
-//   }, []);
-
-//   return (
-//     <View style={{flex:1}}>
-//       <CPRViewManager
-//         style={{
-//           flex: 1,
-//           // converts dpi to px, provide desired height
-//           // height: PixelRatio.getPixelSizeForLayoutSize(200),
-//           // converts dpi to px, provide desired width
-//           // width: PixelRatio.getPixelSizeForLayoutSize(200),
-//         }}
-//         ref={ref}
-//       />
-//     </View>
-//   );
-// };

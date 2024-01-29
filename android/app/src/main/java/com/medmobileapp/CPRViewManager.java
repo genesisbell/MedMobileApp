@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.facebook.react.bridge.Promise;
@@ -65,33 +66,27 @@ public class CPRViewManager extends SimpleViewManager<LinearLayout> {
     @Override
     protected LinearLayout createViewInstance(ThemedReactContext context) {
         linearLayout = new LinearLayout(context);
-        linearLayout.setBackgroundColor(Color.BLUE);
 
         textView = new TextView(context);
-        textView.setTextColor(Color.WHITE);
-        textView.setText("This is a good android ui component");
+        textView.setTextAppearance(context, android.R.style.TextAppearance_Large);
+        textView.setText("00:00");
 
-        Button button = new Button(context);
-        button.setText("Start");
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                start();
-            }
-        });
-
-        Button buttonFinished = new Button(context);
-        buttonFinished.setText("Stop");
-        buttonFinished.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                stop();
-            }
-        });
         linearLayout.addView(textView);
-        linearLayout.addView(button);
-        linearLayout.addView(buttonFinished);
         return linearLayout;
     }
 
+    @Override
+    public void receiveCommand(@NonNull LinearLayout view, String commandId, @Nullable ReadableArray args) {
+        super.receiveCommand(view, commandId, args);
+        switch (commandId) {
+            case "start":
+                start();
+                break;
+            case "stop":
+                stop();
+                break;
+        }
+    }
 
     private void start(){
         if(this.currentState != CPRViewManager.CPRState.PLAYING){

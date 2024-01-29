@@ -48,8 +48,6 @@ function Values() {
   async function getTime(){
     console.log('we are getting the time');
     const s =  await StopWatch.getElapsedTime();
-    const t = await CPRViewManager.getCPRState();
-    console.log('this is the time --->', Math.floor(t/1000));
   }
 
 
@@ -57,10 +55,6 @@ function Values() {
   return (
     <BaseScreen isScrollable={false}>
       <CPRView/>
-      <BaseButton onPress={callModule} text='Test module'/>
-      <BaseButton onPress={startWatch} text='Start'/>
-      <BaseButton onPress={stopWatch} text='Stop'/>
-      <BaseButton onPress={getTime} text='get time'/>
       <FlatList<valuesType>
         data={data}
         renderItem={({item}) => <ValueComp item={item}/>}
