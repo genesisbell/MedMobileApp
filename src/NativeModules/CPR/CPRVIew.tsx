@@ -32,6 +32,8 @@ export function CPRView(){
       <CPRViewManager
         ref={ref}
         style={{height: 30, width:60, alignSelf:'center'}}
+        bpm={120}
+        cycle={15}
       />
       <BaseButton text='Start' onPress={start}/>
       <BaseButton text='Stop' onPress={stop}/>

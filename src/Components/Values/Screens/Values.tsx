@@ -16,6 +16,7 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../../app/store';
 import { CPRView, StopWatch } from '../../../NativeModules';
 import { CPRViewManager } from '../../../NativeModules/CPR/CPRViewManager';
+import Timer from '../../CPR/Components/Timer';
 
 
 function Values() {
@@ -54,6 +55,7 @@ function Values() {
 
   return (
     <BaseScreen isScrollable={false}>
+      <Timer/>
       <CPRView/>
       <FlatList<valuesType>
         data={data}
