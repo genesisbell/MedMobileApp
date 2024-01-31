@@ -5,21 +5,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
-import androidx.swiperefreshlayout.widget.CircularProgressDrawable;
 
 // replace with your view's import
-import com.medmobileapp.CustomView;
 import com.medmobileapp.databinding.CircularProgressBinding;
 
 
 public class MyFragment extends Fragment {
-    CustomView customView;
     private CircularProgressBinding binding;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         super.onCreateView(inflater, parent, savedInstanceState);
-        customView = new CustomView(this.getContext());
         binding = CircularProgressBinding.inflate(inflater, parent, false);
         View view = binding.getRoot();
         return view; // this CustomView could be any view that you want to render
@@ -53,4 +49,13 @@ public class MyFragment extends Fragment {
         // do any logic that should happen in an `onDestroy` method
         // e.g.: customView.onDestroy();
     }
+
+    public void setText(String text){
+        binding.progressText.setText(text);
+    }
+
+    public void setProgress(int progress){
+        binding.progressBar.setProgress(progress);
+    }
+
 }
