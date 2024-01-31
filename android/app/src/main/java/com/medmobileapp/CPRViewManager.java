@@ -54,7 +54,7 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
 
     private final ScheduledThreadPoolExecutor scheduledExecutorSound = new ScheduledThreadPoolExecutor(1);
     private ScheduledFuture scheduledFutureSound;
-    private MyFragment myFragment;
+    private CPRFragment cprFragment;
 
     ReactApplicationContext mCallerContext;
 
@@ -88,8 +88,8 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
 
                                 int progressPer = (++progress * 100) / cycle;
 
-                                myFragment.setProgress(progressPer);
-                                myFragment.setText(getFormattedTime(elapsedTime));
+                                cprFragment.setProgress(progressPer);
+                                cprFragment.setText(getFormattedTime(elapsedTime));
 
                                 if(progress == cycle){
                                     progress = 0;
@@ -107,7 +107,7 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
 
     public CPRViewManager(ReactApplicationContext reactContext) {
         mCallerContext = reactContext;
-        this.myFragment = new MyFragment();
+        this.cprFragment = new CPRFragment();
         initializeSoundPool();
     }
 
@@ -191,8 +191,8 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
         if(this.currentState == CPRViewManager.CPRState.PLAYING){
             this.scheduledFutureSound.cancel(false);
             this.progress = 0;
-            this.myFragment.setProgress(0);
-            this.myFragment.setText("00:00");
+            this.cprFragment.setProgress(0);
+            this.cprFragment.setText("00:00");
             this.currentState = CPRViewManager.CPRState.STOPPED;
         }
     }
@@ -241,7 +241,7 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
         FragmentActivity activity = (FragmentActivity) mCallerContext.getCurrentActivity();
         activity.getSupportFragmentManager()
                 .beginTransaction()
-                .replace(reactNativeViewId, this.myFragment, String.valueOf(reactNativeViewId))
+                .replace(reactNativeViewId, this.cprFragment, String.valueOf(reactNativeViewId))
                 .commit();
 
     }

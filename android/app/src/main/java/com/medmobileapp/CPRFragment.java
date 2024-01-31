@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 import com.medmobileapp.databinding.CircularProgressBinding;
 
 
-public class MyFragment extends Fragment {
+public class CPRFragment extends Fragment {
     private CircularProgressBinding binding;
 
     @Override
