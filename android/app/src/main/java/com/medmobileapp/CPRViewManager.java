@@ -1,27 +1,45 @@
 // replace with your package
 package com.medmobileapp;
 
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.media.AudioAttributes;
 import android.media.SoundPool;
+import android.view.Choreographer;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.content.res.ResourcesCompat;
+import androidx.fragment.app.FragmentActivity;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReadableArray;
+import com.facebook.react.common.MapBuilder;
 import com.facebook.react.uimanager.SimpleViewManager;
+import com.facebook.react.uimanager.ViewGroupManager;
 import com.facebook.react.uimanager.annotations.ReactProp;
 import com.facebook.react.uimanager.ThemedReactContext;
 
+import java.util.Map;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-public class CPRViewManager extends SimpleViewManager<LinearLayout> {
+import com.facebook.react.uimanager.annotations.ReactPropGroup;
+import com.medmobileapp.CustomView;
+
+public class CPRViewManager extends ViewGroupManager<FrameLayout> {
 
     public static final String REACT_CLASS = "CPRViewManager";
+    public final int COMMAND_CREATE = 1;
+    CustomView customView;
 
     /** === Private members ================================================== */
     private enum CPRState {
@@ -37,13 +55,20 @@ public class CPRViewManager extends SimpleViewManager<LinearLayout> {
     private int bpm = 100;
     private long startTime = 0;
     private int cycle = 25;
+    private int propWidth;
+    private int propHeight;
 
-    private final ScheduledThreadPoolExecutor scheduledExecutor = new ScheduledThreadPoolExecutor(2);
+    private final ScheduledThreadPoolExecutor scheduledExecutor = new ScheduledThreadPoolExecutor(1);
     private final ScheduledThreadPoolExecutor scheduledExecutorSound = new ScheduledThreadPoolExecutor(1);
     private ScheduledFuture scheduledFuture;
     private ScheduledFuture scheduledFutureSound;
+
     private TextView textView;
     private LinearLayout linearLayout;
+    private RelativeLayout relativeLayout;
+    private ProgressBar progressBar;
+    private TextView progressText;
+
     ReactApplicationContext mCallerContext;
 
     private final Runnable tok = new Runnable() {
@@ -85,21 +110,43 @@ public class CPRViewManager extends SimpleViewManager<LinearLayout> {
     }
 
     @Override
-    protected LinearLayout createViewInstance(ThemedReactContext context) {
-        linearLayout = new LinearLayout(context);
-
-        textView = new TextView(context);
-        textView.setTextAppearance(context, android.R.style.TextAppearance_Large);
-        textView.setText("00:00");
-
-        linearLayout.addView(textView);
-        return linearLayout;
+    public FrameLayout createViewInstance(ThemedReactContext reactContext) {
+        return new FrameLayout(reactContext);
     }
 
+    @Nullable
     @Override
-    public void receiveCommand(@NonNull LinearLayout view, String commandId, @Nullable ReadableArray args) {
+    public Map<String, Integer> getCommandsMap() {
+        return MapBuilder.of("create", COMMAND_CREATE);
+    }
+
+//    @Override
+//    protected LinearLayout createViewInstance(ThemedReactContext context) {
+//        linearLayout = new LinearLayout(context);
+//        relativeLayout = new RelativeLayout(context);
+//
+//        // set the id for the progressbar and progress text
+////        relativeLayout = (RelativeLayout) LayoutInflater.from(context).inflate(R.layout., null, false);
+////        progressBar = LayoutInflater.from(context).inflate(R.id.progress_bar, null, false);
+////        progressText = LayoutInflater.from(context).inflate(R.id.progress_text, null, false);
+//
+//
+//        linearLayout.addView(textView);
+//        linearLayout.addView(customView);
+////        linearLayout.addView(relativeLayout);
+//        return linearLayout;
+//    }
+
+    @Override
+    public void receiveCommand(@NonNull FrameLayout view, String commandId, @Nullable ReadableArray args) {
         super.receiveCommand(view, commandId, args);
+
+        int reactNativeViewId = args.getInt(0);
+        final String commandCreateString = "" + COMMAND_CREATE;
         switch (commandId) {
+            case commandCreateString:
+                createFragment(view, reactNativeViewId);
+                break;
             case "start":
                 start();
                 break;
@@ -141,13 +188,13 @@ public class CPRViewManager extends SimpleViewManager<LinearLayout> {
         this.soundPoolLast.load(this.mCallerContext, soundResourceLastId, 1);
         this.soundPoolFinal.load(this.mCallerContext, soundResourceFinalId, 1);
     }
+
     private void start(){
         if(this.currentState != CPRViewManager.CPRState.PLAYING){
             this.scheduledExecutor.setRemoveOnCancelPolicy(true);
             this.scheduledExecutorSound.setRemoveOnCancelPolicy(true);
             this.startTime = System.currentTimeMillis();
             this.scheduledFuture = scheduledExecutor.scheduleAtFixedRate(this.tok, 0, 1000, TimeUnit.MILLISECONDS);
-//            this.scheduledFuture = scheduledExecutor.scheduleAtFixedRate(this.soundTok, 0, this.getInternalMS(), TimeUnit.MILLISECONDS);
             this.scheduledFutureSound = scheduledExecutorSound.scheduleAtFixedRate(this.soundTok, 0, this.getInternalMS(), TimeUnit.MILLISECONDS);
             this.currentState = CPRViewManager.CPRState.PLAYING;
         }
@@ -180,13 +227,58 @@ public class CPRViewManager extends SimpleViewManager<LinearLayout> {
 
     /** === React props ================================================== */
     @ReactProp(name="bpm")
-    public void setBpm(LinearLayout view, @Nullable int bpm) {
+    public void setBpm(FrameLayout view, @Nullable int bpm) {
         this.bpm = bpm;
     }
 
     @ReactProp(name="cycle")
-    public void setCycle(LinearLayout view, @Nullable int cycle) {
+    public void setCycle(FrameLayout view, @Nullable int cycle) {
         this.cycle = cycle;
+    }
+    @ReactPropGroup(names = {"width", "height"}, customType = "Style")
+    public void setStyle(FrameLayout view, int index, Integer value) {
+        if (index == 0) {
+            propWidth = value;
+        }
+
+        if (index == 1) {
+            propHeight = value;
+        }
+    }
+
+    public void createFragment(FrameLayout root, int reactNativeViewId) {
+        ViewGroup parentView = (ViewGroup) root.findViewById(reactNativeViewId);
+        setupLayout(parentView);
+
+        final MyFragment myFragment = new MyFragment();
+        FragmentActivity activity = (FragmentActivity) mCallerContext.getCurrentActivity();
+        activity.getSupportFragmentManager()
+                .beginTransaction()
+                .replace(reactNativeViewId, myFragment, String.valueOf(reactNativeViewId))
+                .commit();
+    }
+
+    public void setupLayout(View view) {
+        Choreographer.getInstance().postFrameCallback(new Choreographer.FrameCallback() {
+            @Override
+            public void doFrame(long frameTimeNanos) {
+                manuallyLayoutChildren(view);
+                view.getViewTreeObserver().dispatchOnGlobalLayout();
+                Choreographer.getInstance().postFrameCallback(this);
+            }
+        });
+    }
+
+    public void manuallyLayoutChildren(View view) {
+        // propWidth and propHeight coming from react-native props
+        int width = propWidth;
+        int height = propHeight;
+
+        view.measure(
+                View.MeasureSpec.makeMeasureSpec(width, View.MeasureSpec.EXACTLY),
+                View.MeasureSpec.makeMeasureSpec(height, View.MeasureSpec.EXACTLY));
+
+        view.layout(0, 0, width, height);
     }
 
 }

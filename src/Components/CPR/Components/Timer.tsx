@@ -19,6 +19,7 @@ import Logs from './Logs';
 import { getLangState, getThemeState } from '../../../app/hooks';
 import { RootState } from '../../../app/store';
 import { FormatDate } from '../../../utils';
+import { CPRView } from '../../../NativeModules';
 
 const STROKE_WIDTH = 30;
 const radius = PixelRatio.roundToNearestPixel(100);
@@ -39,16 +40,18 @@ function Timer(){
   const cref = useRef<any>();
   const timerref = useRef<any>();
   let events = useRef<Array<[Date, string]>>([]);
+  const cprref = useRef<any>();
   /**/
 
   /** @Handlers */
   async function handleTimer() {
     if (started) {
       setStarted(false);
-      createFile();
-      clearInterval(soundRef.current);
+      // createFile();
+      // clearInterval(soundRef.current);
       setKey(Math.random());
-      timerref.current.stop();
+      // timerref.current.stop();
+      cprref.current.stop();
       return;
     }
     
@@ -56,7 +59,8 @@ function Timer(){
     events.current.push([new Date(), lang.general.start]);
     setStarted(true);
     cref.current?.start();
-    timerref.current.start();
+    cprref.current.start();
+    // timerref.current.start();
     return;
   }
   
@@ -107,7 +111,8 @@ function Timer(){
           percentageComplete={100}
           duration={CYCLE * 1000}
         >
-          <BaseTimer ref={timerref}/>
+          {/* <BaseTimer ref={timerref}/> */}
+          <CPRView ref={cprref}/>
         </CircularProgress>
         <BaseSpace xbg/>
       </View>

@@ -55,7 +55,7 @@ function Values() {
 
   return (
     <BaseScreen isScrollable={false}>
-      <Timer/>
+      {/* <Timer/> */}
       <CPRView/>
       <FlatList<valuesType>
         data={data}
