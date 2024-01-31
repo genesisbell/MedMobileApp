@@ -7,6 +7,7 @@ import {
 } from 'react-native';
 
 import {CPRViewManager} from './CPRViewManager';
+import { BaseButton } from 'components';
 
 function createFragment(viewId:any){
   UIManager.dispatchViewManagerCommand(
@@ -67,20 +68,24 @@ function _CPRView(props: CPRViewProps, cprref:any){
   }));
 
   return (
-    <View style={{height:size, width:size, alignSelf: 'center' }}>
-      <CPRViewManager
-        ref={ref}
-        // style={{alignSelf:'center', backgroundColor: 'red'}}
-  
-        style={{
-          // converts dpi to px, provide desired height
-          height: PixelRatio.getPixelSizeForLayoutSize(size),
-          // converts dpi to px, provide desired width
-          width: PixelRatio.getPixelSizeForLayoutSize(size),
-        }}
-        bpm={_bpm}
-        cycle={_cycle}
-      />
+    <View>
+      <View style={{height:size, width:size, alignSelf: 'center' }}>
+        <CPRViewManager
+          ref={ref}
+          // style={{alignSelf:'center', backgroundColor: 'red'}}
+    
+          style={{
+            // converts dpi to px, provide desired height
+            height: PixelRatio.getPixelSizeForLayoutSize(size),
+            // converts dpi to px, provide desired width
+            width: PixelRatio.getPixelSizeForLayoutSize(size),
+          }}
+          bpm={_bpm}
+          cycle={_cycle}
+        />
+      </View>
+      <BaseButton text='Start' onPress={handleStart}/>
+      <BaseButton text='Stop' onPress={handleStop}/>
     </View>
   )
 }

@@ -1,28 +1,23 @@
 // replace with your package
 package com.medmobileapp;
 
-import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
 import android.media.AudioAttributes;
 import android.media.SoundPool;
 import android.view.Choreographer;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.core.content.res.ResourcesCompat;
 import androidx.fragment.app.FragmentActivity;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.common.MapBuilder;
-import com.facebook.react.uimanager.SimpleViewManager;
 import com.facebook.react.uimanager.ViewGroupManager;
 import com.facebook.react.uimanager.annotations.ReactProp;
 import com.facebook.react.uimanager.ThemedReactContext;
@@ -34,6 +29,7 @@ import java.util.concurrent.TimeUnit;
 
 import com.facebook.react.uimanager.annotations.ReactPropGroup;
 import com.medmobileapp.CustomView;
+import com.medmobileapp.databinding.CircularProgressBinding;
 
 public class CPRViewManager extends ViewGroupManager<FrameLayout> {
 
@@ -55,6 +51,7 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
     private int bpm = 100;
     private long startTime = 0;
     private int cycle = 25;
+    private int progress = 0;
     private int propWidth;
     private int propHeight;
 
@@ -62,16 +59,15 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
     private final ScheduledThreadPoolExecutor scheduledExecutorSound = new ScheduledThreadPoolExecutor(1);
     private ScheduledFuture scheduledFuture;
     private ScheduledFuture scheduledFutureSound;
-
-    private TextView textView;
-    private LinearLayout linearLayout;
-    private RelativeLayout relativeLayout;
     private ProgressBar progressBar;
     private TextView progressText;
+
+    private CircularProgressBinding binding;
 
     ReactApplicationContext mCallerContext;
 
     private final Runnable tok = new Runnable() {
+
         @Override
         public void run() {
             long elapsed = System.currentTimeMillis() - startTime;
@@ -81,7 +77,13 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
                 soundPoolFinal.play(1, 1, 1, 1, 0, 1.0f);
             }
 
-            textView.setText(getFormattedTime(elapsedTime));
+//            customView.setText(getFormattedTime(elapsedTime));
+//            customView.setProgress(progress++);
+            binding.progressText.setText(getFormattedTime(elapsedTime));
+
+            if(progress == cycle){
+                progress = 0;
+            }
         }
     };
 
@@ -101,6 +103,7 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
 
     public CPRViewManager(ReactApplicationContext reactContext) {
         mCallerContext = reactContext;
+        this.customView = new CustomView(reactContext);
         initializeSoundPool();
     }
 
@@ -120,32 +123,13 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
         return MapBuilder.of("create", COMMAND_CREATE);
     }
 
-//    @Override
-//    protected LinearLayout createViewInstance(ThemedReactContext context) {
-//        linearLayout = new LinearLayout(context);
-//        relativeLayout = new RelativeLayout(context);
-//
-//        // set the id for the progressbar and progress text
-////        relativeLayout = (RelativeLayout) LayoutInflater.from(context).inflate(R.layout., null, false);
-////        progressBar = LayoutInflater.from(context).inflate(R.id.progress_bar, null, false);
-////        progressText = LayoutInflater.from(context).inflate(R.id.progress_text, null, false);
-//
-//
-//        linearLayout.addView(textView);
-//        linearLayout.addView(customView);
-////        linearLayout.addView(relativeLayout);
-//        return linearLayout;
-//    }
-
     @Override
     public void receiveCommand(@NonNull FrameLayout view, String commandId, @Nullable ReadableArray args) {
         super.receiveCommand(view, commandId, args);
 
-        int reactNativeViewId = args.getInt(0);
-        final String commandCreateString = "" + COMMAND_CREATE;
         switch (commandId) {
-            case commandCreateString:
-                createFragment(view, reactNativeViewId);
+            case "" + COMMAND_CREATE:
+                createFragment(view, args.getInt(0));
                 break;
             case "start":
                 start();
@@ -190,6 +174,7 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
     }
 
     private void start(){
+        binding.progressText.setText("holaa");
         if(this.currentState != CPRViewManager.CPRState.PLAYING){
             this.scheduledExecutor.setRemoveOnCancelPolicy(true);
             this.scheduledExecutorSound.setRemoveOnCancelPolicy(true);
@@ -204,7 +189,11 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
         if(this.currentState == CPRViewManager.CPRState.PLAYING){
             this.scheduledFuture.cancel(false);
             this.scheduledFutureSound.cancel(false);
-            textView.setText("00:00");
+            this.progress = 0;
+//            customView.setText("00:00");
+
+            binding.progressText.setText("00:00");
+//            customView.setProgress(this.progress);
             this.currentState = CPRViewManager.CPRState.STOPPED;
         }
     }
@@ -256,6 +245,8 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
                 .beginTransaction()
                 .replace(reactNativeViewId, myFragment, String.valueOf(reactNativeViewId))
                 .commit();
+
+        binding = CircularProgressBinding.inflate(LayoutInflater.from(mCallerContext), parentView, false);
     }
 
     public void setupLayout(View view) {
