@@ -22,9 +22,10 @@ function createFragment(viewId:any){
 interface CPRViewProps{
   bpm?:Number;
   cycle?:Number;
+  textColor?:String;
 }
 
-const size = 200;
+const size = 250;
 
 function _CPRView(props: CPRViewProps, cprref:any){
 
@@ -32,10 +33,12 @@ function _CPRView(props: CPRViewProps, cprref:any){
   const {
     bpm,
     cycle,
+    textColor,
   } = props;
   const ref = useRef(null);
   const _bpm = bpm ? bpm : 100;
-  const _cycle = cycle ? cycle : 25;
+  const _cycle = cycle ? cycle : 120;
+  const _textColor = textColor ? textColor : "#000000";
   /** */
 
   /** @useEffect */
@@ -82,6 +85,7 @@ function _CPRView(props: CPRViewProps, cprref:any){
           }}
           bpm={_bpm}
           cycle={_cycle}
+          // textColor={_textColor}
         />
       </View>
       <BaseButton text='Start' onPress={handleStart}/>

@@ -218,10 +218,13 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
     public void setBpm(FrameLayout view, @Nullable int bpm) {
         this.bpm = bpm;
     }
-
     @ReactProp(name="cycle")
     public void setCycle(FrameLayout view, @Nullable int cycle) {
         this.cycle = cycle;
+    }
+    @ReactProp(name="textColor")
+    public void setTextColor(FrameLayout view, @Nullable String color){
+        this.cprFragment.setTextColor(color);
     }
     @ReactPropGroup(names = {"width", "height"}, customType = "Style")
     public void setStyle(FrameLayout view, int index, Integer value) {

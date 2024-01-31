@@ -1,5 +1,6 @@
 package com.medmobileapp;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -56,6 +57,10 @@ public class CPRFragment extends Fragment {
 
     public void setProgress(int progress){
         binding.progressBar.setProgress(progress);
+    }
+
+    public void setTextColor(String color){
+        binding.progressText.setTextColor(Color.parseColor(color));
     }
 
 }

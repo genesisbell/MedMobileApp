@@ -6,14 +6,14 @@
 
     <!--styling the progress bar-->
     <shape
-        android:innerRadiusRatio="2.5"
+        android:innerRadiusRatio="3"
         android:shape="ring"
-        android:thickness="8dp"
+        android:thickness="30dp"
         android:useLevel="true">
         <gradient
             android:angle="0"
             android:endColor="#f93986"
-            android:startColor="#000000"
+            android:startColor="#AF0C4D"
             android:type="sweep"
             android:useLevel="false" />
     </shape>
