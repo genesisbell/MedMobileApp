@@ -1,6 +1,8 @@
 // replace with your package
 package com.medmobileapp;
 
+import static com.facebook.react.bridge.UiThreadUtil.runOnUiThread;
+
 import android.media.AudioAttributes;
 import android.media.SoundPool;
 import android.view.Choreographer;
@@ -44,47 +46,21 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
 
     private int bpm = 100;
     private long startTime = 0;
+    private int elapsedTime = 0;
     private int cycle = 25;
     private int progress = 0;
     private int propWidth;
     private int propHeight;
 
-    private final ScheduledThreadPoolExecutor scheduledExecutor = new ScheduledThreadPoolExecutor(1);
     private final ScheduledThreadPoolExecutor scheduledExecutorSound = new ScheduledThreadPoolExecutor(1);
-    private ScheduledFuture scheduledFuture;
     private ScheduledFuture scheduledFutureSound;
     private MyFragment myFragment;
 
     ReactApplicationContext mCallerContext;
 
-    private final Runnable tok = new Runnable() {
-
-        @Override
-        public void run() {
-            long elapsed = System.currentTimeMillis() - startTime;
-            int elapsedTime = (int)elapsed/1000;
-
-            if(elapsedTime >= cycle && elapsedTime % cycle == 0){
-                soundPoolFinal.play(1, 1, 1, 1, 0, 1.0f);
-            }
-            int progressPer = (++progress * 100) / cycle;
-
-            myFragment.setProgress(progressPer);
-            myFragment.setText(getFormattedTime(elapsedTime));
-
-            if(progress == cycle){
-                progress = 0;
-            }
-
-        }
-    };
-
     private final Runnable soundTok = new Runnable() {
         @Override
         public void run() {
-            long elapsed = System.currentTimeMillis() - startTime;
-            int elapsedTime = (int)elapsed/1000;
-
             if(elapsedTime % cycle >= cycle - 10){
                 soundPoolLast.play(1, 1, 1, 1, 0, 1.0f);
             }else{
@@ -92,6 +68,42 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
             }
         }
     };
+
+    private void runThread() {
+        new Thread() {
+            public void run() {
+                while (currentState == CPRState.PLAYING) {
+                    try {
+                        runOnUiThread(new Runnable() {
+
+                            @Override
+                            public void run() {
+
+                                long elapsed = System.currentTimeMillis() - startTime;
+                                elapsedTime = (int)elapsed/1000;
+
+                                if(elapsedTime >= cycle && elapsedTime % cycle == 0){
+                                    soundPoolFinal.play(1, 1, 1, 1, 0, 1.0f);
+                                }
+
+                                int progressPer = (++progress * 100) / cycle;
+
+                                myFragment.setProgress(progressPer);
+                                myFragment.setText(getFormattedTime(elapsedTime));
+
+                                if(progress == cycle){
+                                    progress = 0;
+                                }
+                            }
+                        });
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }.start();
+    }
 
     public CPRViewManager(ReactApplicationContext reactContext) {
         mCallerContext = reactContext;
@@ -167,18 +179,16 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
 
     private void start(){
         if(this.currentState != CPRViewManager.CPRState.PLAYING){
-            this.scheduledExecutor.setRemoveOnCancelPolicy(true);
             this.scheduledExecutorSound.setRemoveOnCancelPolicy(true);
             this.startTime = System.currentTimeMillis();
-            this.scheduledFuture = scheduledExecutor.scheduleAtFixedRate(this.tok, 0, 1000, TimeUnit.MILLISECONDS);
             this.scheduledFutureSound = scheduledExecutorSound.scheduleAtFixedRate(this.soundTok, 0, this.getInternalMS(), TimeUnit.MILLISECONDS);
             this.currentState = CPRViewManager.CPRState.PLAYING;
+            this.runThread();
         }
     }
 
     private void stop(){
         if(this.currentState == CPRViewManager.CPRState.PLAYING){
-            this.scheduledFuture.cancel(false);
             this.scheduledFutureSound.cancel(false);
             this.progress = 0;
             this.myFragment.setProgress(0);
