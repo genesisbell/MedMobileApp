@@ -17,7 +17,7 @@ import Logs from './Logs';
 import { CPRView } from '../../../NativeModules';
 /** */
 
-import { getLangState, getThemeState } from '../../../app/hooks';
+import { getLangState, getThemeState, getSettingsState } from '../../../app/hooks';
 import { RootState } from '../../../app/store';
 import { FormatDate } from '../../../utils';
 
@@ -26,6 +26,7 @@ function Timer(){
   /** @Variables */
   const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const lang = useSelector((rootState: RootState) => getLangState(rootState).value);
+  const bpm = useSelector((rootState: RootState) => getSettingsState(rootState).bpm);
   const [started, setStarted] = useState(false);
   const [events, setEvents] = useState<Array<[Date, string]>>([]);
   const cprref = useRef<any>();
@@ -97,7 +98,7 @@ function Timer(){
       />
       <View style={CommonStyles.absoluteCenter}>
         <BaseSpace xbg/>
-        <CPRView ref={cprref}/>
+        <CPRView ref={cprref} bpm={bpm}/>
         <BaseSpace xbg/>
       </View>
 
