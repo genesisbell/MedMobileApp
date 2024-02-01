@@ -39,8 +39,8 @@ function Events(props: EventsProps){
 
   return(
     <View>
-      <BaseButton text={`${lang.cpr.charge} ${charge} J`} onPress={() => handleAddEvent(lang.cpr.charge)} disabled={disabled}/>
-      <BaseButton text={`${lang.cpr.adrenaline} ${adrenaline} mg`} onPress={() => handleAddEvent(lang.cpr.adrenaline)} disabled={disabled}/>
+      <BaseButton text={`${lang.cpr.charge} ${charge} J`} onPress={() => handleAddEvent(`${lang.cpr.charge} ${charge} J`)} disabled={disabled}/>
+      <BaseButton text={`${lang.cpr.adrenaline} ${adrenaline} mg`} onPress={() => handleAddEvent(`${lang.cpr.adrenaline} ${adrenaline} mg`)} disabled={disabled}/>
       <View style={CommonStyles.flexDirectionRowSpaceBetween}>
         <View style={CommonStyles.flexOne}>
           <BaseTextInput
