@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Text, View } from 'react-native';
 import { useSelector } from 'react-redux';
 
@@ -21,10 +21,15 @@ interface LogsProps {
 function Logs(props: LogsProps){
 
   const { logs } = props;
-  const _logs = logs.slice(-5);
-  _logs.reverse();
+  const [_logs, setLogs]= useState(logs.slice(-5).reverse());
+  // const _logs = logs.slice(-5);
+  // _logs.reverse();
 
   const lang = useSelector((rootState: RootState) => getLangState(rootState).value);
+
+  useEffect(() => {
+    setLogs(logs);
+  }, [logs]);
 
   function formatDate(date: Date){
     return new FormatDate(date).format('HH:mm:ss')

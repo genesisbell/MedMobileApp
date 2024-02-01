@@ -61,6 +61,11 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
     private final Runnable soundTok = new Runnable() {
         @Override
         public void run() {
+
+            long elapsed = System.currentTimeMillis() - startTime;
+            elapsedTime = (int)elapsed/1000;
+
+            soundPoolLast.play(1, 1, 1, 1, 0, 1.0f);
             if(elapsedTime % cycle >= cycle - 10){
                 soundPoolLast.play(1, 1, 1, 1, 0, 1.0f);
             }else{

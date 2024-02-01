@@ -17,6 +17,7 @@ import Timer from '../Components/Timer';
 import { CPRStackParams } from '../../StackNavigator/CPRStack';
 import { RootState } from '../../../app/store';
 import { getLangState } from '../../../app/hooks';
+import { CPRView } from '../../../NativeModules';
 
 type CPRProps = NativeStackScreenProps<CPRStackParams, 'CPR'> & {};
 
@@ -34,7 +35,6 @@ function CPR(props: CPRProps) {
 
   return (
     <BaseScreen isKeyboardAvoidingViewNative>
-
       <View style={CommonStyles.flexDirectionRowSpaceBetween}>
         <View style={CommonStyles.flexOne}>
           <BaseButton text={lang.cpr.logs} sm outlined onPress={() => navigation.navigate('Logs')}/>

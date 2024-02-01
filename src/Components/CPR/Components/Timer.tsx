@@ -11,7 +11,7 @@ import { errorToast, successToast } from 'configurations';
 /** */
 
 /** @Components */
-import { BaseButton, BaseSpace, BaseTimer, CircularProgress } from 'components';
+import { BaseButton, BaseSpace } from 'components';
 import Events from './Events';
 import Logs from './Logs';
 /** */
@@ -21,12 +21,6 @@ import { RootState } from '../../../app/store';
 import { FormatDate } from '../../../utils';
 import { CPRView } from '../../../NativeModules';
 
-const STROKE_WIDTH = 30;
-const radius = PixelRatio.roundToNearestPixel(100);
-const CYCLE = 25;
-const LAST_SECONDS = 10;
-// const BPM = 120; //80 - 120
-
 Sound.setCategory('Playback');
 
 function Timer(){
@@ -35,10 +29,6 @@ function Timer(){
   const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const lang = useSelector((rootState: RootState) => getLangState(rootState).value);
   const [started, setStarted] = useState(false);
-  const [key, setKey] = useState(0);
-  const soundRef = useRef(0);
-  const cref = useRef<any>();
-  const timerref = useRef<any>();
   let events = useRef<Array<[Date, string]>>([]);
   const cprref = useRef<any>();
   /**/
@@ -47,10 +37,7 @@ function Timer(){
   async function handleTimer() {
     if (started) {
       setStarted(false);
-      // createFile();
-      // clearInterval(soundRef.current);
-      setKey(Math.random());
-      // timerref.current.stop();
+      createFile();
       cprref.current.stop();
       return;
     }
@@ -58,9 +45,7 @@ function Timer(){
     events.current = [];
     events.current.push([new Date(), lang.general.start]);
     setStarted(true);
-    cref.current?.start();
     cprref.current.start();
-    // timerref.current.start();
     return;
   }
   
@@ -101,19 +86,7 @@ function Timer(){
       />
       <View style={CommonStyles.absoluteCenter}>
         <BaseSpace xbg/>
-        <CircularProgress
-          key={key}
-          ref={cref}
-          strokeWidth={STROKE_WIDTH}
-          radius={radius}
-          backgroundColor={theme.textSryColor}
-          color="#f93986"
-          percentageComplete={100}
-          duration={CYCLE * 1000}
-        >
-          {/* <BaseTimer ref={timerref}/> */}
-          <CPRView ref={cprref}/>
-        </CircularProgress>
+        {/* <CPRView ref={cprref}/> */}
         <BaseSpace xbg/>
       </View>
 

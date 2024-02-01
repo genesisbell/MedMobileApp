@@ -25,7 +25,7 @@ interface CPRViewProps{
   textColor?:String;
 }
 
-const size = 250;
+const size = 300;
 
 function _CPRView(props: CPRViewProps, cprref:any){
 
@@ -37,7 +37,7 @@ function _CPRView(props: CPRViewProps, cprref:any){
   } = props;
   const ref = useRef(null);
   const _bpm = bpm ? bpm : 100;
-  const _cycle = cycle ? cycle : 120;
+  const _cycle = cycle ? cycle : 25;
   const _textColor = textColor ? textColor : "#000000";
   /** */
 
@@ -88,8 +88,8 @@ function _CPRView(props: CPRViewProps, cprref:any){
           // textColor={_textColor}
         />
       </View>
-      <BaseButton text='Start' onPress={handleStart}/>
-      <BaseButton text='Stop' onPress={handleStop}/>
+      <BaseButton onPress={handleStart}/>
+      <BaseButton onPress={handleStop}/>
     </View>
   )
 }
