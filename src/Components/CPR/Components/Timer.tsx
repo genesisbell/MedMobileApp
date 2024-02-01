@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { PixelRatio, View } from 'react-native';
+import { View } from 'react-native';
 import { useSelector } from 'react-redux';
 import Sound from 'react-native-sound';
 import RNFS from 'react-native-fs';
@@ -11,7 +11,7 @@ import { errorToast, successToast } from 'configurations';
 /** */
 
 /** @Components */
-import { BaseButton, BaseSpace } from 'components';
+import { BaseButton, BaseSpace, } from 'components';
 import Events from './Events';
 import Logs from './Logs';
 /** */
@@ -20,6 +20,7 @@ import { getLangState, getThemeState } from '../../../app/hooks';
 import { RootState } from '../../../app/store';
 import { FormatDate } from '../../../utils';
 import { CPRView } from '../../../NativeModules';
+import { EventType } from 'types';
 
 Sound.setCategory('Playback');
 
@@ -29,7 +30,7 @@ function Timer(){
   const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const lang = useSelector((rootState: RootState) => getLangState(rootState).value);
   const [started, setStarted] = useState(false);
-  let events = useRef<Array<[Date, string]>>([]);
+  const [events, setEvents] = useState<Array<[Date, string]>>([]);
   const cprref = useRef<any>();
   /**/
 
@@ -42,8 +43,11 @@ function Timer(){
       return;
     }
     
-    events.current = [];
-    events.current.push([new Date(), lang.general.start]);
+    setEvents([]);
+    setEvents(prevstate => [
+      ...prevstate,
+      [new Date(), lang.general.start],
+    ]);
     setStarted(true);
     cprref.current.start();
     return;
@@ -53,8 +57,11 @@ function Timer(){
     const date = new FormatDate(new Date()).format('dd-MM-yy HH.mm.ss');
     const folderPath = `${RNFS.DocumentDirectoryPath}/blueberry_logs`;
     const filePath = `${folderPath}/log${date}.csv`;
-    events.current.push([new Date(), lang.general.stop])
-    const values = events.current
+    setEvents(prevstate => [
+      ...prevstate,
+      [new Date(), lang.general.stop],
+    ]);
+    const values = events
     // construct csvString
     // const headerString = 'Event,Timestamp\n';
     const rowString = values.map(d => `${d[0]},${d[1]}\n`).join('');
@@ -76,6 +83,13 @@ function Timer(){
       Toast.show(lang.general.defaultError, errorToast(theme));
     });
   }
+
+  function handleNewEvent(event: EventType){
+    setEvents(prevState => [
+      ...prevState,
+      event,
+    ])
+  }
   
   return(
     <View>
@@ -86,13 +100,13 @@ function Timer(){
       />
       <View style={CommonStyles.absoluteCenter}>
         <BaseSpace xbg/>
-        {/* <CPRView ref={cprref}/> */}
+        <CPRView ref={cprref}/>
         <BaseSpace xbg/>
       </View>
 
-      <Events events={events.current} disabled={!started}/>      
+      <Events handleNewEvent={handleNewEvent} disabled={!started}/>      
 
-      <Logs logs={events.current}/>
+      <Logs logs={events}/>
 
     </View>
   )

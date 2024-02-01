@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 
 /** @Assets */
 import { CommonStyles } from 'styles';
+import { EventType } from 'types';
 /** */
 
 /** @Components */
@@ -14,13 +15,13 @@ import { getLangState, getPatientState } from '../../../app/hooks';
 import { RootState } from '../../../app/store';
 
 interface EventsProps {
-  events: Array<[Date, string]>;
   disabled: boolean;
+  handleNewEvent: (events: EventType) => void;
 }
 
 function Events(props: EventsProps){
 
-  const { events, disabled } = props;
+  const { disabled, handleNewEvent } = props;
   const [customEvent, setCustomEvent] = useState('');
   const lang = useSelector((rootState: RootState) => getLangState(rootState).value);
   const patient = useSelector((rootState: RootState) => getPatientState(rootState));
@@ -28,14 +29,13 @@ function Events(props: EventsProps){
   const charge = patient.weight * 2;
 
   function handleAddEvent(event: string){
-    events.push([new Date(), event]);
+    handleNewEvent([new Date(), event]);
     setCustomEvent('');
   }
 
   function handleChangeEvent(value: string){
     setCustomEvent(value);
   }
-
 
   return(
     <View>
