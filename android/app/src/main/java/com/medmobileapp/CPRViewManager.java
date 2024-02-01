@@ -3,6 +3,7 @@ package com.medmobileapp;
 
 import static com.facebook.react.bridge.UiThreadUtil.runOnUiThread;
 
+import android.graphics.Color;
 import android.media.AudioAttributes;
 import android.media.SoundPool;
 import android.view.Choreographer;
@@ -51,6 +52,7 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
     private int progress = 0;
     private int propWidth;
     private int propHeight;
+    private int color;
 
     private final ScheduledThreadPoolExecutor scheduledExecutorSound = new ScheduledThreadPoolExecutor(1);
     private ScheduledFuture scheduledFutureSound;
@@ -224,9 +226,12 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
     }
     @ReactProp(name="textColor")
     public void setTextColor(FrameLayout view, @Nullable String color){
-        this.cprFragment.setTextColor(color);
+//        int colorAux = Color.parseColor("#000000");
+//        if(color != null) colorAux = Color.parseColor(color);
+//        this.cprFragment.setTextColor(Color.RED);
+        this.color = Color.parseColor(color);
     }
-    @ReactPropGroup(names = {"width", "height"}, customType = "Style")
+    @ReactPropGroup(names = {"width", "height", "color"}, customType = "Style")
     public void setStyle(FrameLayout view, int index, Integer value) {
         if (index == 0) {
             propWidth = value;
@@ -270,6 +275,8 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
                 View.MeasureSpec.makeMeasureSpec(height, View.MeasureSpec.EXACTLY));
 
         view.layout(0, 0, width, height);
+
+        this.cprFragment.setTextColor(this.color);
     }
 
 }

@@ -59,8 +59,8 @@ public class CPRFragment extends Fragment {
         binding.progressBar.setProgress(progress);
     }
 
-    public void setTextColor(String color){
-        binding.progressText.setTextColor(Color.parseColor(color));
+    public void setTextColor(int color){
+        binding.progressText.setTextColor(color);
     }
 
 }

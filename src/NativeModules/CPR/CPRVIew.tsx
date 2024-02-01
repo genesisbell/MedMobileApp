@@ -5,8 +5,12 @@ import {
   View,
   findNodeHandle,
 } from 'react-native';
+import { useSelector } from 'react-redux';
 
 import {CPRViewManager} from './CPRViewManager';
+
+import { RootState } from '../../app/store';
+import { getThemeState } from '../../app/hooks';
 
 function createFragment(viewId:any){
   UIManager.dispatchViewManagerCommand(
@@ -21,7 +25,6 @@ function createFragment(viewId:any){
 interface CPRViewProps{
   bpm?:Number;
   cycle?:Number;
-  textColor?:String;
 }
 
 const size = 300;
@@ -32,12 +35,12 @@ function _CPRView(props: CPRViewProps, cprref:any){
   const {
     bpm,
     cycle,
-    textColor,
   } = props;
+
+  const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
   const ref = useRef(null);
   const _bpm = bpm ? bpm : 100;
-  const _cycle = cycle ? cycle : 25;
-  const _textColor = textColor ? textColor : "#000000";
+  const _cycle = cycle ? cycle : 120;
   /** */
 
   /** @useEffect */
@@ -70,7 +73,7 @@ function _CPRView(props: CPRViewProps, cprref:any){
   }));
 
   return (
-      <View style={{height:size, width:size, alignSelf: 'center', backgroundColor:'white' }}>
+      <View style={{height:size, width:size, alignSelf: 'center', backgroundColor:'transparent' }}>
         <CPRViewManager
           ref={ref}
           // style={{alignSelf:'center', backgroundColor: 'red'}}
@@ -83,7 +86,7 @@ function _CPRView(props: CPRViewProps, cprref:any){
           }}
           bpm={_bpm}
           cycle={_cycle}
-          // textColor={_textColor}
+          textColor={theme.textPrmColor}
         />
       </View>
   )

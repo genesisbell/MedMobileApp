@@ -22,7 +22,7 @@ public class MedMobilePackage implements ReactPackage {
             ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
 
-        modules.add(new StopWatchModule(reactContext));
+//        modules.add(new StopWatchModule(reactContext));
 
         return modules;
     }
