@@ -1,28 +1,25 @@
 import React, { useRef, useState } from 'react';
 import { View } from 'react-native';
 import { useSelector } from 'react-redux';
-import Sound from 'react-native-sound';
 import RNFS from 'react-native-fs';
 import Toast from 'react-native-root-toast';
 
 /** @Assets */
 import { CommonStyles } from 'styles';
 import { errorToast, successToast } from 'configurations';
+import { EventType } from 'types';
 /** */
 
 /** @Components */
 import { BaseButton, BaseSpace, } from 'components';
 import Events from './Events';
 import Logs from './Logs';
+import { CPRView } from '../../../NativeModules';
 /** */
 
 import { getLangState, getThemeState } from '../../../app/hooks';
 import { RootState } from '../../../app/store';
 import { FormatDate } from '../../../utils';
-import { CPRView } from '../../../NativeModules';
-import { EventType } from 'types';
-
-Sound.setCategory('Playback');
 
 function Timer(){
   
