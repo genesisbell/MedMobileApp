@@ -6,6 +6,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "android-build-aab": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && cd android && ./gradlew bundleRelease",
+    "android-build-apk": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && cd android && ./gradlew assembleRelease",
     "test": "jest",
     "lint": "eslint --ext .tsx --ext .ts --ext .js --ext .jsx src/ assets/",
     "lint:fix": "eslint ./src/**/*.tsx ./assets/**/*.ts --fix",
