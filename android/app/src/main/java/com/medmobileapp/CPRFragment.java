@@ -63,4 +63,8 @@ public class CPRFragment extends Fragment {
         binding.progressText.setTextColor(color);
     }
 
+    public void setBpmText(int bpm){
+        binding.bpmText.setText("BPM: " + bpm);
+    }
+
 }

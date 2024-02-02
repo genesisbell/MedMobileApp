@@ -181,22 +181,30 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
 
     private void start(){
         if(this.currentState != CPRViewManager.CPRState.PLAYING){
-            this.scheduledExecutorSound.setRemoveOnCancelPolicy(true);
             this.startTime = System.currentTimeMillis();
-            this.scheduledFutureSound = scheduledExecutorSound.scheduleAtFixedRate(this.soundTok, 0, this.getInternalMS(), TimeUnit.MILLISECONDS);
             this.currentState = CPRViewManager.CPRState.PLAYING;
+            this.startSound();
             this.runThread();
         }
     }
 
     private void stop(){
         if(this.currentState == CPRViewManager.CPRState.PLAYING){
-            this.scheduledFutureSound.cancel(false);
+            this.stopSound();
             this.progress = 0;
             this.cprFragment.setProgress(0);
             this.cprFragment.setText("00:00");
             this.currentState = CPRViewManager.CPRState.STOPPED;
         }
+    }
+
+    private void startSound(){
+        this.scheduledExecutorSound.setRemoveOnCancelPolicy(true);
+        this.scheduledFutureSound = scheduledExecutorSound.scheduleAtFixedRate(this.soundTok, 0, this.getInternalMS(), TimeUnit.MILLISECONDS);
+    }
+
+    private void stopSound(){
+        this.scheduledFutureSound.cancel(false);
     }
 
     private String getFormattedTime(int time){
@@ -219,6 +227,11 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
     @ReactProp(name="bpm")
     public void setBpm(FrameLayout view, @Nullable int bpm) {
         this.bpm = bpm;
+
+        if(this.currentState == CPRState.PLAYING){
+            this.stopSound();
+            this.startSound();
+        }
     }
     @ReactProp(name="cycle")
     public void setCycle(FrameLayout view, @Nullable int cycle) {
@@ -226,9 +239,6 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
     }
     @ReactProp(name="textColor")
     public void setTextColor(FrameLayout view, @Nullable String color){
-//        int colorAux = Color.parseColor("#000000");
-//        if(color != null) colorAux = Color.parseColor(color);
-//        this.cprFragment.setTextColor(Color.RED);
         this.color = Color.parseColor(color);
     }
     @ReactPropGroup(names = {"width", "height", "color"}, customType = "Style")
@@ -277,6 +287,7 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
         view.layout(0, 0, width, height);
 
         this.cprFragment.setTextColor(this.color);
+        this.cprFragment.setBpmText(this.bpm);
     }
 
 }
