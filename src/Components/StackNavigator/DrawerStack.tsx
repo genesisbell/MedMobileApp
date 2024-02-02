@@ -1,29 +1,27 @@
 import React from 'react';
+import { Animated } from "react-native";
 import { createDrawerNavigator } from '@react-navigation/drawer';
+import { useSelector } from 'react-redux';
 
 /** @Components */
+import BackButton from './Components/BackButton';
 import DrawerButton from './Components/DrawerButton';
-import Drugs from '../Drugs/Screens/Drugs';
-import Favorites from '../Favorites/Screens/Favorites';
 import HeaderRight from './Components/HeaderRight';
 import MenuLeft from './Components/MenuLeft';
-import Settings from '../Settings/Screens/Settings';
-import Solutions from '../Solutions/Screen/Solutions';
-import Urgencies from '../Urgencies/Screens/Urgencies';
-import Values from '../Values/Screens/Values';
+import CPRStack from './CPRStack';
+import ValuesStack from './ValuesStack';
+import SolutionsStack from './SolutionsStack';
+import SettingsStack from './SettingsStack';
 /** */
 
-import { useAppSelector, getLangState, getThemeState } from '../../app/hooks';
-import { useSelector } from 'react-redux';
+import { getLangState, getThemeState } from '../../app/hooks';
 import { RootState } from '../../app/store';
 
 export type RootStackParams = {
-  // Favorites: undefined;
-  Values: undefined;
-  Solutions: undefined;
-  // Urgencies: undefined;
-  // Drugs: undefined;
-  Settings: undefined;
+  CPRStack: undefined;
+  ValuesStack: undefined;
+  SolutionsStack: undefined;
+  SettingsStack: undefined;
 };
 
 const DrawerNav = createDrawerNavigator<RootStackParams>();
@@ -32,42 +30,48 @@ export default function DrawerStack() {
   const language = useSelector((rootState: RootState) => getLangState(rootState).value);
   const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
 
+  //For warning: Sending `onAnimatedValueUpdate` with no listeners registered.
+  const av = new Animated.Value(0);
+  av.addListener(() => {return});
+  
   return (
     <DrawerNav.Navigator
-      initialRouteName="Values"
+      initialRouteName="ValuesStack"
       drawerContent={(props) => <MenuLeft {...props} />}
-      screenOptions={({ navigation, route }) => ({
-        headerStyle: {
-          backgroundColor: theme.headerBgColor,
-        },
-        headerTitleStyle: {
-          color: theme.headerTextColor,
-        },
+      screenOptions={{
+        headerShown: false,
         drawerStyle: {
           backgroundColor: theme.backgroundPrmColor,
         },
-        headerLeft: () => <DrawerButton navigation={navigation} />,
-        headerRight: () => <HeaderRight route={route}/>,
-      })}
+      }}
     >
-      {/* <DrawerNav.Screen name="Favorites" component={Favorites} /> */}
-      <DrawerNav.Screen
-        name="Values"
-        component={Values}
-        options={{title: language.values.values}}
-      />
-      {/* <DrawerNav.Screen name="Urgencies" component={Urgencies} /> */}
-      {/* <DrawerNav.Screen name="Drugs" component={Drugs} /> */}
-      <DrawerNav.Screen 
-        name="Solutions"
-        component={Solutions}
-        options={{title: language.solutions.solutions}}
-      />
-      <DrawerNav.Screen 
-        name="Settings"
-        component={Settings}
-        options={{title: language.settings.settings}}
-      />
+      <DrawerNav.Screen name="CPRStack" component={CPRStack} />
+      <DrawerNav.Screen name="ValuesStack" component={ValuesStack} />
+      <DrawerNav.Screen name="SolutionsStack" component={SolutionsStack} />
+      <DrawerNav.Screen name="SettingsStack" component={SettingsStack} />
     </DrawerNav.Navigator>
   );
+}
+
+export function headerOptions(props: any){
+
+  const {
+    navigation,
+    route,
+    theme,
+    canGoBack,
+  } = props;
+
+  return({
+    headerShown: true,
+    headerStyle: {
+      backgroundColor: theme.headerBgColor,
+    },
+    headerTitleStyle: {
+      color: theme.headerTextColor,
+    },
+    headerLeft: () => canGoBack ? <BackButton navigation={navigation}/> : <DrawerButton navigation={navigation} />,
+    headerRight: () => <HeaderRight route={route} />,
+  })
+
 }

@@ -25,6 +25,12 @@ export interface BaseActionSheetProps {
   wontHideActionSheet?: boolean;
   getOptionInfo?: (option: OptionType) => void;
   initialOptionIndex?: number;
+  showSheet?: {
+    key: number;
+    show: boolean;
+  };
+  closeOnTouchBackdrop?: boolean;
+  onClose?: () => void,
 }
 
 export function BaseActionSheet(props: BaseActionSheetProps) {
@@ -39,6 +45,9 @@ export function BaseActionSheet(props: BaseActionSheetProps) {
     getOptionInfo,
     initialOptionIndex,
     customCancel,
+    showSheet,
+    closeOnTouchBackdrop,
+    onClose,
   } = props;
 
   const language = useSelector((rootState: RootState) => getLangState(rootState).value);
@@ -47,6 +56,8 @@ export function BaseActionSheet(props: BaseActionSheetProps) {
   const [option, setOption] = useState(
     options[initialOptionIndex === undefined ? 0 : initialOptionIndex],
   );
+  const _closeOnTouchBackdrop =
+    closeOnTouchBackdrop === undefined ? true : closeOnTouchBackdrop;
   /** */
 
   /** @useEffect */
@@ -55,6 +66,16 @@ export function BaseActionSheet(props: BaseActionSheetProps) {
       setOption(options[initialOptionIndex]);
     }
   }, [initialOptionIndex]);
+
+  useEffect(() => {
+    if (showSheet) {
+      if (showSheet.show) {
+        showActionSheet();
+      } else {
+        hideActionSheet();
+      }
+    }
+  }, [showSheet]);
   /** */
 
   /** @Handlers */
@@ -115,6 +136,8 @@ export function BaseActionSheet(props: BaseActionSheetProps) {
       <ActionSheet
         ref={actionSheetRef}
         containerStyle={theme.BaseActionSheetStyles.actionSheetContainer}
+        closeOnTouchBackdrop={_closeOnTouchBackdrop}
+        onClose={onClose}
       >
         {customContent ? (
           customContent

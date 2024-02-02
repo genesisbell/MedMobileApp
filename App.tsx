@@ -1,4 +1,5 @@
 import React from 'react';
+import { RootSiblingParent } from 'react-native-root-siblings';
 
 //Redux
 import { Provider } from 'react-redux';
@@ -8,8 +9,10 @@ import AppFirsLoad from './src/AppFirstLoad';
 
 export default function App() {
   return (
-    <Provider store={store}>
-      <AppFirsLoad />
-    </Provider>
+    <RootSiblingParent>
+      <Provider store={store}>
+        <AppFirsLoad />
+      </Provider>
+    </RootSiblingParent>
   );
 }

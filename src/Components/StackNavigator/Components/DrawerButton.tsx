@@ -33,7 +33,7 @@ function DrawerButton(props: DrawerButtonProps) {
   }
 
   return (
-    <TouchableOpacity onPress={openLeftDrawer} style={theme.NavigationStyles.drawerButton}>
+    <TouchableOpacity onPress={openLeftDrawer} style={{paddingRight: 10}}>
       <SvgXml xml={burgerMenuIcon(theme.headerTextColor)} width={35} height={35} />
     </TouchableOpacity>
   );

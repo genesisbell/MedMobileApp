@@ -1,0 +1,19 @@
+diff --git a/node_modules/react-native-actions-sheet/dist/src/utils.js b/node_modules/react-native-actions-sheet/dist/src/utils.js
+index a774f3b..58641ea 100644
+--- a/node_modules/react-native-actions-sheet/dist/src/utils.js
++++ b/node_modules/react-native-actions-sheet/dist/src/utils.js
+@@ -12,10 +12,10 @@ export function getDeviceHeight(statusBarTranslucent, height) {
+ export var getElevation = function (elevation) {
+     return {
+         elevation: elevation,
+-        shadowColor: 'black',
+-        shadowOffset: { width: 0.3 * elevation, height: 0.5 * elevation },
+-        shadowOpacity: 0.2,
+-        shadowRadius: 0.7 * elevation
++        // shadowColor: 'black',
++        // shadowOffset: { width: 0.3 * elevation, height: 0.5 * elevation },
++        // shadowOpacity: 0.2,
++        // shadowRadius: 0.7 * elevation
+     };
+ };
+ export var SUPPORTED_ORIENTATIONS = [

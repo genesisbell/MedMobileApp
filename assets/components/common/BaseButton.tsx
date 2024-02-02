@@ -34,6 +34,8 @@ interface BaseButtonProps extends TouchableWithoutFeedbackProps{
     loading?: boolean,
     icon?: React.ReactNode;
     paddingHorizontal?: number,
+    isNotButton?: boolean,
+    outlined?: boolean,
 }
 
 export function BaseButton(props: BaseButtonProps){
@@ -53,6 +55,8 @@ export function BaseButton(props: BaseButtonProps){
         paddingHorizontal,
         disabled,
         loading,
+        isNotButton,
+        outlined,
     } = props;
 
     const theme = useSelector((rootState: RootState) => getThemeState(rootState).value);
@@ -88,16 +92,42 @@ export function BaseButton(props: BaseButtonProps){
             fontWeight: textWeight || 'bold',
             color: colorText,
         },
+        textOutlined:{
+            fontWeight: textWeight || 'bold',
+            color: colorBorder,
+        },
+        buttonOutlined:{
+            borderColor: colorBorder,
+            borderWidth: thickBorder,
+            height: finalHeight,
+            width,
+            paddingHorizontal: paddingHorizontal !== undefined ? paddingHorizontal : mdSpace,
+            opacity: ( disabled || loading ) ? .5 : 1,
+        }
     });
 
-    return(
-        <TouchableWithoutFeedback onPress={onPress} disabled={disabled || loading}>
-            <View style={[theme.BaseButtonStyles.button, conditionalStyle.button]}>
+    if(isNotButton){
+        return (
+            <View style={[theme.BaseButtonStyles.button, outlined ? conditionalStyle.buttonOutlined : conditionalStyle.button]}>
                 {
                     icon ? (
                         icon
                     ): (
-                        <BaseText style={[theme.BaseButtonStyles.text, conditionalStyle.text]} numberOfLines={1}>{text}</BaseText>
+                        <BaseText style={[theme.BaseButtonStyles.text, outlined ? conditionalStyle.textOutlined : conditionalStyle.text]} numberOfLines={1}>{text}</BaseText>
+                    )
+                }
+            </View>
+        )
+    }
+
+    return(
+        <TouchableWithoutFeedback onPress={onPress} disabled={disabled || loading}>
+            <View style={[theme.BaseButtonStyles.button, outlined ? conditionalStyle.buttonOutlined : conditionalStyle.button]}>
+                {
+                    icon ? (
+                        icon
+                    ): (
+                        <BaseText style={[theme.BaseButtonStyles.text, outlined ? conditionalStyle.textOutlined : conditionalStyle.text]} numberOfLines={1}>{text}</BaseText>
                     )
                 }
             </View>

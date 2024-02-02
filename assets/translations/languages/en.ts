@@ -3,32 +3,58 @@ const en = {
   appName: 'Blueberry Pedriatrics',
   general: {
     age: 'Age',
+    accept: 'Accept',
     by: 'By',
     cancel: 'Cancel',
     chooseOption: 'Choose an Option',
     day: 'day',
+    defaultError: 'Something went wrong',
+    delete: 'Delete',
     fluid: 'fluid',
     months: 'Months',
     reference: 'Reference',
     serum: 'Serum',
+    share: 'Share',
+    start: 'Start',
+    stop: 'Stop',
+    timestamp: 'Timestamp',
     years: 'Years',
     weight: 'Weight',
     with: 'With',
   },
-  drugs:{
+  cpr: {
+    addEvent: 'Add Event',
+    adrenaline: 'Adrenaline',
+    bpmError: 'The bpm sould be between 80 and 120',
+    bpmSuccess: 'BPM set successfully!',
+    charge: 'Charge',
+    cpr: 'CPR',
+    event: 'Event',
+    lastEvents: 'Last Events',
+    logs: 'Logs',
+    rename: 'Rename',
+    newFileName: 'New File Name',
+    nameError: 'This file already exists.',
+    fileCreated: 'New file created in Logs!',
+    fileRenamed: 'File renamed successfully!',
+    fileDeleted: 'File deleted successfully!',
+    sureDelete: 'Are you sure you want to delete file',
+    file: 'File',
+  },
+  drugs: {
     pneumology: 'Pneumology',
-    adrenaline:{
+    adrenaline: {
       name: 'Racemic Adrenaline',
       indication1: 'Nebulizar con',
       indication2: 'ml de Sol. Salina 0.9%, por 15 minutos',
     },
-    hydrocortisone:{
+    hydrocortisone: {
       name: 'Hydrocortisone',
       indication1: 'Nebulizar con',
       indication2: 'ml de Sol. Salina 0.9%, por 15 minutos',
     },
   },
-  values:{
+  values: {
     values: 'Values',
     bloodCount: 'Blood Count',
     hemoglobin: 'Hemoglobin',
@@ -79,10 +105,12 @@ const en = {
     exudate: 'Exudate',
     protein: 'Protein',
   },
-  settings:{
+  settings: {
     settings: 'Settings',
+    bpmCurrent: 'Current BPM',
+    bpmInst: 'Enter a value betwwen 80 and 120',
   },
-  solutions:{
+  solutions: {
     solutions: 'Solutions',
     bodySurface: 'Body Surface',
     naConcentrate: 'Concentrate of NA',

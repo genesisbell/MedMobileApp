@@ -2,12 +2,14 @@ import { configureStore } from '@reduxjs/toolkit';
 import languageReducer from './slices/languageSlice';
 import themeReducer from './slices/themeSlice';
 import patientSlice from './slices/patientSlice';
+import settingsSlice from './slices/settingsSlice';
 
 const store = configureStore({
   reducer: {
     theme: themeReducer,
     language: languageReducer,
-    patient: patientSlice
+    patient: patientSlice,
+    settings: settingsSlice,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

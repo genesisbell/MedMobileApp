@@ -1,5 +1,6 @@
 import React from 'react';
 import { FlatList } from 'react-native';
+import { useSelector } from 'react-redux';
 
 /** @Assets */
 import { values } from 'data';
@@ -11,10 +12,8 @@ import { BaseScreen } from 'components';
 import ValueComp from '../Components/ValueComp';
 /** */
 
-import { useAppSelector, getLangState } from '../../../app/hooks';
-import { useSelector } from 'react-redux';
+import { getLangState } from '../../../app/hooks';
 import { RootState } from '../../../app/store';
-
 
 function Values() {
   
@@ -22,7 +21,7 @@ function Values() {
   const data = values(language.name);
 
   return (
-    <BaseScreen isScrollable={false}>     
+    <BaseScreen isScrollable={false}>
       <FlatList<valuesType>
         data={data}
         renderItem={({item}) => <ValueComp item={item}/>}

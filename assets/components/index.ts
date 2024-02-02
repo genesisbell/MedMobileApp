@@ -1,6 +1,7 @@
 export * from './common/BaseActionSheet';
 export * from './common/BaseButton';
 export * from './common/BaseCollapsable';
+export * from './common/BaseErrors';
 export * from './common/BaseHorizontal';
 export * from './common/BaseLangSelection';
 export * from './common/BaseModal';
