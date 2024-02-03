@@ -13,12 +13,15 @@ import com.medmobileapp.databinding.CircularProgressBinding;
 
 public class CPRFragment extends Fragment {
     private CircularProgressBinding binding;
+    private int textColor = Color.parseColor("#000000");
+    private int bpm = 100;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         super.onCreateView(inflater, parent, savedInstanceState);
         binding = CircularProgressBinding.inflate(inflater, parent, false);
         View view = binding.getRoot();
+        this.setProperties();
         return view; // this CustomView could be any view that you want to render
     }
 
@@ -51,6 +54,12 @@ public class CPRFragment extends Fragment {
         // e.g.: customView.onDestroy();
     }
 
+    private void setProperties(){
+        binding.progressText.setTextColor(textColor);
+        binding.bpmText.setText("BPM: " + bpm);
+        binding.bpmText.setTextColor(textColor);
+    }
+
     public void setText(String text){
         binding.progressText.setText(text);
     }
@@ -60,11 +69,20 @@ public class CPRFragment extends Fragment {
     }
 
     public void setTextColor(int color){
-        binding.progressText.setTextColor(color);
+        this.textColor = color;
+
+        if(binding != null){
+            binding.progressText.setTextColor(color);
+            binding.bpmText.setTextColor(color);
+        }
     }
 
     public void setBpmText(int bpm){
-        binding.bpmText.setText("BPM: " + bpm);
+        this.bpm = bpm;
+
+        if(binding != null){
+            binding.bpmText.setText("BPM: " + bpm);
+        }
     }
 
 }
