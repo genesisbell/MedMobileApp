@@ -288,6 +288,7 @@ public class CPRViewManager extends ViewGroupManager<FrameLayout> {
 
         this.cprFragment.setTextColor(this.color);
         this.cprFragment.setBpmText(this.bpm);
+
     }
 
 }
