@@ -55,11 +55,16 @@ function Timer(){
     const date = new FormatDate(new Date()).format('dd-MM-yy HH.mm.ss');
     const folderPath = `${RNFS.DocumentDirectoryPath}/blueberry_logs`;
     const filePath = `${folderPath}/log${date}.csv`;
-    setEvents(prevstate => [
-      ...prevstate,
+    setEvents(prevstate => {
+      return [
+        ...prevstate,
+        [new Date(), lang.general.stop],
+      ]
+    });
+    const values = [
+      ...events,
       [new Date(), lang.general.stop],
-    ]);
-    const values = events
+    ];
     // construct csvString
     // const headerString = 'Event,Timestamp\n';
     const rowString = values.map(d => `${d[0]},${d[1]}\n`).join('');
